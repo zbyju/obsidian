@@ -1,0 +1,2 @@
+- CPU (zanedbatelne)
+- Data access (pocet datovych bloku pro vykonani)

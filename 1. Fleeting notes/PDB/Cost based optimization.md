@@ -1,0 +1,6 @@
+- Engine vytvori nekolik execution planu
+- Pro kazdou elementarni operaci odhadne cost podle statistik databaze
+- Take odhadne kardinalitu (cardinality) - odhad poctu radku
+- Secte ceny vsech planu
+- Vybere ten s nejnizsi cenou
+- Je to porad jen odhad!
