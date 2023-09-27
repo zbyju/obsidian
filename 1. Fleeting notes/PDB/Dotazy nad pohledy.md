@@ -1,3 +1,0 @@
-- Pohledy mohou zakryt velkou komplexitu
-- I nad jednoduchym dotazem nad pohledem muze byt velmi komplexni diky kompexite pohledu
-- Execution plan nam muze ukazat jak komplexni a drahy dotaz je

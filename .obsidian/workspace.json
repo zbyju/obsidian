@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "337a43aa6de7f55f",
+        "id": "ef90a9a765d75bc2",
         "type": "tabs",
         "children": [
           {
-            "id": "9a208d973c323059",
+            "id": "be63c5f86999817d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Fleeting notes/PDB/Access methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da155f36ebebe4c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -89,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 239.5
   },
   "right": {
     "id": "ba532e4d268ad11e",
@@ -105,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/PDB/Access methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/PDB/Access methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. Fleeting notes/PDB/Access methods.md"
-              }
+              "state": {}
             }
           },
           {
@@ -176,31 +156,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1de94bcb32c41019",
+  "active": "be63c5f86999817d",
   "lastOpenFiles": [
-    "1. Fleeting notes/SWE/RDF.md",
-    "1. Fleeting notes/SWE/Why semantic web?.md",
-    "1. Fleeting notes/SWE/Vyhody knowledge graph.md",
-    "1. Fleeting notes/PDB/Access methods.md",
-    "1. Fleeting notes/SWE",
-    "1. Fleeting notes/Untitled.md",
+    "1. Fleeting notes/ADP/Technical debt.md",
+    "1. Fleeting notes/ADP/Principle of least astonishment.md",
+    "1. Fleeting notes/ADP/The boy scout rule.md",
+    "1. Fleeting notes/ADP/Avoid premature optimization.md",
+    "1. Fleeting notes/ADP/LoC.md",
+    "1. Fleeting notes/ADP/SoC.md",
+    "1. Fleeting notes/ADP/SOLID.md",
+    "1. Fleeting notes/ADP/YAGNI.md",
+    "1. Fleeting notes/ADP/KISS.md",
+    "1. Fleeting notes/ADP/DRY.md",
+    "1. Fleeting notes/PDB/Garage Analogy.md",
+    "1. Fleeting notes/ADP",
+    "1. Fleeting notes/PDB/Zamky.md",
+    "1. Fleeting notes/PDB/Uroven izolace.md",
+    "1. Fleeting notes/PDB/Transakcni anomalie.md",
+    "1. Fleeting notes/PDB/Stavy transakce.md",
+    "1. Fleeting notes/PDB/ACID.md",
+    "1. Fleeting notes/PDB/Transakce v DB.md",
+    "2. Reference notes/PDB - Advanced Databases/Execution Plan SQL.md",
+    "2. Reference notes/PDB - Advanced Databases/Heap table.md",
+    "2. Reference notes/PDB - Advanced Databases/Index organised table.md",
+    "2. Reference notes/PDB - Advanced Databases/Heap table with index.md",
+    "2. Reference notes/PDB - Advanced Databases/SQL Queries Over Views.md",
+    "2. Reference notes/PDB - Advanced Databases/RDBMS Data Structures.md",
+    "2. Reference notes/PDB - Advanced Databases/Cluster table.md",
     "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
+    "2. Reference notes/PDB - Advanced Databases/B Tree.md",
+    "1. Fleeting notes/SWE",
     "1. Fleeting notes/PDB",
-    "1. Fleeting notes/PDB/RDMS.md",
     "2. Reference notes/PDB - Advanced Databases",
     "2. Reference notes",
     "Zettelkasten/Databases/SQL",
     "Zettelkasten/Databases",
     "3. Permanent notes",
-    "1. Fleeting notes/PDB/B Tree.md",
-    "1. Fleeting notes/PDB/Datovy blok.md",
-    "1. Fleeting notes/PDB/Elementarni relacni operace SQL.md",
-    "1. Fleeting notes/PDB/Dotazy nad pohledy.md",
-    "1. Fleeting notes/PDB/Vypocet cost pro execution plan.md",
-    "1. Fleeting notes/PDB/Cost based optimization.md",
-    "Untitled.md",
     "1. Fleeting notes",
-    "Untitled.canvas",
-    "jteljatj.md"
+    "Untitled.canvas"
   ]
 }

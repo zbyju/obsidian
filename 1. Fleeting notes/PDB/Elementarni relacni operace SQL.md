@@ -1,2 +1,0 @@
-- Operace relacni algebry - selekcte, projekce
-- join, sort
