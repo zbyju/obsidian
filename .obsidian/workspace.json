@@ -11,8 +11,12 @@
             "id": "be63c5f86999817d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. Fleeting notes/FIL/Pojmy.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. Fleeting notes/FIL/Pojmy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. Fleeting notes/FIL/Pojmy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. Fleeting notes/FIL/Pojmy.md"
+              }
             }
           },
           {
@@ -158,6 +166,8 @@
   },
   "active": "be63c5f86999817d",
   "lastOpenFiles": [
+    "1. Fleeting notes/FIL/Pojmy.md",
+    "1. Fleeting notes/FIL",
     "1. Fleeting notes/ADP/Technical debt.md",
     "1. Fleeting notes/ADP/Principle of least astonishment.md",
     "1. Fleeting notes/ADP/The boy scout rule.md",
@@ -184,7 +194,6 @@
     "2. Reference notes/PDB - Advanced Databases/RDBMS Data Structures.md",
     "2. Reference notes/PDB - Advanced Databases/Cluster table.md",
     "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
-    "2. Reference notes/PDB - Advanced Databases/B Tree.md",
     "1. Fleeting notes/SWE",
     "1. Fleeting notes/PDB",
     "2. Reference notes/PDB - Advanced Databases",
