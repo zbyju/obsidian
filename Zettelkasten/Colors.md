@@ -1,20 +1,36 @@
-1. **Web Frontends: Sky Blue**
+1. **Computer Science (General): Dark Blue**
+- RGB: (0, 0, 139)
+1. **Math: Green**
+- RGB: (0, 128, 0)
+2. **Politics: Red**
+- RGB: (220, 20, 60)
+3. **Economics: Golden Yellow**
+- RGB: (255, 223, 0)
+4. **Philosophy: Purple**
+- RGB: (128, 0, 128)
+5. **Mindfulness: Teal or Cyan**
+- RGB: (0, 173, 239)
+
+6. **Web Frontends: Sky Blue**
 - RGB: (135, 206, 235)
-2. **Web Backends: Navy Blue**
+7. **Web Backends: Navy Blue**
 - RGB: (0, 0, 128)
-3. **Programming Languages: Cerulean**
+8. **Programming Languages: Cerulean**
 - RGB: (0, 123, 167)
-3. **Theoretical Computer Science: Turquoise**
+9. **Theoretical Computer Science: Turquoise**
 - RGB: (64, 224, 208)
-4. **Algorithms: Azure**
+10. **Algorithms: Azure**
 - RGB: (0, 127, 255)
-5. **Data Structures: Sapphire Blue**
+11. **Data Structures: Sapphire Blue**
 - RGB: (15, 82, 186)
-6. **Artificial Intelligence (AI): Powder Blue**
+12. **Artificial Intelligence (AI): Powder Blue**
 - RGB: (176, 224, 230)
-7. **Machine Learning (ML): Steel Blue**
+13. **Machine Learning (ML): Steel Blue**
 - RGB: (70, 130, 180)
-8. **Data Science: Capri**
+14. **Data Science: Capri**
 - RGB: (0, 191, 255)
-9. **Databases: Teal (leaning more towards blue)**
-- RGB: (0, 128, 128)x
+15. **Databases: Teal (leaning more towards blue)**
+- RGB: (0, 128, 128)
+
+**Software Engineering: Cobalt Blue**
+- **RGB:** (0, 71, 171)

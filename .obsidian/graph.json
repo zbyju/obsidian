@@ -18,14 +18,21 @@
       "query": "path:\"2. Reference notes/FIL - Philosophy\"  ",
       "color": {
         "a": 1,
-        "rgb": 12696910
+        "rgb": 8388736
       }
     },
     {
       "query": "path:\"2. Reference notes/PDB - Advanced Databases\"  ",
       "color": {
         "a": 1,
-        "rgb": 16639
+        "rgb": 32896
+      }
+    },
+    {
+      "query": "path:\"2. Reference notes/ADP - Architecture and Design Patterns\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
