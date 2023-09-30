@@ -1,0 +1,1 @@
+Study of reasoning structures, deduction, and argument validation.
