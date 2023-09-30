@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md"
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md"
               }
             }
           },
@@ -239,8 +239,8 @@
   },
   "active": "9267556d9b6633bc",
   "lastOpenFiles": [
-    "2. Reference notes/ADP - Architecture and Design Patterns/The boy scout rule.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/The boy scout rule.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Technical debt.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/SOLID.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/SoC.md",
