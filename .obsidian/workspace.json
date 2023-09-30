@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Logic.md",
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Logic.md",
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Logic.md",
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Logic.md"
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md"
               }
             }
           },
@@ -239,14 +239,16 @@
   },
   "active": "9267556d9b6633bc",
   "lastOpenFiles": [
+    "2. Reference notes/FIL - Philosophy/Definition of Physics.md",
     "2. Reference notes/FIL - Philosophy/Definition of Aesthetics.md",
+    "2. Reference notes/FIL - Philosophy/Definition of the Philosophy of Language.md",
+    "2. Reference notes/FIL - Philosophy/Definition of the Philosophy of the Mind.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Logic.md",
     "2. Reference notes/FIL - Philosophy/Definition of Political Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Definition of Ethics and Moral Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Definition of Epistemology.md",
     "2. Reference notes/FIL - Philosophy/Definition of Ontology.md",
     "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Logic.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Physics.md",
     "1. Fleeting notes/ADP/Avoid premature optimization.md",
     "1. Fleeting notes/FIL/Pojmy.md",
     "2. Reference notes/FIL - Philosophy",
@@ -267,8 +269,6 @@
     "1. Fleeting notes/PDB/Zamky.md",
     "1. Fleeting notes/PDB/Uroven izolace.md",
     "1. Fleeting notes/PDB/Transakcni anomalie.md",
-    "1. Fleeting notes/PDB/Stavy transakce.md",
-    "1. Fleeting notes/PDB/ACID.md",
     "1. Fleeting notes/SWE",
     "1. Fleeting notes/PDB",
     "2. Reference notes/PDB - Advanced Databases",
