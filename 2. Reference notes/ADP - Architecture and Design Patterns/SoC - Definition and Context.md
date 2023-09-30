@@ -3,3 +3,6 @@
 **Example**: In web development, the MVC (Model-View-Controller) pattern separates data handling (Model), user interface (View), and business logic (Controller).
 
 **Description**: SoC promotes clarity, reusability, and scalability by ensuring that each module or component handles only one aspect of the software's functionality.
+
+**Linkage:**
+- 

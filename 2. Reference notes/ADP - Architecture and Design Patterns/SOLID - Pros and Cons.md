@@ -7,3 +7,6 @@
 - Requires a deep understanding and can be challenging for beginners.
 - Might introduce some overhead in design and initial implementation.
 - If misunderstood or misapplied, can lead to overcomplication.
+
+**Linkage:**
+- 

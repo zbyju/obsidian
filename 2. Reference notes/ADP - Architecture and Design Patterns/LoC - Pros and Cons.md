@@ -7,3 +7,6 @@
 - **Potential Overhead**: There might be cases where adhering strictly to the law requires creating numerous delegate methods, which can be tedious.
 - **Over-Application**: Overzealously applying the law can sometimes complicate a design that would otherwise be simpler if direct communication were allowed in specific instances.
 - **Misunderstanding the Law**: It's not about reducing method calls but reducing dependencies between objects. Simply chaining fewer methods isn't always the solution.
+
+**Linkage:**
+- 

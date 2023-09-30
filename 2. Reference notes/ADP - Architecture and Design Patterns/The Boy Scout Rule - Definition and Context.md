@@ -3,3 +3,6 @@
 **Example**: Refactoring a method to improve clarity or removing redundant code while working on a related feature.
 
 **Description**: By adhering to this principle, developers aim to maintain a high-quality codebase and mitigate the accumulation of technical debt.
+
+**Linkage:**
+- 

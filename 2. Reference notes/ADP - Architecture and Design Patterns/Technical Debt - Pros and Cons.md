@@ -7,3 +7,6 @@
 - Postponing resolution can lead to compounded issues, making future fixes more challenging.
 - Increases maintenance costs and can affect software reliability.
 - If left unchecked, it can severely degrade the codebase and the team's ability to introduce changes.
+
+**Linkage:**
+- 

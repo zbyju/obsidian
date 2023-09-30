@@ -7,3 +7,6 @@
 - Initial design might be more time-consuming, requiring careful planning.
 - Overzealous application can lead to excessive fragmentation, potentially affecting performance.
 - Might introduce added complexity due to interfaces or communication between module
+
+**Linkage:**
+- 
