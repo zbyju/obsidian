@@ -7,3 +7,6 @@
 - Overzealous adherence to DRY can lead to overly abstract or complex code.
 - Implementing DRY may require additional abstractions or structures, which can introduce complexity.
 - Finding the right level of abstraction can be challenging in some cases.
+
+**Linkage:**
+- 
