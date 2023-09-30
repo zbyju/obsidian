@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md"
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md"
               }
             }
           },
@@ -239,6 +239,10 @@
   },
   "active": "9267556d9b6633bc",
   "lastOpenFiles": [
+    "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Pros and Cons.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Definition and Context.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/The boy scout rule.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Technical debt.md",
@@ -246,10 +250,8 @@
     "2. Reference notes/ADP - Architecture and Design Patterns/SoC.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Principle of least astonishment.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/LoC.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/KISS.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/DRY.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
     "1. Fleeting notes/ADP/Avoid premature optimization.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md",
     "Zettelkasten/Colors.md",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy/Connection of Political Philosophy to Philosophy.md",
@@ -264,8 +266,6 @@
     "2. Reference notes/FIL - Philosophy/Connection of Ethics and Moral Philosophy to Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Connection of Epistemology to Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Connection of Aesthetics to Philosophy.md",
-    "2. Reference notes/PDB - Advanced Databases/Access Methods in Databases.md",
-    "2. Reference notes/FIL - Philosophy/Definition of the Philosophy of Language.md",
     "2. Reference notes/FIL - Philosophy",
     "2. Reference notes/ADP - Architecture and Design Patterns",
     "1. Fleeting notes/FIL",
