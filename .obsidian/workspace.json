@@ -13,13 +13,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Physics.md",
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a962ef77d95199d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Reference notes/FIL - Philosophy/Untitled 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6928ab5929a3fc86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Reference notes/FIL - Philosophy/Untitled 1 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f432053c8220472",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Reference notes/FIL - Philosophy/Untitled 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b06b1f16afc7b39c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Reference notes/FIL - Philosophy/Untitled 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e918f66704735235",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Reference notes/FIL - Philosophy/Untitled 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9267556d9b6633bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Reference notes/FIL - Philosophy/Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -93,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Physics.md",
+                "file": "2. Reference notes/FIL - Philosophy/Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Physics.md",
+                "file": "2. Reference notes/FIL - Philosophy/Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Physics.md"
+                "file": "2. Reference notes/FIL - Philosophy/Untitled 1.md"
               }
             }
           },
@@ -164,10 +237,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be63c5f86999817d",
+  "active": "9267556d9b6633bc",
   "lastOpenFiles": [
-    "1. Fleeting notes/ADP/Avoid premature optimization.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
+    "2. Reference notes/FIL - Philosophy/Untitled 1.md",
+    "2. Reference notes/FIL - Philosophy/Untitled 5.md",
+    "2. Reference notes/FIL - Philosophy/Untitled 4.md",
+    "2. Reference notes/FIL - Philosophy/Untitled 3.md",
+    "2. Reference notes/FIL - Philosophy/Untitled 2.md",
+    "2. Reference notes/FIL - Philosophy/Untitled 1 1.md",
     "2. Reference notes/FIL - Philosophy/Definition of Physics.md",
+    "1. Fleeting notes/ADP/Avoid premature optimization.md",
     "1. Fleeting notes/FIL/Pojmy.md",
     "2. Reference notes/FIL - Philosophy",
     "2. Reference notes/Untitled.md",
@@ -189,13 +269,6 @@
     "1. Fleeting notes/PDB/Transakcni anomalie.md",
     "1. Fleeting notes/PDB/Stavy transakce.md",
     "1. Fleeting notes/PDB/ACID.md",
-    "1. Fleeting notes/PDB/Transakce v DB.md",
-    "2. Reference notes/PDB - Advanced Databases/Execution Plan SQL.md",
-    "2. Reference notes/PDB - Advanced Databases/Heap table.md",
-    "2. Reference notes/PDB - Advanced Databases/Index organised table.md",
-    "2. Reference notes/PDB - Advanced Databases/Heap table with index.md",
-    "2. Reference notes/PDB - Advanced Databases/SQL Queries Over Views.md",
-    "2. Reference notes/PDB - Advanced Databases/RDBMS Data Structures.md",
     "1. Fleeting notes/SWE",
     "1. Fleeting notes/PDB",
     "2. Reference notes/PDB - Advanced Databases",
