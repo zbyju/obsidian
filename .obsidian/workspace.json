@@ -83,8 +83,12 @@
             "id": "9267556d9b6633bc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Colors.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -162,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Zettelkasten/Colors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,6 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Zettelkasten/Colors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +205,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Zettelkasten/Colors.md"
+              }
             }
           },
           {
@@ -231,6 +239,8 @@
   },
   "active": "9267556d9b6633bc",
   "lastOpenFiles": [
+    "Zettelkasten/Colors.md",
+    "Zettelkasten",
     "2. Reference notes/FIL - Philosophy/Connection of Political Philosophy to Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Connection of Physics to Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Connection of Philosophy of the Mind to Philosophy.md",
@@ -259,14 +269,12 @@
     "2. Reference notes/Untitled.md",
     "2. Reference notes/ADP - Architecture and Design Patterns",
     "1. Fleeting notes/FIL",
-    "1. Fleeting notes/ADP/Technical debt.md",
     "1. Fleeting notes/ADP",
     "1. Fleeting notes/SWE",
     "1. Fleeting notes/PDB",
     "2. Reference notes/PDB - Advanced Databases",
     "2. Reference notes",
     "Zettelkasten/Databases/SQL",
-    "Zettelkasten/Databases",
     "Untitled.canvas"
   ]
 }
