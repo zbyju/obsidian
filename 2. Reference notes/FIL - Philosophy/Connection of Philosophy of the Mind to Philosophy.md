@@ -2,4 +2,4 @@ Intersects with cognitive science and neuroscience, prompting philosophical deba
 
 **Linkage:**
 - [[Definition of Philosophy]]
-- [[Definition of Aesthetics]]
+- [[Definition of the Philosophy of the Mind]]

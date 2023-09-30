@@ -2,4 +2,4 @@ Contextualized by historical and cultural paradigms, political philosophy engage
 
 **Linkage:**
 - [[Definition of Philosophy]]
-- [[Definition of Aesthetics]]
+- [[Definition of Political Philosophy]]

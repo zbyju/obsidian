@@ -2,4 +2,4 @@ Rooted in ancient Greek philosophy with figures like Democritus and Aristotle. D
 
 **Linkage:**
 - [[Definition of Philosophy]]
-- [[Definition of Aesthetics]]
+- [[Definition of Physics]]

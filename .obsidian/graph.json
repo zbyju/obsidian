@@ -4,8 +4,8 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"1. Fleeting notes\"  ",
@@ -15,17 +15,17 @@
       }
     },
     {
-      "query": "path:\"3. Permanent notes\"  ",
+      "query": "path:\"2. Reference notes/FIL - Philosophy\"  ",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 12696910
       }
     },
     {
-      "query": "path:\"2. Reference notes\"  ",
+      "query": "path:\"2. Reference notes/PDB - Advanced Databases\"  ",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 16639
       }
     }
   ],
