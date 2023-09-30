@@ -83,8 +83,12 @@
             "id": "9267556d9b6633bc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -162,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,6 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +205,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md"
+              }
             }
           },
           {
@@ -231,6 +239,17 @@
   },
   "active": "9267556d9b6633bc",
   "lastOpenFiles": [
+    "2. Reference notes/ADP - Architecture and Design Patterns/The boy scout rule.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Technical debt.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/SOLID.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/SoC.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Principle of least astonishment.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/LoC.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/KISS.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/DRY.md",
+    "1. Fleeting notes/ADP/Avoid premature optimization.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization.md",
     "Zettelkasten/Colors.md",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy/Connection of Political Philosophy to Philosophy.md",
@@ -247,18 +266,7 @@
     "2. Reference notes/FIL - Philosophy/Connection of Aesthetics to Philosophy.md",
     "2. Reference notes/PDB - Advanced Databases/Access Methods in Databases.md",
     "2. Reference notes/FIL - Philosophy/Definition of the Philosophy of Language.md",
-    "2. Reference notes/FIL - Philosophy/Definition of the Philosophy of the Mind.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Logic.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Political Philosophy.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Ethics and Moral Philosophy.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Epistemology.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Ontology.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Physics.md",
-    "1. Fleeting notes/ADP/Avoid premature optimization.md",
-    "1. Fleeting notes/FIL/Pojmy.md",
     "2. Reference notes/FIL - Philosophy",
-    "2. Reference notes/Untitled.md",
     "2. Reference notes/ADP - Architecture and Design Patterns",
     "1. Fleeting notes/FIL",
     "1. Fleeting notes/ADP",
