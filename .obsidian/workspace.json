@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Untitled.md",
+                "file": "2. Reference notes/FIL - Philosophy/Connection of Ethics and Moral Philosophy to Philosophy.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Untitled.md",
+                "file": "2. Reference notes/FIL - Philosophy/Connection of Ethics and Moral Philosophy to Philosophy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Untitled.md",
+                "file": "2. Reference notes/FIL - Philosophy/Connection of Ethics and Moral Philosophy to Philosophy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Untitled.md"
+                "file": "2. Reference notes/FIL - Philosophy/Connection of Ethics and Moral Philosophy to Philosophy.md"
               }
             }
           },
@@ -239,9 +239,13 @@
   },
   "active": "9267556d9b6633bc",
   "lastOpenFiles": [
-    "2. Reference notes/FIL - Philosophy/Connection of Ethics and Moral Philosophy to Philosophy.md",
-    "2. Reference notes/FIL - Philosophy/Untitled.md",
     "2. Reference notes/FIL - Philosophy/Connection of Epistemology to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Aesthetics to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Philosophy of the Language to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Philosophy of the Mind to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Logic to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Political Philosophy to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Ethics and Moral Philosophy to Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Connection of Ontology to Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Connection of Metaphysics to Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Connection of Physics to Philosophy.md",
@@ -264,10 +268,6 @@
     "1. Fleeting notes/ADP/Technical debt.md",
     "1. Fleeting notes/ADP/Principle of least astonishment.md",
     "1. Fleeting notes/ADP/The boy scout rule.md",
-    "1. Fleeting notes/ADP/LoC.md",
-    "1. Fleeting notes/ADP/SoC.md",
-    "1. Fleeting notes/ADP/SOLID.md",
-    "1. Fleeting notes/ADP/YAGNI.md",
     "1. Fleeting notes/ADP",
     "1. Fleeting notes/SWE",
     "1. Fleeting notes/PDB",
