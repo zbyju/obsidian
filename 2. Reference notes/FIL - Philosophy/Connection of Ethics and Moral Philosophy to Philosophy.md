@@ -1,3 +1,5 @@
 Ethics grapples with fundamental philosophical questions about values, human actions, intent, and societal norms.
 
-Linkage:
+**Linkage:**
+- [[Definition of Philosophy]]
+- [[Definition of Ethics and Moral Philosophy]]
