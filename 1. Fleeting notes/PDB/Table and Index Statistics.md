@@ -1,0 +1,1 @@
+Tabulka je organizovana po blocich
