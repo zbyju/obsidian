@@ -14,9 +14,12 @@ foreach pres R
 Podle velikosti memory tak zalezi jak moc bude moct byt nacteno do pameti
 
 **merge join**:
-
+sortnu R podle a
+sortnu S podle a
+mergnu sestridene
 
 **hash join**:
+vezmeme hash funkci (mod(k))
 
 
 **nested loop join**:
