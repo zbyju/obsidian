@@ -20,3 +20,8 @@ neni potreba vubec sahat do bazove tabulky
 
 **compose index on R(A)**
 cost = hloubka stromu
+
+select A from R where A < 'x';
+
+**index query only**
+najdu bod A ='x' pak vezmu vsechno vlevo (v listech)
