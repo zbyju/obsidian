@@ -10,4 +10,13 @@ cena = hloubka indexoveho stromu + 1 pro skok pres rowid do bazove databaze
 cena = hloubka indexoveho stromu pokud mame indexem organizovanou tabulku
 
 **non-unique index on R(A)**
-cost = hloubka index
+cost = hloubka indexoveho stromu + pocet bloku s hodnotou A = 'x'
+
+select B from R where A = 'x'
+
+**compose index on R(A)** non-unique
+cost = hloubka stromu + (pocet bloku A='x' / block factorem indexu )
+neni potreba vubec sahat do bazove tabulky
+
+**compose index on R(A)**
+cost = hloubka stromu
