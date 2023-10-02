@@ -24,4 +24,4 @@ Index statistics
 
 Clustered index - index pres tabulku setrideny podle index klice
 Composed key index - 
-Reverse index - cislo ze sekvence pro index se bere odzadu aby kdyz se 
+Reverse index - cislo ze sekvence pro index se bere odzadu aby kdyz se vklada do B stromu, tak aby ho to nevyvazovalo, ale takhle se tam bude vkladat na jednu stranu a pak na druhou 
