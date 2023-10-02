@@ -11,6 +11,8 @@ foreach pres R
 	foreach pres S
 		najdi spojitelne zaznamy a dej je na vystup
 
+Podle velikosti memory tak zalezi jak moc bude moct byt nacteno do pameti
+
 **merge join**:
 
 
