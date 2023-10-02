@@ -18,4 +18,10 @@ Index statistics
 - Clustering factor
 	- Pocet datovych bloku, ktere je potreba navstivit abychom dostali setridene data podle indexu
 	- Jak hodne jsou hodnoty v bazove tabulce rozhazene vuci klici - indexu
-	- V b stromu jsou rowid pointery do bazove tabulky, v b stromu jsou setridene, ale v bazove
+	- V b stromu jsou rowid pointery do bazove tabulky, v b stromu jsou setridene, ale v bazove tabulce setridene nejsou
+	- min hodnota pocet bloku
+	- max hodnota pocet radku
+
+Clustered index - index pres tabulku setrideny podle index klice
+Composed key index - 
+Reverse index - cislo ze sekvence pro index se bere odzadu aby kdyz se 
