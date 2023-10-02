@@ -22,5 +22,3 @@ mergnu sestridene
 vezmeme hash funkci (mod(k))
 aplikuju hash funkci na obe relace
 zmensuje to pocet vzajemnych provnani
-
-**nested loop join**:
