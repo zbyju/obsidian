@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/PDB/B tree vs bitmap.md",
+                "file": "1. Fleeting notes/PDB/Cost of selection for various access methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/PDB/B tree vs bitmap.md",
+                "file": "1. Fleeting notes/PDB/Cost of selection for various access methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/PDB/B tree vs bitmap.md",
+                "file": "1. Fleeting notes/PDB/Cost of selection for various access methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/PDB/B tree vs bitmap.md"
+                "file": "1. Fleeting notes/PDB/Cost of selection for various access methods.md"
               }
             }
           },
@@ -239,8 +239,9 @@
   },
   "active": "9267556d9b6633bc",
   "lastOpenFiles": [
-    "1. Fleeting notes/PDB/Maintenance of stats.md",
     "1. Fleeting notes/PDB/B tree vs bitmap.md",
+    "1. Fleeting notes/PDB/Cost of selection for various access methods.md",
+    "1. Fleeting notes/PDB/Maintenance of stats.md",
     "1. Fleeting notes/PDB/Table and Index Statistics.md",
     "1. Fleeting notes/PDB/OLTP vs OLAP.md",
     "2. Reference notes/PDB - Advanced Databases/Cost-Based Optimization in Databases.md",
@@ -264,7 +265,6 @@
     "2. Reference notes/ADP - Architecture and Design Patterns/LoC - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Liskov Substitution Principle - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy",
     "2. Reference notes/ADP - Architecture and Design Patterns",
