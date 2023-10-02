@@ -7,3 +7,7 @@ cost = pR pokud neni unikatni
 
 **unique index on R(A)**
 cena = hloubka indexoveho stromu + 1 pro skok pres rowid do bazove databaze
+cena = hloubka indexoveho stromu pokud mame indexem organizovanou tabulku
+
+**non-unique index on R(A)**
+cost = hloubka index
