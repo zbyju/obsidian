@@ -12,4 +12,4 @@ B strom:
 
 Pridavne statistiky:
 - min, max values
-- histogramy
+- histogramy - je to pomoc pro optimalizator
