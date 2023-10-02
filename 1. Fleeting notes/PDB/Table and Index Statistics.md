@@ -13,3 +13,9 @@ B strom:
 Pridavne statistiky:
 - min, max values
 - histogramy - je to pomoc pro optimalizator
+
+Index statistics
+- Clustering factor
+	- Pocet datovych bloku, ktere je potreba navstivit abychom dostali setridene data podle indexu
+	- Jak hodne jsou hodnoty v bazove tabulce rozhazene vuci klici - indexu
+	- V b stromu jsou rowid pointery do bazove tabulky, v b stromu jsou setridene, ale v bazove
