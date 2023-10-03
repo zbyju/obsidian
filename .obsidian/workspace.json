@@ -71,8 +71,12 @@
             "id": "e918f66704735235",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -150,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md"
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md"
               }
             }
           },
