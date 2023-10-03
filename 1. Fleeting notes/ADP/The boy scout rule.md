@@ -1,1 +1,0 @@
-Nechat ten kod trosku cistejsi nez predtim

@@ -1,1 +1,0 @@
-Optimalizovat az kdyz je problem
