@@ -1,7 +1,7 @@
 **Pros**:
 - Avoids overcomplicating code prematurely.
-- Prioritizes clarity and correctness, making code easier to understand and maintain.
-- Prevents wasted effort on optimizations that might not be necessary.
+- Prioritizes clarity and correctness
+- Code easier to understand and maintain.
 
 **Cons**:
 - May lead to performance bottlenecks being discovered late in development.

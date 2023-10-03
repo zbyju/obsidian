@@ -2,8 +2,7 @@
 
 **Example**: Optimizing code before analysis (memory usage, profiling).
 
-**Description**: Leads to wasted effort, increses complexity of the code.
-Premature optimization can lead to wasted effort, increased complexity, and decreased code maintainability. It's often best to focus on clarity and correctness first, optimizing only after identifying bottlenecks through profiling.
+**Description**: Leads to wasted effort, code that is more complex and harder to maintain. It's better to focus on correctness and clarity first, optimize only when the bottlenecks are identified.
 
 **Linkage:**
 - [[_ADP Reference]]
