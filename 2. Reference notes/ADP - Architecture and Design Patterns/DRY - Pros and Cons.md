@@ -9,4 +9,5 @@
 - Finding the right level of abstraction can be challenging in some cases.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[DRY - Definition and Context]]

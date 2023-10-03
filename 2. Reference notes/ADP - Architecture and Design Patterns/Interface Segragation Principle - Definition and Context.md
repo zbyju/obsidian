@@ -5,4 +5,5 @@
 **Description**: ISP keeps systems decoupled and easy to refactor, ensuring that implementing classes only require the methods they use, promoting clarity and reducing potential errors.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[SOLID - Definition and Context]]

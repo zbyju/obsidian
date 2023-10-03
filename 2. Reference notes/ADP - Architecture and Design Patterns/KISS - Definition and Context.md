@@ -5,4 +5,4 @@
 **Description**: KISS aims to improve code readability, maintainability, and debugging. It emphasizes that simplicity often leads to more robust and reliable software.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]

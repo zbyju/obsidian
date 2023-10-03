@@ -5,4 +5,5 @@
 **Description**: DIP ensures that high-level modules remain unaffected by changes in low-level modules, promoting a structure that is more resilient to changes and easier to maintain and scale.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[SOLID - Definition and Context]]

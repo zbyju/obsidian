@@ -9,4 +9,4 @@
 - Might lead to oversimplification, where some necessary complexities are avoided to stay intuitive.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]

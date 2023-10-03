@@ -5,4 +5,4 @@
 **Description**: SoC promotes clarity, reusability, and scalability by ensuring that each module or component handles only one aspect of the software's functionality.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]

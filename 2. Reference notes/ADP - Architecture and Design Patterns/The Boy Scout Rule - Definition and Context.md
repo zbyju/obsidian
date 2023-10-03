@@ -5,4 +5,4 @@
 **Description**: By adhering to this principle, developers aim to maintain a high-quality codebase and mitigate the accumulation of technical debt.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]

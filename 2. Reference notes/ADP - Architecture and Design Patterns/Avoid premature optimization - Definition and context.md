@@ -5,4 +5,4 @@
 **Description**: Premature optimization can lead to wasted effort, increased complexity, and decreased code maintainability. It's often best to focus on clarity and correctness first, optimizing only after identifying bottlenecks through profiling.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]

@@ -9,4 +9,5 @@
 - Can be challenging to strike the right balance between early optimization and premature optimization.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[Avoid premature optimization - Definition and context]]

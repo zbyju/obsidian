@@ -5,4 +5,4 @@
 **Description**: DRY promotes maintainability by ensuring that changes or bug fixes need only be made in one location, reducing the risk of inconsistencies.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
