@@ -27,3 +27,6 @@ RDF graph - set of statements
 URIref = URI + optional fragment identifier (http://example.com/people#me)
 Set of URIrefs are RDF vocabulary
 
+turtle is more readable
+- grouping of triples
+- abbreviations
