@@ -71,8 +71,12 @@
             "id": "e918f66704735235",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -150,6 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2. Reference notes/FIL - Philosophy/_FIL Reference.md"
+              }
             }
           },
           {
@@ -219,6 +227,8 @@
   },
   "active": "e918f66704735235",
   "lastOpenFiles": [
+    "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
+    "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
     "2. Reference notes/PDB - Advanced Databases/RDBMS Data Structures.md",
     "2. Reference notes/PDB - Advanced Databases/SQL Queries Over Views.md",
     "2. Reference notes/PDB - Advanced Databases/Index organised table.md",
@@ -232,7 +242,6 @@
     "2. Reference notes/PDB - Advanced Databases/B+ Trees in Databases.md",
     "2. Reference notes/PDB - Advanced Databases/B Tree.md",
     "2. Reference notes/PDB - Advanced Databases/Access Methods in Databases.md",
-    "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
     "B* Trees in Databases.md",
     "1. Fleeting notes/ADP/Avoid premature optimization.md",
     "2. Reference notes/FIL - Philosophy/Definition of Aesthetics.md",
@@ -244,7 +253,6 @@
     "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Single Responsibility Principle - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Principle of Least Astonishment - Pros and Cons.md",
     "1. Fleeting notes/Untitled",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy",
