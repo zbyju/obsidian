@@ -21,7 +21,8 @@ There are machine friendly languages:
 Triples are statements
 IRIs for identifying resources
 Literals are basic values
-Blank nodes are for n-ary relationships
+Blank nodes are for n-ary relationships, they are not referenced from outside the graph
 RDF graph - set of statements
 
-URIref = URI + optional 
+URIref = URI + optional fragment identifier (http://example.com/people#me)
+Set of URIrefs are RDF vocabulary
