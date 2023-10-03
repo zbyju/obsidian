@@ -10,3 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
+- [[Technical Debt - Definition and Context]]

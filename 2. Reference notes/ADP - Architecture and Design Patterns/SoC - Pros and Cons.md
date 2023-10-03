@@ -10,3 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
+- [[SoC - Definition and Context]]

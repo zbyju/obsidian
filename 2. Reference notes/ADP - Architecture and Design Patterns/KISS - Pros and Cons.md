@@ -10,3 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
+- [[KISS - Definition and Context]]

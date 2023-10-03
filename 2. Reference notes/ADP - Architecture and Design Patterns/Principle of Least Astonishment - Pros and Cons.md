@@ -10,3 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
+- [[Principle of Least Astonishment - Definition and Context]]

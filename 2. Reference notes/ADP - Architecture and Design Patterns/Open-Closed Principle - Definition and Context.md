@@ -6,3 +6,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
+- [[SOLID - Definition and Context]]

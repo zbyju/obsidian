@@ -10,3 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
+- [[YAGNI - Definition and Context]]

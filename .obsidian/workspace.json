@@ -83,12 +83,8 @@
             "id": "9267556d9b6633bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Pros and Cons.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -166,7 +162,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Pros and Cons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +178,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Pros and Cons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,9 +199,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Pros and Cons.md"
-              }
+              "state": {}
             }
           },
           {
@@ -239,30 +231,30 @@
   },
   "active": "9267556d9b6633bc",
   "lastOpenFiles": [
+    "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI - Pros and Cons.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/The Boy Scout Rule - Pros and Cons.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Technical Debt - Pros and Cons.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Technical Debt - Definition and Context.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/SOLID - Pros and Cons.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Pros and Cons.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Definition and Context.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Single Responsibility Principle - Definition and Context.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Principle of Least Astonishment - Pros and Cons.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Open-Closed Principle - Definition and Context.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/LoC - Pros and Cons.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/LoC - Definition and Context.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Liskov Substitution Principle - Definition and Context.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Interface Segragation Principle - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Dependency Inversion Principle - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/_ADP Reference.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/The Boy Scout Rule - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/The Boy Scout Rule - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Technical Debt - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Technical Debt - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/SOLID - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/SOLID - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Single Responsibility Principle - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Principle of Least Astonishment - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Principle of Least Astonishment - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Open-Closed Principle - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/LoC - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/LoC - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Liskov Substitution Principle - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Definition and Context.md",
     "1. Fleeting notes/Untitled",
