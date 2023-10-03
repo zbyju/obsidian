@@ -71,12 +71,8 @@
             "id": "e918f66704735235",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -154,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md"
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md"
               }
             }
           },
@@ -227,6 +223,7 @@
   },
   "active": "e918f66704735235",
   "lastOpenFiles": [
+    "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
     "2. Reference notes/PDB - Advanced Databases/B Tree.md",
     "2. Reference notes/PDB - Advanced Databases/Access Methods in Databases.md",
     "2. Reference notes/PDB - Advanced Databases/B+ Trees in Databases.md",
@@ -252,7 +249,6 @@
     "2. Reference notes/FIL - Philosophy/Definition of the Philosophy of Language.md",
     "2. Reference notes/FIL - Philosophy/Definition of Political Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Connection of Political Philosophy to Philosophy.md",
-    "2. Reference notes/FIL - Philosophy/Connection of Physics to Philosophy.md",
     "1. Fleeting notes/Untitled",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy",
