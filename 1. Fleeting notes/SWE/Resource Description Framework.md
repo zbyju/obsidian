@@ -24,3 +24,4 @@ Literals are basic values
 Blank nodes are for n-ary relationships
 RDF graph - set of statements
 
+URIref = URI + optional 
