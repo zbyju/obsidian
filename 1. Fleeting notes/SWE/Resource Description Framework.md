@@ -17,3 +17,9 @@ We use graph notation for representation
 
 There are machine friendly languages:
 - RDF/XML, Turtle, N-triples, JSON-LD
+
+Triples are statements
+IRIs for identifying resources
+Literals are basic values
+Blank nodes are for n-ary relationships
+RDF graph - set of statements
