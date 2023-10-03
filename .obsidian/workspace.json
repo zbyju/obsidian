@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/SWE/Resource Description Framework.md",
+                "file": "1. Fleeting notes/ADP/LoC.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/SWE/Resource Description Framework.md",
+                "file": "1. Fleeting notes/ADP/LoC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/SWE/Resource Description Framework.md",
+                "file": "1. Fleeting notes/ADP/LoC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/SWE/Resource Description Framework.md"
+                "file": "1. Fleeting notes/ADP/LoC.md"
               }
             }
           },
@@ -239,6 +239,9 @@
   },
   "active": "9267556d9b6633bc",
   "lastOpenFiles": [
+    "1. Fleeting notes/ADP/KISS.md",
+    "1. Fleeting notes/ADP/DRY.md",
+    "1. Fleeting notes/ADP/Avoid premature optimization.md",
     "1. Fleeting notes/SWE/Resource Description Framework.md",
     "1. Fleeting notes/PDB/join.md",
     "1. Fleeting notes/Untitled",
@@ -263,9 +266,6 @@
     "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Single Responsibility Principle - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Principle of Least Astonishment - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Principle of Least Astonishment - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Open-Closed Principle - Definition and Context.md",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy",
     "2. Reference notes/ADP - Architecture and Design Patterns",
