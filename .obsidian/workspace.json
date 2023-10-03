@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/_ADP Reference.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/_ADP Reference.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/_ADP Reference.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/_ADP Reference.md"
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md"
               }
             }
           },
@@ -227,8 +227,10 @@
   },
   "active": "e918f66704735235",
   "lastOpenFiles": [
-    "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
+    "1. Fleeting notes/ADP/DRY.md",
+    "1. Fleeting notes/ADP/Avoid premature optimization.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/_ADP Reference.md",
+    "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Dependency Inversion Principle - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
@@ -251,8 +253,6 @@
     "2. Reference notes/FIL - Philosophy/Definition of Epistemology.md",
     "2. Reference notes/FIL - Philosophy/Definition of Ethics and Moral Philosophy.md",
     "2. Reference notes/FIL - Philosophy/Definition of Logic.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Ontology.md",
     "1. Fleeting notes/Untitled",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy",
