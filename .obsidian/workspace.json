@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Political Philosophy.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Political Philosophy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Political Philosophy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/FIL - Philosophy/_FIL Reference.md"
+                "file": "2. Reference notes/FIL - Philosophy/Definition of Political Philosophy.md"
               }
             }
           },
@@ -227,32 +227,32 @@
   },
   "active": "e918f66704735235",
   "lastOpenFiles": [
-    "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Physics.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Ontology.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Metaphysics.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Logic.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Ethics and Moral Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Epistemology.md",
+    "2. Reference notes/FIL - Philosophy/Definition of Aesthetics.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Political Philosophy to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Physics to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Philosophy of the Mind to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Philosophy of the Language to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Ontology to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Metaphysics to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Logic to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Ethics and Moral Philosophy to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Epistemology to Philosophy.md",
+    "2. Reference notes/FIL - Philosophy/Connection of Aesthetics to Philosophy.md",
     "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
+    "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
     "2. Reference notes/PDB - Advanced Databases/RDBMS Data Structures.md",
     "2. Reference notes/PDB - Advanced Databases/SQL Queries Over Views.md",
     "2. Reference notes/PDB - Advanced Databases/Index organised table.md",
     "2. Reference notes/PDB - Advanced Databases/Heap table with index.md",
     "2. Reference notes/PDB - Advanced Databases/Heap table.md",
     "2. Reference notes/PDB - Advanced Databases/Execution Plan SQL.md",
-    "2. Reference notes/PDB - Advanced Databases/Elementary SQL Operations.md",
-    "2. Reference notes/PDB - Advanced Databases/Data Block in Databases.md",
-    "2. Reference notes/PDB - Advanced Databases/Cost-Based Optimization in Databases.md",
-    "2. Reference notes/PDB - Advanced Databases/Cluster table.md",
-    "2. Reference notes/PDB - Advanced Databases/B+ Trees in Databases.md",
-    "2. Reference notes/PDB - Advanced Databases/B Tree.md",
-    "2. Reference notes/PDB - Advanced Databases/Access Methods in Databases.md",
-    "B* Trees in Databases.md",
-    "1. Fleeting notes/ADP/Avoid premature optimization.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Aesthetics.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/YAGNI - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/The Boy Scout Rule - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Technical Debt - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Technical Debt - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/SOLID - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Pros and Cons.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/SoC - Definition and Context.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Single Responsibility Principle - Definition and Context.md",
     "1. Fleeting notes/Untitled",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy",
