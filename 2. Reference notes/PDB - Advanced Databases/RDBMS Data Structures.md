@@ -12,5 +12,6 @@ Different structures in a relational database management system (RDBMS).
   - Used in index implementation.
 
 **Linkage**:
+- [[_PDB Reference]]
 - [[B+ Trees in Databases]]
 - [[Access Methods in Databases]]

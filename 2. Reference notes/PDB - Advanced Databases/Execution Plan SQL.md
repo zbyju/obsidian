@@ -5,8 +5,7 @@ Calculating the cost for execution plans.
 It can reveal how costly a query is.
 	- Especially useful when working with views that hide the complexity.
 
-**Reference:** [[_PDB Reference]]
-
 **Linkage**:
+- [[_PDB Reference]]
 - [[Cost-Based Optimization in Databases]]
 - [[SQL Queries Over Views]]

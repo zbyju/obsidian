@@ -5,9 +5,8 @@
 - The plan with the lowest cost is selected.
 - Important: These are only estimations.
 
-**Reference**: [[_PDB Reference]]
-
 **Linkage**:
+- [[_PDB Reference]]
 - [[Execution Plan SQL]]
 - [[Elementary SQL Operations]]
 - [[SQL Queries Over Views]]

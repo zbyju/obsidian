@@ -3,7 +3,6 @@ Basic operations that form the foundation of SQL:
 	- Such as selection and projection.
 - Other elementary operations: join, sort.
 
-**Reference:** [[_PDB Reference]]
-
 **Linkage**:
+- [[_PDB Reference]]
 - [[Cost-Based Optimization in Databases]]

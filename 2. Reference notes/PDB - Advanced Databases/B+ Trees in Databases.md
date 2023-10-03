@@ -7,5 +7,6 @@ B Trees' structure and usage in databases.
 - The inner entries don't hold data entries - only leaves do.
 
 **Linkage**:
+- [[_PDB Reference]]
 - [[2. Reference notes/PDB - Advanced Databases/B Tree|B Tree]]
 - [[Access Methods in Databases]]
