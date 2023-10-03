@@ -7,4 +7,4 @@ Balanced trees or B trees commonly used for databases and file systems.
 4. The order of the tree determines the structure (max number of children, min number of children, etc.)
 
 **Linkage:**
-- [[B* Trees in Databases]]
+- [[B+ Trees in Databases]]

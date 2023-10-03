@@ -4,4 +4,4 @@ Different ways to evaluate and access database data.
 
 **Linkage**:
 - [[RDBMS Data Structures]]
-- [[B* Trees in Databases]]
+- [[B+ Trees in Databases]]
