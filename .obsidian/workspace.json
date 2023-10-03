@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Dependency Inversion Principle - Definition and Context.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Dependency Inversion Principle - Definition and Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Dependency Inversion Principle - Definition and Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md"
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/Dependency Inversion Principle - Definition and Context.md"
               }
             }
           },
@@ -227,6 +227,7 @@
   },
   "active": "e918f66704735235",
   "lastOpenFiles": [
+    "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
     "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
     "2. Reference notes/PDB - Advanced Databases/B Tree.md",
@@ -252,7 +253,6 @@
     "2. Reference notes/FIL - Philosophy/Definition of Physics.md",
     "2. Reference notes/FIL - Philosophy/Definition of the Philosophy of the Mind.md",
     "2. Reference notes/FIL - Philosophy/Definition of the Philosophy of Language.md",
-    "2. Reference notes/FIL - Philosophy/Definition of Political Philosophy.md",
     "1. Fleeting notes/Untitled",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy",
