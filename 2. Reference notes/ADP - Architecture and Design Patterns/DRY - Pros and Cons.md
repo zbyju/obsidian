@@ -1,5 +1,6 @@
 **Pros**:
-- Enhances code maintainability and reduces the risk of introducing errors.
+- Better maintainability, reducing risk of errors
+- Better modularity, easier to extend and understand 
 - Encourages modularity, making it easier to understand and extend the codebase.
 - Promotes a single source of truth for each piece of knowledge or logic.
 

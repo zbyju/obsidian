@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/ADP/Untitled.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Pros and Cons.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/ADP/Untitled.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Pros and Cons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/ADP/Untitled.md",
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Pros and Cons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/ADP/Untitled.md"
+                "file": "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Pros and Cons.md"
               }
             }
           },
@@ -227,6 +227,7 @@
   },
   "active": "e918f66704735235",
   "lastOpenFiles": [
+    "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Definition and Context.md",
     "1. Fleeting notes/ADP/DRY.md",
     "1. Fleeting notes/ADP/Untitled.md",
     "1. Fleeting notes/ADP/Avoid premature optimization.md",
@@ -243,7 +244,6 @@
     "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Definition and context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/_ADP Reference.md",
     "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
     "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
     "2. Reference notes/PDB - Advanced Databases/B Tree.md",
