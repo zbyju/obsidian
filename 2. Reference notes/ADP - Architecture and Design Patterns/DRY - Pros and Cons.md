@@ -1,8 +1,8 @@
 **Pros**:
-- Better maintainability, reducing risk of errors
-- Better modularity, easier to extend and understand 
-- Encourages modularity, making it easier to understand and extend the codebase.
-- Promotes a single source of truth for each piece of knowledge or logic.
+- Better maintainability
+- Reducing risk of errors
+- Easier refactoring (only need to make the changed in one place)
+- Better modularity, easier to extend and understand code
 
 **Cons**:
 - Overzealous adherence to DRY can lead to overly abstract or complex code.
