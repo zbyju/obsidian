@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
+                "file": "1. Fleeting notes/SYP/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
+                "file": "1. Fleeting notes/SYP/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
+                "file": "1. Fleeting notes/SYP/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md"
+                "file": "1. Fleeting notes/SYP/Untitled.md"
               }
             }
           },
@@ -227,6 +227,11 @@
   },
   "active": "e918f66704735235",
   "lastOpenFiles": [
+    "1. Fleeting notes/SYP/Parsing.md",
+    "1. Fleeting notes/SYP/Untitled.md",
+    "1. Fleeting notes/SYP/CFG - Context free grammar.md",
+    "1. Fleeting notes/SYP",
+    "2. Reference notes/ADP - Architecture and Design Patterns/KISS - Definition and Context.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Interface Segragation Principle - Definition and Context.md",
     "1. Fleeting notes/ADP/SOLID.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/DRY - Pros and Cons.md",
@@ -249,11 +254,6 @@
     "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
     "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
     "2. Reference notes/PDB - Advanced Databases/B Tree.md",
-    "2. Reference notes/PDB - Advanced Databases/Access Methods in Databases.md",
-    "2. Reference notes/PDB - Advanced Databases/B+ Trees in Databases.md",
-    "2. Reference notes/PDB - Advanced Databases/Cluster table.md",
-    "2. Reference notes/PDB - Advanced Databases/Cost-Based Optimization in Databases.md",
-    "1. Fleeting notes/Untitled",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy",
     "2. Reference notes/ADP - Architecture and Design Patterns",
