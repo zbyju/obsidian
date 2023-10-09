@@ -25,3 +25,7 @@ Zakladni typy:
 
 dalsi typy:
 - object, XML, RDF
+
+### Key-value
+dobre na cache
+session data, 
