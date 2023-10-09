@@ -5,4 +5,4 @@
 **Description**: YAGNI aims to keep the codebase lean, focusing on delivering what's needed now and resisting the temptation to build for perceived future requirements.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]

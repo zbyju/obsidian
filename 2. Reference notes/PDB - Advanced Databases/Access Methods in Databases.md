@@ -3,5 +3,6 @@ Different ways to evaluate and access database data.
 - Some queries can be solely evaluated based on an index.
 
 **Linkage**:
+- [[_PDB Reference]]
 - [[RDBMS Data Structures]]
-- [[B* Trees in Databases]]
+- [[B+ Trees in Databases]]

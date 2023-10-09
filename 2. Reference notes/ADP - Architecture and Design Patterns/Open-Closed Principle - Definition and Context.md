@@ -5,4 +5,5 @@
 **Description**: OCP ensures that existing functionality remains unaltered when introducing new features, thereby safeguarding against introducing new bugs in existing features.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[SOLID - Definition and Context]]

@@ -1,7 +1,8 @@
 **Pros**:
-- Enhances code maintainability and reduces the risk of introducing errors.
-- Encourages modularity, making it easier to understand and extend the codebase.
-- Promotes a single source of truth for each piece of knowledge or logic.
+- Better maintainability
+- Reducing risk of errors
+- Easier refactoring (only need to make the changed in one place)
+- Better modularity, easier to extend and understand code
 
 **Cons**:
 - Overzealous adherence to DRY can lead to overly abstract or complex code.
@@ -9,4 +10,5 @@
 - Finding the right level of abstraction can be challenging in some cases.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[DRY - Definition and Context]]

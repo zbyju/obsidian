@@ -5,4 +5,5 @@
 **Description**: SRP ensures that a class adheres to one functionality, leading to a more organized system where changes in one area don't unexpectedly affect others.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[SOLID - Definition and Context]]

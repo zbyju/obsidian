@@ -1,8 +1,8 @@
-**Definition**: Premature optimization is the practice of optimizing a software component or system before its performance bottlenecks are well-understood or before such optimization is necessary.
+**Definition**: Premature optimization is optimizing a piece of code before its needed or revealed by benchmarks.
 
-**Example**: Optimizing code for speed or memory usage before profiling reveals that specific sections are performance bottlenecks.
+**Example**: Optimizing code before analysis (memory usage, profiling).
 
-**Description**: Premature optimization can lead to wasted effort, increased complexity, and decreased code maintainability. It's often best to focus on clarity and correctness first, optimizing only after identifying bottlenecks through profiling.
+**Description**: Leads to wasted effort, code that is more complex and harder to maintain. It's better to focus on correctness and clarity first, optimize only when the bottlenecks are identified.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]

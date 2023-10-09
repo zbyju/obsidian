@@ -9,3 +9,6 @@ Understanding the data transfer between disk storage and RAM.
 - Data transfer occurs in blocks, typically around 8kB. If accessing a single row (e.g., 50B), the entire data block (e.g., 8kB) is loaded.
 
 *Note:* Even if we want to access a single row (e.g. 50B in total), the database still needs to fetch the full block (8kB)
+
+**Linkage:**
+- [[_PDB Reference]]

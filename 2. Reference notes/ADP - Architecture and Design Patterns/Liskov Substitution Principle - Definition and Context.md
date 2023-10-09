@@ -5,4 +5,5 @@
 **Description**: LSP ensures that a derived class can replace its base class without affecting program correctness, promoting consistent behavior and ensuring reliability.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[SOLID - Definition and Context]]

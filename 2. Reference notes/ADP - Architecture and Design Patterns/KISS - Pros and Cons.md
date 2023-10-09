@@ -9,4 +9,5 @@
 - Can be interpreted as advocating for oversimplification, which may not meet all requirements.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[KISS - Definition and Context]]

@@ -9,4 +9,5 @@
 - If misunderstood or misapplied, can lead to overcomplication.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[SOLID - Definition and Context]]

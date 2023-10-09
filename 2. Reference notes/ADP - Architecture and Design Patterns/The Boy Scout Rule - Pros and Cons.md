@@ -9,4 +9,5 @@
 - Could lead to unexpected bugs if changes aren't thoroughly tested.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[The Boy Scout Rule - Definition and Context]]

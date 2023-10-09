@@ -5,4 +5,4 @@
 **Description**: PoLA is about creating intuitive interfaces and behaviors, reducing the learning curve and minimizing potential user errors.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]

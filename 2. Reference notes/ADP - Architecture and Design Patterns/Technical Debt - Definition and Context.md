@@ -5,4 +5,4 @@
 **Description**: Technical debt isn't always negative. Sometimes, it's a deliberate trade-off made to meet deadlines or other constraints, with the understanding that it will need addressing later.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]

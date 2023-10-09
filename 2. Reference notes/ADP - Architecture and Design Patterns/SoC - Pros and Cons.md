@@ -9,4 +9,5 @@
 - Might introduce added complexity due to interfaces or communication between module
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[SoC - Definition and Context]]

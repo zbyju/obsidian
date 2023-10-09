@@ -9,4 +9,5 @@
 - Balancing YAGNI with forward-thinking design can be tricky.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
+- [[YAGNI - Definition and Context]]

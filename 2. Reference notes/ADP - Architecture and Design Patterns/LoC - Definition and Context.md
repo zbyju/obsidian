@@ -5,4 +5,4 @@
 **Description**: By adhering to the Law of Demeter, software tends to be more modular and maintainable. Objects remain loosely coupled, which makes the system more adaptable and reduces unforeseen side effects.
 
 **Linkage:**
-- 
+- [[_ADP Reference]]
