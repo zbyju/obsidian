@@ -48,5 +48,8 @@ spatny kdyz se az moc meni
 
 ### Wide column stores
 column family = table = sklada se z radku
-row = radek = 
+row = radek = kolekce sloupcu
+sloupce pro radky se ale muzou lisit, ne vsechny radky maji stejne sloupce
+hodnoty nemusi byt jen scalary ale i dalsi typy
+pristupujeme typicky pres klic, umi to nejaky WHERE
 nekdy se rika ze jsou podobne SQL, ale neni mozne tak dobre se dotazovat (zadny join)
