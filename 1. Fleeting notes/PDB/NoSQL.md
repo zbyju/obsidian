@@ -62,3 +62,6 @@ Directed a undirected grafy
 mame nody a relationships
 nody i relace mohou byt asociovany s vlastnostmi
 grafove databaze jsou velmi univerzalni
+dobre pokud vyuzijeme grafove algo - nejkratsi cesta, kostra, sub-graf, nad-graf, queries
+dobre na socialni site, routovani, dispatch, recommendation engines
+nepouzivat pro extensive batch operations - davkove operace na zpracovani cele databaze, databaze je spis lepsi pro zamereni na jeden nebo dva nody a hledani vlastnosti mezi nimi
