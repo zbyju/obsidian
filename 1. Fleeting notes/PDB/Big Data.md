@@ -13,4 +13,4 @@ sources:
 - Volume (Scale)
 - Variety (Complexity)
 - Velocity (Speed)
-- Veracity ()
+- Veracity (Uncertainty)
