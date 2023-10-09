@@ -53,3 +53,6 @@ sloupce pro radky se ale muzou lisit, ne vsechny radky maji stejne sloupce
 hodnoty nemusi byt jen scalary ale i dalsi typy
 pristupujeme typicky pres klic, umi to nejaky WHERE
 nekdy se rika ze jsou podobne SQL, ale neni mozne tak dobre se dotazovat (zadny join)
+vyhodne pro logovani, CMS, blogy
+nepouzivat pokud chcem ACID, nebo complex dotazy
+
