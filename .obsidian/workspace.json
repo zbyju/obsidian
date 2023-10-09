@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/SYP/Bottom-up parsing.md",
+                "file": "1. Fleeting notes/PDB/Big Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/SYP/Bottom-up parsing.md",
+                "file": "1. Fleeting notes/PDB/Big Data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/SYP/Bottom-up parsing.md",
+                "file": "1. Fleeting notes/PDB/Big Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/SYP/Bottom-up parsing.md"
+                "file": "1. Fleeting notes/PDB/Big Data.md"
               }
             }
           },
@@ -227,8 +227,9 @@
   },
   "active": "e918f66704735235",
   "lastOpenFiles": [
-    "1. Fleeting notes/SYP/Top-down parsing.md",
     "1. Fleeting notes/SYP/Bottom-up parsing.md",
+    "1. Fleeting notes/PDB/Big Data.md",
+    "1. Fleeting notes/SYP/Top-down parsing.md",
     "1. Fleeting notes/SYP/Parsing.md",
     "1. Fleeting notes/SYP/CFG - Context free grammar.md",
     "1. Fleeting notes/SYP",
@@ -253,7 +254,6 @@
     "2. Reference notes/ADP - Architecture and Design Patterns/_ADP Reference.md",
     "2. Reference notes/FIL - Philosophy/_FIL Reference.md",
     "2. Reference notes/ADP - Architecture and Design Patterns/Avoid premature optimization - Pros and Cons.md",
-    "2. Reference notes/PDB - Advanced Databases/_PDB Reference.md",
     "Zettelkasten",
     "2. Reference notes/FIL - Philosophy",
     "2. Reference notes/ADP - Architecture and Design Patterns",
