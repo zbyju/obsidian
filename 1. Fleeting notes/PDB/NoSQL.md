@@ -56,3 +56,9 @@ nekdy se rika ze jsou podobne SQL, ale neni mozne tak dobre se dotazovat (zadny 
 vyhodne pro logovani, CMS, blogy
 nepouzivat pokud chcem ACID, nebo complex dotazy
 
+### Grafove db
+Property graf = jednotka
+Directed a undirected grafy
+mame nody a relationships
+nody i relace mohou byt asociovany s vlastnostmi
+grafove databaze jsou velmi univerzalni
