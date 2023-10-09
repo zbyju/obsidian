@@ -70,3 +70,8 @@ nepouzivat pro extensive batch operations - davkove operace na zpracovani cele d
 jsou to vicemene documentove
 jsou jazyky/nastroje pro query:
 XPath, XQuery, XSLT
+
+### RDF Stores
+Maji podobnost pro grafove db
+velmi specificke pro semantic web
+
