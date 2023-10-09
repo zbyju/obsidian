@@ -14,3 +14,14 @@ Dalsi charakteristiky:
 - simple API
 - eventually consistent
 - huge data amount
+
+Zadny system nema tyhle featury vsechny, kazda db si zvoli svuj smer, kterym se vyda
+
+Zakladni typy:
+- key-value
+- wide column
+- document
+- graph
+
+dalsi typy:
+- object, XML, RDF
