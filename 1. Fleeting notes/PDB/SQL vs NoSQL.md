@@ -8,3 +8,12 @@ Ruzne paradigmata pro zpracovani:
 - OLTP
 - OLAP
 - RTAP
+
+Presouvama se dale:
+
+zadna struktura data, data muzou byt v ruzncyh formatech atd
+exponencialni growth
+spise vice readu nez write
+data updaty nejsou moc caste
+nevyzadujeme strong consistency
+ACID -> BASE
