@@ -28,4 +28,14 @@ dalsi typy:
 
 ### Key-value
 dobre na cache
-session data, 
+session data, user profile, user preference, ...
+dobre kdyz se pristpuje pouze pres klic
+spatne kdyz chceme limovat data
+
+
+### Document stores
+Document = document aggregate = jednotka dat
+self describing
+casto hiearchicka struktura - JSON, XML
+maji nejaky ID u sebe
+organizovane do kolekci
