@@ -39,3 +39,14 @@ self describing
 casto hiearchicka struktura - JSON, XML
 maji nejaky ID u sebe
 organizovane do kolekci
+
+dobre na event logovani, CMS, blogy, e-commerce
+dobre tam kde je hodne documentu s podobnym schema
+spatny na agregovane dotazovani na hodne dokumenty
+spatny kdyz se az moc meni 
+
+
+### Wide column stores
+column family = table = sklada se z radku
+row = radek = 
+nekdy se rika ze jsou podobne SQL, ale neni mozne tak dobre se dotazovat (zadny join)
