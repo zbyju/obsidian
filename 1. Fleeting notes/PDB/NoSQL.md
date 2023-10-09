@@ -65,3 +65,8 @@ grafove databaze jsou velmi univerzalni
 dobre pokud vyuzijeme grafove algo - nejkratsi cesta, kostra, sub-graf, nad-graf, queries
 dobre na socialni site, routovani, dispatch, recommendation engines
 nepouzivat pro extensive batch operations - davkove operace na zpracovani cele databaze, databaze je spis lepsi pro zamereni na jeden nebo dva nody a hledani vlastnosti mezi nimi
+
+### XML Db
+jsou to vicemene documentove
+jsou jazyky/nastroje pro query:
+XPath, XQuery, XSLT
