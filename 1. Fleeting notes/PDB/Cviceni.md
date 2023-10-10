@@ -12,4 +12,4 @@ SELECT * FROM EMP WHERE EMPNO = 745
 
 SELECT * FROM EMP WHERE EMPNO > 745
 1. bez indexu: Full table scan = pocet blocku = 500
-2. s indexem: Hloubka stromu + 1 = 3 + 1 = 4
+2. s indexem: Hloubka stromu +  = 3 + 1 = 4
