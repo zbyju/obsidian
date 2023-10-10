@@ -26,3 +26,7 @@ A call is in a tail position if the caller does nothing other than return the va
 rec(x, y) is in a tail position
 1 + rec(x, y) is not in a tail position, there is still work to be done
 we can use @annotation.tailrec for the compiler to check this for us
+
+monomorphic vs polymorphic
+mono = jeden typ dat 
+polymorphic = jedna funkce na vice typu
