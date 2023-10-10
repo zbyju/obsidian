@@ -8,3 +8,7 @@ Je mozne pak vytvaret zakladni ontologii a hiearchii
 relace:
 - rdfs:subclassOf
 - rdfs:subpropertyOf
+- rdfs:range - pro property specifikuje co za typ musi byt na strane object
+
+Subject - Property - Object
+^ domain -             - range ^
