@@ -13,3 +13,5 @@ owl:equivalentClass
 
 Take muzeme specifikovat disjoin class
 Man and woman
+
+Dale take intersect, union a complement
