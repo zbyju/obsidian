@@ -1,1 +1,1 @@
-Mame nejakou stromovou strukturu s 
+Mame nejakou stromovou strukturu s objektama ktere implementuji rozhrani a dohromady kdyz potrebujeme agregovat neco, tak se ptame vsech objektu 
