@@ -1,0 +1,1 @@
+Mame nejakou stromovou strukturu s 
