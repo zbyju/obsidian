@@ -19,4 +19,4 @@ Expression E is RT if for all programs pp, all occurences of e in p can be repla
 
 A function is pure if the expression f(x) is RT for all x that are RT.
 
-
+The substitution model helps for recognizing if an expression is RTc
