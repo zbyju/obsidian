@@ -1,0 +1,1 @@
+Vytvorime spojovy seznam nejake funkcionality, ktera se pak postupne vola. Je mozne pak jednoduse rozsirovat.
