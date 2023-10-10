@@ -17,4 +17,6 @@ Function is pure if calling it with RT arguments is also RT.
 
 Expression E is RT if for all programs pp, all occurences of e in p can be replaced by the result of evaluating e without affecting the meaning of p. 
 
-A function is pure if the expression f(x) is RT for all RT x.
+A function is pure if the expression f(x) is RT for all x that are RT.
+
+
