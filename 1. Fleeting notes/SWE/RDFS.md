@@ -19,3 +19,4 @@ Containers:
 - rdf:Bag - unordered container
 - rdf:Seq - ordered container
 - rdf:Alt - unordred set of alternatives
+- rdf:list
