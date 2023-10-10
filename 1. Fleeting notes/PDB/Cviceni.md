@@ -1,0 +1,1 @@
+Bemp = BlockSize / RowAvg
