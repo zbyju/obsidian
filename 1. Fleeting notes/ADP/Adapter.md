@@ -6,4 +6,6 @@ Open/closed principle
 Single responsibility principle
 
 Analogie z realneho sveta:
-Redukce na n
+Redukce na nabijecku pro zapojeni do ruznych zasuvek
+
+Adapter muze byt oboustranny, nebo jen jednostranny
