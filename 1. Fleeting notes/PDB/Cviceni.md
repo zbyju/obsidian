@@ -13,4 +13,4 @@ SELECT * FROM EMP WHERE EMPNO = 745
 SELECT * FROM EMP WHERE EMPNO > 745
 1. bez indexu: Full table scan = pocet blocku = 500
 2. s indexem: Hloubka stromu + pruchod double linked listem + u kazdeho pristup do bazovni tabulky = 3 + (30000-150)/150 + (30000-150)
-3. mame opet podobn
+3. mame opet podobnou strukturu jako pro index ale odkaz neni do bazovni tabulky kde jsou hodnoty rozhazene, ale je pointer do tabulky ktera je serazene podle hodnot.
