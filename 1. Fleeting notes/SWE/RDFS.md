@@ -10,7 +10,12 @@ relace:
 - rdfs:subclassOf
 - rdfs:subpropertyOf
 - rdfs:range - pro property specifikuje co za typ musi byt na strane object
-- rdfs:domain - pro property 
+- rdfs:domain - pro property specifikuje co za typ musi byt na strane subject
 
 Subject - Property - Object
 ^ domain -             - range ^
+
+Containers:
+- rdf:Bag - unordered container
+- rdf:Seq - ordered container
+- rdf:Alt - unordred set of alternatives
