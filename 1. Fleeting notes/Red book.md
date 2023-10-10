@@ -20,3 +20,9 @@ Expression E is RT if for all programs pp, all occurences of e in p can be repla
 A function is pure if the expression f(x) is RT for all x that are RT.
 
 The substitution model helps for recognizing if an expression is RTc
+
+Tail recursion
+A call is in a tail position if the caller does nothing other than return the value of the recursive call.
+rec(x, y) is in a tail position
+1 + rec(x, y) is not in a tail position, there is still work to be done
+we can use @annotation.tailrec for the compiler to check this for us
