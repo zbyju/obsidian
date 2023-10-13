@@ -31,5 +31,5 @@ monomorphic vs polymorphic
 mono = jeden typ dat 
 polymorphic = jedna funkce na vice typu
 
-covariance of the generic 
+covariance of the generic type (List[+A])
 for all types X, Y, if X is a subtype of Y, then List[X] is a subtype of List[Y]
