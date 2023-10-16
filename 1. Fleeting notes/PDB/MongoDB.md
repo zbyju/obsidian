@@ -36,5 +36,11 @@ Mongo nabizi dotazy pomoci nekolika casti - query (selekce), projekce, sort, ski
 navic nabizi dalsi utility pomoci $operator:
 $eq, $ne, $lt, $lte, $gt, $gte, $in, $nin, $exists, $regex, ...
 
+Value equality can be tricky
+- scalars must have the same value
+- objects must have the same value, including the order attributes (names)
+	- { name: "x", age: 10 } is not the same as { age: 10, name: "x" } 
+- arrays must have the same value, includ
+
 dotazovani pomoci JSON-like constructu
 
