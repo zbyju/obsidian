@@ -14,10 +14,24 @@ existuji sluzby, ktere dokazou vzit databazi a zjistit schema
 Schema se muze delat bud:
 - Denormalizovane - vsechna data v kazdem dokumentu
 	- Lepsi pro one-to-one, one-to-many relace
-	- Jednodussi dotazovani, 
+	- Jednodussi dotazovani, muze byt problem s konzistenci, slozitejsi updaty
 - Normalizovane - data v ruznych kolekcich
 	- Lepsi pro many-to-many
 	- Slozitejsi dotazovani, lepsi konzistence, jednodussi update
+	- Reference pomoci direct linku (reference) - id jineho objektu
+		 - 
+
+Insert
+- insertOne, insertMany
+
+update
+- replaceOne, updateOne, updateMany
+
+remove
+- deleteOne, deleteMany
+
+find
+
 
 dotazovani pomoci JSON-like constructu
 
