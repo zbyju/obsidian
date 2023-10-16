@@ -40,7 +40,8 @@ Value equality can be tricky
 - scalars must have the same value
 - objects must have the same value, including the order attributes (names)
 	- { name: "x", age: 10 } is not the same as { age: 10, name: "x" } 
-- arrays must have the same value, includ
+	- better to use dot notation object.name: "x", object.age: 10
+- arrays must have the same value, including the order
 
 dotazovani pomoci JSON-like constructu
 
