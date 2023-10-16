@@ -32,6 +32,9 @@ remove
 
 find
 
+Mongo nabizi dotazy pomoci nekolika casti - query (selekce), projekce, sort, skip, limit
+navic nabizi dalsi utility pomoci $operator:
+$eq, $ne, $lt, $lte, $gt, $gte, $in, $nin, $exists, $regex, ...
 
 dotazovani pomoci JSON-like constructu
 
