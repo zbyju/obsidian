@@ -32,6 +32,8 @@ remove
 
 find
 
+dotazovani pomoci JSON-like constructu
+
 Mongo nabizi dotazy pomoci nekolika casti - query (selekce), projekce, sort, skip, limit
 navic nabizi dalsi utility pomoci $operator:
 $eq, $ne, $lt, $lte, $gt, $gte, $in, $nin, $exists, $regex, ...
@@ -43,5 +45,5 @@ Value equality can be tricky
 	- better to use dot notation object.name: "x", object.age: 10
 - arrays must have the same value, including the order
 
-dotazovani pomoci JSON-like constructu
+Pokud potrebujeme "join" tabulek, pak je to mozne pomoci aggregate a nasledne $lookup. V nejakych driverech pak je mozne pouzit zjednodusene konstrukty (mongoose populate) to ale neni cast MongoDB
 
