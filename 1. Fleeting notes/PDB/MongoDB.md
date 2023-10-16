@@ -47,3 +47,5 @@ Value equality can be tricky
 
 Pokud potrebujeme "join" tabulek, pak je to mozne pomoci aggregate a nasledne $lookup. V nejakych driverech pak je mozne pouzit zjednodusene konstrukty (mongoose populate) to ale neni cast MongoDB
 
+
+
