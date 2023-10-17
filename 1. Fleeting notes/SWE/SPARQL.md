@@ -13,5 +13,9 @@ different query forms:
 	- CONSTRUCT { output pattern } { input pattern }
 	- mapping some graph to another
 - ASK
-	- similar to select, but return boolean 
-- 
+	- similar to select, but return boolean value instead
+- DESCRIBE
+	- retrieve information about resources
+
+we can describe the prefixes we are gonna be using (using the keyword PREFIX)
+we can use a BASE prefix also
