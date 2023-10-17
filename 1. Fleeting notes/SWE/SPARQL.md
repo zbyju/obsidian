@@ -19,3 +19,8 @@ different query forms:
 
 we can describe the prefixes we are gonna be using (using the keyword PREFIX)
 we can use a BASE prefix also (empty prefix that's gonna be used if no other prefix is used)
+
+Some post-processing:
+- ORDER BY
+- LIMIT
+- OFFSET
