@@ -9,5 +9,8 @@ different query forms:
 	- define pattern and get variables that match the pattern
 	- SELECT variables in output FROM data source WHERE { triple patterns to be matched }
 - CONSTRUCT
+	- constructing new rdf graphs (triples)
+	- CONSTRUCT { output pattern } { input pattern }
+	- mapping some graph to another
 - ASK
 - 
