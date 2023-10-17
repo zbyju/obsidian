@@ -13,4 +13,5 @@ different query forms:
 	- CONSTRUCT { output pattern } { input pattern }
 	- mapping some graph to another
 - ASK
+	- similar to select, but return boolean 
 - 
