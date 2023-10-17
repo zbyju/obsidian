@@ -18,4 +18,4 @@ different query forms:
 	- retrieve information about resources
 
 we can describe the prefixes we are gonna be using (using the keyword PREFIX)
-we can use a BASE prefix also
+we can use a BASE prefix also (empty prefix that's gonna be used if no other prefix is used)
