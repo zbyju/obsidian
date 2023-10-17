@@ -7,7 +7,7 @@ it defines the language spefication but also:
 different query forms:
 - SELECT
 	- define pattern and get variables that match the pattern
-	- SELECT 
+	- SELECT variables in output FROM data source WHERE { triple patterns to be matched }
 - CONSTRUCT
 - ASK
 - 
