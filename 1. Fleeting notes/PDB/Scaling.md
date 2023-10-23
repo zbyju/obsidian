@@ -27,3 +27,6 @@ dost casto mame spatne predpoklady:
 	- sit neni homogonni
 	- prenost dat neni za 0 
 muze byt slozite rozdelit databazi pres vice nodu, tak aby se zachovala efektivita
+
+cluster
+mnozina nodu
