@@ -14,3 +14,7 @@ nosql s tim vice pocitaji
 treba v mongu to znamena ze jednu kolekci na jednom uzlu, druhou na druhem, ale dokaze treba distribuovat data rovnomerne mezi uzly
 
 cil je udelat to tak aby se co nejmene museli dotazovat pres vice uzlu
+
+mapovani dat muzeme delat na zaklade ruznych strategii
+round robin
+EU data v EU d
