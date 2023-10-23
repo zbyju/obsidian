@@ -21,3 +21,16 @@ System pokracuje fungovat i kdyz se mi sit rozbije na 2 nebo vice component
 Ne vsechny nody systemu mezi sebou muzou komunikovat, ale i tak system porad funguje
 
 System tedy muze byt CA, CP, AP
+
+
+### BASE
+Basically available - works basically all the time
+Soft State 
+Eventual Consistency
+
+ACID vetsinou SQL
+BASE vetsinou NoSQL
+
+
+
+
