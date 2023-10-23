@@ -26,3 +26,4 @@ dost casto mame spatne predpoklady:
 	- topologie se muze menit
 	- sit neni homogonni
 	- prenost dat neni za 0 
+muze byt slozite rozdelit databazi pres vice nodu, tak aby se zachovala efektivita
