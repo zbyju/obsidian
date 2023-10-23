@@ -31,7 +31,13 @@ muzeme cist z slavu i mastera
 dobre pokud uzkym hrdlem bylo cteni
 read intensive aplikace
 pri vypadku mastera se nemuze zapisovat
-pak jsou ruzne strategie pro 
+pak jsou ruzne strategie pro zvoleni noveho mastera
+
+write-read conflict problem - na masteru zapsano, na slavovi jeste ne
+write-write conflict - neni
 
 **peer-to-peer**
-
+vsichni jsou masteri, vsichni replikujou
+problemy s konzistenci (tohle zmen, tohle zmen na jinych uzlech ve stejny moment)
+^ write-write conflict
+read-wri
