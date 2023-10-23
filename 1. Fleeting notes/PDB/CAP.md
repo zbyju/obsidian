@@ -46,5 +46,15 @@ read consistency = zapisu data a zacnu cist nekde jinde (ale tam jeste ctu stare
 - session consistency / read-your-writes / sticky session
 
 
+Strong consistency
+- Write quorum W > N/2
+	- N - replikacni faktor
+	- W - write quorum
+- Read quorum
+	- R - read quorum
+	- N - replikacni faktor
+	- W - write quorum
+
+
 
 
