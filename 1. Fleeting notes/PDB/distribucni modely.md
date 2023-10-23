@@ -40,4 +40,8 @@ write-write conflict - neni
 vsichni jsou masteri, vsichni replikujou
 problemy s konzistenci (tohle zmen, tohle zmen na jinych uzlech ve stejny moment)
 ^ write-write conflict
-read-wri
+read-write conflict tady taky muzeme nastat (na jednom zapisu, na druhem ctu jeste stare data)
+
+### kombinace sharding + replication
+neni potreba mit replication factor stejny jako pocet nodu
+neni potreba zajistovat ze se data replikuji do vsech nodu, kde maji byt
