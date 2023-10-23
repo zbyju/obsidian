@@ -17,4 +17,11 @@ cil je udelat to tak aby se co nejmene museli dotazovat pres vice uzlu
 
 mapovani dat muzeme delat na zaklade ruznych strategii
 round robin
-EU data v EU d
+EU data v EU databazi
+apod.
+
+### replikace
+stejny data na ruznych uzlech
+replikacni faktor (kolik kopii od jednoho data mam)
+
+**
