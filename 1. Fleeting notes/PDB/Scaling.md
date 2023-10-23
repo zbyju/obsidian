@@ -1,0 +1,1 @@
+schopnost systemu zvladat queries a data pri zvysujicim se poctu dat
