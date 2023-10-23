@@ -17,3 +17,7 @@ Po zapisu musi vsichni ctenari videt stejne data
 Pokud uzel zije a prijme dotaz tak musi odpovedet
 
 ### Partition tolerance
+System pokracuje fungovat i kdyz se mi sit rozbije na 2 nebo vice component 
+Ne vsechny nody systemu mezi sebou muzou komunikovat, ale i tak system porad funguje
+
+System tedy muze byt CA, CP, AP
