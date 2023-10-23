@@ -28,8 +28,15 @@ Basically available - works basically all the time
 Soft State 
 Eventual Consistency
 
-ACID vetsinou SQL
-BASE vetsinou NoSQL
+ACID vetsinou SQL - pesimisticky pristup
+BASE vetsinou NoSQL - optimisticky pristup
+
+trend je prechazet od strong consistency k eventual consistency
+
+### Consistency
+lack of contradiction
+
+Strong consistency = zapisu data a pak uz vsechny repliky ctou novou zmenu
 
 
 
