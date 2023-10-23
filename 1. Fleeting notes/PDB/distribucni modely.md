@@ -24,4 +24,14 @@ apod.
 stejny data na ruznych uzlech
 replikacni faktor (kolik kopii od jednoho data mam)
 
-**
+**master-slave**
+master neco udela
+slavove jen followuji
+muzeme cist z slavu i mastera
+dobre pokud uzkym hrdlem bylo cteni
+read intensive aplikace
+pri vypadku mastera se nemuze zapisovat
+pak jsou ruzne strategie pro 
+
+**peer-to-peer**
+
