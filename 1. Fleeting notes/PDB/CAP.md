@@ -38,6 +38,13 @@ lack of contradiction
 
 Strong consistency = zapisu data a pak uz vsechny repliky ctou novou zmenu
 
+write consistency = resime write-write conflict (2 updaty skoro ve stejny cas)
+- pesimisticky pomoci zamku
+- optimisticky - version stamps, vector clocks
+
+read consistency = zapisu data a zacnu cist nekde jinde (ale tam jeste ctu stare data)
+- session consistency / read-your-writes / sticky session
+
 
 
 
