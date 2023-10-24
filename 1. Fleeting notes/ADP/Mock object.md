@@ -1,0 +1,1 @@
+nemusime implementovat vsechno
