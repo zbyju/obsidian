@@ -41,5 +41,15 @@ algrebraic data types
 
 functional approach does not need to concern about encapsulation that much. data is immutable so outsiders can't really break something externally.
 
+Handling errors:
+
 problems with exceptions:
 they propagate silently and you might not now that you are supposed to handle it
+
+using special values:
+sometimes there is no special value (max of Ints when the array is empty)
+the caller doesn't know what to check for (what are the special values in this case)
+
+another parameter for error values:
+ask the caller to tell us what value we should assign in that case
+this doesnt give us any options
