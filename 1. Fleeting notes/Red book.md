@@ -39,4 +39,4 @@ they need to exploit data sharing
 
 algrebraic data types
 
-functional approach does not need to conc
+functional approach does not need to concern about encapsulation that much. data is immutable so outsiders can't really break something externally.
