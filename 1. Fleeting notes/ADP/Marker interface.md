@@ -1,0 +1,1 @@
+Empty interface na to abychom oznacili nejake classy a oznacit si je, tak abychom je mohli dat do stejne kolekce
