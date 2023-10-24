@@ -40,3 +40,6 @@ they need to exploit data sharing
 algrebraic data types
 
 functional approach does not need to concern about encapsulation that much. data is immutable so outsiders can't really break something externally.
+
+problems with exceptions:
+they propagate silently and you might not now that you are supposed to handle it
