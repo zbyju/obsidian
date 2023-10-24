@@ -36,3 +36,7 @@ for all types X, Y, if X is a subtype of Y, then List[X] is a subtype of List[Y]
 
 how to write efficient data structures in immutable way?
 they need to exploit data sharing
+
+algrebraic data types
+
+functional approach does not need to conc
