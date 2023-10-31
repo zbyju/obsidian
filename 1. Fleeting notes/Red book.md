@@ -63,3 +63,6 @@ it's not type safe
 we can model errors as values
 ADTs can be used for that
 Option has Some(val) None
+Either has Left(error) Right(value)
+Try is like Either but errors are Throwable values
+Validated is like Either but errors are accumulated instead of just having one error
