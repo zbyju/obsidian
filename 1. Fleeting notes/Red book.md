@@ -53,3 +53,13 @@ the caller doesn't know what to check for (what are the special values in this c
 another parameter for error values:
 ask the caller to tell us what value we should assign in that case
 this doesnt give us any options
+
+chapter4
+
+throwing excpetions is a side effect - it breaks referential transparency
+it doesnt promote local reasoning
+it's not type safe
+
+we can model errors as values
+ADTs can be used for that
+Option has Some(val) None
