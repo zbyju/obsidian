@@ -13,4 +13,4 @@ XML je velmi obecne da se pouzit na hodne use-case v ramci specific formatu:
 - XHTML
 - SVG
 - ePUB
-- 
+- SOAP
