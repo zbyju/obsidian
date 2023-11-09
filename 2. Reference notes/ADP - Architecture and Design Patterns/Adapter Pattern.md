@@ -3,5 +3,11 @@
 - It works by converting the interface of a class into another interface that the client expects.
 - The adapter pattern allows the interaction without altering the original code that was not designed to work together.
 
+Improves Principles:
+- Open/Closed
+- Single Responsibility
+
+*Example: One service works with JSON, one with XML, we want them to work together, so we connect them using an adapter that converts JSON <-> XML* 
+
 **Linkage:**
 - [[_ADP Reference]]
