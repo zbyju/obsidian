@@ -7,3 +7,6 @@ Improves Principles:
 - Single Responsibility
 
 *Example: Remote control interface and its interaction with devices. The `RemoteControl` class serves as the abstraction, while `Device` is the implementation that can be extended to `TV`, `Radio`, etc., without changing the remote's code.* 
+
+**Linkage:**
+- [[_ADP Reference]]

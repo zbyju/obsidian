@@ -1,1 +1,0 @@
-Implementujeme zakladni funkcionalitu a potom specifika predavame kompozici
