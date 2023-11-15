@@ -1,0 +1,2 @@
+- A behavioral design pattern that defines a grammatical representation for a language and provides an interpreter to deal with this grammar.
+- Primarily used for parsing and evaluating expressions in a specific language or notation.
