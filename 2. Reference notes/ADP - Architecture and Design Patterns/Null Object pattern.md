@@ -1,0 +1,2 @@
+- A behavioral design pattern that uses an object with defined neutral ("null") behavior as a substitute for the absence of an object.
+- Prevents null reference errors by ensuring an object always has a valid reference to an instance, albeit one that performs no action.
