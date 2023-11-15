@@ -1,1 +1,0 @@
-Misto nullu budeme mit null objecty, ktery implementuje vsechny metody, kdyz na ni omylem zavolame metodu, tak se nic nestane
