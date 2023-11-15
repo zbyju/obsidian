@@ -1,0 +1,2 @@
+- A design pattern and technique in which an object's dependencies (services, resources) are provided to it from an external source rather than the object creating them itself.
+- Increases modularity and makes testing easier by allowing dependencies to be swapped, particularly with mocks or stubs in testing environments.
