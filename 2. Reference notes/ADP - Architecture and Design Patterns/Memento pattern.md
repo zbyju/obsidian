@@ -7,3 +7,6 @@ Improves Principles:
 - Single Responsibility
 
 *Example: Text editor: the Memento pattern can be used to implement undo functionality. Each change in the text is saved as a memento object. When the user wants to undo an action, the editor restores its state from these mementos, enabling backward navigation through the changes.*
+
+**Linkage:**
+- [[_ADP Reference]]
