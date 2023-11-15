@@ -1,1 +1,0 @@
-Slouzi pro vyhodnocovani validity
