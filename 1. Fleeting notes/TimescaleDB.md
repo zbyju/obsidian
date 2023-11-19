@@ -32,4 +32,10 @@ Time buckets ([`time_bucket`](https://docs.timescale.com/api/latest/hyperfunctio
 
 Time bucketing is essential to working with time-series data. You can use it to roll up data for analysis or downsampling. For example, you can calculate 5-minute averages for a sensor reading over the last day. You can perform these rollups as needed, or pre-calculate them in [continuous aggregates](https://docs.timescale.com/use-timescale/latest/continuous-aggregates/).
 
-This section explains how time bucketing works. For examples of the `time_bucket` function, see the section on [using time buckets](https://docs.timescale.com/use-timescale/latest/time-buckets/use-time-buckets/).
+### How time bucketing works
+Time bucketing groups data into time intervals. With `time_bucket`, the interval length can be any number of microseconds, milliseconds, seconds, minutes, hours, days, weeks, months, years, or centuries.
+
+The `time_bucket` function is usually used in combination with `GROUP BY` to aggregate data. For example, you can calculate the average, maximum, minimum, or sum of values within a bucket.
+
+![[Pasted image 20231119214923.png]]
+
