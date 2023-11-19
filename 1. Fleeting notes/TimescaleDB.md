@@ -48,17 +48,4 @@ Instead, time is divided into buckets based on intervals from the origin. The fo
 
 In other words you set some origin datetime and then you calculate the time buckets from that point instead of using the first value.
 ##### [Default origins](https://docs.timescale.com/use-timescale/latest/time-buckets/about-time-buckets/#default-origins)
-
-For intervals that don't include months or years, the default origin is January 3, 2000. For month, year, or century intervals, the default origin is January 1, 2000. For integer time values, the default origin is 0.
-
-These choices make the time ranges of time buckets more intuitive. Because January 3, 2000, is a Monday, weekly time buckets start on Monday. This is compliant with the ISO standard for calculating calendar weeks. Monthly and yearly time buckets use January 1, 2000, as an origin. This allows them to start on the first day of the calendar month or year.
-
-If you prefer another origin, you can set it yourself using the [`origin` parameter](https://docs.timescale.com/api/latest/hyperfunctions/time_bucket/#optional-arguments-for-interval-time-inputs). For example, to start weeks on Sunday, set the origin to Sunday, January 2, 2000.
-
-### [Timezones](https://docs.timescale.com/use-timescale/latest/time-buckets/about-time-buckets/#timezones)
-
-The origin time depends on the data type of your time values.
-
-If you use `TIMESTAMP`, by default, bucket start times are aligned with `00:00:00`. Daily and weekly buckets start at `00:00:00`. Shorter buckets start at a time that you can get to by counting in bucket increments from `00:00:00` on the origin date.
-
-If you use `TIMESTAMPTZ`, by default, bucket start times are aligned with `00:00:00 UTC`. To align time buckets to another timezone, set the `timezone` parameter.
+There are some sensible default origins (start on Monday at 00:00:00 etc), the default origin can be changed through 
