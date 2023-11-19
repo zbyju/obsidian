@@ -39,3 +39,7 @@ The `time_bucket` function is usually used in combination with `GROUP BY` to agg
 
 ![[Pasted image 20231119214923.png]]
 
+#### Origin
+The origin determines when time buckets start and end. By default, a time bucket doesn't start at the earliest timestamp in your data. There is often a more logical time. For example, you might collect your first data point at `00:37`, but you probably want your daily buckets to start at midnight. Similarly, you might collect your first data point on a Wednesday, but you might want your weekly buckets calculated from Sunday or Monday.
+
+Instead, time is divided into buckets based on intervals from the origin. The following diagram shows how, using the example of 2-week buckets. The first possible start date for a bucket is `origin`. The next possible start date for a bucket is `origin + bucket interval`. If your first timestamp does not fall exactly on a possible start date, the immediately preceding start date is used for the beginning of the bucket.
