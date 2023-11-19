@@ -18,5 +18,11 @@ Chunk size affects insert and query performance. You want a chunk small enough t
 We recommend setting the `chunk_time_interval` so that 25% of main memory can store one chunk, including its indexes, from each active hypertable. You can estimate the required interval from your data rate. For example, if you write approximately 2 GB of data per day and have 64 GB of memory, set the interval to 1 week. If you write approximately 10 GB of data per day on the same machine, set the time interval to 1 day.
 
 Be aware that indexes might take a lot of space if they are complex (e.g. geospatial). [`chunks_detailed_size`](https://docs.timescale.com/api/latest/hypertable/chunks_detailed_size) function can say more about the size.
-
 #### Hypertable indexes
+By default, indexes are automatically created when you create a hypertable. You can prevent index creation by setting the `create_default_indexes` option to `false`.
+
+The default indexes are:
+- On all hypertables, an index on time, descending
+- On hypertables with space partitions, an index on the space parameter and time
+
+Hypertables have some restrictions on unique constraints and indexes. If you want a unique index on a hypertable, it must include all the partitioning columns for the table. To learn more, see the section on [creating unique indexes on a hypertable](https://docs.timescale.com/use-timescale/latest/hypertables/hypertables-and-unique-indexes/).
