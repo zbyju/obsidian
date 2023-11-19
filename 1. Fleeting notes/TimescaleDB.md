@@ -28,3 +28,8 @@ The default indexes are:
 Hypertables have some restrictions on unique constraints and indexes. If you want a unique index on a hypertable, it must include all the partitioning columns for the table. To learn more, see the section on [creating unique indexes on a hypertable](https://docs.timescale.com/use-timescale/latest/hypertables/hypertables-and-unique-indexes/).
 
 ## [Time buckets](https://docs.timescale.com/use-timescale/latest/time-buckets/#time-buckets)
+Time buckets ([`time_bucket`](https://docs.timescale.com/api/latest/hyperfunctions/time_bucket/) function, similar to PostgreSQL's [`date_bin`](https://www.postgresql.org/docs/current/functions-datetime.html#FUNCTIONS-DATETIME-BIN) function, but gives more flexibility for bucket size and start time) enable you to aggregate data by time interval. For example, you can group data into 5-minute, 1-hour, and 3-day buckets to calculate summary values.
+
+Time bucketing is essential to working with time-series data. You can use it to roll up data for analysis or downsampling. For example, you can calculate 5-minute averages for a sensor reading over the last day. You can perform these rollups as needed, or pre-calculate them in [continuous aggregates](https://docs.timescale.com/use-timescale/latest/continuous-aggregates/).
+
+This section explains how time bucketing works. For examples of the `time_bucket` function, see the section on [using time buckets](https://docs.timescale.com/use-timescale/latest/time-buckets/use-time-buckets/).
