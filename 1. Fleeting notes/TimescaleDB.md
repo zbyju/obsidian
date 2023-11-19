@@ -26,3 +26,5 @@ The default indexes are:
 - On hypertables with space partitions, an index on the space parameter and time
 
 Hypertables have some restrictions on unique constraints and indexes. If you want a unique index on a hypertable, it must include all the partitioning columns for the table. To learn more, see the section on [creating unique indexes on a hypertable](https://docs.timescale.com/use-timescale/latest/hypertables/hypertables-and-unique-indexes/).
+
+## [Time buckets](https://docs.timescale.com/use-timescale/latest/time-buckets/#time-buckets)
