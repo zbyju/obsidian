@@ -12,3 +12,8 @@ Each hypertable is made up of child tables called chunks. Each chunk is assigned
 Each chunk of a hypertable only holds data from a specific time range. When you insert data from a time range that doesn't yet have a chunk, Timescale automatically creates a chunk to store it.
 By default, each chunk covers 7 days. You can change this to better suit your needs. For example, if you set `chunk_time_interval` to 1 day, each chunk stores data from the same day. Data from different days is stored in different chunks.
 ![[Pasted image 20231119212950.png]]
+#### Best practices
+Chunk size affects insert and query performance. You want a chunk small enough to fit into memory. This allows you to insert and query recent data without reading from disk. But you don't want too many small and sparsely filled chunks. This can affect query planning time and compression.
+
+We recommend setting the `chunk_time_interval` so that 25% of main memory can store one chunk, including its indexes, from each active hypertable. You can estimate the required interval from your data rate. For example, if you write approximately 2 GB of data per day and have 64 GB of memory, set the interval to 1 week. If you write approximately 10 GB of data per day on the same machine, set the time interval to 1 day.
+
