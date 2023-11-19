@@ -48,4 +48,4 @@ Instead, time is divided into buckets based on intervals from the origin. The fo
 
 In other words you set some origin datetime and then you calculate the time buckets from that point instead of using the first value.
 ##### [Default origins](https://docs.timescale.com/use-timescale/latest/time-buckets/about-time-buckets/#default-origins)
-There are some sensible default origins (start on Monday at 00:00:00 etc), the default origin can be changed through 
+There are some sensible default origins (start on Monday at 00:00:00 etc), the default origin can be changed through [`origin` parameter](https://docs.timescale.com/api/latest/hyperfunctions/time_bucket/#optional-arguments-for-interval-time-inputs)
