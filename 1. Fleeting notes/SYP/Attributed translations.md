@@ -10,8 +10,9 @@ each semantic rule is associated with just one syntactic rule
 Example:
 
 Syntax:
-1. S -> aSb
+1. S^0 -> aS^1b
 2. S -> eps
 
 Semantics:
-1. 
+1. S^0.n = S
+2. S.n = 0 (in the subtree of such S, there is 0 times 'a')
