@@ -22,5 +22,6 @@ Semantics:
 2. S.n = 0 (in the subtree of such S, there is 0 times 'a')
 
 Generally:
-1. Synthesized S -> aAb | S.s = f()
+1. Synthesized: S -> aAb | S.s = f(something?)
+2. Inherited:       S -> aAb | S.s = f(something?)
 
