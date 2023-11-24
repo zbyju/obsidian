@@ -14,5 +14,5 @@ Syntax:
 2. S -> eps
 
 Semantics:
-1. S^0.n = S
+1. S^0.n = S^1.n + 1
 2. S.n = 0 (in the subtree of such S, there is 0 times 'a')
