@@ -1,0 +1,1 @@
+every attribute A.s is computer during reduction A -> a
