@@ -10,4 +10,8 @@ each semantic rule is associated with just one syntactic rule
 Example:
 
 Syntax:
+1. S -> aSb
+2. S -> eps
+
+Semantics:
 1. 
