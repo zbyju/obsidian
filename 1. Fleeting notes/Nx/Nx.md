@@ -30,3 +30,8 @@ Nx cloud helps scale the project by adding remote caching and distributed task e
 Nx console is an extension for IDEs to provide autocompletion, interactive generators, workspace visualizations, refactoring, etc.
 
 ## Run tasks
+
+- **Command** - anything developer types into terminal (`nx run header:build`)
+- **Target** - the name of the action (`build`)
+- **Task** - invocation of a target on a specific project (`header:build`)
+
