@@ -38,4 +38,9 @@ Nx console is an extension for IDEs to provide autocompletion, interactive gener
 Nx uses the following syntax:
 ![[run-target-syntax.svg]]
 
-You can also do `nx run-many`, this will run multiple tasks for multiple projects. It will run them in parallel, but you can specify a pipeline 
+You can also do `nx run-many`, this will run multiple tasks for multiple projects. It will run them in parallel, but you can specify a pipeline to describe the order and dependencies of these tasks.
+
+Using `nx affected` you can run tasks for only projects that are affected by your PR.
+
+Nx can understand the dependecies of the project (project graph), but you need to define for which tasks this ordering actually matters.
+
