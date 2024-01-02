@@ -35,3 +35,7 @@ Nx console is an extension for IDEs to provide autocompletion, interactive gener
 - **Target** - the name of the action (`build`)
 - **Task** - invocation of a target on a specific project (`header:build`)
 
+Nx uses the following syntax:
+![[run-target-syntax.svg]]
+
+You can also do `nx run-many`, this will run multiple tasks for multiple projects. It will run them in parallel, but you can specify a pipeline 
