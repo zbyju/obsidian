@@ -12,7 +12,6 @@ Features:
 - Integration of tooling
 
 ## How does Nx work?
-
 Nx is technology agnostic. The main capabilities are for any project, using any technology/language:
 - worksapce analysis
 - task running
@@ -30,7 +29,6 @@ Nx cloud helps scale the project by adding remote caching and distributed task e
 Nx console is an extension for IDEs to provide autocompletion, interactive generators, workspace visualizations, refactoring, etc.
 
 ## Run tasks
-
 - **Command** - anything developer types into terminal (`nx run header:build`)
 - **Target** - the name of the action (`build`)
 - **Task** - invocation of a target on a specific project (`header:build`)
@@ -45,13 +43,11 @@ Using `nx affected` you can run tasks for only projects that are affected by you
 Nx can understand the dependecies of the project (project graph), but you need to define for which tasks this ordering actually matters.
 
 ## Explore the graph
-
 `npx nx graph`
 
 Generates a project graph visualization. This is good for debugging and understanding what nx is thinking when executing tasks.
 
 ## Automating updating dependencies
-
 `nx migrate` helps with the process of updating:
 - package versions in package.json
 - configuration files (Jest, ESLint, Nx config)
@@ -61,10 +57,14 @@ It happens in three steps:
 1. Dependencies gets updated (including package.json, node_modules)
 2. The source code gets updated to match the new versions according to the set of instructions in `migrations.json`
 3. Optionally remove the `migrations.json` or rerun them in different git branches.
-
 ### Step 1
-
 `nx migrate latest` (you can also specify exact version by replacing `latest` with `nx@<version>`)
 
-This step updates the dependencies, package.json and generates `migrations.json`
+This step package.json and generates `migrations.json`
+
+Now, you can inspect the package.json and inspect the changes that are about to happen.
+### Step 2
+To confirm the migrations: `nx migrate --run-migrations` - this will upgrade the source code.
+### Step 3
+You can remove migrations.json and commit the changes.
 
