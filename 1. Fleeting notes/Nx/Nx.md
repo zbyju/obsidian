@@ -100,3 +100,8 @@ There are 3 types of generators:
 `nx generate @nx/react:component mycmp --project=myapp`
 
 It's recommended to have a clean git working dir before invoking a generator to easily revert changes.
+
+# Mental model
+## Project graph
+It's used to reflect the source code and dependencies (3rd party).
+
