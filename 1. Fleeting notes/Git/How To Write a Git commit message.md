@@ -33,4 +33,4 @@ For example:
 Git doesn't wrap, we need to do that manually. The terminal uses 80 chars and some git commands might want to indent some parts etc. We should leave some room, so it's recommended to wrap at 72.
 
 ## 7. Body to explain what and why
-Body should explain what changed and why those changes were made. It shouldn't really go into detai
+Body should explain what changed and why those changes were made. It shouldn't really go into detail and should avoid how unless it adds some relevant information.
