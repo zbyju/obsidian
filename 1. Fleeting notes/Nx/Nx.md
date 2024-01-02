@@ -44,4 +44,9 @@ Using `nx affected` you can run tasks for only projects that are affected by you
 
 Nx can understand the dependecies of the project (project graph), but you need to define for which tasks this ordering actually matters.
 
-## Enable caching
+## Explore the graph
+
+`npx nx graph`
+
+Generates a project graph visualization. This is good for debugging and understanding what nx is thinking when executing tasks.
+
