@@ -28,6 +28,7 @@ Nx cloud helps scale the project by adding remote caching and distributed task e
 
 Nx console is an extension for IDEs to provide autocompletion, interactive generators, workspace visualizations, refactoring, etc.
 
+# Code features
 ## Run tasks
 - **Command** - anything developer types into terminal (`nx run header:build`)
 - **Target** - the name of the action (`build`)
@@ -71,3 +72,13 @@ You can remove migrations.json and commit the changes.
 ## Enforce module boundaries
 You can impose constraints on how projects depend on each other to prevent chaos.
 
+## Manage releases
+`nx release` can be used to manage releases.
+
+1. Versioning - process of determining the next version of your projects and updating any projects that depend on them to use the new version.
+2. Changelog - process of deriving a changelog from the commit messages
+3. Publishing - process of publishing projects to a registry
+
+# Plugin features
+
+# T
