@@ -68,3 +68,6 @@ To confirm the migrations: `nx migrate --run-migrations` - this will upgrade the
 ### Step 3
 You can remove migrations.json and commit the changes.
 
+## Enforce module boundaries
+You can impose constraints on how projects depend on each other to prevent chaos.
+
