@@ -81,4 +81,9 @@ You can impose constraints on how projects depend on each other to prevent chaos
 
 # Plugin features
 
-# T
+# Task executors
+They perform an action on your code - building, linting, testing, serving, etc.
+
+### Executor vs Shell script/npm script
+1. Executors encourage consistent methodology for similar tasks (`nx build project1` and `nx build project2` will do very similar things which gives confidence and removes mental overhead)
+2. This consistency can then 
