@@ -57,3 +57,8 @@ Generates a project graph visualization. This is good for debugging and understa
 - configuration files (Jest, ESLint, Nx config)
 - source code (fixing breaking changes, migrating to new best practices)
 
+It happens in three steps:
+1. Dependencies gets updated (including package.json, node_modules)
+2. The source code gets updated to match the new versions according to the set of instructions in `migrations.json`
+3. Optionally remove the `migrations.json` or rerun them in different git branches.
+
