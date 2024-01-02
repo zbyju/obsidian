@@ -62,3 +62,9 @@ It happens in three steps:
 2. The source code gets updated to match the new versions according to the set of instructions in `migrations.json`
 3. Optionally remove the `migrations.json` or rerun them in different git branches.
 
+### Step 1
+
+`nx migrate latest` (you can also specify exact version by replacing `latest` with `nx@<version>`)
+
+This step updates the dependencies, package.json and generates `migrations.json`
+
