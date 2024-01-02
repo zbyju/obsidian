@@ -27,4 +27,10 @@ The git tooling is following this on every occasion and so we should follow (Mer
 The message should always be able to complete the following sentence:
 `If applied, this commit will X`
 For example:
-`If applied, this commit will`**`refactor subsytem X f`**
+`If applied, this commit will`**`refactor subsytem X for readability`**
+
+## 6. Wrap the body to 72 chars
+Git doesn't wrap, we need to do that manually. The terminal uses 80 chars and some git commands might want to indent some parts etc. We should leave some room, so it's recommended to wrap at 72.
+
+## 7. Body to explain what and why
+Body should explain what changed and why those changes were made. It shouldn't really go into detai
