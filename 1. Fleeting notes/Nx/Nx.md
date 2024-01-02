@@ -93,4 +93,10 @@ They perform an action on your code - building, linting, testing, serving, etc.
 There are 3 types of generators:
 1. Plugin Generator - they are available as an Nx Plugin
 2. Local Generators - generators created for your own workspace. They allow you to codify the processes that are unique to your organization.
-3. Update Generators - invoked by Nx 
+3. Update Generators - invoked by Nx plugins when you update Nx to keep your config files in sync with the latest versions of 3rd party tools.
+
+### Plugin generators
+`nx generate [plugin]:[generator-name] [options]`
+`nx generate @nx/react:component mycmp --project=myapp`
+
+It's recommended to have a clean git working dir before invoking a generator to easily revert changes.
