@@ -50,3 +50,6 @@ Nx can understand the dependecies of the project (project graph), but you need t
 
 Generates a project graph visualization. This is good for debugging and understanding what nx is thinking when executing tasks.
 
+## Automating updating dependencies
+
+`nx migrate`
