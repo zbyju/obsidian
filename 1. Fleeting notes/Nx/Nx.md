@@ -81,10 +81,16 @@ You can impose constraints on how projects depend on each other to prevent chaos
 
 # Plugin features
 
-# Task executors
+## Task executors
 They perform an action on your code - building, linting, testing, serving, etc.
 
 ### Executor vs Shell script/npm script
 1. Executors encourage consistent methodology for similar tasks (`nx build project1` and `nx build project2` will do very similar things which gives confidence and removes mental overhead)
 2. This consistency can then be leveraged when running for multiple projects (one can expect `build`, `test`, ... to exist for each project) - `nx affected` will run tests for all affected projects for example.
 3. Nx integrates with the editor and using the metadata of each executor the developer gets more information.
+
+## Code generators
+There are 3 types of generators:
+1. Plugin Generator - they are available as an Nx Plugin
+2. Local Generators - generators created for your own workspace. They allow you to codify the processes that are unique to your organization.
+3. Update Generators - invoked by Nx 
