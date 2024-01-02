@@ -25,4 +25,8 @@ Plugins are technology specific - they build on top of the fundamental capabilit
 
 Devkit is a set of utilities
 
-Nx cloud helps scale the project by adding remote caching and distributed task execution; integrates with github, gitlab and bitbucket to provide searchable and 
+Nx cloud helps scale the project by adding remote caching and distributed task execution; integrates with github, gitlab and bitbucket to provide searchable and structured logs.
+
+Nx console is an extension for IDEs to provide autocompletion, interactive generators, workspace visualizations, refactoring, etc.
+
+## Run tasks
