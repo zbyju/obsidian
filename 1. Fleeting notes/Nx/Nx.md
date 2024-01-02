@@ -13,4 +13,16 @@ Features:
 
 ## How does Nx work?
 
-Nx is technology agnostic. The main capabilities are for any project, using any technology/language
+Nx is technology agnostic. The main capabilities are for any project, using any technology/language:
+- worksapce analysis
+- task running
+- caching
+- distribution
+- code generation
+- automated code migrations
+
+Plugins are technology specific - they build on top of the fundamental capabilities. 
+
+Devkit is a set of utilities
+
+Nx cloud helps scale the project by adding remote caching and distributed task execution; integrates with github, gitlab and bitbucket to provide searchable and 
