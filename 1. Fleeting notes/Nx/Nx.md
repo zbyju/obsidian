@@ -44,3 +44,4 @@ Using `nx affected` you can run tasks for only projects that are affected by you
 
 Nx can understand the dependecies of the project (project graph), but you need to define for which tasks this ordering actually matters.
 
+## Enable caching
