@@ -52,4 +52,8 @@ Generates a project graph visualization. This is good for debugging and understa
 
 ## Automating updating dependencies
 
-`nx migrate`
+`nx migrate` helps with the process of updating:
+- package versions in package.json
+- configuration files (Jest, ESLint, Nx config)
+- source code (fixing breaking changes, migrating to new best practices)
+
