@@ -26,6 +26,19 @@ If we are using an index we have better lookup efficiency. Otherwise we still us
 
 Pros:
 - Faster when using the index
-- 
+
+Cons:
+- Maintenance overhead for the index (when inserting, deleting, updating)
+- Index takes additional storage
+
+Use case:
+- Useful for big tables
+- When we know what column we are going to access by
 
 # Index-Organized Table
+Doesn't use the heap but rather stores everything within the B* Tree.
+
+Intermediate leaves still just guide the traversal.
+Leave nodes store the actual data, there are no pointers.
+
+The data is 
