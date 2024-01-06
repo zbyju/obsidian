@@ -19,3 +19,4 @@ The heap table can also have an index implemented using a B* Tree.
 
 ![B Tree](https://i.imgur.com/rLkcdAZ.png)
 
+All the internal (non-leaf) nodes guide the search - they include intervals to 
