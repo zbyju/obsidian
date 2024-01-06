@@ -1,7 +1,7 @@
 # Cost-based optimization
 Technique used by the database engine (specifically the query optimizer) to determine the most efficient way to execute the query.
 
-The goal is to minimize use of resources - time, disk I/O and memory.
+The goal is to minimize use of resources .
 
 # Execution Plan
 Engine creates an execution plan - different strategies for retrieving the data. It calculates the cost for each execution plan and selects the plan with the lowest cost.
