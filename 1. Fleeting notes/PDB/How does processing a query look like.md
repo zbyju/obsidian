@@ -16,4 +16,5 @@ Generate several potential execution plans for the query and for each one calcul
 # 5. Execute the plan
 Run the query according to the best execution plan and return the result.
 
-The execution starts with accessing the data sources using chosen data access methods 
+- The execution starts with accessing the data sources using chosen data access methods
+- In the middle layers, there are basic relational operations (selec)
