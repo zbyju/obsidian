@@ -15,7 +15,7 @@ Use cases:
 - Small tables
 - When using an index is not worth it
 # Heap table with index
-The heap table can also have an index implemented using a B* Tree.
+The heap table can also have an index implemented using a B* Tree. Data is unordered in the heap.
 
 ![B Tree](https://i.imgur.com/rLkcdAZ.png)
 
@@ -41,4 +41,13 @@ Doesn't use the heap but rather stores everything within the B* Tree.
 Intermediate leaves still just guide the traversal.
 Leave nodes store the actual data, there are no pointers.
 
-The data is 
+The data is ordered in the leaves.
+
+Pros:
+- Fast access using the index
+- Space efficient - no separate index
+- Can improve range based queries - data is sorted so we can sequentially get them
+
+Cons:
+- Overhead with index maintenance
+- N
