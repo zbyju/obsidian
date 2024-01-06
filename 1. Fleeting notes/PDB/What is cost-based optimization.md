@@ -2,3 +2,4 @@ Technique used by the database engine (specifically the query optimizer) to dete
 
 The goal is to minimize use of resources - time, disk I/O and memory.
 
+Engine creates an execution plan - different strategies 
