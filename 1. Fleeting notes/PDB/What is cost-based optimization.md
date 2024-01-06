@@ -24,4 +24,7 @@ The query optimizer uses statistics for cost calculation - it needs to know the 
 - **Index statistics** - Uniqueness and structure of indexes
 
 Statistics are collected:
-- **Automatically** - collecting in regular intervals or during certai
+- **Automatically** - collecting in regular intervals or during certain operations
+- **Manually** - admin can manually update the statistics
+
+Statistics are used to estimate the cost. The optimizer uses the row counts to determine best scan approach and how many 
