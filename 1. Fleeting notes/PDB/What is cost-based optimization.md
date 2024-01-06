@@ -16,5 +16,9 @@ The execution plans differ in:
 # Statistics of Data Objects
 The query optimizer uses statistics for cost calculation - it needs to know the sizes, distribution and characteristics of tables and indexes.
 
-- Data size, row count
+- Data size, row count - number of rows in a table or index, size of the table or index on disk
 - Data distribution
+	- Histograms 
+	- Density values - proportion of table rows to be expected to have some value
+- **Cardinality estimate** - number of distinct values in a column (high cardinality = many unique values, low cardinality = repeating values)
+- Index statistics - 
