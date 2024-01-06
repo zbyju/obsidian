@@ -2,7 +2,7 @@
 Take the query and parse it into a abstract syntax tree.
 
 # 2. Semantic analysis
-Check the query against the schema for correctness.
+Check the query against the schema for correctness (also check user permissions)
 
 **Optimizations:** Schema information can be cached.
 
@@ -12,3 +12,6 @@ Rewrite the query to optimize it further by simplifying some expressions, elimin
 
 # 4. Query optimization
 Generate several potential execution plans for the query and for each one calculate the cost. Pick the execution plan with the lowest cost.
+
+# 5. Execute the plan
+Execute the plan and return the 
