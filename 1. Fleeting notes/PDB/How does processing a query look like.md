@@ -14,4 +14,6 @@ Rewrite the query to optimize it further by simplifying some expressions, elimin
 Generate several potential execution plans for the query and for each one calculate the cost. Pick the execution plan with the lowest cost.
 
 # 5. Execute the plan
-Execute the plan and return the 
+Run the query according to the best execution plan and return the result.
+
+The execution starts with accessing the data sources using chosen data access methods 
