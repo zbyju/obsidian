@@ -19,4 +19,13 @@ The heap table can also have an index implemented using a B* Tree.
 
 ![B Tree](https://i.imgur.com/rLkcdAZ.png)
 
-All the internal (non-leaf) nodes guide the search - they include intervals to 
+All the internal (non-leaf) nodes guide the search - they include intervals to know which branch to take.
+Leaf nodes store the data entries and pointers to the actual records in the heap table using `ROWID`. 
+
+If we are using an index we have better lookup efficiency. Otherwise we still use the heap table.
+
+Pros:
+- Faster when using the index
+- 
+
+# Index-Organized Table
