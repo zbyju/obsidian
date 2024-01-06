@@ -27,4 +27,6 @@ Statistics are collected:
 - **Automatically** - collecting in regular intervals or during certain operations
 - **Manually** - admin can manually update the statistics
 
-Statistics are used to estimate the cost. The optimizer uses the row counts to determine best scan approach and how many 
+Statistics are used to estimate the cost. The optimizer uses the row counts to determine best scan approach and how big the result/sub-result will be. It uses the distribution statistics to estimate how many rows are going to get filtered out (when using `WHERE` or `JOIN`). 
+
+Outdated statistics can be misleading. Statistics that are too simple might not capture the 
