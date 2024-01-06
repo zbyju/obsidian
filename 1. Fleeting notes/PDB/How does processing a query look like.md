@@ -16,5 +16,8 @@ Generate several potential execution plans for the query and for each one calcul
 # 5. Execute the plan
 Run the query according to the best execution plan and return the result.
 
-- The execution starts with accessing the data sources using chosen data access methods
-- In the middle layers, there are basic relational operations (selec)
+- The execution starts from the leaves with accessing the data sources using chosen data access methods
+- In the middle layers, there are basic relational operations (selection, projection, join, sorting, ...). We can utilize different **passing data methods**:
+	- **on-the-fly** - Data is streamed directly from one operation to another through the pipeline
+	- **materialization** - intermediate results are fully computed and stored temporarily before passed to the next operation
+- 
