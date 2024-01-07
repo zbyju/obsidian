@@ -11,5 +11,7 @@ They are different strategies for accessing the data from the database. Access p
 2. Unique index = index scan
 	- in case of heap table the cost is: $I(A,R) + 1$
 	- in case of IOT the cost is: $I(A,R)$
-3. Non-uniqeu index = index scan
-	1. 
+3. Non-unique index = index scan
+	- cost is: $I(A,R)+n(R(A='x'))$
+		- The depth of the index tree + number of nodes that need to be scanned
+	- in practice depends on the clustering factor
