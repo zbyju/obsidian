@@ -15,8 +15,8 @@ They are not updated with each DML operation, but rather automatically, when the
 - Branching Factor
 	- Typically (50-150)
 - Number of Leaves
-	- 
 - Clustering Factor
+	- Measures how the order of the idnexe
 - Average Key Length
 - Distinct Keys
 - Index Density
