@@ -1,6 +1,7 @@
 # Database statistics
-- Row Count
-- Pages Count
+- nR - Row Count
+- V(A, R) - Number of distinct values in column A of relation R
+- pR - Pages Count
 - Data Distribution
 	- Min, Max
 	- Histograms
@@ -16,7 +17,8 @@ They are not updated with each DML operation, but rather automatically, when the
 	- Typically (50-150)
 - Number of Leaves
 - Clustering Factor
-	- Amount of data blocks that must be visited to receive 
+	- Amount of data blocks that must be visited to receive sorted data (according to the index)
+		- 
 	- Measures how the order of the index correlates with the order of the table data. 
 	- Low clustering index = data on disk are stored in close proximity to how the index is sorted
 		- Leads to better performance
