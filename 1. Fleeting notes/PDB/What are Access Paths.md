@@ -2,3 +2,9 @@ They are different strategies for accessing the data from the database. Access p
 
 - Full table scan
 - Index scan
+
+`SELECT * FROM R WHERE A = 'x'`
+
+1. No index = full table scan
+	1. if A is unique then on average the cost is: $pR/2$
+2. No index = full 
