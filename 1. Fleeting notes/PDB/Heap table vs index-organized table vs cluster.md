@@ -53,3 +53,7 @@ Cons:
 - Basically only useful for primary key access
 
 # Cluster
+Cluster is a collection of tables that share the data blocks to store data because they are often used together. Rows from multiple tables share some common key (doesn't have to be the primary key).
+
+Pros:
+- Efficient `JOIN` - 
