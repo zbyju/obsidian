@@ -16,7 +16,8 @@ They are not updated with each DML operation, but rather automatically, when the
 	- Typically (50-150)
 - Number of Leaves
 - Clustering Factor
-	- Measures how the order of the idnexe
+	- Measures how the order of the index correlates with the order of the table data. 
+	- Low clustering index = 
 - Average Key Length
 - Distinct Keys
 - Index Density
