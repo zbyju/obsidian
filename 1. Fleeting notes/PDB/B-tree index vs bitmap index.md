@@ -1,4 +1,6 @@
-*Note: $Cardinality = \frac{Number\ of\ key\ values}{Number\ of\ }$*
+*Note:
+	$Cardinality = \frac{Number\ of\ key\ values}{Number\ of\ tuples}$
+	For index $Cardinality=1$, for gender $Cardinality = \frac{2}{ROWS}$*
 # B-tree index
 B-tree has data in its leaves, rest of the nodes are used for guiding the traversal. It is usually pretty wide and shallow.
 
