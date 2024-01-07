@@ -18,7 +18,8 @@ They are not updated with each DML operation, but rather automatically, when the
 - Number of Leaves
 - Clustering Factor
 	- Amount of data blocks that must be visited to receive sorted data (according to the index)
-		- 
+		- Min value = pR (# pages)
+		- Max value = nR (# rows)
 	- Measures how the order of the index correlates with the order of the table data. 
 	- Low clustering index = data on disk are stored in close proximity to how the index is sorted
 		- Leads to better performance
