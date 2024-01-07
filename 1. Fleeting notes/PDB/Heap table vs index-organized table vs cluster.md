@@ -45,9 +45,11 @@ The data is ordered in the leaves.
 
 Pros:
 - Fast access using the index
-- Space efficient - no separate index
+- Space efficient - no separate table
 - Can improve range based queries - data is sorted so we can sequentially get them
 
 Cons:
 - Overhead with index maintenance
-- N
+- Basically only useful for primary key access
+
+# Cluster
