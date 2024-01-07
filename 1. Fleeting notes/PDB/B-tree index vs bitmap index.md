@@ -23,4 +23,10 @@ Use case:
 - OLTP
 
 # Bitmap index
-Bitmap for each distinct value in the indexed column.
+Bitmap for each distinct value in the indexed column. The column gets split to as many columns as there are distinct values (Gender = Male, Female) and each column can either have value 0 or 1.
+
+##### Lookup
+To find all rows with a specific value, the database does bit operations to filter those rows.
+
+##### Pros
+- Space efficient - 
