@@ -29,4 +29,15 @@ Bitmap for each distinct value in the indexed column. The column gets split to a
 To find all rows with a specific value, the database does bit operations to filter those rows.
 
 ##### Pros
-- Space efficient - 
+- Space efficient - uses very little space for columns
+- Fast - bit operations are fast
+- Ideal for low cardinality columns (gender, enumerate types)
+- Good for OLAP
+
+##### Cons
+- Really bad for high cardinality
+- Very slow DML operations
+
+##### Use case
+- Columns with low cardinality
+- OLAP
