@@ -56,4 +56,11 @@ Cons:
 Cluster is a collection of tables that share the data blocks to store data because they are often used together. Rows from multiple tables share some common key (doesn't have to be the primary key).
 
 Pros:
-- Efficient `JOIN` - 
+- Efficient `JOIN` - the engine can read the data from both tables simultaneously, because they are stored together.
+- Disk space utilization - it can reduce I/O and disk space if the premises are met.
+
+Cons:
+- The system might degrade if used incorrectly.
+
+Use case:
+Tables that are usually used together, queried together, joined together.
