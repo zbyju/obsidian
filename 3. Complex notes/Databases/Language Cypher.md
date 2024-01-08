@@ -1,5 +1,15 @@
 It is a query language for interacting with graph databases (mainly Neo4j).
 
+##### Pros:
+- Intuitive syntax
+- Easy to follow
+- Graph data in mind
+- Allows complex graph queries elegantly
+
+##### Cons:
+- Specific
+- Learning curve
+
 # Main features
 ## Graph pattern matching
 `()` - nodes
@@ -19,6 +29,12 @@ MATCH (i:ACTOR)<-[:PLAY]-(m:MOVIE)-[:PLAY]->(a:ACTOR)
 RETURN a.name
 ```
 
+## Other clauses
+- START
+- MATCH
+- WHERE
+- RETURN
+- 
 
 #database-language
 #language-cypher
