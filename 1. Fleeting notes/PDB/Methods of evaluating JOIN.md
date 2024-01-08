@@ -17,4 +17,5 @@ Build a hash table on the join key of the smaller table. Scan the larger table t
 
 ##### Pros:
 - Faster than nested loops
-- Fast for equi-joins ()
+##### Cons:
+- Requires memory to hold the hash table
