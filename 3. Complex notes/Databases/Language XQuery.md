@@ -17,4 +17,14 @@ XQuery works over a tree structure of XML documents. It is a superset of XPath.
 XQuery utilizes XPath to navigate through elements and attributes.
 
 ## Quanitifiers
-`SOME | EVER` ... `IN` ... `SATIFIES`
+`SOME | EVER` ... `IN` ... `SATIFIES` ...
+
+## Conditional Expressions
+if-then-else constructs
+
+## Aggregation Functions
+- COUNT
+- SUM
+- AVG
+- MIN
+- MAX
