@@ -7,3 +7,11 @@ It can be represented in a tree structure - the root holds the final result and 
 It's created with each query the database needs to handle.
 
 ## Ah-hoc queries
+Queries that are submitted on-the-fly, the execution plan is generated every time such query is submitted to the database.
+
+## Prepared statements
+For prepared statements, the execution plan may already be generated from before and reused for subsequent queries.
+
+# Is it worth caching it?
+Depending on the situation it is a good idea to cache it, but it can be tricky.
+
