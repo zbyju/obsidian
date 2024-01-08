@@ -15,3 +15,5 @@ They are different strategies for accessing the data from the database. Access p
 	- cost is: $I(A,R)+n(R(A='x'))$
 		- The depth of the index tree + number of nodes that need to be scanned
 	- in practice depends on the clustering factor
+
+#database-access-method

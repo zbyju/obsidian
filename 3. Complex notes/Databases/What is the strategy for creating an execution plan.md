@@ -5,3 +5,5 @@ The optimizer generates multiple execution plans based on available indexes, acc
 	- If tables are small than going through the index can be slower
 2. High selectivity
 	- If most records are returned anyway, then using an index doesn't save time
+
+#database-execution-plan 

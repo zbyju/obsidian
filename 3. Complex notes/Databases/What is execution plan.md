@@ -21,3 +21,6 @@ Depending on the situation it is a good idea to cache it, but it can be tricky.
 ##### Cons:
 - If the underlying data changes significantly, it needs to be recalculated
 - Certain execution plan can be optimized for a certain set of parameters
+
+#database-execution-plan 
+#database-prepared-statement

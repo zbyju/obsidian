@@ -28,3 +28,5 @@ They are not updated with each DML operation, but rather automatically, when the
 - Distinct Keys
 - Index Density
 
+#database-statistics
+#database-cost-based-optimization 

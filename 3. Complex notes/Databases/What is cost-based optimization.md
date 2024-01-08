@@ -32,3 +32,7 @@ Statistics are collected:
 Statistics are used to estimate the cost. The optimizer uses the row counts to determine best scan approach and how big the result/sub-result will be. It uses the distribution statistics to estimate how many rows are going to get filtered out (when using `WHERE` or `JOIN`). 
 
 Outdated statistics can be misleading. Statistics that are too simple might not give the correct idea and cause bad decisions to be made by the optimizer. Complex statistics might slow down the database too much.
+
+#cost-based-optimization
+#database-cost-based-optimization
+#database-execution-plan
