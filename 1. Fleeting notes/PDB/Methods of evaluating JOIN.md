@@ -4,4 +4,17 @@ The simplest way of joining 2 tables is to for each row in the first table itera
 ##### Pros:
 - Simple
 - Most efficient for small tables or at least one table being small
-- Efficient if the inner table is indexed on the join column ()
+- Efficient if the inner table is indexed on the join column
+##### Cons:
+- Can be very slow for large tables
+
+##### Use case:
+- Outer table is small
+- Inner table is indexed on the join column
+
+# 2. Hash Join
+Build a hash table on the join key of the smaller table. Scan the larger table to find matching rows.
+
+##### Pros:
+- Faster than nested loops
+- Fast for equi-joins ()
