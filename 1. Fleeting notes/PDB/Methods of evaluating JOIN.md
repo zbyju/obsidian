@@ -19,3 +19,9 @@ Build a hash table on the join key of the smaller table. Scan the larger table t
 - Faster than nested loops
 ##### Cons:
 - Requires memory to hold the hash table
+
+##### Use case:
+- Fast for big tables
+
+# 3. Merge Join
+Both tables are sorted according to the join key and then merged.
