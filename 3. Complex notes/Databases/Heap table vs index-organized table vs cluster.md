@@ -64,3 +64,9 @@ Cons:
 
 Use case:
 Tables that are usually used together, queried together, joined together.
+
+#heap-table
+#index-organized-table
+#cluster-table
+#database-table
+#database-index

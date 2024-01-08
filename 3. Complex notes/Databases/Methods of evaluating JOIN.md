@@ -41,3 +41,5 @@ Both tables are sorted according to the join key and then merged. Usually doesn'
 - Index Join
 - Hash cluster join
 - ...
+
+#database-join

@@ -44,3 +44,7 @@ To find all rows with a specific value, the database does bit operations to filt
 ##### Use case
 - Columns with low cardinality
 - OLAP
+
+#database-index 
+#b-tree
+#bitmap-index

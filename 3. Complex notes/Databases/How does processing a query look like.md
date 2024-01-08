@@ -22,3 +22,5 @@ Run the query according to the best execution plan and return the result.
 		- Better memory efficiency, speed
 	- **materialization** - intermediate results are fully computed and stored temporarily before passed to the next operation
 - Execution ends in the root of the tree where all the data is combined together to form the result.
+
+#database-query
