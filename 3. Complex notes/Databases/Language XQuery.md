@@ -1,0 +1,2 @@
+XQuery works over a tree structure of XML documents. It is a 
+

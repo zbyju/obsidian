@@ -22,4 +22,7 @@ MongoDB offers many methods to interact with collections, in which it stores dat
 `find` is the equivalent to `SELECT` in SQL. It first takes an argument - an object specifying how it should filter data and second argument specifying which fields to return.
 
 ## Aggregation pipelines
-MongoDB of
+MongoDB offers some advanced aggregation pipelines to be created.
+
+## No JOIN
+There is no way to JOIN two collections together. We need to use an aggregation pipeline to do that.
