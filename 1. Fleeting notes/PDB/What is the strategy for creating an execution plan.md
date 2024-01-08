@@ -4,4 +4,4 @@ The optimizer generates multiple execution plans based on available indexes, acc
 1. Small tables
 	- If tables are small than going through the index can be slower
 2. High selectivity
-	- If the 
+	- If most records are returned anyway, then using an index doesn't save time
