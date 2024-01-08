@@ -13,7 +13,7 @@ The simplest way of joining 2 tables is to for each row in the first table itera
 - Inner table is indexed on the join column
 
 # 2. Hash Join
-Build a hash table on the join key of the smaller table. Scan the larger table to find matching rows.
+Build a hash table on the join key. Compare groups with same hash value.
 
 ##### Pros:
 - Faster than nested loops
@@ -24,4 +24,6 @@ Build a hash table on the join key of the smaller table. Scan the larger table t
 - Fast for big tables
 
 # 3. Merge Join
-Both tables are sorted according to the join key and then merged. Usually doesn't fit into memory =>
+Both tables are sorted according to the join key and then merged. Usually doesn't fit into memory => need more runs (read-sort-write multiple times)
+
+##### Pros:
