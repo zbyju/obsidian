@@ -15,3 +15,9 @@ For prepared statements, the execution plan may already be generated from before
 # Is it worth caching it?
 Depending on the situation it is a good idea to cache it, but it can be tricky.
 
+##### Pros:
+- Better performance
+- Really good if the same query repeats a lot
+##### Cons:
+- If the underlying data changes significantly, it needs to be recalculated
+- Certain execution plan can be optimized for a certain set of parameters
