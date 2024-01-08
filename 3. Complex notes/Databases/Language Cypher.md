@@ -4,13 +4,21 @@ It is a query language for interacting with graph databases (mainly Neo4j).
 ## Graph pattern matching
 `()` - nodes
 `<--` | `--` | `-->` - relationships
-`(node1)-[relationship]->(node2)`
+
+```cypher
+(node1)-[relationship]->(node2)
+```
 
 ## Chaining
 Clauses can be chained together
 
-## Filtering
-Using `WHERE`
+## Match Clause
+```cypher
+MATCH (i:ACTOR)<-[:PLAY]-(m:MOVIE)-[:PLAY]->(a:ACTOR)
+	WHERE (i.name = "Ivan Trojan")
+RETURN a.name
+```
+
 
 #database-language
 #language-cypher
