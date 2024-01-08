@@ -26,3 +26,7 @@ MongoDB offers some advanced aggregation pipelines to be created.
 
 ## No JOIN
 There is no way to JOIN two collections together. We need to use an aggregation pipeline to do that.
+
+#database-language 
+#MongoDB
+#MongoDB-Query-Language

@@ -28,3 +28,7 @@ if-then-else constructs
 - AVG
 - MIN
 - MAX
+
+#database-language 
+#XQuery
+#database-XQuery
