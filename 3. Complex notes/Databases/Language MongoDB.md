@@ -1,0 +1,1 @@
+Inspired by JavaScript and uses JavaScript-like objects and dot notation. MongoDB stores data in BSON (- Binae)
