@@ -24,4 +24,4 @@ Build a hash table on the join key of the smaller table. Scan the larger table t
 - Fast for big tables
 
 # 3. Merge Join
-Both tables are sorted according to the join key and then merged.
+Both tables are sorted according to the join key and then merged. Usually doesn't fit into memory =>
