@@ -27,3 +27,17 @@ Build a hash table on the join key. Compare groups with same hash value.
 Both tables are sorted according to the join key and then merged. Usually doesn't fit into memory => need more runs (read-sort-write multiple times)
 
 ##### Pros:
+- Efficient for tables that are already sorted on join key.
+- Performs well on large datasets
+##### Cons:
+- Sort can be costly
+- Requires a lot of memory
+
+##### Use case:
+- Large datasets
+- Datasets already sorted on join key
+
+# Special Join
+- Index Join
+- Hash cluster join
+- ...
