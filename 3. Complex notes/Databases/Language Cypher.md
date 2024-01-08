@@ -34,7 +34,12 @@ RETURN a.name
 - MATCH
 - WHERE
 - RETURN
-- 
+- ORDER BY
+- SKIP
+- LIMIT
+- CREATE
+- DELETE
+- SET
 
 #database-language
 #language-cypher
