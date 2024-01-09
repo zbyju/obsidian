@@ -99,7 +99,8 @@ Databases designed to simplify queries on a graph data. Data is in form of nodes
 Graphs are Property graphs:
 - Oriented
 - Labeled
-	- Both nodes and edges have labels
+	- Nodes can have multiple labels
+	- Edges can have only one label
 - Multigraph
 	- There can be more than one edge between two same nodes
 - Nodes and edges have IDs
@@ -110,6 +111,20 @@ Relationships are first-class citizens. They are not just some foreign keys that
 ##### Pros:
 - Efficient queries based on traversal of the graph
 - Efficient queries based on relations
+- They can be very flexible
+##### Cons:
+- Not as mature
+- Can be slow for big datasets
+- Features are not always useful
+
+##### Use cases:
+- Social networks
+- Routing
+- Location services
+- User relationships
+
+##### Not so good:
+- Big datasets
 - 
 
 
