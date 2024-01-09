@@ -66,3 +66,25 @@ One of the simplest database models. Data can only be made of Key-Value pairs. E
 
 ## Performance
 These databases are usually focusing on massive performance.
+
+## Always indexed
+There always needs to be a key present and it is the only way to query the data. There is no way to query based on value.
+
+## Schema-less
+There is no schema, any type of data can be stored as value.
+## Comparison
+##### Pros:
+- Performance
+- Scalability
+- Simplicity
+##### Cons:
+- Limited functionality
+- Very specific use cases
+
+##### Use cases:
+- Sessions
+- Profiles
+- Preferences
+- 
+
+
