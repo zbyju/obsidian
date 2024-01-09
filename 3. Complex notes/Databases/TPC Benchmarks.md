@@ -21,7 +21,6 @@ Benchmark for decision support = OLAP. It simulates an environment where users r
 
 Output:
 - QphH - Queries per Hour
-- 
 
 
 #TPC-benchmarks
