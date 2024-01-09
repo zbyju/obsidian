@@ -4,6 +4,8 @@ Classical database model with the deepest history and most versatility.
 # Document
 Data stored as documents - JSON, BSON, XML or similar formats. Each documents is a self-contained unit and can have a different structure. This allows for a more natural and intuitive data representation.
 
+Databases: MongoDB, DynamoDB, Couchbase
+
 ## Schema-less structure
 They are schema-less so you can insert any document under the same collection together.
 
@@ -27,9 +29,16 @@ Usually problem with JOIN operations, need for denormalization.
 	- Not as efficient for complex queries
 - Consistency
 	- May sacrifice ACID properties for scalability
+	- Eventual consistency
 - Language 
 	- Query languages are not as mature as SQL
 
-
+Use cases:
+- Logging
+- Blogs
+- Web
+- Analytics
+- E-commerce
 # XML
-They can viewed as a type of document databases designed specifically storing, querying and manipulating data in the XML format.
+They can viewed as a type of document databases designed specifically storing, querying and manipulating data in the XML format. They are useful for small or medium sized databases
+
