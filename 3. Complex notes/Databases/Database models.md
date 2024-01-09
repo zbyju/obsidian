@@ -125,8 +125,12 @@ Relationships are first-class citizens. They are not just some foreign keys that
 
 ##### Not so good:
 - Big datasets
-- 
+- If relations are boring
 
+# Wide-column
+They organize data into columns, which are logically grouped. They allow efficient storage for large amounts of data and are great for distributed systems.
+
+They have column family (instead of a table) which hold rows that can have similar columns (but not necessary the same)
 
 #database-models
 #key-value
