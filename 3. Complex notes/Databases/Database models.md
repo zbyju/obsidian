@@ -21,3 +21,15 @@ Usually problem with JOIN operations, need for denormalization.
 - Developer-friendly
 	- Data in format the devs are used to and can easily integrate with the rest of the application
 - Speed
+
+##### Cons:
+- Complex relationships
+	- Not as efficient for complex queries
+- Consistency
+	- May sacrifice ACID properties for scalability
+- Language 
+	- Query languages are not as mature as SQL
+
+
+# XML
+They can viewed as a type of document databases designed specifically storing, querying and manipulating data in the XML format.
