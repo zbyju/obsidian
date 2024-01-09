@@ -20,7 +20,8 @@ Output:
 Benchmark for decision support = OLAP. It simulates an environment where users run ad-hoc queries on a large dataset. They are designed to simulate real-world decision support scenarios - aggregating, joining and sorting large volumes of data. It focus on read-only queries.
 
 Output:
-- QphH - Queries per 
+- QphH - Queries per Hour
+- 
 
 
 #TPC-benchmarks
