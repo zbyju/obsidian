@@ -7,9 +7,10 @@ It is one of the most known benchmarks by TPC. The primary focus is on OLTP syst
 
 Output:
 - tpmC - transactions per minute - the number of new order transactions per minute a system can process.
+- $/tpmC - transactions per minute cost - best value configuration
 
 # TPC-E
-
+Similar to TCP-C it focuses on OLTP systems. It simulates a scenario of a trading company and is more complex than 
 
 # TPC-H
 
