@@ -17,7 +17,7 @@ Output:
 - $/tpsE - bank for buck
 
 # TPC-H
-
+Benchmark for decision support = OLAP
 
 
 #TPC-benchmarks
