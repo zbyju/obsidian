@@ -85,6 +85,29 @@ There is no schema, any type of data can be stored as value.
 - Sessions
 - Profiles
 - Preferences
-- 
+- Eshop cart
+
+##### Not good for:
+- Complex data
+- Relations between data
+- Complex queries
+
+
+# Graph
+
+
+
+
+#database-models
+#key-value
+#graph-database
+#document-database
+#xml-database
+#key-value-database
+#wide-column-database
+#MongoDB 
+#Cassandra
+#Redis
+#neo4j 
 
 
