@@ -62,4 +62,7 @@ They can viewed as a type of document databases designed specifically storing, q
 - Highly connected data
 
 # Key-value
-One of the simplest database models. Data can only be a 
+One of the simplest database models. Data can only be made of Key-Value pairs. Each key needs to be unique; the value can either be a simple type (string, number) or a complex type (JSON).
+
+## Performance
+These databases are usually focusing on massive performance.
