@@ -49,6 +49,7 @@ They can viewed as a type of document databases designed specifically storing, q
 - Flexibility
 ##### Cons:
 - Can get slow
+- Doesn't have strong consistency
 
 ##### Use cases:
 - Application already uses XML
@@ -59,3 +60,5 @@ They can viewed as a type of document databases designed specifically storing, q
 - Big data
 - Fast data transfer
 - Highly connected data
+
+# Key-value
