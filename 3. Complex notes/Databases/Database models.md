@@ -62,3 +62,4 @@ They can viewed as a type of document databases designed specifically storing, q
 - Highly connected data
 
 # Key-value
+One of the simplest database models. Data can only be a 
