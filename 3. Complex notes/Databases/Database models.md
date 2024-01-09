@@ -130,7 +130,18 @@ Relationships are first-class citizens. They are not just some foreign keys that
 # Wide-column
 They organize data into columns, which are logically grouped. They allow efficient storage for large amounts of data and are great for distributed systems.
 
-They have column family (instead of a table) which hold rows that can have similar columns (but not necessary the same)
+They have column family (instead of a table) which hold rows that can have similar columns (but not necessary the same).
+
+There is usually just a handful of columns:
+- Column name
+- Column value
+- Timestamp
+Each datapoint has an id; then each row uses the id and then has the column name and value. 
+
+## Schema flexible
+They allow more in terms of schema flexibility than classical relational databases. Not every row has to have all columns specified.
+
+
 
 #database-models
 #key-value
