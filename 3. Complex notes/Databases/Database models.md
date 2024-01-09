@@ -94,10 +94,23 @@ There is no schema, any type of data can be stored as value.
 
 
 # Graph
-Databases designed to simplify queries on a graph data. Data is in form of nodes but also relations. Both can be queried. It is powerful when querying based on the structure of the graph. Great for data with truly complex relations.
+Databases designed to simplify queries on a graph data. Data is in form of nodes but also relations. Both can be queried. It is powerful when querying based on the structure of the graph. Great for data with truly complex relations. They can be used to describe reality.
 
+Graphs are Property graphs:
+- Oriented
+- Labeled
+	- Both nodes and edges have labels
+- Multigraph
+	- There can be more than one edge between two same nodes
+- Nodes and edges have IDs
 ## Relationships
-Relationships are first-class citizens. They are not just some foreign keys that link tables together but are a type of data themselves. They can have a 
+Relationships are first-class citizens. They are not just some foreign keys that link tables together but are a type of data themselves. They can have a type that can also be queried.
+
+## Comparison
+##### Pros:
+- Efficient queries based on traversal of the graph
+- Efficient queries based on relations
+- 
 
 
 #database-models
