@@ -138,10 +138,27 @@ There is usually just a handful of columns:
 - Timestamp
 Each datapoint has an id; then each row uses the id and then has the column name and value. 
 
+They ty
+
 ## Schema flexible
 They allow more in terms of schema flexibility than classical relational databases. Not every row has to have all columns specified.
 
+## Large datasets
+Because data is stored in rows, it makes these databases faster for really large datasets.
 
+## Comparison
+##### Pros:
+- Scalability
+- Performance
+##### Cons:
+- Complexity
+- Limited functionality when it comes to querying
+
+##### Use cases:
+- Big data
+- MapReduce
+- Logging
+- Time series data
 
 #database-models
 #key-value
