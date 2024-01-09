@@ -33,7 +33,7 @@ Usually problem with JOIN operations, need for denormalization.
 - Language 
 	- Query languages are not as mature as SQL
 
-Use cases:
+##### Use cases:
 - Logging
 - Blogs
 - Web
@@ -42,3 +42,20 @@ Use cases:
 # XML
 They can viewed as a type of document databases designed specifically storing, querying and manipulating data in the XML format. They are useful for small or medium sized databases
 
+## Comparison
+
+##### Pros:
+- Handling complex XML data
+- Flexibility
+##### Cons:
+- Can get slow
+
+##### Use cases:
+- Application already uses XML
+- XML pipelines
+- Data for both machines and humans
+
+##### Not good for:
+- Big data
+- Fast data transfer
+- Highly connected data
