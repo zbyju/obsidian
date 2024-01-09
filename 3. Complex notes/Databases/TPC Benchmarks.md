@@ -10,7 +10,10 @@ Output:
 - $/tpmC - transactions per minute cost - best value configuration
 
 # TPC-E
-Similar to TCP-C it focuses on OLTP systems. It simulates a scenario of a trading company and is more complex than 
+Similar to TCP-C it focuses on OLTP systems. It simulates a scenario of a trading company and is more complex than TPC-C which had way less tables and had artificial data. TCP-E has real-world data and many more tables. Also has some integretation 
+
+Output:
+- tpsE - Number of business transactions processed per second.
 
 # TPC-H
 
