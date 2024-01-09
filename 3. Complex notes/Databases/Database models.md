@@ -138,7 +138,7 @@ There is usually just a handful of columns:
 - Timestamp
 Each datapoint has an id; then each row uses the id and then has the column name and value. 
 
-They ty
+They typically don't support JOIN operations.
 
 ## Schema flexible
 They allow more in terms of schema flexibility than classical relational databases. Not every row has to have all columns specified.
