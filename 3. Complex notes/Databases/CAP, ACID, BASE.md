@@ -18,6 +18,18 @@ CAP Theorem says that distributed databases can have at most 2 of 3 of these pro
 - AP
 	- Availability + Partition tolerance = when there is a breakdown all nodes remain available but those that are inconsistent might return older data.
 	- Cassandra, RiakKV, DynamoDB
+## Vertical scaling
+We add computing power. It might get expensive to scale like this. Good for strong consistency.
+##### Pros:
+- Simple
+- No need to deal with distributed systems
+- Consistency
+##### Cons:
+- Might get really pricy
+- Vendor lock-in
+- Cannot be applied indefinitely
+## Horizontal scaling
+
 
 #CAP 
 #ACID
