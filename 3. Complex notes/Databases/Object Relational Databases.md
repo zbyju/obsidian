@@ -17,6 +17,8 @@ OODBMS:
 # Reference to an object (REF)
 It is a pointer or a link to a row object in the database. REF can be used to obtain, examine and update the object.
 
+It is a direct link
+
 ## PostgreSQL
 ### User data types:
 ```sql
