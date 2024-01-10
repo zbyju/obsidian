@@ -1,4 +1,6 @@
-
+# CAP
+- Consistency
+- Availabitli
 
 #CAP 
 #ACID
