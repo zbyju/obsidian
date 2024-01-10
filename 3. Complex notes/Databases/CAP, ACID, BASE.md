@@ -1,0 +1,5 @@
+
+
+#CAP 
+#ACID
+#BASE
