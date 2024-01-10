@@ -97,7 +97,12 @@ Quorum is a mechanism to ensure consistency and availability. It's a way to agre
 It's usually a majority vote that needs to agree and respond to a request for it to be successful.
 
 # Write quorum
-We need the majority of 
+**W > N/2**
+We need the majority to agree on a change. This will never lead to conflicts.
+
+## Read quorum
+**R > N - W** = R + W > N
+We ask all nodes 
 
 #CAP 
 #ACID
