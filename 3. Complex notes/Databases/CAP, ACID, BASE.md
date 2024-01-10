@@ -63,7 +63,21 @@ Focus on AP
 	- System will be consistent at some point in the future
 	- But might not be at all times
 
+# Replication
+Creating copies of the database (or portions of the database) and storing them on different nodes.
+
+Main purpose is to increase availability and fault tolerance and reduce load on the primary database.
+
 
 #CAP 
 #ACID
 #BASE
+#distributed-systems
+#scaling
+#horizontal-scaling
+#vertical-scaling
+#database-consistency
+#database-availability
+#database-partition-tolerance
+#sharding
+#replication
