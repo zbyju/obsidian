@@ -9,7 +9,7 @@
 
 CAP Theorem says that distributed databases can have at most 2 of 3 of these properties:
 - CA
-	- Can't exist
+	- These databases aim for consistency and ava
 - CP
 - AP
 
