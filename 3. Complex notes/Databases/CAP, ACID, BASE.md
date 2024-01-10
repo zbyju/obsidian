@@ -43,6 +43,7 @@ Adding more nodes.
 CAP explains the problems with horizontal scaling and the difficulties and trade-offs we have to make. We need to either choose consistency or availability.
 
 # ACID
+Focus on CA
 - Atomicity
 	- Transaction is either successful or fails
 - Consistency
@@ -53,7 +54,15 @@ CAP explains the problems with horizontal scaling and the difficulties and trade
 	- Once the changes are confirmed they are persistently stored
 
 # BASE
-- 
+Focus on AP
+- Basically Available
+	- The system is always available (as a unit)
+- Soft-state
+	- The state of the system may change over time (even without input). After write we might still read old data.
+- Eventually consistent
+	- System will be consistent at some point in the future
+	- But might not be at all times
+
 
 #CAP 
 #ACID
