@@ -1,0 +1,1 @@
+It is a NoSQL database for fast product catalog applications (ecommerce, eshops, ...).
