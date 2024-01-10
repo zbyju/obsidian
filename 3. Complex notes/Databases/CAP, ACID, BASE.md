@@ -9,8 +9,12 @@
 
 CAP Theorem says that distributed databases can have at most 2 of 3 of these properties:
 - CA
-	- These databases aim for consistency and ava
+	- These databases aim for consistency and availability = all nodes have same data, and are available
+	- If there is a breakdown then the rest continues to operate
+	- PostgreSQL using replication
 - CP
+	- Consistency + partition tolerance = when there is a breakdown the system has to shutdown the inconsistent node (making it unavailable) until it's resolved 
+	- 
 - AP
 
 #CAP 
