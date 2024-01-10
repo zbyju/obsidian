@@ -51,9 +51,6 @@ CREATE TABLE PersonTable OF PersonType (
 );
 ```
 They should store objects that represent one complete thing.
-## Difference
-
-
 ## PostgreSQL
 ### User data types:
 ```sql
