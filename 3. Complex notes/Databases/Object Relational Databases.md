@@ -14,6 +14,9 @@ OODBMS:
 - recursive structures
 - abstract data types
 
+# Reference to an object (REF)
+It is a pointer or a link to another object in the database.
+
 ## PostgreSQL
 ### User data types:
 ```sql
