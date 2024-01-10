@@ -91,7 +91,9 @@ VALUES ('TechCorp', ARRAY['Gadget1', 'Gadget2', 'Gadget3']);
 ```
 
 # ORM vs object-relational DB
-ORDBMS extend traditional database with custom types and object oriented features.
+ORDBMS extend traditional database with custom types and object oriented features. These objects are on the level of the database.
+
+ORM work with a specific language and provide a translation layer between objects of the programming languages and data in the database.
 
 
 #ORDBMS
