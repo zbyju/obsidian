@@ -21,7 +21,34 @@ It is a pointer or a link to a row object in the database. REF can be used to ob
 ## Relational table with user types
 This is the straight-forward way of using custom user defined types.
 ```sql
+CREATE TYPE Address AS (
+    street VARCHAR(100),
+    city VARCHAR(50),
+    zip_code VARCHAR(10)
+);
 
+
+CREATE TABLE Person (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    address Address  -- using the UDT
+);
+```
+
+These are normal tables and some of their columns use custom object-oriented types.
+
+## Object table
+Tables that directly store instances of user-defined types. They are more closely aligned with OOP.
+```sql
+CREATE TYPE PersonType AS OBJECT (
+    id INT,
+    name VARCHAR(100),
+    address Address
+);
+
+CREATE TABLE PersonTable OF PersonType (
+    PRIMARY KEY (id)
+);
 ```
 
 ## PostgreSQL
