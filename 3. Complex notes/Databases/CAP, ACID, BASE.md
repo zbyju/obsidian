@@ -29,6 +29,18 @@ We add computing power. It might get expensive to scale like this. Good for stro
 - Vendor lock-in
 - Cannot be applied indefinitely
 ## Horizontal scaling
+Adding more nodes.
+
+##### Pros:
+- Less expensive
+- Theoretically unlimited scaling
+##### Cons:
+- Complex solution
+- Consistency problems
+- Synchronization
+- Infrastracture
+
+CAP explains the problems with horizontal scaling and the difficulties and trade-offs we have to make. We need to either choose consistency or availability.
 
 
 #CAP 
