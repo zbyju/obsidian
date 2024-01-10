@@ -15,7 +15,7 @@ OODBMS:
 - abstract data types
 
 # Reference to an object (REF)
-It is a pointer or a link to another object in the database.
+It is a pointer or a link to a row object in the database. REF can be used to obtain, examine and update the object.
 
 ## PostgreSQL
 ### User data types:
