@@ -7,7 +7,8 @@ Queries are usually simple.
 
 - a lot of queries
 - a lot of users
-- simple que
+- simple queries
+- repeating queries
 
 # OLAP
 = **Online Analytical Processing**
@@ -16,7 +17,7 @@ OLAP enables analysts, managers and executives to gain insight into data. These 
 
 Queries are usually pretty complex.
 
-- query-heavy databases
+- low amount of queries
 - low amount of users
-- complex queries
+- complex and costly queries
 - ad-hoc queries
