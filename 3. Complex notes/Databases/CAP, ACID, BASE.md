@@ -106,7 +106,19 @@ We need the majority to agree on a change. This will never lead to conflicts.
 We ask all nodes from read quorum and get the latest result (newest timestamp). This is enough because the write quorum agreed on the change.
 
 # Big Data (3V+)
-It's more of a buzzword, but there are 
+It's more of a buzzword, but there are characteristics:
+- Volume
+	- Data volume is increasing exponentially
+- Variety
+	- Various formats, types, structures
+- Velocity
+	- It's coming in quickly
+	- Generated fast
+	- Needs to be processed fast
+- Veracity
+	- There might be inconsistencies, incompleteness
+- Value
+	- Needs to be processed somehow to extract value
 
 #CAP 
 #ACID
