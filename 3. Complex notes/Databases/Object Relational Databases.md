@@ -90,7 +90,13 @@ INSERT INTO tech_company (name, product_names)
 VALUES ('TechCorp', ARRAY['Gadget1', 'Gadget2', 'Gadget3']);
 ```
 
-#OODBRM
+# ORM vs object-relational DB
+ORDBMS extend traditional database with custom types and object oriented features.
+
+
+#ORDBMS
 #object-relational-database
 #postgreSQL
-#objec
+#object-table
+#database-ref
+#orm
