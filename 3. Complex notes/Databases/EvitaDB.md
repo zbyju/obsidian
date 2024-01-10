@@ -13,7 +13,14 @@ EvitaDB offers GraphQL, REST and gRPC API out of the box. This helps close the g
 
 # ACID
 The database works in 2 regimes:
+1. Initialization - optimized for fast write to initialize the data
+2. Standard - optimized for reads, now supports ACID.
 
+##### Pros:
+- Fast
+- Low latency
+##### Cons:
+- Optimized for Ecommerce
 
 
 #database-models 
