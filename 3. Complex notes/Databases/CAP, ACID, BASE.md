@@ -91,6 +91,13 @@ The data might not be consistent but are converging to be consistent at some poi
 - If we want higher availability we need to settle for weak consistency
 - If we want strong consistency we need to settle for lower availability
 
+# Quorum
+Quorum is a mechanism to ensure consistency and availability. It's a way to agree on a consensus among nodes about the current state of the dataset.
+
+It's usually a majority vote that needs to agree and respond to a request for it to be successful.
+
+# Write quorum
+We need the majority of 
 
 #CAP 
 #ACID
@@ -105,3 +112,4 @@ The data might not be consistent but are converging to be consistent at some poi
 #sharding
 #replication
 #eventual-availability
+#quorum
