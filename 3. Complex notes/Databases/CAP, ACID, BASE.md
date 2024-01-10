@@ -75,7 +75,7 @@ Master database is replicated to slaves.
 Each node has same standing and can read and write.
 
 # Sharding
-Splitting large dataset into smaller pieces called a shard. Each shard 
+Splitting large dataset into smaller pieces called a shard. Each shard contains a subset of the dataset. It should improve scalability and performance of the database.
 
 
 #CAP 
