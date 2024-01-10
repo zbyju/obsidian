@@ -14,8 +14,10 @@ CAP Theorem says that distributed databases can have at most 2 of 3 of these pro
 	- PostgreSQL using replication
 - CP
 	- Consistency + partition tolerance = when there is a breakdown the system has to shutdown the inconsistent node (making it unavailable) until it's resolved 
-	- 
+	- MongoDB, Redis
 - AP
+	- Availability + Partition tolerance = when there is a breakdown all nodes remain available but those that are inconsistent might return older data.
+	- Cassandra, RiakKV, DynamoDB
 
 #CAP 
 #ACID
