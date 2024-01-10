@@ -81,6 +81,12 @@ Splitting large dataset into smaller pieces called a shard. Each shard contains 
 Each shard is also replicated. Ensures scalability and high availability and fault tolerance.
 
 # Strong vs Weak Consistency
+## Strong Consistency
+Uses ACID to maintain the database in a consistent state.
+## Weak Consistency
+= Eventual consistency
+The data might not be consistent but are converging to be consistent at some 
+
 
 #CAP 
 #ACID
@@ -94,3 +100,4 @@ Each shard is also replicated. Ensures scalability and high availability and fau
 #database-partition-tolerance
 #sharding
 #replication
+#eventual-availability
