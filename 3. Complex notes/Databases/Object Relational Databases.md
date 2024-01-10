@@ -89,3 +89,8 @@ CREATE TABLE tech_company (
 INSERT INTO tech_company (name, product_names)
 VALUES ('TechCorp', ARRAY['Gadget1', 'Gadget2', 'Gadget3']);
 ```
+
+#OODBRM
+#object-relational-database
+#postgreSQL
+#objec
