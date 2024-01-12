@@ -1,4 +1,3 @@
+Standard relational table. It stores records in no particu
 
-
-**Linkage:**
-- [[_PDB Reference]]
+ [[_PDB Reference]]
