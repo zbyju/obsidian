@@ -10,6 +10,9 @@ It works by using specific data structures that have faster lookup times. These 
 - Consumes extra storage
 
 [[_PDB Reference]]
+[[Access Methods in Databases]]
 [[B Tree]]
 [[B+ Trees in Databases]]
-[[index]]
+[[Bitmap Index]]
+[[Heap table with index]]
+[[Index organised table]]
