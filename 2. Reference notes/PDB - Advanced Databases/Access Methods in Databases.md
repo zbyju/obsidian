@@ -3,7 +3,7 @@ Different ways to evaluate and access database data.
 - Some queries can be solely evaluated based on an index.
 	- All indexes that are relevant to the query (built on top of the data with relevant index key) need to be considered.
 
-**Linkage**:
-- [[_PDB Reference]]
-- [[Database Index]]
-- [[B+ Trees in Databases]]
+
+[[_PDB Reference]]
+[[Database Index]]
+[[B+ Trees in Databases]]
