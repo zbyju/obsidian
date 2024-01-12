@@ -13,3 +13,8 @@ Name | Male | Female
 John | 1    | 0
 Jane | 0    | 1
 ```
+
+[[_PDB Reference]]
+[[Pros&Cons Bitmap Index]]
+#database-index 
+#bitmap-index 
