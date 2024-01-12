@@ -15,4 +15,4 @@ It works by using specific data structures that have faster lookup times. These 
 [[B+ Trees in Databases]]
 [[Bitmap Index]]
 [[Heap table with index]]
-[[Index organized table]]
+[[Index Organized Table]]
