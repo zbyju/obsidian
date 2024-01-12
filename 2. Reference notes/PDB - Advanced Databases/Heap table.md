@@ -6,5 +6,3 @@ Standard relational table. It stores records in no particular order.
 
  [[_PDB Reference]]
  [[PCU Heap Table]]
- #heap-table 
- #database-table 

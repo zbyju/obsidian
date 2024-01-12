@@ -9,4 +9,5 @@ B Trees' structure and usage in databases.
 **Linkage**:
 - [[_PDB Reference]]
 - [[2. Reference notes/PDB - Advanced Databases/B Tree|B Tree]]
-- [[Access Methods in Databases]]
+[[Access Methods in Databases]]
+[[Heap table with index]]

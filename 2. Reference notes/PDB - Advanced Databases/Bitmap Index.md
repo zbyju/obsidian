@@ -17,5 +17,3 @@ Jane | 0    | 1
 [[_PDB Reference]]
 [[PCU Bitmap Index]]
 [[Cardinality]]
-#database-index 
-#bitmap-index 

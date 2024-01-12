@@ -8,3 +8,15 @@
 	- But they can be anywhere in the heap table
 
 # Cons:
+- Only works efficiently with 1 index
+- Slower DML
+
+# Use cases:
+- Large tables
+- Access by primary key only
+- Access by one key only
+
+[[_PDB Reference]]
+[[Index Organized Table]]
+[[Heap table]]
+[[Heap table with index]]

@@ -5,7 +5,3 @@ It's a standard heap table with an additional index in a B* tree structure. Data
  [[Database Index]]
  [[B+ Trees in Databases]]
  [[PCU Heap Table with Index]]
- #database-table 
- #heap-table 
- #database-index 
- #b-tree

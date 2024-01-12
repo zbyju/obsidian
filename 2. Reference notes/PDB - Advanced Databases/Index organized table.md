@@ -5,3 +5,5 @@ Uses B* tree to index data, has actual records in nodes, which saves time by hav
 [[_PDB Reference]]
 [[Database Index]]
 [[PCU Index Organized Table]]
+[[Heap table]]
+[[Heap table with index]]

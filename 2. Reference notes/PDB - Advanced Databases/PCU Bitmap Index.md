@@ -14,5 +14,3 @@
 [[Bitmap Index]]
 [[Database Index]]
 [[Cardinality]]
-#database-index 
-#bitmap-index 
