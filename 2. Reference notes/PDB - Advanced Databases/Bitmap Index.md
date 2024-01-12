@@ -15,6 +15,7 @@ Jane | 0    | 1
 ```
 
 [[_PDB Reference]]
-[[Pros&Cons Bitmap Index]]
+[[PCU Bitmap Index]]
+[[Cardinality]]
 #database-index 
 #bitmap-index 
