@@ -1,0 +1,1 @@
+Bitmap index uses a simple map of bits for each unique value in a column, optimizing for space and retrieval speed.
