@@ -2,4 +2,4 @@
 
 [[_PDB Reference]]
 [[Database Index]]
-[[PCU Index organized table]]
+[[PCU Index Organized Table]]
