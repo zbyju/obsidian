@@ -8,6 +8,7 @@ RDF/XML is a format that utilizes XML for representing RDF graphs.
 </rdf:RDF>
 ```
 
+It is difficult to read.
 # Key components
 1. RDF Graph
 	- Using `rdf:RDF` tag

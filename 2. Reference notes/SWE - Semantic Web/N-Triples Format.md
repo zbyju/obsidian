@@ -2,8 +2,15 @@ It is a very basic RDF format. It is a subset of the Turtle format with a simple
 
 There are no shortcuts.
 
+Typically used for exchanging large datasets. Processing RDF using line-oriented text tools.
+
 # Example
 
 ```turtle
 <http://example.com/item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.com/Resource> .
 ```
+
+
+[[_SWE Reference]]
+[[RDF Formats]]
+[[Turtle Format]]
