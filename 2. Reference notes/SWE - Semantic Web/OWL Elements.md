@@ -94,7 +94,16 @@ We can specify the max and min cardinality of a property.
 Or an exact cardinality
 
 ## Property Relationships
-`owl:inverseOf` | `owl:equivalentProperty` | `owl:TransitiveProperty` | `owl:Sym`
+`owl:inverseOf` | `owl:equivalentProperty` | `owl:TransitiveProperty` | `owl:SymmetricProperty` | `owl:AsymmetricProperty` | `owl:FunctionalProperty` | `owl:InverseFunctionalProperty` | `owl:ReflexiveProperty` | `owl:IrreflexiveProperty`
+
+### inverseOf
+One property is an inverse of another.
+
+```turtle
+:hasChild owl:inverseOf :hasParent .
+```
+
+### equivalentProperty
 
 
 
