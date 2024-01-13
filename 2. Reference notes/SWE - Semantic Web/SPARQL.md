@@ -11,7 +11,10 @@ It describes:
 - Query Language
 	- Syntax
 	- Idea of how to query data
-- 
+- Results format
+	- How to structure the results
+- Data access protocol
+	- How to communicate with the data store
 
 [[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
