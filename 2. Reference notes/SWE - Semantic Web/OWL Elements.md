@@ -104,6 +104,22 @@ One property is an inverse of another.
 ```
 
 ### equivalentProperty
+States that 2 properties are the same one with a different name.
+
+```turtle
+:hasChild owl:equivalentProperty :child
+```
+
+### Relation Properties
+Describe the type of relation there is between individuals with this property.
+
+```turtle
+# transitive
+:isLocatedIn a owl:TransitiveProperty .
+:Prague :isLocatedIn :CentralBohemia .
+:CentralBohemia :isLocatedIn :CZ
+# => :Prague :isLocatedIn :CZ
+```
 
 
 
