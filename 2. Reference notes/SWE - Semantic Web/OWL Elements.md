@@ -76,11 +76,20 @@ Datatype property where object is a literal
 States that 2 individuals are not connected by a property.
 
 ```turtle
-[]  a owl:NegativePropertyAssertion ;
-	owl:sourceIndividual :Bob ;
+# Bobs wife is not Mary
+[]  a                     owl:NegativePropertyAssertion ;
+	owl:sourceIndividual  :Bob ;
 	owl:assertionProperty :hasWife ;
-	owl:targetIndividual :Mary .
+	owl:targetIndividual  :Mary .
 ```
+
+## Property Restrictions
+`owl:Restriction`, `owl:onProperty`, `owl:someValuesFrom` | `owl:allValuesFrom`
+We can specify quantification restrictions - existential and universal quantification.
+- Existential - 
+
+
+
 
 [[_SWE Reference]]
 [[RDF Schema]]
