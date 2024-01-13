@@ -126,8 +126,18 @@ Describe the type of relation there is between individuals with this property.
 # Asymmetric (Parent cannot be a child of its children)
 :hasChild a owl:AsymmetricProperty .
 
-# Reflexive (Everybody is a r)
-:hasRelative a owl:ReflexiveProperty
+# Reflexive (Everybody is a relative of himself)
+:hasRelative a owl:ReflexiveProperty .
+
+# Irreflexive (Nobody is its own parent)
+:hasParent a owl:IrreflexiveProperty .
+
+# Functional (if a subject has 2 different objects
+# through this relation
+# then that object has to be the same instance
+# )
+:hasHusband a           owl:FunctionalProperty .
+:Mary       :hasHusband :John .
 ```
 
 
