@@ -114,11 +114,20 @@ States that 2 properties are the same one with a different name.
 Describe the type of relation there is between individuals with this property.
 
 ```turtle
-# transitive
+# Transitive (Prague is transitively in CZ)
 :isLocatedIn a owl:TransitiveProperty .
 :Prague :isLocatedIn :CentralBohemia .
-:CentralBohemia :isLocatedIn :CZ
+:CentralBohemia :isLocatedIn :CZ .
 # => :Prague :isLocatedIn :CZ
+
+# Symmetric (Being a friend goes both ways)
+:hasFriend a owl:SymmetricProperty .
+
+# Asymmetric (Parent cannot be a child of its children)
+:hasChild a owl:AsymmetricProperty .
+
+# Reflexive (Everybody is a r)
+:hasRelative a owl:ReflexiveProperty
 ```
 
 
