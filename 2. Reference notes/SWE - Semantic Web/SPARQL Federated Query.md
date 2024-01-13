@@ -23,3 +23,6 @@ SELECT ?person ?interest ?known WHERE {
 	}
 }
 ```
+
+[[_SWE Reference]]
+[[SPARQL Query Language]]

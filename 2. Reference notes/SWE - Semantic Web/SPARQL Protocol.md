@@ -1,0 +1,1 @@
+The SPARQL specifies a protocol built on top of HTTP and supports 2 operations: 

@@ -20,3 +20,5 @@ It describes:
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
 [[SPARQL Query Language]]
 [[SPARQL Query Results]]
+[[SPARQL Protocol]]
+[[SPARQL Update]]
