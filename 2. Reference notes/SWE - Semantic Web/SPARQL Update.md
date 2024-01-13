@@ -1,8 +1,8 @@
 Update language for RDF. Uses same syntax as SPARQL Query Language ([[SPARQL Query Language]]). 
 
 Operations for:
-- insert triples
-- delete triples
+- insert triples (`INSERT DATA`)
+- delete triples (`DELETE DATA`)
 - load RDF graphs
 - clear RDF graphs
 - create RDF graphs
