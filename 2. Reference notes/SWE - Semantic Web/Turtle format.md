@@ -11,7 +11,8 @@ It supports prefixes and base prefix:
 ```turtle
 @prefix ex: <http://example.com/> .
 
-ex:item a ex:Resource; ex:title "Example Item".
+ex:item a        ex:Resource;
+		ex:title "Example Item".
 ```
 # Key components
 1. RDF Graph
@@ -28,4 +29,4 @@ ex:item a ex:Resource; ex:title "Example Item".
 
 [[_SWE Reference]]
 [[RDF Formats]]
-[[XML]]
+[[RDFXML format]]
