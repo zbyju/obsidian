@@ -1,13 +1,18 @@
-RDF/XML is a format that utilizes XML for representing RDF graphs.
+Designed for a more readable RDF format. Less verbose than RDF/XML.
 
-```xml
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<rdf:Description rdf:about="http://example.com/item">
-		<title>Example Item</title>
-	</rdf:Description>
-</rdf:RDF>
+It supports prefixes and base prefix:
+
+```turtle
+@prefix ex: <http://example.com/> .
 ```
 
+# Example
+
+```turtle
+@prefix ex: <http://example.com/> .
+
+ex:item a ex:Resource; ex:title "Example Item".
+```
 # Key components
 1. RDF Graph
 	- Using `rdf:RDF` tag
@@ -23,3 +28,4 @@ RDF/XML is a format that utilizes XML for representing RDF graphs.
 
 [[_SWE Reference]]
 [[RDF Formats]]
+[[XML]]
