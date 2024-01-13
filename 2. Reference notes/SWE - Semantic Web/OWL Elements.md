@@ -87,7 +87,14 @@ States that 2 individuals are not connected by a property.
 `owl:Restriction`, `owl:onProperty`, `owl:someValuesFrom` | `owl:allValuesFrom` | `owl:hasValue`
 We can specify quantification restrictions - existential and universal quantification or it must have a constant value.
 
-##
+### Cardinality
+`owl:maxQualifiedCardinality` | `owl:minQualifiedCardinality` | `owl:qualifiedCardinality` | `owl:cardinality`
+
+We can specify the max and min cardinality of a property.
+Or an exact cardinality
+
+## Property Relationships
+`owl:inverseOf` | `owl:equivalentProperty` | `owl:TransitiveProperty` | `owl:Sym`
 
 
 
