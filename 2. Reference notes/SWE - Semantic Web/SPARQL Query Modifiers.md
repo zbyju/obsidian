@@ -15,3 +15,9 @@ ORDER BY DESC(?numBooks)
 LIMIT 10
 OFFSET 0
 ```
+
+
+[[_SWE Reference]]
+[[SPARQL Query Language]]
+[[SPARQL Select Query]]
+[[SPARQL Pagination]]

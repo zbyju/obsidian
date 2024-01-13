@@ -7,5 +7,5 @@ It is a common pattern to use:
 together so they provide a reliable pagination by sorting the results and then taking *x* results and paginating using the *offset*.
 
 [[_SWE Reference]]
-[[SPARQL Select Query]]
+[[SPARQL Query Language]]
 [[SPARQL Query Modifiers]]

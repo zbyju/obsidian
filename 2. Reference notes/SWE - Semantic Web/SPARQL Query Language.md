@@ -44,8 +44,12 @@ Triples with the same subject and predicate (but different object) can be separa
 ```
 
 # 'a' instead of 'rdf:type'
-`a` 
+As in turtle `a` can be used instead of `rdf:type`
 
 [[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/SPARQL|SPARQL]]
 [[SPARQL Select Query]]
+[[SPARQL Query Language]]
+[[SPARQL Filtering]]
+[[SPARQL Query Modifiers]]
+[[SPARQL Advanced Patterns]]
