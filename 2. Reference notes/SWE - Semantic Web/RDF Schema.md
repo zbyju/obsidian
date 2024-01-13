@@ -6,3 +6,6 @@ It adds features to RDF:
 - Class and Property definitions
 - Class Hierarchy
 - Property Characteristics
+
+[[_SWE Reference]]
+[[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
