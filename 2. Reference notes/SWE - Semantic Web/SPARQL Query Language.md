@@ -8,3 +8,12 @@ There are several types of queries:
 - DESCRIBE
 	- Returns RDF data about a resource
 
+SPARQL again works with triples to form patterns that it looks for in the dataset.
+
+It allows for:
+- Filtering
+- Sorting
+- Limiting
+- Skipping
+- Aggregating
+- Set operations
