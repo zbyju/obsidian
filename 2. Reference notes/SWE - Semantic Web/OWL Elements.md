@@ -41,8 +41,18 @@ Individual is an instance of both classes (intersection) or instance of at least
 	a                  owl:Class ;
 	owl:intersectionOf ( 
 		:Person
-		[ a owl:Class ; owl:complement]
+		[ a owl:Class ; owl:complementOf :Parent ]
 	)
 ] .
+```
+
+# Comparing Individuals
+`owl:sameAs` | `owl:differentFrom`
+These can only be used on individuals.
+They say 2 individuals are the same or different instances.
+
+```turtle
+:Jan owl:sameAs :Honza .
+:Jan owl:differentFrom :Josef .
 ```
 
