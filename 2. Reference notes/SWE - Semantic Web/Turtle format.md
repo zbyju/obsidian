@@ -6,6 +6,16 @@ It supports prefixes and base prefix:
 @prefix ex: <http://example.com/> .
 ```
 
+Supports base prefix and prefix names:
+```turtle
+@base <http://baseprefix.org> .
+@prefix otherPrefix: <http://otherPrefix.org/> .
+```
+
+Supports predicate lists by using `;`
+```turtle
+ex:
+```
 # Example
 
 ```turtle

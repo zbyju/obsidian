@@ -13,7 +13,7 @@ RDF/XML is a format that utilizes XML for representing RDF graphs. It can be dif
 </rdf:RDF>
 ```
 
-We can add prefixes by using `xmlns:prefix=""` to the `rdf:RDF` tag.
+We can add prefixes by using `xmlns:prefix=""` to the `rdf:RDF` tag, or `xml:base` for a default prefix.
 # Key components
 1. RDF Graph
 	- Using `rdf:RDF` tag
