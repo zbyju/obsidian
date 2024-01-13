@@ -22,3 +22,4 @@ It describes:
 [[SPARQL Query Results]]
 [[SPARQL Protocol]]
 [[SPARQL Update]]
+[[SPARQL Graph Store HTTP Protocol]]
