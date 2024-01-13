@@ -84,9 +84,10 @@ States that 2 individuals are not connected by a property.
 ```
 
 ## Property Restrictions
-`owl:Restriction`, `owl:onProperty`, `owl:someValuesFrom` | `owl:allValuesFrom`
-We can specify quantification restrictions - existential and universal quantification.
-- Existential - 
+`owl:Restriction`, `owl:onProperty`, `owl:someValuesFrom` | `owl:allValuesFrom` | `owl:hasValue`
+We can specify quantification restrictions - existential and universal quantification or it must have a constant value.
+
+##
 
 
 
