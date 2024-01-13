@@ -138,6 +138,11 @@ Describe the type of relation there is between individuals with this property.
 # )
 :hasHusband a           owl:FunctionalProperty .
 :Mary       :hasHusband :John .
+:Mary       :hasHusband :James .
+# => John == James
+
+# Inverse functional (if an object has 2 different subjects pointing to it
+#k)
 ```
 
 
