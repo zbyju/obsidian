@@ -14,7 +14,18 @@ Supports base prefix and prefix names:
 
 Supports predicate lists by using `;`
 ```turtle
-ex:
+ex:john ex:friendOf ex:jane;
+		ex:enemyOf  ex:joe .
+```
+
+Uses token `a` for rdf:type
+
+Uses `[]` for blank nodes:
+```turtle
+ex:john ex:friendOf [
+	ex:firstname "Jane" ;
+	ex:lastname "Doe"
+] .
 ```
 # Example
 
