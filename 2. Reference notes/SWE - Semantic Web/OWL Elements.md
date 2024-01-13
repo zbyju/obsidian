@@ -5,7 +5,7 @@ For class definition.
 ```turtle
 :Person rdf:type owl:Class .
 ```
-# Equivalent classes
+## Equivalent classes
 `owl:equivalentClass`
 Some vocabulary classes can be the same, but use a different identifier. We can express that these identifiers represent the same thing.
 It's same as saying `rdfs:subClassOf` 2 times in both directions.
@@ -14,7 +14,7 @@ It's same as saying `rdfs:subClassOf` 2 times in both directions.
 :Person owl:equivalentClass :Human
 ```
 
-# Disjoin classes
+## Disjoin classes
 `owl:disjointWith`
 There can be no individual that is an instance of both classes at the same time.
 
@@ -22,7 +22,7 @@ There can be no individual that is an instance of both classes at the same time.
 :Man owl:disjointWith :Woman
 ```
 
-# Advanced classes
+## Advanced classes
 `owl:intersectionOf` | `owl:unionOf` | `owl:complementOf`
 Individual is an instance of both classes (intersection) or instance of at least one class(union) or instance of no class.
 
@@ -46,7 +46,7 @@ Individual is an instance of both classes (intersection) or instance of at least
 ] .
 ```
 
-# Comparing Individuals
+## Comparing Individuals
 `owl:sameAs` | `owl:differentFrom`
 These can only be used on individuals.
 They say 2 individuals are the same or different instances.
@@ -56,3 +56,14 @@ They say 2 individuals are the same or different instances.
 :Jan owl:differentFrom :Josef .
 ```
 
+# Property
+`owl:ObjectProperty` | `owl:DatatypeProperty`
+Object properties where object is a resource.
+Datatype property where object is a literal
+
+[[_SWE Reference]]
+[[RDF Schema]]
+[[RDFS Elements]]
+[[RDF Resource]]
+[[RDF Literal]]
+[[RDF Object]]
