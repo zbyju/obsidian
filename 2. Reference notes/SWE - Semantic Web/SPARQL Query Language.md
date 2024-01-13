@@ -17,3 +17,12 @@ It allows for:
 - Skipping
 - Aggregating
 - Set operations
+-  Prefixes and base prefixes:
+	- PREFIX rdf: <...>
+	- BASE <...>
+
+
+
+[[_SWE Reference]]
+[[2. Reference notes/SWE - Semantic Web/SPARQL|SPARQL]]
+[[SPARQL Select Query]]

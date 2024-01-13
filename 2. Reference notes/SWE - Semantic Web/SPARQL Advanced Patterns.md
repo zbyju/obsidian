@@ -23,3 +23,4 @@ WHERE {
 	{ dbr:Czech_Republic foaf:name ?title }
 }
 ```
+
