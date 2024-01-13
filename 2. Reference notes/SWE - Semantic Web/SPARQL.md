@@ -1,0 +1,1 @@
+It is an RDF query language and a protocol (similar to SQL for relational DBs) to query and manipulate RDF 
