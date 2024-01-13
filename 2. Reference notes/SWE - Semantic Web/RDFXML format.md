@@ -9,7 +9,12 @@ RDF/XML is a format that utilizes XML for representing RDF graphs.
 ```
 
 # Key components
-
+1. RDF Graph
+	- Using `rdf:RDF` tag
+2. Subject
+	- Using `rdf:Description` to declare a subject
+	- Using `rdf:about` to specify URI
+-
 
 
 [[_SWE Reference]]
