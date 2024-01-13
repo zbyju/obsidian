@@ -8,4 +8,4 @@ ASK {
 ```
 
 [[_SWE Reference]]
-[[SPARQL Select Query]]
+[[SPARQL Query Language]]
