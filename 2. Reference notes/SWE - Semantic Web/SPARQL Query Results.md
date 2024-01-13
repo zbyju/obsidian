@@ -1,0 +1,1 @@
+SPARQL also specifies how the results are going to be returned, which is dependent to the type of query. The results are usually shown in a tabular format to the a human user, but for a machine they can be returned in various different 
