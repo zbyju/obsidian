@@ -61,6 +61,20 @@ They say 2 individuals are the same or different instances.
 Object properties where object is a resource.
 Datatype property where object is a literal
 
+```turtle
+:hasWife a           owl:ObjectProperty ;
+		 rdfs:domain :Man               ;
+		 rdfs:range  :Woman             .
+
+:hasAge a owl:DatatypeProperty ;
+		rdfs:domain :Person              ;
+		rdfs:range xsd:nonNegativeInteger .
+```
+
+## Subproperty
+`owl:subPropertyOf`
+
+
 [[_SWE Reference]]
 [[RDF Schema]]
 [[RDFS Elements]]
