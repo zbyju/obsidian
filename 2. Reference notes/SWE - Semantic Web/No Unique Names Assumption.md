@@ -1,0 +1,1 @@
+Different names (or identifiers) doesn't mean different entities.
