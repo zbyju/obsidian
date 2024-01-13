@@ -8,3 +8,10 @@ Uses `<< statement >>` syntax.
 << :John :shot :Joe >> :accordingTo :Jane .
 << :Joe :shot :John >> :accordingTo :Jill .
 ```
+
+[[_SWE Reference]]
+[[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
+[[RDF Statement]]
+[[RDF Subject]]
+[[RDF Object]]
+[[RDF Reification]]

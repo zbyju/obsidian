@@ -1,0 +1,2 @@
+RDF Schema = RDFS
+
