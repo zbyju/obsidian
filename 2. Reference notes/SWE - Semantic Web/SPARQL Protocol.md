@@ -4,7 +4,7 @@ The SPARQL specifies a protocol built on top of HTTP and supports 2 operations:
 
 
 Requests are sent using HTTP GET or POST:
-- GET
+- GET (only for query)
 - POST URL-encoded
 - POST directly
 
@@ -42,6 +42,7 @@ WHERE { ?book dc:creator ?who }
 ```
 
 # URL-encoded POST
+The query is part of a **query** "variable" (update if the operation is update) in the body of the request. The Content-Type is changed to `x-www-form-urlencoded`
 
 ```sparql
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
