@@ -32,4 +32,18 @@ Enables hierarchical organization of properties
 
 # Domain and Range
 `rdfs:domain` and `rdfs:range`
-To define the domain 
+To define what subject the property can be used with (domain) and the what values it can have (range).
+
+```turtle
+:author rdfs:domain :Book   ;
+		rdfs:range  :Person .
+```
+
+# Utility
+`rdfs:label`  (but also others: `rdfs:comment`)
+
+```turtle
+:Book rdfs:label "My Book" .
+```
+
+
