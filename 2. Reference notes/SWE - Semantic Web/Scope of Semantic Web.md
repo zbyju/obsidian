@@ -16,4 +16,7 @@
 6. Annotations
 	- RDFa
 
+![https://i.imgur.com/hdmNgAd.png](https://i.imgur.com/hdmNgAd.png)
+
+
 [[_SWE Reference]]

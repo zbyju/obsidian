@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 4942045
       }
+    },
+    {
+      "query": "path:\"2. Reference notes/SWE - Semantic Web\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6262749
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +46,6 @@
   "repelStrength": 9.95930989583333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4863504661318857,
-  "close": true
+  "scale": 0.486350466131886,
+  "close": false
 }
