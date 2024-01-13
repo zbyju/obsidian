@@ -66,14 +66,21 @@ Datatype property where object is a literal
 		 rdfs:domain :Man               ;
 		 rdfs:range  :Woman             .
 
-:hasAge a owl:DatatypeProperty ;
-		rdfs:domain :Person              ;
-		rdfs:range xsd:nonNegativeInteger .
+:hasAge a           owl:DatatypeProperty   ;
+		rdfs:domain :Person                ;
+		rdfs:range  xsd:nonNegativeInteger .
 ```
 
-## Subproperty
-`owl:subPropertyOf`
+## Negative Object Property
+`owl:NegativePropertyAssertion`, `owl:sourceIndividual`, `owl:assertionProperty`, `owl:targetIndividual`
+States that 2 individuals are not connected by a property.
 
+```turtle
+[]  a owl:NegativePropertyAssertion ;
+	owl:sourceIndividual :Bob ;
+	owl:assertionProperty :hasWife ;
+	owl:targetIndividual :Mary .
+```
 
 [[_SWE Reference]]
 [[RDF Schema]]
