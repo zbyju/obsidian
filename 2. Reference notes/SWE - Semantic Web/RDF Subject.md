@@ -1,0 +1,1 @@
+The resource the statement is about.
