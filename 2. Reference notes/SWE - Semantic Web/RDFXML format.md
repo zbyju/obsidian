@@ -1,0 +1,1 @@
+RDF/XML is a format that utilizes XML for representing RDF graphs.
