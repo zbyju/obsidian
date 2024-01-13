@@ -13,3 +13,22 @@ It's same as saying `rdfs:subClassOf` 2 times in both directions.
 ```turtle
 :Person owl:equivalentClass :Human
 ```
+
+# Disjoin classes
+`owl:disjointWith`
+There can be no individual that is an instance of both classes at the same time.
+
+```turtle
+:Man owl:disjointWith :Woman
+```
+
+# Advanced classes
+`owl:intersectionOf` and `owl:unionOf`
+Individual is an instance of both classes (intersection) or instance of at least one class (union).
+
+```turtle
+:Mother owl:equivalentClass [
+	a        owl:Class ;
+	owl:intersectionOf ( :Woman :Parent )
+]
+```
