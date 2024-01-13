@@ -141,8 +141,15 @@ Describe the type of relation there is between individuals with this property.
 :Mary       :hasHusband :James .
 # => John == James
 
-# Inverse functional (if an object has 2 different subjects pointing to it
-#k)
+# Inverse functional (if an object has
+# 2 different subjects pointing to it
+# throught a inverse functional relation
+# then those 2 subjects are the same.
+#)
+:isMother a owl:InverseFunctionalProperty .
+:Jane     :isMother :John .
+:Janet    :isMother :John .
+# => Jane == Janet
 ```
 
 
