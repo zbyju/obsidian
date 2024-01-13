@@ -40,7 +40,7 @@ To define what subject the property can be used with (domain) and the what value
 ```
 
 # Utility
-`rdfs:label`  (but also others: `rdfs:comment`)
+`rdfs:label`  (but also others: `rdfs:comment`, `rdfs:seeAlso`, `rdfs:isDefinedBy`)
 
 ```turtle
 :Book rdfs:label "My Book" .
