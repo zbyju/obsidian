@@ -23,12 +23,26 @@ There can be no individual that is an instance of both classes at the same time.
 ```
 
 # Advanced classes
-`owl:intersectionOf` and `owl:unionOf`
-Individual is an instance of both classes (intersection) or instance of at least one class (union).
+`owl:intersectionOf` | `owl:unionOf` | `owl:complementOf`
+Individual is an instance of both classes (intersection) or instance of at least one class(union) or instance of no class.
 
 ```turtle
 :Mother owl:equivalentClass [
-	a        owl:Class ;
+	a                  owl:Class ;
 	owl:intersectionOf ( :Woman :Parent )
-]
+] .
+
+:Parent owl:equivalentClass [
+	a           owl:Class ;
+	owl:unionOf ( :Father :Mother )
+] .
+
+:ChildlessPerson owl:equivalentClass [
+	a                  owl:Class ;
+	owl:intersectionOf ( 
+		:Person
+		[ a owl:Class ; owl:complement]
+	)
+] .
 ```
+
