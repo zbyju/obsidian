@@ -1,7 +1,14 @@
 RDFa is used to embed RDF into XHTML as it defined number of extension attributes for it to work.
 
-# rel
+Important syntax:
+- rel
+- property
+- datatype
+
+
 When a subject is not defined then it is assumed to be the URI of the document itself:
+# rel
+Is used to reference external sources (using `href`)
 
 ```html
 Content on this page is licensed under
@@ -17,6 +24,7 @@ same as:
 ```
 
 # property
+Is used for literals.
 ```html
 <div xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<h3 property="dc:creator">Milan<h3>
