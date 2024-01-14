@@ -28,13 +28,18 @@ Microdata can be specified on any HTML element using:
 	
 	My friends often call me <span itemprop="nickname">Pete</span>.
 	
-	<section itemprop="address" itemscope itemtype="http://schema.org/Address
+	<section itemprop="address" itemscope itemtype="http://schema.org/Address">
 		My office address is 
 		<span itemprop="street-address">Technikestrasse 21a</span>
 		<span itemprop="postal-code">6020<span>,
 		<span itemprop="locality">Innsbruck</span>
 	</section>
 	and you can also visit my homepage at
-	<a href="http://peter-brown.org" itemprop="url">http://peter-brown.org</a
+	<a href="http://peter-brown.org" itemprop="url">http://peter-brown.org</a>
 </section>
 ```
+
+
+[[_SWE Reference]]
+[[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
+[[Web Annotations]]
