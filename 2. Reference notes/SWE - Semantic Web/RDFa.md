@@ -55,3 +55,8 @@ same as:
 ```turtle
 <http://blog.dojchinovski.mk/p/107> dc:creator "Milan".
 ```
+
+
+[[_SWE Reference]]
+[[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
+[[Web Annotations]]
