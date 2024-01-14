@@ -6,10 +6,10 @@ It uses these terms:
 Defines how to validate a *Focus Node* based on values of properties.
 
 # Focus Node
-RDF term that is validated against a Shape (URI, literal, blank node).
+RDF term that is validated against a Shape (URI, literal, blank node). They are the target of a shape.
 
 # Node Shape
-Specifies constraints that need to be met with respect to Focus Nodes.
+Specifies constraints that need to be met with respect to Focus Nodes. 
 (Directly on the node)
 
 ```turtle
@@ -23,7 +23,7 @@ ex:ExampleNodeShape a sh:NodeShape ;
 ```
 
 # Property Shape
-Specify constraints that need to be met with respect to nodes that can be reached from the Focus Node.
+Specify constraints that need to be met with respect to properties of the focus node.
 (Connected to the node)
 
 ```turtle
@@ -39,3 +39,7 @@ They are used to produce focus nodes for a shape.
 # Constraints
 Conditions that are checked for validity.
 
+
+[[_SWE Reference]]
+[[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
+[[Advanced SHACL]]
