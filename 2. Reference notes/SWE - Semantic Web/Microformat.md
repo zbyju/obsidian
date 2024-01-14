@@ -50,5 +50,7 @@ We can use this to include a subset of some data from one area of a page (the sa
 # Known issues
 - Name conflicts
 	- More microformats on the same page can cause conflicts
-- 
-- 
+- Scalability
+	- Again leads to conflicts
+- No formal semantic, no reasoning support
+	- There is a lack of compatibility with other technologies (RDF/RDFa)
