@@ -7,3 +7,6 @@ Adding computing power (instead of adding nodes). It usually means we need to bu
 - Might get really pricy
 - Vendor lock-in
 - Cannot be applied indefinitely
+
+[[_PDB Reference]]
+[[Horizontal Scaling]]
