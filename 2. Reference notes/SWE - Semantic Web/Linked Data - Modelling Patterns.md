@@ -1,3 +1,4 @@
+These patterns improve 
 # Custom datatype
 If we are missing a datatype (from XSD for example), we can create our own datatype and publish it.
 
@@ -27,11 +28,17 @@ ext:milansAddress    ext:street "Thakurova" ;
 Annotate relationships by creating a resource for it and then providing metadata for it.
 
 ```turtle
-_:bobMaryMarriage   a ex:Marriage;
+_:bobMaryMarriage    a ex:Marriage;
 					ex:partner eg:bob;
 					ex:partner eg:mary;
 					ex:date "2009-04-01"^^xsd:date.
 ```
+
+# Reified statement
+Make statements about statements to provide metadata.
+
+# Repeated properties
+If we have a property with multiple values then we should use the same subject and property with a different object.
 
 [[_SWE Reference]]
 [[Linked Data Patterns]]

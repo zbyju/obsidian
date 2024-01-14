@@ -1,3 +1,4 @@
+These patterns improve how our URIs look like and how usable they are.
 # Patterned URI
 Predictable and human-readable
 Should follow some common pattern
