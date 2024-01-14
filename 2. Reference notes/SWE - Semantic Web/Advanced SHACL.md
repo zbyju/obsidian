@@ -39,19 +39,34 @@ ex:BirthDeathDateShape a sh:NodeShape;
   ] .
 ```
 # Logical Constraint
-Impose logi.
+Impose logical constraints on properties.
 ```turtle
 ex:LogicalShape a sh:NodeShape;
   sh:and (ex:PersonShape ex:EmployeeShape). # Must conform to both PersonShape and EmployeeShape
 ```
-# Value Type Constraint
-Values of a property have a specific data type.
+# Shape-Based Constraint
+Validating other nodes connected to the focus node based on a constraint.
 ```turtle
+ex:ProjectShape a sh:NodeShape;
+  sh:targetClass ex:Project;
+  sh:property [
+    sh:path ex:manager;
+    sh:node ex:PersonShape; # The value of 'manager' must conform to PersonShape
+  ].
+
+ex:PersonShape a sh:NodeShape;
+  sh:property [
+    sh:path ex:name;
+    sh:datatype xsd:string;
+  ];
+  sh:property [
+    sh:path ex:email;
+    sh:pattern "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+  ].
 ```
-# Value Type Constraint
-Values of a property have a specific data type.
-```turtle
-```
+
+
+
 
 [[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
