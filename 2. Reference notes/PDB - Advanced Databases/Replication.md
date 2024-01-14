@@ -7,3 +7,5 @@ Master database is replicated to slaves.
 
 ## Peer-to-peer replication
 Each node has same standing and can read and write.
+
+[[_PDB Reference]]
