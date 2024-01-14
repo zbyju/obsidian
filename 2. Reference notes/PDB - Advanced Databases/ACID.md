@@ -7,4 +7,7 @@
 - Durability
 	- Once the changes are confirmed they are persistently stored
 
-ACID is very restricting a 
+ACID is very restricting and therefore pretty much forces the database to be in the "CA" category according to CAP.
+
+[[_PDB Reference]]
+[[CAP]]
