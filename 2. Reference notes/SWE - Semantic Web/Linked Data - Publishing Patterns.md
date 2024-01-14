@@ -12,7 +12,10 @@ Publish datasets description on VoiD.
 Use well-known URIs.
 
 # Embedded Metadata
+When publishing data that is structured along with unstructured data then do so without duplicating the information. Use embedded formats to embed the data.
 
+# Unpublishing data
+To announce that data has moved or is removed we can use HTTP status codes to indicate that (302, 303, 307, 308)
 
 
 [[_SWE Reference]]
