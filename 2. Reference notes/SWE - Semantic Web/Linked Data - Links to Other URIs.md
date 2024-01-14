@@ -11,4 +11,29 @@ Types of links:
 	- Allows to get different opinions, or more information
 - Vocabulary links
 	- Links among terms in vocabularies
-	- Improve data integrati
+	- Improve data integration
+
+```turtle 
+# Relationship links
+<http://biglynx.co.uk/people/dave-smith>
+	rdf:type foaf:Person ;
+	foaf:name "Dave Smith" ;
+	foaf:based_near <http://sws.geonames.org/3333125/> ;
+	foaf:based_near <http://dbpedia.org/resource/Birmingham> ;
+	foaf:topic_interest <http://dbpedia.org/resource/Wildlife_photography
+	foaf:knows <http://dbpedia.org/resource/David_Attenborough> .
+
+# Identity links
+<http://dbpedia.org/resource/Prague>
+	owl:sameAs <http://cs.dbpedia.org/resource/Praha> .
+
+# Vocabulary links
+<http://biglynx.co.uk/vocab/sme#SmallMediumEnterprise>
+	rdf:type rdfs:Class ;
+	rdfs:label "Small or Medium-sized Enterprise" ;
+	rdfs:subClassOf <http://dbpedia.org/ontology/Company> ;
+	rdfs:subClassOf <http://umbel.org/umbel/sc/Business> .
+```
+
+[[_SWE Reference]]
+[[Linked Data]]
