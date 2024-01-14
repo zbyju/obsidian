@@ -4,3 +4,6 @@ There are several formats for web annotations:
 - RDFa ([[RDFa]])
 - Microdata ([[Microdata]])
 - Microformats ([[Microformat]])
+
+[[_SWE Reference]]
+[[2. Reference notes/SWE - Semantic Web/RDF|RDF]]

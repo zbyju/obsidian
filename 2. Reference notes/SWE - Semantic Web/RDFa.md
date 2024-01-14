@@ -1,0 +1,1 @@
+RDFa is used to embed RDF into XHTML as it defined number of extension attributes for it to work.
