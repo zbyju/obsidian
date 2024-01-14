@@ -3,8 +3,8 @@ There is a linked data pattern catalogue for best practices for modelling, publi
 - Identifier patterns - [[Linked Data - Identifier Patterns]]
 - Modelling patterns - [[Linked Data - Modelling Patterns]]
 - Publishing patterns - [[Linked Data - Publishing Patterns]]
-- Data management patterns - [[Linked Data - Data Management Patterns]]
-- Application patterns - [[Linked Data - Application Patterns]]
+- Data management patterns
+- Application patterns
 
 [https://patterns.dataincubator.org/book/]()
 
@@ -13,5 +13,3 @@ There is a linked data pattern catalogue for best practices for modelling, publi
 [[Linked Data - Identifier Patterns]]
 [[Linked Data - Modelling Patterns]]
 [[Linked Data - Publishing Patterns]]
-[[Linked Data - Data Management Patterns]]
-[[Linked Data - Application Patterns]]
