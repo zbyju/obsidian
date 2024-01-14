@@ -19,13 +19,19 @@ ex:ExampleNodeShape a sh:NodeShape ;
 		sh:name "e-mail" ;
 		sh:description "We need at least one email value" ;
 		sh:minCount 1 ;
-	] ;
+	] .
 ```
 
 # Property Shape
 Specify constraints that need to be met with respect to nodes that can be reached from the Focus Node.
 (Connected to the node)
 
+```turtle
+ex:ExamplePropertyShape a sh:PropertyShape ;
+	sh:path ex:email ;
+	sh:description "We need at least one email value" ;
+	sh:minCount 1 .
+```
 # Targets
 Triples with the shape as the subject + properties described as predicates.
 They are used to produce focus nodes for a shape.
