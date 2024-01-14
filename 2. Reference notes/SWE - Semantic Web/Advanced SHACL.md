@@ -69,5 +69,4 @@ ex:PersonShape a sh:NodeShape;
 
 
 [[_SWE Reference]]
-[[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
 [[SHACL]]
