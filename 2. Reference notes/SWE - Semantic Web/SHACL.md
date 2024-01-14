@@ -12,9 +12,24 @@ RDF term that is validated against a Shape (URI, literal, blank node).
 Specifies constraints that need to be met with respect to Focus Nodes.
 (Directly on the node)
 
+```turtle
+ex:ExampleNodeShape a sh:NodeShape ;
+	sh:property [
+		sh:path ex:email ;
+		sh:name "e-mail" ;
+		sh:description "We need at least one email value" ;
+		sh:minCount 1 ;
+	] ;
+```
+
 # Property Shape
 Specify constraints that need to be met with respect to nodes that can be reached from the Focus Node.
 (Connected to the node)
 
 # Targets
-T
+Triples with the shape as the subject + properties described as predicates.
+They are used to produce focus nodes for a shape.
+
+# Constraints
+Conditions that are checked for validity.
+
