@@ -9,7 +9,6 @@ Important syntax:
 When a subject is not defined then it is assumed to be the URI of the document itself:
 # rel
 Is used to reference external sources (using `href`)
-
 ```html
 Content on this page is licensed under
 <a  xmlns:ext="http://www.example.org/terms"
@@ -36,9 +35,23 @@ same as:
 ```
 
 # Typed literals
+To specify datatype of a literal
 ```html
 <div xmlns:dc="http://purl.org/dc/elements/1.1/"
 	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 	<h3 property="dc:creator" datatype="xsd:string">Milan<h3>
 </div>
+```
+
+# about
+To specify the subject
+```html
+<div xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 about="/p/107" >
+	<h3 property="dc:creator">Milan<h3>
+</div>
+```
+same as:
+```turtle
+<http://blog.dojchinovski.mk/p/107> dc:creator "Milan".
 ```
