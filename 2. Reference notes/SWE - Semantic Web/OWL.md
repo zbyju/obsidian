@@ -14,3 +14,4 @@ It uses 2 assumptions:
 [[OWL Elements]]
 [[Open World Assumption]]
 [[No Unique Names Assumption]]
+[[Linked Data]]
