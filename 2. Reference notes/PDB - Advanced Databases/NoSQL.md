@@ -5,6 +5,6 @@ They usually try to solve some specific problem traditional databases might lack
 - Schema flexibility
 - Ease of use
 
-They usually (not always) don't 
+They are usually (not always) not in the "CA" category based on the CAP theorem ([[CAP Theorem]]).
 
 [[_PDB Reference]]

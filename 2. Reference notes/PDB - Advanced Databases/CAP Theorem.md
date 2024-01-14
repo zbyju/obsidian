@@ -19,3 +19,5 @@ CAP Theorem says that distributed databases can have at most 2 of 3 of these pro
 	- Cassandra, RiakKV, DynamoDB
 
 [[_PDB Reference]]
+[[2. Reference notes/PDB - Advanced Databases/NoSQL|NoSQL]]
+[[Horizontal Scaling]]
