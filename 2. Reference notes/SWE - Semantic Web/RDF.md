@@ -9,6 +9,7 @@ There are many premade ontologies and datasets we can use:
 - DBC ([[DBC Ontology]])
 - FOAF ([[FOAF Ontology]])
 - NIF ([[NLP Interchange Format]])
+- Data Cube ([[RDF Data Cube]])
 
 [[_SWE Reference]]
 [[RDF Resource]]
