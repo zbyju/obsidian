@@ -14,21 +14,35 @@ ex:PhoneShape a sh:PropertyShape;
   sh:minCount 1; # At least one phone number required
   sh:maxCount 2. # No more than two phone numbers
 ```
-# Value Type Constraint
-Values of a property have a specific data type.
+# Value Range Constraint
+Values of a property to be in a range.
 ```turtle
+ex:AgeRangeShape a sh:PropertyShape;
+  sh:path ex:age;
+  sh:minInclusive 18;
+  sh:maxInclusive 65. # Age must be between 18 and 65
 ```
-# Value Type Constraint
-Values of a property have a specific data type.
+# String Based Constraint
+Apply constraints on string properties
 ```turtle
+ex:EmailPatternShape a sh:PropertyShape;
+  sh:path ex:email;
+  sh:pattern "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$". # Regex for email
 ```
-# Value Type Constraint
-Values of a property have a specific data type.
+# Property Pair Constraint
+Constraints on relationships between multiple properties.
 ```turtle
+ex:BirthDeathDateShape a sh:NodeShape;
+  sh:property [
+    sh:path ex:birthDate;
+    sh:lessThan ex:deathDate; # Birth date must be before death date
+  ] .
 ```
-# Value Type Constraint
-Values of a property have a specific data type.
+# Logical Constraint
+Impose logi.
 ```turtle
+ex:LogicalShape a sh:NodeShape;
+  sh:and (ex:PersonShape ex:EmployeeShape). # Must conform to both PersonShape and EmployeeShape
 ```
 # Value Type Constraint
 Values of a property have a specific data type.
