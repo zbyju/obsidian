@@ -1,6 +1,6 @@
 Resource Description Framework is a standard model that enables the representation of information about resources in a structured way. We can create RDF graphs to represent information.
 
-It uses triples of **subject** - **predicate** - **object** to convey information.
+It uses triples of **subject** - **predicate** - **object** to convey information. These triples can be serialized in many different formats 
 
 There are many premade ontologies and datasets we can use:
 - RDFS ([[RDF Schema]])
@@ -10,6 +10,10 @@ There are many premade ontologies and datasets we can use:
 - FOAF ([[FOAF Ontology]])
 - NIF ([[NLP Interchange Format]])
 - Data Cube ([[RDF Data Cube]])
+
+RDF graphs can be validated using:
+- SHACL ([[SHACL]])
+- ShEx ([[ShEx]])
 
 [[_SWE Reference]]
 [[RDF Resource]]
