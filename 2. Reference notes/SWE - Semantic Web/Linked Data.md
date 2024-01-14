@@ -16,3 +16,4 @@ We can access linked data by dereferencing URI of a resource ([[Accessing Linked
 [[Linked Data - Useful Information]]
 [[Linked Data - Links to Other URIs]]
 [[Accessing Linked Data]]
+[[Linked Data 5 star criteria]]

@@ -15,3 +15,11 @@ There are 2 strategies for accessing linked data:
 2. Server returns HTTP 303 See Other (redirect) with URI to a document describing the resource
 3. Client performs HTTP GET on the URI returned by the server
 4. Server sends back the data
+
+## Advantages:
+- Clear distinction of the entity and the document describing it
+- Allows for better content negotiation
+
+
+[[_SWE Reference]]
+[[Linked Data]]
