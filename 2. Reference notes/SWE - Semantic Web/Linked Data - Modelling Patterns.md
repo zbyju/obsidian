@@ -1,4 +1,5 @@
-These patterns improve 
+These patterns improve how we model our data.
+We should definitely try to reuse existing data models (RDFS, OWL).
 # Custom datatype
 If we are missing a datatype (from XSD for example), we can create our own datatype and publish it.
 
