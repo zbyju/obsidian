@@ -9,4 +9,4 @@
 BASE focuses on databases that are in the "AP" category according to CAP.
 
 [[_PDB Reference]]
-[[CAP]]
+[[CAP Theorem]]

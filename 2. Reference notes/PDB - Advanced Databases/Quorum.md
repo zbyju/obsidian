@@ -10,3 +10,6 @@ We need the majority to agree on a change. This will never lead to conflicts.
 ## Read quorum
 **R > N - W** = R + W > N
 We ask all nodes from read quorum and get the latest result (newest timestamp). This is enough because the write quorum agreed on the change.
+
+[[_PDB Reference]]
+[[Horizontal Scaling]]

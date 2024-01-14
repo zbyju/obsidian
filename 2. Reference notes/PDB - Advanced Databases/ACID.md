@@ -10,4 +10,4 @@
 ACID is very restricting and therefore pretty much forces the database to be in the "CA" category according to CAP.
 
 [[_PDB Reference]]
-[[CAP]]
+[[CAP Theorem]]
