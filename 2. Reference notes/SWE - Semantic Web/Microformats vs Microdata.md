@@ -4,7 +4,7 @@
 	- New properties can be added without breaking other stuff
 
 # Standards
-- Microformat is a standard of HTML5
+- Microdata is a standard of HTML5
 	- They are RDF compatible
 - Microformats is an ad-hoc group of people and are still supported
 	- They are not RDF compatible
