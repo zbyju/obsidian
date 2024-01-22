@@ -10,3 +10,17 @@ go run .
 go run main.go
 ```
 
+# Working with net/http
+
+It is part of the standard library for building web applications
+
+## Create a new server
+1. Create server:
+```go
+mux := http.NewServeMux()
+```
+2. Register routes (mapping between route and handler)
+```go
+mux.HandleFunc("/", home)
+mux.HandleFunc("/edit, )
+```
