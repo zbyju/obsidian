@@ -15,7 +15,7 @@ go run main.go
 It is part of the standard library for building web applications
 
 ## Create a new server
-1. Create server:
+1. Create a serve mux:
 ```go
 mux := http.NewServeMux()
 ```
@@ -46,7 +46,20 @@ log.Fatal(err)
 ```go
 func home(w http.ResponseWriter, r *http.Request) {
 	if r.URL.Path != "/" {
-	http.Not}
+		http.NotFound(w, r)
+		return
+	}
 	w.Write([]byte("Hello from home"))
 }
+```
+
+To access the URL path as a string we can use `r.URL.Path`.
+
+## Default servemux
+Instead of using `mux := http.NewServeMux()` we can use a default serve mux stored in a global variable inside `net/http`.
+
+```go
+http.HandleFunc("/", home)
+// ...
+err := http.ListenAndServe(":4000", nil) 
 ```
