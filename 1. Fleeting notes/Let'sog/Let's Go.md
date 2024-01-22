@@ -169,4 +169,9 @@ If we want to disable folder access we have several options:
 If we wanted to serve just a single file we can make use of `http.ServeFile(w, r, path)` it doesn't automatically sanitize inputs so we can use `filepath.Clean()`.
 
 # Handler
-Handler is any function 
+Handler is any object that satisfies the `http.Handler` interface:
+```go
+type Handler interface {
+	ServeHTTP(ResponseWriter, *Request)
+}
+```
