@@ -80,10 +80,19 @@ We can return a different status code by using `w.WriteHeader(statusCode)` (for 
 
 This can only be done once. If you call the WriteHeader method after calling Write or another WriteHeader it will have no effect.
 
+## Helper
 We can also use a helper function to do that for us:
 ```go
 http.Error(w, "Method not allowed", 405)
 return
 ```
 
-This will take the ResponseWriter and use it to return the data (text) containing `Method not allowed"` with status code 
+This will take the ResponseWriter and use it to return the data (text) containing `Method not allowed"` with status code 405.
+
+## Constants
+```go
+http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+return
+```
+
+The net/http package has all sorts of constants for different status codes. This makes the code easier to read (especially when using status codes that are not as common)
