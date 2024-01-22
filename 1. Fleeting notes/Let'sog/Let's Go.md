@@ -58,7 +58,11 @@ To access the URL path as a string we can use `r.URL.Path`.
 In serve mux longer URL paths take precedence.
 
 Request URL paths are automatically sanitized. If a user sends `/foo/bar/..//./baz` they will get redirected to `/foo/baz`, because:
-- `..` 
+- `..` is go up a level
+- `.` is stay at the level
+- ` ` stay at the level
+
+Users are automatically redirected if they are missing a trailing `/` (`/foo -> /foo/`)
 
 ## Default servemux
 Instead of using `mux := http.NewServeMux()` we can use a default serve mux stored in a global variable inside `net/http`.
