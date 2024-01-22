@@ -159,3 +159,7 @@ fileServer := http.FileServer(http.Dir("./ui/static/"))
 mux.Handle("/static/", http.StripPrefix("/static", fileServer))
 ```
 
+StripPrefix will make sure we are matching correctly on the URL as we want (now we can access using `localhost:4000/static/` and see the structure inside `/ui/static` folder).
+
+
+If we wanted to serve just a single file we can make use of `http.ServeFile(w,)`.
