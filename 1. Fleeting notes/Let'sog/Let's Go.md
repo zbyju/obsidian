@@ -129,3 +129,22 @@ Good code structure can be:
 It carries a specific meaning in go - packages inside this folder can only be imported by the parent of this folder. In our case we can import them from our project but not other. 
 
 This is good because we know that noone is relying on this code and can be sure that we can change it.
+
+# Templates
+Go provides `html/template` package that contains functions for parsing and rerendering html files.
+
+```go
+ts, err := template.ParseFiles("./ui/html/pages/home.tmpl")
+if err != nil {
+	log.Print(err.Error())
+	http.Error(w, "Internal Server Error", 500)
+}
+
+err = ts.Execute(w, nil)
+if err != nil {
+	log.Print(err.Error())
+	http.Error(w, "Internal Server Error", 500)
+}
+```
+
+1. `.ParseFiles()`- parses the file into a template set.
