@@ -55,6 +55,11 @@ func home(w http.ResponseWriter, r *http.Request) {
 
 To access the URL path as a string we can use `r.URL.Path`.
 
+In serve mux longer URL paths take precedence.
+
+Request URL paths are automatically sanitized. If a user sends `/foo/bar/..//./baz` they will get redirected to `/foo/baz`, because:
+- `..` 
+
 ## Default servemux
 Instead of using `mux := http.NewServeMux()` we can use a default serve mux stored in a global variable inside `net/http`.
 
@@ -63,3 +68,5 @@ http.HandleFunc("/", home)
 // ...
 err := http.ListenAndServe(":4000", nil) 
 ```
+
+This approach makes things a tiny bit simpler, but it's not good for production applications. It uses a global variable that can be exploited.
