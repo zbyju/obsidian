@@ -107,10 +107,16 @@ Go sets some headers automatically:
 
 ## Header manipulation
 We can use `w.Header()` to access the Map that holds the headers and change them using:
-- `Set(key, value)` - Adds/overwrites header to new value
-- `Add(key, value)` - Adds/appends new headers (creates multiples) to new values
-- `Del(key)` - Deletes header
-- `Get(key)` - Gets the first header
-- `Values(key)` - Gets all the headers
+- `.Set(key, value)` - Adds/overwrites header to new value
+- `.Add(key, value)` - Adds/appends new headers (creates multiples) to new values
+- `.Del(key)` - Deletes header
+- `.Get(key)` - Gets the first header
+- `.Values(key)` - Gets all the headers
 
 The header name will always get canonicalized (first letters are upper case).
+
+## Query parameters
+We can use `r.URL.Query()` to get the Map that holds the parameters and then use methods to access them:
+- `.Get(key)` - to get the query parameters based on its name
+
+
