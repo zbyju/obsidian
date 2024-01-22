@@ -151,4 +151,11 @@ if err != nil {
 2. `.Execute(w, data)` - returns the html to the client and adds data to it
 
 ## Serving static files
-We can use `net/http` that co
+We can use `net/http` that comes with a `http.FileServer`.
+
+```go
+fileServer := http.FileServer(http.Dir("./ui/static/"))
+
+mux.Handle("/static/", http.StripPrefix("/static", fileServer))
+```
+
