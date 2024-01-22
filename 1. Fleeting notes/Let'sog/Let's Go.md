@@ -74,3 +74,8 @@ err := http.ListenAndServe(":4000", nil)
 ```
 
 This approach makes things a tiny bit simpler, but it's not good for production applications. It uses a global variable that can be exploited.
+
+## HTTP Status code
+We can return a different status code by using `w.WriteHeader(statusCode)` (for example `w.WriteHeader(405))`.
+
+This can only be done once. If you call the WriteHeader method after calling Write or another WriteHeader it will have no effect.
