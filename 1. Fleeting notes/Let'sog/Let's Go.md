@@ -119,4 +119,11 @@ The header name will always get canonicalized (first letters are upper case).
 We can use `r.URL.Query()` to get the Map that holds the parameters and then use methods to access them:
 - `.Get(key)` - to get the query parameters based on its name
 
+# Code structure
 
+Good code structure can be:
+- **cmd** - folder that contains application specific stuff (main, handlers etc)
+- **internal** - folder that contains application non-specific stuff (validators, sql models)
+- **ui** - folder that holds assets such as html, css and other non-go stuff
+## Internal
+It carries a spe
