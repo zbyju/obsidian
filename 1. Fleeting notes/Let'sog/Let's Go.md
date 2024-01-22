@@ -147,4 +147,5 @@ if err != nil {
 }
 ```
 
-1. `.ParseFiles()`- parses the file into a template set.
+1. `.ParseFiles(path)` - parses the file into a template set
+2. `.Execute(w, data)` - returns the html to the client and adds data to it
