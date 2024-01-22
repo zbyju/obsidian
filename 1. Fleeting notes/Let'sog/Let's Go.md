@@ -107,8 +107,10 @@ Go sets some headers automatically:
 
 ## Header manipulation
 We can use `w.Header()` to access the Map that holds the headers and change them using:
-- `Set()` Adds/overwrites 
-- `Add(key, value)` - adds 
-- `Del()`
-- `Get()`
-- `Values()`
+- `Set(key, value)` - Adds/overwrites header to new value
+- `Add(key, value)` - Adds/appends new headers (creates multiples) to new values
+- `Del(key)` - Deletes header
+- `Get(key)` - Gets the first header
+- `Values(key)` - Gets all the headers
+
+The header name will always get canonicalized (first letters are upper case).
