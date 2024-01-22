@@ -96,3 +96,19 @@ return
 ```
 
 The net/http package has all sorts of constants for different status codes. This makes the code easier to read (especially when using status codes that are not as common)
+
+## Automatic headers
+Go sets some headers automatically:
+- Date
+- Content-Length
+- Content-Type
+	- This doesnt automatically detect JSON and will send it as plain text
+	- To fix this: `w.Header().Set("Content-Type", "application/json")`
+
+## Header manipulation
+We can use `w.Header()` to access the Map that holds the headers and change them using:
+- `Set()` Adds/overwrites 
+- `Add(key, value)` - adds 
+- `Del()`
+- `Get()`
+- `Values()`
