@@ -161,5 +161,12 @@ mux.Handle("/static/", http.StripPrefix("/static", fileServer))
 
 StripPrefix will make sure we are matching correctly on the URL as we want (now we can access using `localhost:4000/static/` and see the structure inside `/ui/static` folder).
 
+If we want to disable folder access we have several options:
+- Add empty index.html to each folder we want to disable
+	- This will serve the index.html instead of showing the contents of the folder
+- Make a custom implementation of a fileserver
 
-If we wanted to serve just a single file we can make use of `http.ServeFile(w,)`.
+If we wanted to serve just a single file we can make use of `http.ServeFile(w, r, path)` it doesn't automatically sanitize inputs so we can use `filepath.Clean()`.
+
+# Handler
+Handler is any function 
