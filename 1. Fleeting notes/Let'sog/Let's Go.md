@@ -126,4 +126,6 @@ Good code structure can be:
 - **internal** - folder that contains application non-specific stuff (validators, sql models)
 - **ui** - folder that holds assets such as html, css and other non-go stuff
 ## Internal
-It carries a spe
+It carries a specific meaning in go - packages inside this folder can only be imported by the parent of this folder. In our case we can import them from our project but not other. 
+
+This is good because we know that noone is relying on this code and can be sure that we can change it.
