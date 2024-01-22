@@ -79,3 +79,11 @@ This approach makes things a tiny bit simpler, but it's not good for production 
 We can return a different status code by using `w.WriteHeader(statusCode)` (for example `w.WriteHeader(405))`.
 
 This can only be done once. If you call the WriteHeader method after calling Write or another WriteHeader it will have no effect.
+
+We can also use a helper function to do that for us:
+```go
+http.Error(w, "Method not allowed", 405)
+return
+```
+
+This will take the ResponseWriter and use it to return the data (text) containing `Method not allowed"` with status code 
