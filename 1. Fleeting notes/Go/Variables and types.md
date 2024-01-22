@@ -14,4 +14,28 @@ var float float64 = 12341243.12341234
 
 // default value
 var anotherVariable int // 0
+
+// implicit
+var str = "this is going to be a string"
+```
+
+# Declaration with initialization
+```go
+username := "user"
+```
+
+You can only use that inside a method
+Can't use it for global variables
+
+# Public
+If we want to use variables or function outside our file (package) we need to make it capital
+```go
+var Username = "test"
+```
+
+# Const
+We can make a variable constant by using `const`
+
+```go
+const PI = 3.14
 ```
