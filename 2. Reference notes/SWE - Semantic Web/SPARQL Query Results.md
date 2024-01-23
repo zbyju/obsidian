@@ -12,5 +12,4 @@ Result is a single boolean and can be returned inside JSON.
 
 They return a whole graph, therefore they need to use some RDF format: RDF/XML, Turtle, N-triples, JSON-LD, etc.
 
-[[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/SPARQL|SPARQL]]

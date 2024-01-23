@@ -41,5 +41,3 @@ Conditions that are checked for validity.
 
 
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
-[[Advanced SHACL]]
-[[SHACL vs ShEx]]

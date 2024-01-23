@@ -38,6 +38,4 @@ DELETE { ?book ?p ?v } WHERE {
 }
 ```
 
-[[_SWE Reference]]
-[[2. Reference notes/SWE - Semantic Web/SPARQL|SPARQL]]
 [[SPARQL Query Language]]

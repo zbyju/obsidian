@@ -50,6 +50,5 @@ Content-Type: text/turtle
 ... RDF payload ...
 ```
 
-[[_SWE Reference]]
 [[SPARQL Update]]
 [[2. Reference notes/SWE - Semantic Web/SPARQL|SPARQL]]

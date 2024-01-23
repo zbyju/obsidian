@@ -155,7 +155,7 @@ Describe the type of relation there is between individuals with this property.
 
 
 
-[[1. Fleeting notes/SWE/OWL|OWL]]
+[[OWL]]
 [[RDF Schema]]
 [[RDFS Elements]]
 [[RDF Resource]]

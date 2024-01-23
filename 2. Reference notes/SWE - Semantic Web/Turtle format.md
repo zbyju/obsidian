@@ -37,6 +37,5 @@ ex:item a        ex:Resource;
 ```
 
 
-[[_SWE Reference]]
 [[RDF Formats]]
 [[RDFXML Format]]

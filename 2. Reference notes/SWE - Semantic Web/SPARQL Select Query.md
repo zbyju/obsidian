@@ -18,7 +18,5 @@ SELECT ?person ?name ?country ?population WHERE {
 }
 ```
 
-[[_SWE Reference]]
 [[Turtle Format]]
-[[2. Reference notes/SWE - Semantic Web/SPARQL|SPARQL]]
 [[SPARQL Query Language]]

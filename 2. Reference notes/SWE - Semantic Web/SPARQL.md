@@ -17,8 +17,3 @@ It describes:
 	- How to communicate with the data store
 
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
-[[SPARQL Query Language]]
-[[SPARQL Query Results]]
-[[SPARQL Protocol]]
-[[SPARQL Update]]
-[[SPARQL Graph Store HTTP Protocol]]

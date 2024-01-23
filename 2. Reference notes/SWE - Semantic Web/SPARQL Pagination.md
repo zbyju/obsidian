@@ -6,6 +6,5 @@ It is a common pattern to use:
 - OFFSET
 together so they provide a reliable pagination by sorting the results and then taking *x* results and paginating using the *offset*.
 
-[[_SWE Reference]]
 [[SPARQL Query Language]]
 [[SPARQL Query Modifiers]]

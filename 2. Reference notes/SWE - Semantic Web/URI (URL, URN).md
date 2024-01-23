@@ -10,5 +10,4 @@ URL describe a resource while also providing and describing the primary way to a
 
 Gives a name without implying its location or way to access it.
 
-[[_SWE Reference]]
 [[RDF Resource]]

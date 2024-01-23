@@ -59,5 +59,4 @@ query=PREFIX%20dc%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements
 ```
 
 
-[[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/SPARQL|SPARQL]]
