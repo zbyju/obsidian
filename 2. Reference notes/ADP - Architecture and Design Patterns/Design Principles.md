@@ -1,0 +1,1 @@
+They are fundamental guidelines/best practices for software development. They serve as a great tool for decision making when designing software.
