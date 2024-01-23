@@ -13,5 +13,4 @@ List:
 - Visitor [[Visitor Pattern]]
 - Interpreter [[Interpreter pattern]]
 
-[[_ADP Reference]]
 [[Design Patterns]]

@@ -8,6 +8,3 @@ Improves Principles:
 - Single Responsibility
 
 *Example: One service works with JSON, one with XML, we want them to work together, so we connect them using an adapter that converts JSON <-> XML* 
-
-**Linkage:**
-- [[_ADP Reference]]
