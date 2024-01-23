@@ -10,4 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
-- [[2. Reference notes/ADP - Architecture and Design Patterns/LoC]]
+- [[LoD]]

@@ -1,1 +1,0 @@
-Casem, business se pushuje moc, spatni vyvojari, chybi testy, chybi dokumentace

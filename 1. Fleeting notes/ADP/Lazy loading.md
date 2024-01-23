@@ -1,1 +1,0 @@
-Loaduje az kdyz je to potreba
