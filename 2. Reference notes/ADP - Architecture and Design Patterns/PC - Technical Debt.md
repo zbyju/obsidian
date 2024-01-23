@@ -10,4 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
-- [[Technical Debt - Definition and Context]]
+- [[2. Reference notes/ADP - Architecture and Design Patterns/Technical Debt]]

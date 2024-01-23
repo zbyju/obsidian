@@ -10,4 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
-- [[The Boy Scout Rule - Definition and Context]]
+- [[The Boy Scout Rule]]
