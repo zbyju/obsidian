@@ -8,6 +8,8 @@ YAGNI aims to keep the codebase lean, focusing on delivering what's needed now a
 
 # Problems
 If we are not following it:
-- 
+- Delays implementation/releasing new features
+- More robust solution is harder to change
+- It is more costly to maintain and keep fixing the code if there is more of it
 
 [[Design Principles]]
