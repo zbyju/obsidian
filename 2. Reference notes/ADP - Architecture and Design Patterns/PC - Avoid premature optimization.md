@@ -10,4 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
-- [[Avoid premature optimization - Definition and context]]
+- [[Avoid premature optimization]]

@@ -10,4 +10,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
-- [[Principle of Least Astonishment - Definition and Context]]
+- [[2. Reference notes/ADP - Architecture and Design Patterns/Principle of Least Astonishment]]

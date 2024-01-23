@@ -11,4 +11,4 @@
 
 **Linkage:**
 - [[_ADP Reference]]
-- [[DRY - Definition and Context]]
+- [[DRY]]
