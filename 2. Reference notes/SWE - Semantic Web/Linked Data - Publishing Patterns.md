@@ -17,5 +17,4 @@ When publishing data that is structured along with unstructured data then do so 
 # Unpublishing data
 To announce that data has moved or is removed we can use HTTP status codes to indicate that (302, 303, 307, 308)
 
-
-[[Linked Data]]
+[[Linked Data Patterns]]

@@ -22,5 +22,4 @@ When there is no natural key, we can use a slug:
 If there is already a key that's used we can use it as well, which helps linking data.
 
 
-
 [[Linked Data Patterns]]
