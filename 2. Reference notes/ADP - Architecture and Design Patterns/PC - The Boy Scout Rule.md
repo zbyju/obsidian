@@ -8,6 +8,4 @@
 - Requires discipline and might not always be feasible given time constraints.
 - Could lead to unexpected bugs if changes aren't thoroughly tested.
 
-**Linkage:**
-- [[_ADP Reference]]
-- [[The Boy Scout Rule]]
+[[The Boy Scout Rule]]

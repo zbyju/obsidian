@@ -8,6 +8,4 @@
 - Might introduce some overhead in design and initial implementation.
 - If misunderstood or misapplied, can lead to overcomplication.
 
-**Linkage:**
-- [[_ADP Reference]]
-- [[SOLID]]
+[[SOLID]]

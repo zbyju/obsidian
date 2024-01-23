@@ -8,6 +8,4 @@
 - Requires rigorous user testing to ensure that expectations align with actual behaviors.
 - Might lead to oversimplification, where some necessary complexities are avoided to stay intuitive.
 
-**Linkage:**
-- [[_ADP Reference]]
-- [[2. Reference notes/ADP - Architecture and Design Patterns/Principle of Least Astonishment]]
+[[Principle of Least Astonishment]]

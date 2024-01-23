@@ -8,6 +8,4 @@
 - Increases maintenance costs and can affect software reliability.
 - If left unchecked, it can severely degrade the codebase and the team's ability to introduce changes.
 
-**Linkage:**
-- [[_ADP Reference]]
-- [[2. Reference notes/ADP - Architecture and Design Patterns/Technical Debt]]
+[[Technical Debt]]

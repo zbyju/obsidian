@@ -8,6 +8,4 @@
 - Can lead to refactoring when new requirements arise.
 - Balancing YAGNI with forward-thinking design can be tricky.
 
-**Linkage:**
-- [[_ADP Reference]]
-- [[YAGNI]]
+[[YAGNI]]
