@@ -7,4 +7,3 @@ Choosing a straightforward algorithm over a more complex one for a specific task
 KISS aims to improve code readability, maintainability, and debugging. It emphasizes that simplicity often leads to more robust and reliable software.
 
 [[Design Principles]]
-[[PC - KISS]]
