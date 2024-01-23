@@ -39,5 +39,4 @@ Represents the data value of a property along with the type.
 # Cons
 - Hard for humans to read
 
-[[_SWE Reference]]
 [[Web Annotations]]

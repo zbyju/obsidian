@@ -57,6 +57,5 @@ same as:
 ```
 
 
-[[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
 [[Web Annotations]]

@@ -7,5 +7,4 @@ We can represent RDF graphs in many different formats:
 
 Each format has its own specific use cases.
 
-[[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]

@@ -18,5 +18,4 @@ When publishing data that is structured along with unstructured data then do so 
 To announce that data has moved or is removed we can use HTTP status codes to indicate that (302, 303, 307, 308)
 
 
-[[_SWE Reference]]
 [[Linked Data]]

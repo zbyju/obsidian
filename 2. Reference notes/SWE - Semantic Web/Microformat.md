@@ -56,7 +56,5 @@ We can use this to include a subset of some data from one area of a page (the sa
 	- There is a lack of compatibility with other technologies (RDF/RDFa)
 
 
-[[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
 [[Web Annotations]]
-[[Microformats vs Microdata]]

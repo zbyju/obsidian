@@ -11,6 +11,5 @@ Typically used for exchanging large datasets. Processing RDF using line-oriented
 ```
 
 
-[[_SWE Reference]]
 [[RDF Formats]]
 [[Turtle Format]]

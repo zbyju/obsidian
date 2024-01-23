@@ -9,9 +9,5 @@ It uses 2 assumptions:
 - No Unique Names Assumption ([[No Unique Names Assumption]])
 
 
-[[_SWE Reference]]
 [[RDF Schema]]
-[[OWL Elements]]
-[[Open World Assumption]]
-[[No Unique Names Assumption]]
 [[Linked Data]]

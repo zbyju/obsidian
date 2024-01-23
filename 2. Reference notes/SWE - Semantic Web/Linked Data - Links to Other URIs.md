@@ -35,5 +35,4 @@ Types of links:
 	rdfs:subClassOf <http://umbel.org/umbel/sc/Business> .
 ```
 
-[[_SWE Reference]]
 [[Linked Data]]

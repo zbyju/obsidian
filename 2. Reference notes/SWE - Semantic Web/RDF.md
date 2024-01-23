@@ -15,5 +15,4 @@ RDF graphs can be validated using:
 - SHACL ([[SHACL]])
 - ShEx ([[ShEx]])
 
-[[_SWE Reference]]
 [[RDF Resource]]

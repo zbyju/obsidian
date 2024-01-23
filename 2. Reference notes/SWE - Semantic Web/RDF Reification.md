@@ -14,7 +14,6 @@ _:statement :source :Wikipedia
 ```
 
 
-[[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
 [[RDF Statement]]
 [[RDF Subject]]

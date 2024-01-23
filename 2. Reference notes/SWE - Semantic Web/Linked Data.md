@@ -8,12 +8,5 @@ It uses 4 principles:
 
 We can access linked data by dereferencing URI of a resource ([[Accessing Linked Data]]).
 
-[[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
 [[2. Reference notes/SWE - Semantic Web/SPARQL|SPARQL]]
-[[Linked Data - URI as names]]
-[[Linked Data - HTTP URIs]]
-[[Linked Data - Useful Information]]
-[[Linked Data - Links to Other URIs]]
-[[Accessing Linked Data]]
-[[Linked Data 5 star criteria]]

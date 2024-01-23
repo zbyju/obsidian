@@ -41,5 +41,4 @@ Make statements about statements to provide metadata.
 # Repeated properties
 If we have a property with multiple values then we should use the same subject and property with a different object.
 
-[[_SWE Reference]]
 [[Linked Data Patterns]]

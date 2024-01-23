@@ -8,8 +8,4 @@ There is a linked data pattern catalogue for best practices for modelling, publi
 
 [https://patterns.dataincubator.org/book/]()
 
-[[_SWE Reference]]
 [[Linked Data]]
-[[Linked Data - Identifier Patterns]]
-[[Linked Data - Modelling Patterns]]
-[[Linked Data - Publishing Patterns]]

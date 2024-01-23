@@ -23,6 +23,4 @@ If there is already a key that's used we can use it as well, which helps linking
 
 
 
-
-[[_SWE Reference]]
 [[Linked Data Patterns]]

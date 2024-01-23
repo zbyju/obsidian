@@ -4,6 +4,5 @@ Literal is a specific type of an object. Unlike resources which are represented 
 - string = "John Doe"
 - int  = 12
 
-[[_SWE Reference]]
 [[RDF Object]]
 [[RDF Resource]]
