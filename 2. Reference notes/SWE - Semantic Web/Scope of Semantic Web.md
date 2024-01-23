@@ -17,3 +17,12 @@
 	- RDFa
 
 ![https://i.imgur.com/hdmNgAd.png](https://i.imgur.com/hdmNgAd.png)
+
+[[_SWE Reference]]
+[[RDF]]
+[[SPARQL]]
+[[URI (URL, URN)]]
+[[Linked Data]]
+[[RDF Schema]]
+[[OWL]]
+[[Web Annotations]]

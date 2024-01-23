@@ -9,7 +9,6 @@
 5. Links to other resources
 	- Providing context to the data
 
-[[Linked Data]]
 [[Linked Data - HTTP URIs]]
 [[Linked Data - URI as names]]
 [[Linked Data - Links to Other URIs]]
