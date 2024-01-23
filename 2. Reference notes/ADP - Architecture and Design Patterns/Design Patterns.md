@@ -1,1 +1,2 @@
-They are typical solutions to common types of problems. They are templates for how to solve a problem in a way that has other benefits. They are not something that is rigorous and needs to be followed line-by-line, they are mostly ideas and 
+They are typical solutions to common types of problems. They are templates for how to solve a problem in a way that has other benefits. They are not something that is rigorous and needs to be followed line-by-line, they are mostly ideas that can be followed to achieve a clean and working code.
+
