@@ -6,6 +6,3 @@ Improves Principles:
 - Single Responsibility
 
 *Example: In a graphics application, both single elements (like shapes) and groups of elements can be treated as `Graphic` objects. Whether it's a single `Line` or a composite `Picture` consisting of many shapes, the `draw` method can be called on any `Graphic`, simplifying the client code.* 
-
-**Linkage:**
-- [[_ADP Reference]]

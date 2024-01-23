@@ -2,6 +2,4 @@
 
 **Example**: Interface for CRUD operations might force consumers to implement methods for all operations even if they don't want it. Instead the interface should be broken into 4 interfaces for each operation.
 
-**Linkage:**
-- [[_ADP Reference]]
-- [[SOLID]]
+[[SOLID]]

@@ -7,5 +7,4 @@ List:
 - Prototype [[Prototype Pattern]]
 - Singleton [[Singleton Pattern]]
 
-[[_ADP Reference]]
 [[Design Patterns]]

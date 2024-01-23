@@ -8,6 +8,4 @@
 - If performance is critical from the start, delaying optimization can be detrimental.
 - Can be challenging to strike the right balance between early optimization and premature optimization.
 
-**Linkage:**
-- [[_ADP Reference]]
-- [[Avoid premature optimization]]
+[[Avoid premature optimization]]

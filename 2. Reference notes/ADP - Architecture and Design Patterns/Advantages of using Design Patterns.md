@@ -4,6 +4,5 @@ Design patterns can speed up development process:
 
 They improve code readability in general and improve general design principles.
 
-[[_ADP Reference]]
 [[Design Patterns]]
 [[Design Principles]]

@@ -6,6 +6,3 @@ Improves Principles:
 - Single Responsibility
 
 *Example: - In a custom data structure, such as a complex linked list or a tree, an iterator can be implemented to provide a standardized way of traversing the structure. The client code can then use this iterator to access elements sequentially without needing to understand the internal structure of the collection.*
-
-**Linkage:**
-- [[_ADP Reference]]

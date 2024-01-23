@@ -6,6 +6,3 @@ Improves Principles:
 - Single Responsibility
 
 *Example: A data stream object can be decorated with compression and encryption functionalities. Adding `CompressionDecorator` and `EncryptionDecorator` enhances the basic stream without altering its core functionality and allows for flexibility in configuring the stream's capabilities.* 
-
-**Linkage:**
-- [[_ADP Reference]]
