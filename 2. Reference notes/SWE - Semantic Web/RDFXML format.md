@@ -29,5 +29,4 @@ We can add prefixes by using `xmlns:prefix=""` to the `rdf:RDF` tag, or `xml:bas
 	- Using `rdf:nodeId` to reference a node
 
 
-[[_SWE Reference]]
 [[RDF Formats]]

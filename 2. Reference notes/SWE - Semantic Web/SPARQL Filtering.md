@@ -13,6 +13,5 @@ SELECT ?person ?name ?country ?population WHERE {
 ```
 
 
-[[_SWE Reference]]
 [[SPARQL Query Language]]
 [[SPARQL Select Query]]

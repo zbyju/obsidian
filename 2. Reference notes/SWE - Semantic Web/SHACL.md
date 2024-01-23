@@ -40,7 +40,6 @@ They are used to produce focus nodes for a shape.
 Conditions that are checked for validity.
 
 
-[[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
 [[Advanced SHACL]]
 [[SHACL vs ShEx]]

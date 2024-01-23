@@ -7,6 +7,5 @@ ShEx can be serialized using 3 formats:
 
 It uses similar terminology to SHACL ([[SHACL]]).
 
-[[_SWE Reference]]
 [[2. Reference notes/SWE - Semantic Web/RDF|RDF]]
 [[SHACL vs ShEx]]

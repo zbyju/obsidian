@@ -47,6 +47,5 @@ To define what subject the property can be used with (domain) and the what value
 ```
 
 
-[[_SWE Reference]]
 [[RDF Schema]]
 [[RDF Resource]]

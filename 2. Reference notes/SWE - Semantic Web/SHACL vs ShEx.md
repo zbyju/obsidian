@@ -7,6 +7,5 @@
 - SHACL provides validation result vocabulary (we know what went wrong)
 	- ShEx result is only pass/fail
 
-[[_SWE Reference]]
 [[SHACL]]
 [[ShEx]]

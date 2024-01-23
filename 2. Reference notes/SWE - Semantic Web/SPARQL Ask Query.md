@@ -7,5 +7,4 @@ ASK {
 }
 ```
 
-[[_SWE Reference]]
 [[SPARQL Query Language]]

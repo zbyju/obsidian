@@ -7,5 +7,4 @@ DESCRIBE ?book WHERE {
 ```
 
 
-[[_SWE Reference]]
 [[SPARQL Query Language]]

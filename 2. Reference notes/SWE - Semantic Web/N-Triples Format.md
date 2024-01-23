@@ -12,4 +12,3 @@ Typically used for exchanging large datasets. Processing RDF using line-oriented
 
 
 [[RDF Formats]]
-[[Turtle Format]]

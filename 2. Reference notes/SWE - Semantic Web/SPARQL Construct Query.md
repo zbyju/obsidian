@@ -10,5 +10,4 @@ WHERE { ?person ext:name ?name }
 # translate ext:name to foaf:name
 ```
 
-[[_SWE Reference]]
 [[SPARQL Query Language]]
