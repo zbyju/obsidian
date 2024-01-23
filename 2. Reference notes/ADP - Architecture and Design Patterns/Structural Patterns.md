@@ -5,3 +5,9 @@ List:
 - Bridge [[Bridge Pattern]]
 - Composite [[Composite Pattern]]
 - Decorator [[Decorator Pattern]]
+- Facade [[Facade Pattern]]
+- Flyweight [[Flyweight pattern]]
+- Proxy [[Proxy Pattern]]
+
+[[_ADP Reference]]
+[[Design Patterns]]
