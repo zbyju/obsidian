@@ -2,6 +2,7 @@
 - Simplifies code, making it easier to understand and maintain.
 - Reduces the likelihood of introducing errors or bugs due to complexity.
 - Encourages straightforward, efficient solutions.
+- Can
 
 **Cons**:
 - May lead to under-optimization in cases where complexity is necessary for performance.

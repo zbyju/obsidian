@@ -11,3 +11,4 @@ Leads to wasted effort, wasted resources, code that is more complex and harder t
 - [[KISS]] - keep the algorithm simple until it isn't enough
 
 [[Design Principles]]
+[[PC - Avoid premature optimization]]
