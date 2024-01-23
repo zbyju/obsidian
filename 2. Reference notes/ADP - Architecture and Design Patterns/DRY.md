@@ -4,4 +4,3 @@ Don't Repeat Yourself principle advocates for reducing repetition in code. Any p
 Creating a function for a specific task and reusing it throughout the codebase instead of duplicating the same code in multiple places.
 
 [[Design Principles]]
-[[PC - DRY]]
