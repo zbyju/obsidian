@@ -67,6 +67,4 @@ ex:PersonShape a sh:NodeShape;
 
 
 
-
-[[_SWE Reference]]
 [[SHACL]]

@@ -21,5 +21,4 @@ There are 2 strategies for accessing linked data:
 - Allows for better content negotiation
 
 
-[[_SWE Reference]]
 [[Linked Data]]
