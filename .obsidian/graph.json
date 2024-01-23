@@ -11,28 +11,28 @@
       "query": "path:\"2. Reference notes/ADP - Architecture and Design Patterns\"  ",
       "color": {
         "a": 1,
-        "rgb": 25343
-      }
-    },
-    {
-      "query": "path:\"2. Reference notes/FIL - Philosophy\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 5431478
-      }
-    },
-    {
-      "query": "path:\"2. Reference notes/PDB - Advanced Databases\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 4942045
+        "rgb": 679654
       }
     },
     {
       "query": "path:\"2. Reference notes/SWE - Semantic Web\"  ",
       "color": {
         "a": 1,
-        "rgb": 6262749
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"2. Reference notes/FIL - Philosophy\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"2. Reference notes/PDB - Advanced Databases\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 211938
       }
     }
   ],
