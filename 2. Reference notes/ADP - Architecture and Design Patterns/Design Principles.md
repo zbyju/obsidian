@@ -9,5 +9,9 @@ List:
 - Law of Demeter [[LoD|LoD]]
 - Principle of Least Astonishment [[2. Reference notes/ADP - Architecture and Design Patterns/Principle of Least Astonishment|Principle of Least Astonishment]]
 - Separation of Concerns [[SoC]]
+- SOLID [[SOLID]]
+- The Boy Scout Rule [[The Boy Scout Rule]]
+- You Ain't Gonna Need It [[YAGNI]]
+- Technical Debt [[Technical Debt]]
 
 [[_ADP Reference]]
