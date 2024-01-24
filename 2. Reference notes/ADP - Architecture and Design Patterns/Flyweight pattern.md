@@ -6,6 +6,8 @@ In a shooting game, bullets can be numerous and share common properties like tex
 
 # Diagram
 ![](https://i.imgur.com/c068WgA.png)
-1. Flyweight 
+1. Flyweight is an optimization - debug the performance and find out if there is a RAM problem, then implement it.
+2. Flyweight contains a portion of the original object's state that can be shared across multiple objects.
+3. Context contains the extrinsic state (unique across objects). If it paired with the flyweight that holds the intrinsic state (common across ob)
 
 [[Structural Patterns]]
