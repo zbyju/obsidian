@@ -1,7 +1,5 @@
 # Factory Method
-- Operates at single product level with different variants
-- Creates objects of a single type
-- 
+- Adds creating objects directly to a class with business logic 
 
 
 
