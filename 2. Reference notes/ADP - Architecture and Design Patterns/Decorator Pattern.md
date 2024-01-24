@@ -10,4 +10,5 @@ A data stream object can be decorated with compression and encryption functional
 ![](https://i.imgur.com/lHeq7py.png)
 1. Component declares a common interface for wrapped objects and wrappers
 2. Concrete component is the class that gets wrapped. It then can get enhanced by decorators.
-3. Base decorator
+3. Base decorator inherits from component and wraps concrete component as a field. It can add basic functionality that gets altered by decorators.
+4. Concrete Decorator defines extra behaviors that can be added dynamically. They 
