@@ -8,4 +8,7 @@
 - Requires special treatment in a multithreaded environment
 - It may be harder to test things - constructor is private which might not work with some frameworks
 
-# Us
+# Use Cases
+- Things that we need to limit to one instance - connection to a database, factory classes, configurations.
+
+[[Singleton Pattern]]
