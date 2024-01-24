@@ -9,6 +9,7 @@ Another proxy might add logging to monitor database queries, aiding in debugging
 ![](https://i.imgur.com/xELYOcA.png)
 1. Service Interface declares the interface of the service that we want to enhance. The proxy must follow this interface so that we can substitute it instead of the original service.
 2. Service class is the original class containing business logic
-3. Proxy class has a reference to the real service and it implements methods of 
+3. Proxy class has a reference to the real service and it implements methods of the service interface. It usually adds some functionality before and after the method is called and then lets the original service handle it.
+4. Client should work with both the service and the proxy the same way.
 
 [[Structural Patterns]]
