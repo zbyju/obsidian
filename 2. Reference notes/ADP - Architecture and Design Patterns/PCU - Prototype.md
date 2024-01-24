@@ -8,4 +8,7 @@
 
 # Use Cases
 - Cloning objects including their private fields
-- 
+- Cloning complex objects
+- Making object creation easier by cloning from existing objects
+
+[[Prototype Pattern]]
