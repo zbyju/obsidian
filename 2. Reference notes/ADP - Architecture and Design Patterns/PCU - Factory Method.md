@@ -7,6 +7,5 @@
 - Code may become more complicated
 # Use Cases
 - When we don't know beforehand what types and dependencies of the objects are
-- 
 
 [[Factory Method Pattern]]
