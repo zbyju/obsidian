@@ -10,4 +10,7 @@ Drawing shapes: we have different shapes (circles, squares, ...) different rende
 # Diagram
 ![](https://i.imgur.com/QUY0P9i.png)
 1. Abstraction provides high level logic
-2. Implementation 
+2. Implementation declares the interface that's common for concrete implementations
+3. Concrete implementations contains specific code
+4. Optionally Refined Abstractions provide variants of the logic. They work with the implementations through the implementation interface
+5. Client is usually only interested in working with the abstraction.
