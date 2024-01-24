@@ -7,5 +7,6 @@
 - Code may become more complicated
 # Use Cases
 - When we don't know beforehand what types and dependencies of the objects are
+- Creating products of the same type but different variants [[Abstract Factory Pattern]]
 
 [[Factory Method Pattern]]
