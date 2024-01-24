@@ -4,4 +4,4 @@
 - Save resources as you only have one resource
 
 # Cons
-- Violates the [[
+- Violates the [[sing
