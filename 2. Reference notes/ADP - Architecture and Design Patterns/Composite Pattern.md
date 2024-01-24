@@ -13,4 +13,5 @@ In a graphics application, both single elements (like shapes) and groups of elem
 ![](https://i.imgur.com/bn586EN.png)
 1. Component interface describes operations that are in common for the simple objects and also complex tree structures
 2. Leaf are basic elements that make the tree
-3. Composite it has leaves and other containers
+3. Composite it has leaves and other containers. When getting a request it delegates it to the sub-elements and then aggregates the results
+4. Client works with simple and complex elements, it can do it same way without changing its behavior.
