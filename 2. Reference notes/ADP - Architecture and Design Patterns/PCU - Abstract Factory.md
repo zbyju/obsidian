@@ -8,6 +8,10 @@
 - Code might get more complicated due to new interfaces and abstract classes.
 
 # Use Cases
-- 
+- When we need to work with various families of related products
+	- but we don't want it to depend on a concrete class of those products
+	- we don't know beforehand which type of product
+	- we want to support all types
+- Providing a library of products without exposing the implementation
 
 [[Abstract Factory Pattern]]
