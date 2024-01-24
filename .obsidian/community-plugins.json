@@ -2,5 +2,7 @@
   "obsidian-git",
   "graph-analysis",
   "obsidian42-brat",
-  "nlp"
+  "nlp",
+  "obsidian-living-graph",
+  "persistent-graph"
 ]
