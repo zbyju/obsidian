@@ -5,7 +5,7 @@ Basically we have some implementation that is too low level and we want a better
 # Example
 Drawing shapes: we have different shapes (circles, squares, ...) different rendering methods (raster, vector). Bridge allows us to separate the shape's abstraction (the shape itself) from the implementation (how it's drawn) so that these things can be changed independently.
 
-We have a `Remote` (abstraction) that can: `togglePower, volumeDown, volumeUp, channelDown, channelUp`. This is an abstraction over the implementation `Device` that has methods: `enable, disable, setVolume, setChannel`. Then we can also have a Refined Abstraction `AdvancedRemote` that also has a method `mute`. The implementations are for different devices `TV, Radio`. The abstraction makes a unified 
+We have a `Remote` (abstraction) that can: `togglePower, volumeDown, volumeUp, channelDown, channelUp`. This is an abstraction over the implementation `Device` that has methods: `enable, disable, setVolume, setChannel`. Then we can also have a Refined Abstraction `AdvancedRemote` that also has a method `mute`. The implementations are for different devices `TV, Radio`. The abstraction makes a unified interface to control both.
 
 # What Problem it Solves
 - Prevents cartesian product complexity explosion
