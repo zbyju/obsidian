@@ -10,4 +10,3 @@ Abstract factory making furniture. There are two implementations of this factory
 3. Abstract factory declaring the interface of what it is able to produce
 4. Implementations of factories producing products of different types
 5. Consumer has an abstract factory calling functions that produce abstract products
-
