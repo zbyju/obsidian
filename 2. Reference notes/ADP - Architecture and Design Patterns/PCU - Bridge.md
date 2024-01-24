@@ -1,0 +1,1 @@
+1. What operations the client needs to work with 
