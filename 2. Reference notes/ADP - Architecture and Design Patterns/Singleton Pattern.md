@@ -10,5 +10,6 @@ Ensure class has only one instance while providing a global access point to it.
 ![](https://i.imgur.com/gs8UL6A.png)
 1. The singleton class declares a static method `getInstance` that on first call creates the instance and then for all the following calls just returns the already created instance
 	- It should have a private or hidden constructor - allow access only to the static method
+	- It can then provide other methods to interact with the instance
 
 [[Creational Patterns]]
