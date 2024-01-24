@@ -6,3 +6,11 @@ Improves Principles:
 
 # Example
 In a graphics application, both single elements (like shapes) and groups of elements can be treated as `Graphic` objects. Whether it's a single `Line` or a composite `Picture` consisting of many shapes, the `draw` method can be called on any `Graphic`, simplifying the client code.
+
+# What Problem it Solves
+
+# Diagram
+![](https://i.imgur.com/bn586EN.png)
+1. Component interface describes operations that are in common for the simple objects and also complex tree structures
+2. Leaf are basic elements that make the tree
+3. Composite it has leaves and other containers
