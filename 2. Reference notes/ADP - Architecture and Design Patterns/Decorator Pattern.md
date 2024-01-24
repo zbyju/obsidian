@@ -1,3 +1,5 @@
+(also know as Wrapper)
+
 - Wraps an object to provide new behaviors or responsibilities without changing its interface.
 - Allows for dynamic addition of functionalities to individual objects without affecting the behavior of other objects from the same class.
 
