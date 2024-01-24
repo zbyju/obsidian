@@ -7,6 +7,6 @@
 
 # Use Cases
 - Want to use and existing class but it's not compatible
-- 
+- Integrating new components into an already working codebase
 
 [[Adapter Pattern]]
