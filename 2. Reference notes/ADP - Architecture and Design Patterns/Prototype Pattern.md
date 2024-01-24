@@ -6,7 +6,8 @@ It lets you copy existing objects without making your code dependent on their cl
 Graphic design software where users might want to duplicate circles, squares, etc. Each shape is a prototype that allows duplicating it.
 
 # What Problem it Solves
-- 
+- Copies the object including the **private** fields
+- Hides complexities of copying an object
 
 # Diagram
 ![](https://i.imgur.com/3ay9vJc.png)
