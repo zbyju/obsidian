@@ -7,6 +7,7 @@ Another proxy might add logging to monitor database queries, aiding in debugging
 # What Problem it Solves
 
 # Diagram
+![](https://i.imgur.com/xELYOcA.png)
 
 
 [[Structural Patterns]]
