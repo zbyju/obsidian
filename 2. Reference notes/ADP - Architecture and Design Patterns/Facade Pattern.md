@@ -8,6 +8,9 @@ Improves Principles:
 
 # Diagram
 ![](https://i.imgur.com/RTWZXNR.png)
-1. Facade provides convenient access to a set of 
+1. Facade provides convenient access to some subsystem. It combines multiple other classes to provide some funcitonality
+2. Additional Facade can be created to prevent from polluting the original Facade with unrelated features. Additional facades can be used by both clients and other facades.
+3. Complex subsystem consists of many objects. These objects are not aware of the facade; the facade uses them for complex operations
+4. Client use
 
 [[Structural Patterns]]
