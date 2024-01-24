@@ -1,11 +1,13 @@
 Lets you construct complex objects step by step. Allows you to produce different types and representations of an object using the same construction code.
 
 # Example
-Meal ordering system (offering `VeganMeal`, `MeatMeal`) each consisting of several components: main dish, side dish, drink, ... The builder allows users to construct their meal step by step. Optionally there can be a director with pr
+Meal ordering system (offering `VeganMeal`, `MeatMeal`) each consisting of several components: main dish, side dish, drink, ... The builder allows users to construct their meal step by step. Optionally there can be a director with predefined meals that we can choose from.
 
 # What Problem it Solves
 - Making complex objects with multiple parts/components
 - Allows constructing objects with different representations using the same construction code
+- It supports problems that need creating different products but need to share the same build steps
+- Allows for predefined object creations using Director
 
 # Diagram
 
