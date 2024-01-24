@@ -12,6 +12,8 @@ Meal ordering system (offering `VeganMeal`, `MeatMeal`) each consisting of sever
 ![](https://i.imgur.com/em7Ytlc.png)
 1. Builder interface declares construction steps
 2. Concrete builders provide different implementations of the construction steps. They may produce products that don't follow the common interface.
-3. Products 
+3. Products are the resulting objects; they don't have to share a common parent, they can be completely different/
+4. Optional Director defines the order - basically defines predefined ways of constructing products
+5. Client Associate the builder with a director
 
 [[Creational Patterns]]
