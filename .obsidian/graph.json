@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "",
+  "collapse-filter": true,
+  "search": "path:\"2. Reference notes/ADP - Architecture and Design Patterns\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -46,6 +46,6 @@
   "repelStrength": 13.59375,
   "linkStrength": 1,
   "linkDistance": 300,
-  "scale": 0.19450022690616606,
+  "scale": 0.27268599173601604,
   "close": false
 }
