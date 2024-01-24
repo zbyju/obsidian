@@ -9,4 +9,5 @@ Drawing shapes: we have different shapes (circles, squares, ...) different rende
 
 # Diagram
 ![](https://i.imgur.com/QUY0P9i.png)
-
+1. Abstraction provides high level logic
+2. Implementation 
