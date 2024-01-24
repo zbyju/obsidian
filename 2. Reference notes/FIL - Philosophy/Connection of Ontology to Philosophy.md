@@ -1,6 +1,3 @@
 As a subset of metaphysics, ontology further specifies philosophical discussions on what entities exist and how they relate.
 
-**Linkage:**
-- [[_FIL Reference]]
-- [[Definition of Philosophy]]
-- [[Definition of Ontology]]
+[[Definition of Ontology]]
