@@ -8,4 +8,7 @@
 	- Might lead to over abstraction
 
 # Use Cases
-- A
+- When objects can be structured into a tree
+- When we need to aggregate them somehow
+
+[[Composite Pattern]]
