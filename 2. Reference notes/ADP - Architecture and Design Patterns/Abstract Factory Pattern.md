@@ -10,7 +10,8 @@ Variants: Spherical, Pyramidal
 
 # What Problem it Solves
 - It helps managing and organizing families of related objects
-- Ensures products are compatible 
+- Ensures products are compatible across variants
+- Abstracts and separates away object creation
 
 # Diagram
 ![](https://i.imgur.com/yGY9m1P.png)
