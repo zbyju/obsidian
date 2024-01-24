@@ -5,8 +5,10 @@
 - It works by converting the interface of a class into another interface that the client expects.
 - The adapter pattern allows the interaction without altering the original code that was not designed to work together.
 
+It basically works by taking the service as a field and then implementing some methods and adapting the service to adhere to the interface.
+
 # Example
-One service works with JSON, one with XML, we want them to work together, so we connect them using an adapter that converts JSON <-> XML
+One service works with JSON, one with XML, we want them to work together, so we connect them using an adapter that converts JSON <-> XML.
 
 # Diagram
 ![](https://i.imgur.com/UKj6aqw.png)
