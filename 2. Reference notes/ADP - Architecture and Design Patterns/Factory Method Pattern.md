@@ -7,4 +7,9 @@ We have a `Logistics` class that creates transport objects. The type of the tran
 
 # What Problem it Solves
 - Decouples creation of objects from their use
-- 
+
+# Diagram
+![](https://i.imgur.com/W3bv38T.png)
+
+
+[[Creational Patterns]]
