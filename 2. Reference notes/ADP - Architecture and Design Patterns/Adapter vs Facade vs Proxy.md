@@ -11,6 +11,8 @@ Creates a new interface that can simplify and **unify multiple complex interface
 # Proxy
 Controls access to an object, usually focusing adding functionality around it.
 
+# Diagrams
+
 ![](https://i.imgur.com/UKj6aqw.png)![](https://i.imgur.com/RTWZXNR.png)
 ![](https://i.imgur.com/xELYOcA.png)
 
