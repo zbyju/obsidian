@@ -17,5 +17,6 @@ We have a `Logistics` class that creates transport objects. The type of the tran
 	 - but it also creates products
 		- Despite its name it's not the main purpose
 4. Overrides the methods for creating products
+	- They can use the default implementation of the Creator for other operations (business logic) 
 
 [[Creational Patterns]]
