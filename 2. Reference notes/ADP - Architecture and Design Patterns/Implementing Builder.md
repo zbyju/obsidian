@@ -6,4 +6,11 @@
 		- This method should not be part of the abstract builder
 			- The result doesn't have to share an interface
 			- It only shares the construction steps
-3. Consider implementing a director class with predefined construction 
+3. Consider implementing a director class with predefined construction configurations
+4. Client creates both the builder and the director
+5. The result is obtained
+	- from the director only if the products have a common interface
+	- otherwise they need to be retrieved from the builder
+
+
+[[Builder Pattern]]
