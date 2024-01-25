@@ -3,3 +3,10 @@
 - [[Open-Closed Principle]] - You can introduce new handlers into the app without breaking existing client code
 
 # Cons
+- Some request can end up unhandled
+
+# Use Cases
+- 
+
+
+[[Chain of Responsibility Pattern]]
