@@ -1,9 +1,6 @@
 Lets you pass request among a chain of handlers. Each handler decides to either process the request or to pass it to the next one.
-
 # Example
-
-# What Problem it Solves
-
+A request from a customer goes through a chain of handlers that check if the request is valid. Each handler can say that it is not, or if the request passes the test it gets sent to the next handler.
 # Diagram
 ![](https://i.imgur.com/zC2GDSK.png)
 1. There is a Handler interface that all handlers follow. It should have a method `handle` but can also have other methods such as `setNext`.
