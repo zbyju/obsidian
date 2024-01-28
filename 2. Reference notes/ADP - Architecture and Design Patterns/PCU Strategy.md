@@ -11,4 +11,6 @@
 
 # Use Cases
 - Changing strategy at runtime
-- 
+- Having different strategies that we want to separate and not have in one big class
+
+[[Strategy Pattern]]
