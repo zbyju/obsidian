@@ -2,12 +2,11 @@
 - Involves two components: the 'Visitor' that carries the operation to be performed and the 'Element' objects that accept the visitor.
 - The visitor implements different operations, and the elements offer an interface to accept visitors.
 
-Improves Principles:
-- Single Responsibility
-Trade-off:
-- Open/Closed Principle
+# Example
+Consider a graphics application with shapes like circles, squares, and triangles. Instead of embedding rendering logic in these shapes, a `RenderVisitor` can be created. Shapes will accept this visitor, which then executes the rendering operation. This way, if a new rendering technique is introduced, only the visitor needs to be modified, not the shapes.
 
-*Example: Consider a graphics application with shapes like circles, squares, and triangles. Instead of embedding rendering logic in these shapes, a `RenderVisitor` can be created. Shapes will accept this visitor, which then executes the rendering operation. This way, if a new rendering technique is introduced, only the visitor needs to be modified, not the shapes.*
+# Diagram
+![](https://i.imgur.com/mvTJ2wS.png)
 
-**Linkage:**
-- [[_ADP Reference]]
+
+[[Behavioral Patterns]]

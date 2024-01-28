@@ -1,11 +1,11 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "path:\"2. Reference notes\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
-  "collapse-color-groups": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"2. Reference notes/ADP - Architecture and Design Patterns\"  ",
@@ -36,7 +36,7 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.77161458333333,
@@ -46,6 +46,6 @@
   "repelStrength": 11.1979166666667,
   "linkStrength": 1,
   "linkDistance": 78,
-  "scale": 0.27268599173601843,
+  "scale": 0.19450022690616847,
   "close": true
 }
