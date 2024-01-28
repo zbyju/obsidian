@@ -5,7 +5,7 @@ List:
 - Command [[Command Pattern]]
 - Iterator [[Iterator pattern]]
 - Mediator [[Mediator Pattern]]
-- Memento [[Memento pattern]]
+- Memento [[Memento Pattern]]
 - Observer [[Observer Pattern]]
 - State [[State Pattern]]
 - Strategy [[Strategy Pattern]]
