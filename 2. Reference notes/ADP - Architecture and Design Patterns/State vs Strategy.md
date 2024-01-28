@@ -1,0 +1,4 @@
+
+
+[[State Pattern]]
+[[Strategy Pattern]]
