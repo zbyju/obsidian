@@ -3,6 +3,10 @@
 Lets you save and restore previous state of an object without revealing the details of its implementation.
 
 # Example
+Text editor that allows for undoing changes to text:
+1. Originator = TextEditor = Class that represents the text editor and has the state
+2. Memento = TextSnapshot = Hold the text state when saved
+3. CareTaker = UndoFeature = Reponsible for keeping all the mementos
 
 # Diagram
 ![](https://i.imgur.com/nVIjo3T.png)
