@@ -9,5 +9,4 @@ List:
 - Flyweight [[Flyweight pattern]]
 - Proxy [[Proxy Pattern]]
 
-[[_ADP Reference]]
 [[Design Patterns]]
