@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 9691
       }
+    },
+    {
+      "query": "path:\"2. Reference notes/Red Book\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 65493
+      }
     }
   ],
   "collapse-display": true,
@@ -41,11 +48,11 @@
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.77161458333333,
   "lineSizeMultiplier": 1.36328125,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.440104166666667,
   "repelStrength": 11.1979166666667,
   "linkStrength": 1,
   "linkDistance": 78,
-  "scale": 0.2726859917360199,
-  "close": true
+  "scale": 0.19450022690616994,
+  "close": false
 }
