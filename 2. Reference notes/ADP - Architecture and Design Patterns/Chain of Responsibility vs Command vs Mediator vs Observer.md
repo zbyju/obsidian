@@ -2,5 +2,5 @@
 
 [[Chain of Responsibility Pattern]]
 [[Command Pattern]]
-[[Mediator Pattern]]
+[[Memento Pattern]]
 [[Observer Pattern]]

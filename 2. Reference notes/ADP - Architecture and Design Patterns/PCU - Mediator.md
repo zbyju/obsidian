@@ -11,4 +11,4 @@
 - Multiple objects want to interact
 - Communication between objects is complex
 
-[[Mediator Pattern]]
+[[Memento Pattern]]
