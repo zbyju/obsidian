@@ -23,8 +23,16 @@ Business rules simply don't know anything about the outside world. They live on 
 1. Entities
 	- Basic building blocks used for enterprise wide business rules
 	- Or just business objects of the application
-1. Use Cases
-2. Controllers
-3. External Interfaces
+2. Use Cases
+	- These include application specific business rules. It encapsulates and implements use cases - these define data flow between objects
+3. Interface adapters
+	- These adapters convert data from formats most convenient for use-cases and external agencies
+4. Frameworks and drivers
+	- This is where the details go - web, database, etc.
+	- This is more of an infrastructure layer
+
+There is no rule that says these need to be the layers (there doesn't have to be 4 layers), you always need to follow the dependency rule.
+
+Typically, the data that crosses boundaries should be very simple data structures.
 
 [[Architectures]]
