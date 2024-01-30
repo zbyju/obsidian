@@ -1,5 +1,5 @@
 
 
 [[MVC]]
-[[MVP]]
+[[MVVM]]
 [[MVC vs MVP vs MVVM]]
