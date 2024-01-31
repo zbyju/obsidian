@@ -1,11 +1,11 @@
 {
-  "collapse-filter": true,
-  "search": "path:\"2. Reference notes\"  ",
+  "collapse-filter": false,
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
-  "collapse-color-groups": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"2. Reference notes/ADP - Architecture and Design Patterns\"  ",
@@ -15,44 +15,30 @@
       }
     },
     {
-      "query": "path:\"2. Reference notes/SWE - Semantic Web\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 33218
-      }
-    },
-    {
       "query": "path:\"2. Reference notes/FIL - Philosophy\"  ",
       "color": {
         "a": 1,
-        "rgb": 13955072
+        "rgb": 5431478
       }
     },
     {
       "query": "path:\"2. Reference notes/PDB - Advanced Databases\"  ",
       "color": {
         "a": 1,
-        "rgb": 9691
-      }
-    },
-    {
-      "query": "path:\"2. Reference notes/Red Book\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 65493
+        "rgb": 4942045
       }
     }
   ],
-  "collapse-display": true,
-  "showArrow": true,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.77161458333333,
-  "lineSizeMultiplier": 1.36328125,
-  "collapse-forces": true,
-  "centerStrength": 0.440104166666667,
-  "repelStrength": 11.1979166666667,
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.6,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.818115234375,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 78,
-  "scale": 0.5359795996226221,
+  "linkDistance": 119,
+  "scale": 0.48387931109004173,
   "close": false
 }
