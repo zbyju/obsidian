@@ -1,5 +1,8 @@
 Aimed at creating loosely coupled application components that can be connected to their software environment using ports and adapters.
 
+This leads to exchangeable components => better testing.
+
+
 # Inside 
 ## Domain
 The business logic of the app. It's independent of any knowledge about external systems (database, UI, APIs)
@@ -18,5 +21,8 @@ Respond to domain requests (Database, Message systems)
 - Testability
 - Maintainability
 # Cons
+- Complexity
+- Learning curve
+- Overhead
 
 [[Architectures]]
