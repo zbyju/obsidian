@@ -33,3 +33,43 @@ Stop classifying decision as good or bad based on the result.
 If you drive home drunk and you make it home safely, you wouldn't think that it was a good decision.
 
 # System 1 - Fast , System 2 - Slow
+## System 1
+Instincts, emotional decisions that are quick. You need these to live your life, most of your decisions are fast and you don't need to think about them.
+## System 2
+Slow calculated decision that's usually more precise and we more control over.
+
+Problem is when System 1 and 2 clash.
+
+
+# Poker
+One has to make hundreds of decisions each poker game. The rules give a time limit for each decision, so you can't rely on having everything calculated. Then after the game you need to analyze how to make better decisions (based on how you made the decision not the result). Due to the stakes being high, it's important to stay objective.
+
+Chess isn't a great model of life because there is not that much luck. The decisions are based on pure calculation.
+
+In poker you can make all the best decisions the whole hand and still lose it (or even the whole game). After the game you need to separate the results and the decisions. In chess, results correlate more tightly with the results. At the poker table you don't even know if you just lost because of luck or poor decision (if the cards are not revealed).
+
+The quality of our lives is the sum of decision quality + luck.
+
+# Life lessons
+Our own experiences are not big enough of a sample size to make decision based around. The world is too complicated, we can't assume it's simple, sometimes we model things too simply.
+
+# "I am not sure" is okay to say
+We only get one chance at a decision which creates pressure on us, but it's okay to admit that we don't know. 
+
+Good decision is a result of a good process, that process must include accessing our own state of mind and knowledge.
+
+The world is uncertain and unpredictable, it is very complex, you need to be comfortable with that.
+
+Often even our best shot doesn't have a high likelihood of working out, but it's the best one we've got. Sometimes we just need to estimate the probabilities of each bad scenario and then pick the best (= least awful) one.
+
+We need to be able to work we "I am not sure", because it is a more accurate representation of reality.
+
+# Probabilities
+If someone says the probability of something happening is 5% and then it happens, it doesn't mean the person is wrong. It just means that a "miracle" (improbable event) happened.
+
+Decisions are bets on the future and they can't be right or wrong just because the result is good or bad.
+
+Maybe the situation itself is not in our favor and we are choosing from bad choices, all of which are likely to fail. Maybe we made a good decision based on the available information, but the decisive information was hidden. Maybe we chose a high likelihood choice, but got unlucky.
+
+## Second-best choice is not wrong
+It's still a really good choice and better than the rest of them.
