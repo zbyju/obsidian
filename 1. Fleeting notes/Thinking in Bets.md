@@ -71,5 +71,7 @@ Decisions are bets on the future and they can't be right or wrong just because t
 
 Maybe the situation itself is not in our favor and we are choosing from bad choices, all of which are likely to fail. Maybe we made a good decision based on the available information, but the decisive information was hidden. Maybe we chose a high likelihood choice, but got unlucky.
 
-## Second-best choice is not wrong
-It's still a really good choice and better than the rest of them.
+Second-best choice is not wrong! It's still a really good choice and better than the rest of them.
+
+We need to good results for one bad one to make even emotionally.
+
