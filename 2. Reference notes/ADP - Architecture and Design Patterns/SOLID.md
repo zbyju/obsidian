@@ -5,6 +5,6 @@ These are:
 - Open/Closed [[Open-Closed Principle]]
 - Liskov Substitution Principle [[Liskov Substitution Principle]]
 - Interface Segregation [[Interface Segragation Principle]]
-- Dependency Injection [[Dependency Injection]]
+- Dependency Injection [[Dependency Inversion Principle]]
 
 [[Design Principles]]

@@ -8,7 +8,6 @@
 - Peer-to-peer architecture [[Peer-to-peer Architecture]]
 - Microkernel architecture [[Microkernel Architecture]]
 - Pipe and filter architecture [[Pipe and Filter Architecture]]
-
 - DevOps [[DevOps]]
 
 
