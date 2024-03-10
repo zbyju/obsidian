@@ -4,6 +4,7 @@
 - Semantic URL
 - idempotent
 - modify/dont modify state
+- JSON RFC charset UTF8
 
 # Microservices
 - Resilience
