@@ -20,3 +20,16 @@
 - Easier refactoring
 - Micro != small
 
+# Notifications
+- notification approaches
+- detection
+	- comparison
+	- deviation
+	- trends
+	- EMA
+- limiting
+	- cooldown
+	- streak
+	- clearance
+	- user input
+
