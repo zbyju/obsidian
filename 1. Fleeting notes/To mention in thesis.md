@@ -2,6 +2,8 @@
 - Clean URL
 - REST API design
 - Semantic URL
+- idempotent
+- modify/dont modify state
 
 # Microservices
 - Resilience
