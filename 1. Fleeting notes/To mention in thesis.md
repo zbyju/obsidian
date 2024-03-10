@@ -36,4 +36,3 @@
 	- streak
 	- clearance
 	- user input
-
