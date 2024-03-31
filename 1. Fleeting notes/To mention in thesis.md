@@ -45,3 +45,14 @@ does it make sense to read/write directly from a DB from a service that doesn't 
 - If another service writes to the collection the cache will no longer represent a true state
 - Therefore it is better to call the service to write to the DB instead of writing to it from yourself (from the perspective of another service)
 - This can link to the ideas used in REST
+
+
+
+
+
+
+
+
+https://i.imgur.com/wqWOQff.png
+https://web-frameworks-benchmark.netlify.app/result?f=elysia,express,fastify,gin,gorilla-mux,chi,fiber,httprouter,echo,fasthttp,django,flask,axum,rocket,akkahttp,play
+https://web-frameworks-benchmark.netlify.app/compare?f=fiber,gin,echo,elysia,fastify,express,flask,django
