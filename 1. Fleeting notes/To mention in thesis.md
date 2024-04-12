@@ -47,6 +47,15 @@ does it make sense to read/write directly from a DB from a service that doesn't 
 - This can link to the ideas used in REST
 
 
+# RabbitMQ
+- work queue
+- publish subscribe
+- exchanges
+- fanout
+- routing
+- binding
+
+
 
 
 
