@@ -58,3 +58,8 @@ Design project:
 	- What, how, when, who else 
 
 1. identify areas of life where you have a growth mindset and where you have a fixed mindset
+	- Develop a persona for your fixed mindset
+		- When do they come up?
+2. Setup a goal that can be measured
+	- It needs to be challenging but not too much
+		- Stretch yourself but not snap
