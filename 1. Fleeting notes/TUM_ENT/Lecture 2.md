@@ -63,3 +63,39 @@ Design project:
 2. Setup a goal that can be measured
 	- It needs to be challenging but not too much
 		- Stretch yourself but not snap
+3. Identify potential problems
+	- Use the inversion method
+	- Come up with strategies for each challenge (preferably multiple)
+	- Then push the ideas further and come up with crazy creative ideas
+	- Who else can help me with this task
+	- Where else can we inspire from
+	- How can we push this further
+	- If i had to turn this into a business what would that look like
+4. design the path forward based on the goal and the obstacles
+	- be creative in preventing the obstacles
+	- how can i achieve the things i want
+	- how else can i approach this
+	- how to be crazy
+	- how can i push this further
+5. actually plan it out
+	- how to start
+	- timeline
+	- plan for failure
+
+
+Inversion method
+Instead of thinking how to accomplish something it's better to think about how to fail and avoid the failure
+Identify obstacles, barriers, challenges and how to solve them
+- They can be internal (motivation, skill, ...)
+- external
+
+Best pracices:
+1. Failure
+	- Expected
+	- Treat them as opportunities to learn and pivot
+2. Don't be a lone warrior
+	- Get feedback and insights
+3. Keep the creativity and have fun
+4. Focus on progress not perfection
+5. Listen to the voice in your head
+6. Commitment over Confidence
