@@ -55,8 +55,38 @@ does it make sense to read/write directly from a DB from a service that doesn't 
 - routing
 - binding
 
-
-
+URL
+REST
+XML
+JSON
+API
+JWT
+DB
+MQ
+PDF
+PWA
+GSM
+SMS
+HTTP
+WSN
+MQTT
+ETL
+DRY
+URI
+HTTPS
+SSR
+CSR
+SEO
+HTML
+CSS
+SWR
+YAML
+CRUD
+HATEOAS
+IP
+CI
+CD
+SQL
 
 
 
