@@ -89,6 +89,9 @@ pak grupa G obsahuje podgrupu radu $p^k$
 - k=1 musi tam byt vsechny podgrupy s prvociselnymi rady
 
 
+# Generujici mnozin
+
+
 
 
 
