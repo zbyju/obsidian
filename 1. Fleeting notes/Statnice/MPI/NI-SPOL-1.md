@@ -118,6 +118,3 @@ Pak:
 je n-ta mocnina a (-n)-ta mocnina prvku $g$
 
 
-
-
-
