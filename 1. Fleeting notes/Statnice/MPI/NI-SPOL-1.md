@@ -61,3 +61,4 @@ H je (N, $\circ$) takova, ze:
 2. Grupa samotna (M, $\circ$)
 
 ## Tvrzeni
+1. Libovolny prunik podgrup je taky podgrupa
