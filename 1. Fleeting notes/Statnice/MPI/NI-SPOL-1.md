@@ -77,6 +77,11 @@ Pak rad H deli rad G
 **Priklad**
 - $\mathbb{Z}_{12}$ muze mit podgrupy pouze s pocty prvku: 1, 2, 3, 4, 6, 12
 - Grupy s prvociselnym radem muzou mit jen trivilani (1, sama sebe) podgrupy
+- Pokud mam $g$ rad grupy G a $k$, ktere deli $g$, pak z toho vsak nutne neplyne ze existuje podgrupa radu $k$.
+
+### Sylowova veta
+G konecneho radu $g$
+
 
 
 
