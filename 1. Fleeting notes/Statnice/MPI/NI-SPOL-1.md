@@ -1,4 +1,4 @@
-Teorie grup: Grupoidy, pologrupy, monoidy a grupy. Podgrupy, cyklické grupy a jejich generátory.
+**Teorie grup: Grupoidy, pologrupy, monoidy a grupy. Podgrupy, cyklické grupy a jejich generátory.**
 
 # Množiny s jednou binární operací
 Mějme:
@@ -89,7 +89,8 @@ pak grupa G obsahuje podgrupu radu $p^k$
 - k=1 musi tam byt vsechny podgrupy s prvociselnymi rady
 
 
-# Generujici mnozin
+# Generujici mnoziny a Generatory grup
+
 
 
 
