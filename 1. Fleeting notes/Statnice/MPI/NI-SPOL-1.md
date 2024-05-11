@@ -13,11 +13,14 @@ Mějme:
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
 3. existuje neutralni prvek
+	- $\exists e; e \in M; \forall a \in M: e \circ a = a \circ e = a$
+	- Existuje prvek, ktery po provedeni operace se vsemi ostatnimi prvky vrati ten prvek samotny
 ## Grupa
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
 3. existuje neutralni prvek
 4. existuji inverzni prvky
+	- 
 ## Abelovská grupa
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
