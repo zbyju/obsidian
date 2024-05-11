@@ -132,4 +132,10 @@ Timto zpusobem jsem schopny nagenerovat celou mnozinu.
 
 
 ### Tvrzeni
-- $\mathbb{Z}_n^+$ je rovna $\langle k \rangle; k \in \mathbb{Z}_n^+ \iff$ kdyz $a$, $n$ jsou nesoudelna. 
+- $\mathbb{Z}_n^+$ je rovna $\langle k \rangle; k \in \mathbb{Z}_n^+ \iff$ kdyz $a$, $n$ jsou nesoudelna.
+
+
+## Cyklicka grupa
+Pokud ma grupa nejaky generator ($G=(M, \circ); \exists a \in M; \langle a \rangle = G$), pak je grupa G cycklicka a $a$ se nazyva generator cyklicke grupy G.
+
+
