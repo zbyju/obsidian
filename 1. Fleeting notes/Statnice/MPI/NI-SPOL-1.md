@@ -74,4 +74,9 @@ Pokud je grupa G:
 H je podgrupa konecne grupy G
 Pak rad H deli rad G
 
+**Priklad**
+- $\mathbb{Z}_{12}$ muze mit podgrupy pouze s pocty prvku: 1, 2, 3, 4, 6, 12
+- Grupy s prvociselnym radem muzou mit jen trivilani (1, sama sebe) podgrupy
+
+
 
