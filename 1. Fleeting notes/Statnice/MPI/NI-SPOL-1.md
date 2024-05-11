@@ -9,7 +9,8 @@ Mějme:
 	- Mnozina M je uzavrena na operaci $\circ$
 
 **Priklady:**
-$\mathbb{Z}$
+$(\mathbb{Z}^-, \cdot)$ neni grupoid protoze $\mathbb{a} \cdot \mathbb{b} \notin \mathbb{Z}^-$, pokud $a, b$ jsou zaporna.
+
 ## Pologrupa
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
