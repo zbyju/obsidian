@@ -81,6 +81,13 @@ Pak rad H deli rad G
 
 ### Sylowova veta
 G konecneho radu $g$
+$p$ je prvociselny delitel $g$
+Pokud $p^k$ deli $g$ ($k \in \mathbb{N}$)
+pak grupa G obsahuje podgrupu radu $p^k$
+
+**Priklad**:
+- k=1 musi tam byt vsechny podgrupy s prvociselnymi rady
+
 
 
 
