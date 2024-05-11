@@ -92,8 +92,8 @@ pak grupa G obsahuje podgrupu radu $p^k$
 # Generujici mnoziny a Generatory grup
 G = $(M, \circ)$ grupa
 $N \subset M$, $N \ne \emptyset$
-$<N> := \cap{}{H: }$
-
+$\langle N \rangle := \cap{}{\{H:}$ H je podgrupa G obsahujici N $\}$
+je podgrupou grupy G obsahujici mnozinu N
 
 
 
