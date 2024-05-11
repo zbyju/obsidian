@@ -5,5 +5,7 @@
   "nlp",
   "obsidian-living-graph",
   "persistent-graph",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "ink",
+  "slash-commander"
 ]
