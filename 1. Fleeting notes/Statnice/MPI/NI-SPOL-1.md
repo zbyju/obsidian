@@ -9,7 +9,8 @@ Mějme:
 ## Pologrupa
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
-	- $\$
+	- $\forall A, B, C \in M: (A \circ B) \circ C = A \circ (B \circ C)$
+	- Je jedno jak vyraz uzavorkuju (poradi operaci)
 ## Monoid
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
@@ -31,3 +32,4 @@ Mějme:
 4. existuji inverzni prvky
 5. $\circ$ je komutativni
 	- $\forall A, B \in M: A \circ B = B \circ A$
+	- Je jedno v jakem poradi prvky napisu
