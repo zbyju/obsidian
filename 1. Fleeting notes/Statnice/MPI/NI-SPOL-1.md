@@ -46,3 +46,9 @@ $(\mathbb{Z}^-, \cdot)$ neni grupoid protoze $\mathbb{a} \cdot \mathbb{b} \notin
 
 ## Caleyho Tabulka
 Tabulka vsech kombinaci vstupu a jejich vystupy
+## Caleyho Graf
+Graf kde mame vsechny nody; z kazdeho nodu udelame vsechny hrany pro vsechny ostatni hodnoty v mnozine M takove ze $start \circ prvek = end$.
+
+# Podgrupa
+G je grupa (M, $\circ$)
+H je (N, $\circ$)
