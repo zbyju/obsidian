@@ -141,5 +141,6 @@ Pokud ma grupa nejaky generator ($G=(M, \circ); \exists a \in M; \langle a \rang
 ### Rad prvku
 Je rad grupy, ktery prvek nageneruje
 $ord(a) = \# \langle a \rangle$
-
+Alternativne:
+g z G grupy; 
 
