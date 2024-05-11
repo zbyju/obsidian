@@ -97,19 +97,15 @@ $N \subset M$, $N \ne \emptyset$
 $\langle N \rangle := \cap{}{\{H:}$ H je podgrupa G obsahujici N $\}$
 
 $\langle N \rangle$ je **podgrupa generovana mnozinou** N
-N je generujici mnozina grupy $\langle N \rangle$
+N je **generujici mnozina** grupy $\langle N \rangle$
 
-Pokud N je jednoprvkova N={a}, pak a nazyvame generatorem grupy $\langle a \rangle$
+Pokud N je jednoprvkova N={a}, pak a nazyvame **generatorem** grupy $\langle a \rangle$
 
 
 **Priklad:**
 - Vlastne rika ze vezmeme nejakou mnozinu N a vytvorime tu nejmensi (proto ten prunik) grupu, ktera obsahuje N.
-- Pro Z12 a mnozinu {6} je <N> = {0, 6} (musi byt uzavrena + musi tam byt neutralni prvek a vsechny inverze); dalsi moznosti jsou napriklad {0, 3, 6, 9, 12}, ale kdyz se pak udela ten prunik, tak ty prvky vypadnou
-
-
-
-
-
-
+- Pro Z12 a mnozinu {6} je $\langleN\rangle$ = {0, 6} (musi byt uzavrena + musi tam byt neutralni prvek a vsechny inverze); dalsi moznosti jsou napriklad {0, 3, 6, 9, 12}, ale kdyz se pak udela ten prunik, tak ty prvky vypadnou.
+- Pokud hledame generator grupy, pak hledame prvek ktery vygeneruje celou mnozinu (V Z12 je to napriklad 1, 2)
+- 
 
 
