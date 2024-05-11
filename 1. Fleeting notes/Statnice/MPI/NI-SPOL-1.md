@@ -60,3 +60,4 @@ H je (N, $\circ$) takova, ze:
 1. Grupa obsahujici pouze neutralni prvek ({e}, $\circ$)
 2. Grupa samotna (M, $\circ$)
 
+## Tvrzeni
