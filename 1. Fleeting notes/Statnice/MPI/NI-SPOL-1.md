@@ -142,5 +142,8 @@ Pokud ma grupa nejaky generator ($G=(M, \circ); \exists a \in M; \langle a \rang
 Je rad grupy, ktery prvek nageneruje
 $ord(a) = \# \langle a \rangle$
 Alternativne:
-g z G grupy; 
+g z G grupy; Pokud existuje kladne cele cislo $m: g^m = e$, pak nejmensi takove m je rad prvku. Pokud neexistuje, pak je rad nekonecno.
+$g^1 \ne e; g^2 \ne e; ...; g^m = e$; vidime ze g nageneruje prave m prvku.
+
+
 
