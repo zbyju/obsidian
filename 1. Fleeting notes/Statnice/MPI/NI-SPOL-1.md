@@ -6,6 +6,10 @@ Mějme:
 - binární operaci na ní $\circ : M \times M \rightarrow M$
 ## Grupoid 
 1. $\circ : M \times M \rightarrow M$
+	- Mnozina M je uzavrena na operaci $\circ$
+
+**Priklady:**
+$\mathbb{Z}$
 ## Pologrupa
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
