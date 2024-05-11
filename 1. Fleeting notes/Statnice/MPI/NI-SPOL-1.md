@@ -157,4 +157,5 @@ $g^1 \ne e; g^2 \ne e; ...; g^m = e$; vidime ze g nageneruje prave m prvku.
 - Pocet generator $\mathbb{Z}_n^{\times}$ je $\phi(\phi(n))$
 	- To vnitrni $\phi$ je rad, to venkovni pak pocet generatoru (ktery potrebuje rad jako vstup)
 - Libovolna podgrupa cyklicke grupy je znovu podgrupa
+- V G grupe radu n plati pro vsechny prvky $a$: $a^n = e$
 
