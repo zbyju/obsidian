@@ -138,4 +138,8 @@ Timto zpusobem jsem schopny nagenerovat celou mnozinu.
 ## Cyklicka grupa
 Pokud ma grupa nejaky generator ($G=(M, \circ); \exists a \in M; \langle a \rangle = G$), pak je grupa G cycklicka a $a$ se nazyva generator cyklicke grupy G.
 
+### Rad prvku
+Je rad grupy, ktery prvek nageneruje
+$ord(a) = \# \langle a \rangle$
+
 
