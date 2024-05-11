@@ -122,4 +122,10 @@ je n-ta mocnina a (-n)-ta mocnina prvku $g$
 $\langle N \rangle = \{ a^{k_1}_1 \circ  a^{k_2}_2 \circ ... \circ a^{k_n}_n \}; n \in \mathbb{N}; k_i \in \mathbb{Z}; a_i \in \mathbb{N}$
 Grupovym obalem jsme schopni ziskat vsechny prvky patrici do N.
 
-Dusledek: $\langle a \rangle = \{ a^{k} \circ  a^{k_2}_2 \circ ... \circ a^{k_n}_n \}; n \in \mathbb{N}; k_i \in \mathbb{Z}; a_i \in \mathbb{N}$
+Dusledek: $\langle a \rangle = \{ a^{k}; k \in \mathbb{Z}\}$
+
+Timto zpusobem jsem schopny nagenerovat celou mnozinu.
+
+**Priklad:**
+- 
+
