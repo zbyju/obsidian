@@ -113,7 +113,11 @@ e - neutralni prvek
 $g \in M$, kladne prirozene n
 Pak:
 - $g^0 = e$
-- $g^n = g \circ g \circ g \circ g \circ g \circ g
+- $g^n = g \circ g \circ ... \circ g$ (n-krat)
+- $g^n \circ g^{-n} = e$
+je n-ta mocnina a (-n)-ta mocnina prvku $g$
+
+
 
 
 
