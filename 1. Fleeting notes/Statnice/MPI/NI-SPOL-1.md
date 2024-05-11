@@ -63,4 +63,4 @@ H je (N, $\circ$) takova, ze:
 ## Tvrzeni
 1. Libovolny prunik podgrup je taky podgrupa
 2. Neprazdne H je podgrupou G $\iff \forall a, b \in N: a \circ b^-1 \in N$
-3. Asociativity je zac
+3. Asociativity je zachovana pro podgrupy (nemeni se operace)
