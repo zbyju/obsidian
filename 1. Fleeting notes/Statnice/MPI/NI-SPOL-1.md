@@ -90,10 +90,16 @@ pak grupa G obsahuje podgrupu radu $p^k$
 
 
 # Generujici mnoziny a Generatory grup
+
+## Grupa generovana mnozinou
 G = $(M, \circ)$ grupa
 $N \subset M$, $N \ne \emptyset$
 $\langle N \rangle := \cap{}{\{H:}$ H je podgrupa G obsahujici N $\}$
 je podgrupou grupy G obsahujici mnozinu N
+
+**Priklad:**
+- Vlastne rika ze vezmeme nejakou mnozinu N a vytvorime tu nejmensi (proto ten prunik) grupu, ktera obsahuje N.
+- Pro Z12 a mnozinu {6} je <N> = {0, 6} (musi byt uzavrena + musi tam byt neutralni prvek a vsechny inverze); dalsi moznosti jsou napriklad {0, 3, 6, 9, 12}
 
 
 
