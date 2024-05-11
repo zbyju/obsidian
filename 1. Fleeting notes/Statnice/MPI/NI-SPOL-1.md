@@ -159,5 +159,8 @@ $g^1 \ne e; g^2 \ne e; ...; g^m = e$; vidime ze g nageneruje prave m prvku.
 - Libovolna podgrupa cyklicke grupy je znovu podgrupa
 - $a^{\# \langle a \rangle} = a^{ord(a)} = e$
 - V G grupe radu n plati pro vsechny prvky $a$: $a^n = e$
-	- Cyklicka grup je podgru
+	- Cyklicka grupa $\langle a \rangle$ je podgrupou G
+		- Rad $\langle a \rangle = \#$
+	- Z Langrangeovi vety: $\# \langle a \rangle$ deli $n$ (existuje $k \in \mathbb{N}: n = k \cdot \# \langle a \rangle$) 
+		- 
 
