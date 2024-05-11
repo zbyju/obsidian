@@ -69,3 +69,9 @@ H je (N, $\circ$) takova, ze:
 Pokud je grupa G:
 - Konecna - pak je to pocet prvku nosice
 - Nekonecna - pak je to nekonecno
+
+# Lagrangova Veta
+H je podgrupa konecne grupy G
+Pak rad H deli rad G
+
+
