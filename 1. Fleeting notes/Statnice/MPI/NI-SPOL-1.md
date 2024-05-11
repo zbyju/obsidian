@@ -127,5 +127,6 @@ Dusledek: $\langle a \rangle = \{ a^{k}; k \in \mathbb{Z}\}$
 Timto zpusobem jsem schopny nagenerovat celou mnozinu.
 
 **Priklad:**
-- 
+- POZOR: k musi byt ze Z aby se tam nagenerovaly vsechny inverze
+- Napriklad pro G = (Q, x) {2, 3}
 
