@@ -9,6 +9,7 @@ Mějme:
 ## Pologrupa
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
+	- $\$
 ## Monoid
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
@@ -20,10 +21,13 @@ Mějme:
 2. $\circ$ je asociativni
 3. existuje neutralni prvek
 4. existuji inverzni prvky
-	- 
+	- $\forall a \in M; \exists b \in M: b\circ a = a \circ b = e$
+	- Pro vsechny prvky existuje nejaky prvek, ktery po provedeni operace vrati neutralni prvek.
+	- *Note: b zavisi na a ($b_a$)*
 ## Abelovská grupa
 1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
 3. existuje neutralni prvek
 4. existuji inverzni prvky
 5. $\circ$ je komutativni
+	- $\forall A, B \in M: A \circ B = B \circ A$
