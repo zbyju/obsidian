@@ -51,4 +51,11 @@ Graf kde mame vsechny nody; z kazdeho nodu udelame vsechny hrany pro vsechny ost
 
 # Podgrupa
 G je grupa (M, $\circ$)
-H je (N, $\circ$)
+H je (N, $\circ$) takova, ze:
+1. $N \subset M$
+2. (N, $\circ$) je taky grupa
+3. ((( ta operace je zuzeni na te mnozine )))
+
+## Trivialni podgrupy
+1. Grupa obsahujici pouze neutralni prvek
+2. Grupa samotna (M, $\circ$)
