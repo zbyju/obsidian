@@ -38,3 +38,11 @@ $(\mathbb{Z}^-, \cdot)$ neni grupoid protoze $\mathbb{a} \cdot \mathbb{b} \notin
 5. $\circ$ je komutativni
 	- $\forall A, B \in M: A \circ B = B \circ A$
 	- Je jedno v jakem poradi prvky napisu
+
+## Tvrzeni
+1. V monoidu existuje prave jeden neutralni prvek
+2. V grupe existuje ke kazdemu prvku prave jeden inverzni prvek
+
+
+## Caleyho Tabulka
+Tabulka vsech kombinaci vstupu a jejich vystupy
