@@ -164,5 +164,7 @@ $g^1 \ne e; g^2 \ne e; ...; g^m = e$; vidime ze g nageneruje prave m prvku.
 		- Rad G je $n$
 	- Z Langrangeovi vety: $\# \langle a \rangle$ deli $n$ (existuje $k \in \mathbb{N}: n = k \cdot \# \langle a \rangle$) 
 		-  $a^n \implies a^{k \cdot \# \langle a \rangle} \implies {a^{\# \langle a \rangle}}^{k} = e^k = e$
-- Dusledek MFV: Pro libovolne prvocislo $p$ a libovole $1 \leq a \le p: a^{p-1} \equ$  
+- Dusledek MFV: Pro libovolne prvocislo $p$ a libovole $1 \leq a \le p: a^{p-1} \equiv 0\ (mod\ p)$
+	- n = p-1
+	- e = 0
 
