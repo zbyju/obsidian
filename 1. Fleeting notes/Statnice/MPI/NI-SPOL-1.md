@@ -7,9 +7,20 @@ Mějme:
 ## Grupoid 
 1. $\circ : M \times M \rightarrow M$
 ## Pologrupa
-1.  $\circ : M \times M \rightarrow M$
+1. $\circ : M \times M \rightarrow M$
 2. $\circ$ je asociativni
 ## Monoid
-1. 
+1. $\circ : M \times M \rightarrow M$
+2. $\circ$ je asociativni
+3. existuje neutralni prvek
 ## Grupa
-##
+1. $\circ : M \times M \rightarrow M$
+2. $\circ$ je asociativni
+3. existuje neutralni prvek
+4. existuji inverzni prvky
+## Abelovská grupa
+1. $\circ : M \times M \rightarrow M$
+2. $\circ$ je asociativni
+3. existuje neutralni prvek
+4. existuji inverzni prvky
+5. $\circ$ je komutativni
