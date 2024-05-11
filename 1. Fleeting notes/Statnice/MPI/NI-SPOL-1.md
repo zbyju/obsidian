@@ -148,4 +148,5 @@ $g^1 \ne e; g^2 \ne e; ...; g^m = e$; vidime ze g nageneruje prave m prvku.
 ## Tvrzeni
 - $\mathbb{Z}_n^{\times}$ je cyklicka prave kdyz $n$ je 2, 4, $p^k$, $p^{2k}$, p je liche prvocislo, k je kladne prirozene.
 - G je cyklicka grupa radu $n$ a $a$ je nejaky generator, pak $a^k$ je take generator prave tehdy kdyz $k$ a $n$ jsou nesoudelna ($gcd(k,n) = 1$)
+- $\Psi(n)$ 
 
