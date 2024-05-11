@@ -64,3 +64,8 @@ H je (N, $\circ$) takova, ze:
 1. Libovolny prunik podgrup je taky podgrupa
 2. Neprazdne H je podgrupou G $\iff \forall a, b \in N: a \circ b^-1 \in N$
 3. Asociativity je zachovana pro podgrupy (nemeni se operace)
+
+# Rad grupy
+Pokud je grupa G:
+- Konecna - pak je to pocet prvku nosice
+- Nekonecna - pak je to nekonecno
