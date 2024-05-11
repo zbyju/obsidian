@@ -128,5 +128,5 @@ Timto zpusobem jsem schopny nagenerovat celou mnozinu.
 
 **Priklad:**
 - POZOR: k musi byt ze Z aby se tam nagenerovaly vsechny inverze
-- Napriklad pro G = (Q, x) {2, 3}
+- Napriklad pro G = (Q, x), N={2, 3}, ⟨N⟩={$2^k×3^j | k,j∈Z$} nam vygeneruje $​1,2,3,6,\frac{1}{2}​,\frac{1}{3}​,\frac{1}{6},…$
 
