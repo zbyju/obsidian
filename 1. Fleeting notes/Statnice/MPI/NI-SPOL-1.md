@@ -1,11 +1,2 @@
-()
-== in,
+Teorie grup: Grupoidy, pologrupy, monoidy a grupy. Podgrupy, cyklické grupy a jejich generátory.
 
-```handwritten-ink
-{
-	"versionAtEmbed": "0.1.172",
-	"filepath": "Ink/Writing/2024.4.11 - 13.38pm.writing"
-}
-```
-
-W
