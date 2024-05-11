@@ -151,4 +151,9 @@ $g^1 \ne e; g^2 \ne e; ...; g^m = e$; vidime ze g nageneruje prave m prvku.
 - $\phi(n)$ (Eulerova funkce) - udava pocet prirozenych cisel mensich nez n, ktera jsou s nim nesoudelna
 - V cyklicke grupe radu $n$ je presne $\phi(n)$ generatoru.
 	- to je ten pocet exponentu ktere mi vyrobi dalsi generatory
+- Rad $\mathbb{Z}_n^{\times}$ je $\phi(n)$
+	- Nejake prvky je potreba vyhodit, protoze by nemely inverzi
+	- V Z12 napriklad 2 nemuze mit inverzi 
+- Pocet generator $\mathbb{Z}_n^{\times}$ je $\phi(\phi(n))$
+	- To vnitrni $\phi$ je rad, to venkovni pak pocet generatoru (ktery potrebuje rad jako vstup)
 
