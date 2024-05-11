@@ -105,7 +105,15 @@ Pokud N je jednoprvkova N={a}, pak a nazyvame **generatorem** grupy $\langle a \
 **Priklad:**
 - Vlastne rika ze vezmeme nejakou mnozinu N a vytvorime tu nejmensi (proto ten prunik) grupu, ktera obsahuje N.
 - Pro Z12 a mnozinu {6} je $\langleN\rangle$ = {0, 6} (musi byt uzavrena + musi tam byt neutralni prvek a vsechny inverze); dalsi moznosti jsou napriklad {0, 3, 6, 9, 12}, ale kdyz se pak udela ten prunik, tak ty prvky vypadnou.
-- Pokud hledame generator grupy, pak hledame prvek ktery vygeneruje celou mnozinu (V Z12 je to napriklad 1, 2)
-- 
+- Pokud hledame generator grupy, pak hledame prvek ktery vygeneruje celou mnozinu (V Z12 je to napriklad 1, 5)
+
+### Mocnina prvku
+G = $(M, \circ)$ grupa
+e - neutralni prvek
+$g \in M$, kladne prirozene n
+Pak:
+- $g^0 = e$
+- $g^n = g \circ g \circ g \circ g \circ g \circ g
+
 
 
