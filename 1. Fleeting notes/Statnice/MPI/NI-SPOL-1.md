@@ -163,5 +163,5 @@ $g^1 \ne e; g^2 \ne e; ...; g^m = e$; vidime ze g nageneruje prave m prvku.
 		- Rad $\langle a \rangle = \# \langle a \rangle$
 		- Rad G je $n$
 	- Z Langrangeovi vety: $\# \langle a \rangle$ deli $n$ (existuje $k \in \mathbb{N}: n = k \cdot \# \langle a \rangle$) 
-		-  $a^n = e \implies a^{k \cdot \# \langle a \rangle} \implies $
+		-  $a^n \implies a^{k \cdot \# \langle a \rangle} \implies {a^{\# \langle a \rangle}}^{k} = e^k = e$
 
