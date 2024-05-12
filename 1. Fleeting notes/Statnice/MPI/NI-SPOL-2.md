@@ -40,4 +40,4 @@ je polynom nad okruhem R (s formalni promennou x)
 
 ## Tvrzeni
 - def(f(x) * g(x)) = def(f(x)) + deg(g(x))
--   
+- Mejme nenulove polynomy f(x), g(x) nad telesem T; Pak existuji jednoznacne urcene polynomy q(x), r(x) taky nad T takove, ze: f(x)=q(x)g(x)+r(x); r(x) je bud nulovy nebo ma stuped stre mensi nez g(x)
