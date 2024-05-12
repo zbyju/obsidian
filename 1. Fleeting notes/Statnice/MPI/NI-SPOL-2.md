@@ -23,3 +23,7 @@ Okruh T = (M, +, \*) je teleso, pokud:
 - ({0, 1}, +, \*) - trivialni teleso
 - $(\mathbb{Z}, +, \cdot)$ - neni teleso; \* neni multiplikativni grupa
 - $(\mathbb{Q}, +, \cdot)$ - je nejmensi ciselne teleso
+
+# Polynom nad Okruhem
+Mejme R okruh
+$a_i \in R; i = 0, 1, …, n$
