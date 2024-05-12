@@ -51,5 +51,6 @@ je polynom nad okruhem R (s formalni promennou x)
 - Mame nenulovy p(x) nad T stupne $n$, prvek $\xi \in T$ je koren p prave tehdy kdyz $p(x) = (x-\xi)g(x)$, kde g(x) nad T je stupne n-1
 
 # Ireducibilni polynom
-$P(x) \in K[x]$ stupne alespon 1
+$P(x) \in K[x]$ stupne alespon 1 (neni nulovy, ani konstantni)
 P(x) je ireducibilni polynom nad okruhem K, jestlize pro kazde A(x), B(x) z K\[x\] plati:
+$A(x) \cdot B(x)=P(x) \implies (deg(A(x)) = 0\ OR\ deg(B(x)) =0)$
