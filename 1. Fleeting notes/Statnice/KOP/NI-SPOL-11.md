@@ -52,6 +52,7 @@ Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni pro
 - Optimalizacni rozhodovaci problem
 	- Existuje Y, ze R(I, Y) a C(Y) je alespon tak dobre jako konstanta K?
 - Optimalizacni pocetni problem
+	- Kolike je Y takovych, ze R(I,Y) a C(Y) je aspon tak dobre jako konstanta K?
 - Optimalizacni enumeracni problem
-	- Sestroj vsechna Y, ze R(I, Y)
+	- Sestroj vsechna Y, ze R(I, Y) a C(Y) je nejlepsi mozne
 	
