@@ -19,3 +19,15 @@ Konkretni instance problemu
 
 # Charakterizace Instance
 - Ohodnoceni vstupnich promennych
+
+## Konfigurace
+Ohodnoceni konfiguracnich promennych
+
+## Reseni
+Konfigurace ktera vyhovuje omezujicim podminkam
+
+# Optimalni Reseni
+Reseni s nejlepsi hodnotou optimalizacniho kriteria
+
+# Suboptimalni Reseni
+Reseni ktere ma ”prijatelnou hodnotu” optimalizacniho kriteria
