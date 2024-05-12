@@ -36,3 +36,7 @@ je polynom nad okruhem R (s formalni promennou x)
 - Pokud existuje $k \in {0, 1, …, n} takove, ze $a_k \ne 0$, pak nejvetsi z techto $k$ je stupen polynomu
 	- deg(P(x))
 	- Pokud P(x) = 0 pak je to nulovy polynom a jeho stupen je nedefinovany
+
+## Tvrzeni
+- def(f(x) * g(x)) = def(f(x)) + deg(g(x))
+- 
