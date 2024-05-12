@@ -10,3 +10,4 @@ $R=(+,\cdot)$ je okruh, pokud:
 3. plati levy a pravy distribucni zakon
 	- $\forall a, b, c \in M: (a \cdot (b + c) = ab + ac \wedge (b + c) \cdot a = ba + ca)$
 
+## Specialni okruh
