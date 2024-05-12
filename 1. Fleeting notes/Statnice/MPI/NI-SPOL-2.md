@@ -47,4 +47,5 @@ je polynom nad okruhem R (s formalni promennou x)
 	- kazdy polynom ktery deli f(x) i g(x) deli i h(x)
 		- h(x) neni jednoznacny; jednoznacny je jeho stupen
 - **Bezoutova rovnost pro polynomy**: f(x), g(x) nenulove nad T, pak existuji u(x), v(x) na T takove, ze: gcd(f(x), g(x)) = u(x)f(x)+v(x)g(x)
-- Mame nenulovy p(x) nad T stupne $n$, prvek $
+- $p(\xi)= \sum a_i \cdot \xi^i=0 \iff$ 
+- Mame nenulovy p(x) nad T stupne $n$, prvek $\xi \in T$ je koren p prave tehdy
