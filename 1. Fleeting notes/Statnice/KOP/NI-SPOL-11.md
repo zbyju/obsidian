@@ -55,4 +55,21 @@ Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni pro
 	- Kolike je Y takovych, ze R(I,Y) a C(Y) je aspon tak dobre jako konstanta K?
 - Optimalizacni enumeracni problem
 	- Sestroj vsechna Y, ze R(I, Y) a C(Y) je nejlepsi mozne
-	
+
+# Vypocetni modely
+## Turinguv stroj
+- Mnozina symbolu pasky (soucast je b - blank) P
+- Mnozina symbolu vstupu (soucasti nesmi byt b) V
+- Mnozina stavu (q0 - pocatecni)
+- Koncove stavy $q_{ano},q_{ne}$ 
+- Vypocet: $(q \in Q, s \in P) \rightarrow (q', s', \Delta)$ (stav, cteny symbol) -> (novy stav, zapsany symbol, pohyb hlavy)
+
+Turinguv stroj:
+- **resi rozhodovaci problem PI**, pokud se vypocet zastavi po konecnem poctu kroku pro kazdou instanci problemu PI
+- **resi rozhodovaci problem PI v case t**, pokud se vypocet zastavi po nejvice t krocich pro kazdou instanci PI
+- **resi rozhodovaci problem PI s pameti m**, jestlize kazda instance je vyresena se zaplnenim maximalne m policek
+
+## RAM stroj
+Schopny adresovat
+## Booleuv obvod
+Formalizovana sit hradel
