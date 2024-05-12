@@ -62,6 +62,11 @@ Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni pro
 - Mnozina symbolu vstupu (soucasti nesmi byt b) V
 - Mnozina stavu (q0 - pocatecni)
 - Koncove stavy $q_{ano},q_{ne}$ 
-- Vypocet: $(q \in Q, s \in P) \rightarrow (q', s', \Delta)$ (stav, )
+- Vypocet: $(q \in Q, s \in P) \rightarrow (q', s', \Delta)$ (stav, cteny symbol) -> (novy stav, zapsany symbol, pohyb hlavy)
+
+Turinguv stroj:
+- **resi rozhodovaci problem PI**, pokud se vypocet zastavi po konecnem poctu kroku pro kazdou instanci problemu PI
+- **resi rozhodovaci problem PI v case t**, pokud se vypocet zastavi po nejvice t krocich
+
 ## RAM stroj
 ## Booleuv obvod
