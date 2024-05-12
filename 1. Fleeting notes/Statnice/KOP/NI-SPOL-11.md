@@ -55,4 +55,9 @@ Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni pro
 	- Kolike je Y takovych, ze R(I,Y) a C(Y) je aspon tak dobre jako konstanta K?
 - Optimalizacni enumeracni problem
 	- Sestroj vsechna Y, ze R(I, Y) a C(Y) je nejlepsi mozne
-	
+
+# Vypocetni modely
+## Turinguv stroj
+
+## RAM stroj
+## Booleuv obvod
