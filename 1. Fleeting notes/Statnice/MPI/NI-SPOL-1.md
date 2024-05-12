@@ -158,13 +158,13 @@ $g^1 \ne e; g^2 \ne e; ...; g^m = e$; vidime ze g nageneruje prave m prvku.
 	- To vnitrni $\phi$ je rad, to venkovni pak pocet generatoru (ktery potrebuje rad jako vstup)
 - Libovolna podgrupa cyklicke grupy je znovu podgrupa
 - $a^{\# \langle a \rangle} = a^{ord(a)} = e$
-- **Mala Fermatova Veta:** G grupe radu n plati pro vsechny prvky $a$: $a^n = e$
+- **Dusledek Lagrangeovy vety:** G grupe radu n plati pro vsechny prvky $a$: $a^n = e$
 	- Cyklicka grupa $\langle a \rangle$ je podgrupou G
 		- Rad $\langle a \rangle = \# \langle a \rangle$
 		- Rad G je $n$
 	- Z Langrangeovi vety: $\# \langle a \rangle$ deli $n$ (existuje $k \in \mathbb{N}: n = k \cdot \# \langle a \rangle$) 
 		-  $a^n \implies a^{k \cdot \# \langle a \rangle} \implies {a^{\# \langle a \rangle}}^{k} = e^k = e$
-- Dusledek MFV: Pro libovolne prvocislo $p$ a libovole $1 \leq a \le p: a^{p-1} \equiv 1\ (mod\ p)$
+- **Mala Fermatova Veta**: Pro libovolne prvocislo $p$ a libovole $1 \leq a \le p: a^{p-1} \equiv 1\ (mod\ p)$
 	- n = p
 	- rad = p-1
 	- e = 1
