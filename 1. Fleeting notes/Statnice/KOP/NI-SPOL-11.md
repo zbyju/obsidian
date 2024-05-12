@@ -33,7 +33,7 @@ Reseni s nejlepsi hodnotou optimalizacniho kriteria
 Reseni ktere ma ”prijatelnou hodnotu” optimalizacniho kriteria
 
 # Verze Problemu
-Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni problemy (s vyjimkou konstanty) 
+Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni problemy (s vyjimkou konstanty), omezeni. Lisi se pouze ve vystupu.
 ## Bez optimalizacniho kriteria
 - Rozhodovaci problem
 	- Existuje Y takove, ze R(I, Y)? Ano/Ne
