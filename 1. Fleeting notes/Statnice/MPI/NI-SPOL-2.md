@@ -16,4 +16,8 @@ $R=(+,\cdot)$ je okruh, pokud:
 - (N, +, \*) - neni okruh (N, +) neni grupa
 
 # Teleso
-Okruh T = (M, +, \)
+Okruh T = (M, +, \*) je teleso, pokud:
+- $(M \setminus {0}, \cdot) je abelovska grupa
+
+## Specialni okruhy
+- $\mathbb{Z}, +, \cdot)
