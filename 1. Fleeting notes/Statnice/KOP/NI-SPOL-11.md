@@ -44,4 +44,14 @@ Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni pro
 	- Sestroj vsechna reseni Y, ze R(I, Y) {Y}
 - Pocetni problem
 	- Kolik je Y, ze R(I,Y) $m \in \mathbb{N}$
+## S optimalizacnim kriteriem
+- Optimalizacni konstruktivni problem
+	- Sestroj nejake Y, ze R(I, Y) a C(Y) je nejlepsi mozne
+- Optimalizacni evaluacni problem
+	- Zjisti nejlepsi mozne C(Y), ze R(I,Y)
+- Optimalizacni rozhodovaci problem
+	- Existuje Y, ze R(I, Y) a C(Y) je alespon tak dobre jako konstanta K?
+- Optimalizacni pocetni problem
+- Optimalizacni enumeracni problem
+	- Sestroj vsechna Y, ze R(I, Y)
 	
