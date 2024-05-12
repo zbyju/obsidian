@@ -20,4 +20,6 @@ Okruh T = (M, +, \*) je teleso, pokud:
 - $(M \setminus {0}, \cdot) je abelovska grupa
 
 ## Specialni okruhy
-- $\mathbb{Z}, +, \cdot)
+- ({0, 1}, +, \*) - trivialni teleso
+- $(\mathbb{Z}, +, \cdot)$ - neni teleso; \* neni multiplikativni grupa
+- $(\mathbb{Q}, +, \cdot)$ - je nejmensi ciselne teleso
