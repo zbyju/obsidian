@@ -40,4 +40,4 @@ je polynom nad okruhem R (s formalni promennou x)
 
 ## Tvrzeni
 - def(f(x) * g(x)) = def(f(x)) + deg(g(x))
-- 
+-   
