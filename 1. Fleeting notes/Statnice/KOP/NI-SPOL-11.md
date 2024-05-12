@@ -58,6 +58,10 @@ Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni pro
 
 # Vypocetni modely
 ## Turinguv stroj
-
+- Mnozina symbolu pasky (soucast je b - blank) P
+- Mnozina symbolu vstupu (soucasti nesmi byt b) V
+- Mnozina stavu (q0 - pocatecni)
+- Koncove stavy $q_{ano},q_{ne}$ 
+- Vypocet: $(q \in Q, s \in P) \rightarrow (q', s', \Delta)$ (stav, )
 ## RAM stroj
 ## Booleuv obvod
