@@ -11,3 +11,9 @@ $R=(+,\cdot)$ je okruh, pokud:
 	- $\forall a, b, c \in M: (a \cdot (b + c) = ab + ac \wedge (b + c) \cdot a = ba + ca)$
 
 ## Specialni okruh
+- ({0}, +, \*) - trivialni okruh
+- (Z, +, \*) - okruh
+- (N, +, \*) - neni okruh (N, +) neni grupa
+
+# Teleso
+Okruh T = (M, +, \)
