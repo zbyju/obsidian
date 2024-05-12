@@ -66,7 +66,10 @@ Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni pro
 
 Turinguv stroj:
 - **resi rozhodovaci problem PI**, pokud se vypocet zastavi po konecnem poctu kroku pro kazdou instanci problemu PI
-- **resi rozhodovaci problem PI v case t**, pokud se vypocet zastavi po nejvice t krocich
+- **resi rozhodovaci problem PI v case t**, pokud se vypocet zastavi po nejvice t krocich pro kazdou instanci PI
+- **resi rozhodovaci problem PI s pameti m**, jestlize kazda instance je vyresena se zaplnenim maximalne m policek
 
 ## RAM stroj
+Schopny adresovat
 ## Booleuv obvod
+Formalizovana sit hradel
