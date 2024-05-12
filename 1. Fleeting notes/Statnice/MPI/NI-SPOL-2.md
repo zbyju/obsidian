@@ -33,4 +33,6 @@ je polynom nad okruhem R (s formalni promennou x)
 - $a_i$ jsou koeficienty polynomu P(x)
 - x je formalni promenna
 - Polynomy se rovnaji pokud se rovnaji vsechny koeficienty
-- Pokud existuje $k \in {0, 1, …, }
+- Pokud existuje $k \in {0, 1, …, n} takove, ze $a_k \ne 0$, pak nejvetsi z techto $k$ je stupen polynomu
+	- deg(P(x))
+	- Pokud P(x) = 0 pak je to nulovy polynom a jeho stupen je nedefinovany
