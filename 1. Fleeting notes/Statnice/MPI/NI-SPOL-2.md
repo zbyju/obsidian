@@ -27,3 +27,10 @@ Okruh T = (M, +, \*) je teleso, pokud:
 # Polynom nad Okruhem
 Mejme R okruh
 $a_i \in R; i = 0, 1, …, n$
+$P(x) = \sum^{n}_{i=0}a_ix^i$
+je polynom nad okruhem R (s formalni promennou x)
+
+- $a_i$ jsou koeficienty polynomu P(x)
+- x je formalni promenna
+- Polynomy se rovnaji pokud se rovnaji vsechny koeficienty
+- Pokud existuje $k \in {0, 1, …, }
