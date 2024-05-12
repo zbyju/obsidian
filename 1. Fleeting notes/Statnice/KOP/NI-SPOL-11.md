@@ -33,7 +33,15 @@ Reseni s nejlepsi hodnotou optimalizacniho kriteria
 Reseni ktere ma ”prijatelnou hodnotu” optimalizacniho kriteria
 
 # Verze Problemu
+Problemy se deli na ruzne verze. Tyto verze maji stejny vstup a konfiguracni problemy (s vyjimkou konstanty) 
 ## Bez optimalizacniho kriteria
 - Rozhodovaci problem
-	- Existuje Y takove, ze R(I, Y)? Ano
-- 
+	- Existuje Y takove, ze R(I, Y)? Ano/Ne
+	- Plati pro vsechna Y, ze R(I, Y)? Ano/Ne
+- Konstruktivni problem
+	- Sestroj nejake reseni Y, ze R(I, Y) Y
+- Enumeracni problem
+	- Sestroj vsechna reseni Y, ze R(I, Y) {Y}
+- Pocetni problem
+	- Kolik je Y, ze R(I,Y) $m \in \mathbb{N}$
+	
