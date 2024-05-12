@@ -26,8 +26,14 @@ Ohodnoceni konfiguracnich promennych
 ## Reseni
 Konfigurace ktera vyhovuje omezujicim podminkam
 
-# Optimalni Reseni
+## Optimalni Reseni
 Reseni s nejlepsi hodnotou optimalizacniho kriteria
 
-# Suboptimalni Reseni
+## Suboptimalni Reseni
 Reseni ktere ma ”prijatelnou hodnotu” optimalizacniho kriteria
+
+# Verze Problemu
+## Bez optimalizacniho kriteria
+- Rozhodovaci problem
+	- Existuje Y takove, ze R(I, Y)? Ano
+- 
