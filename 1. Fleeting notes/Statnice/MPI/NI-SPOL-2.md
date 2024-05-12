@@ -9,4 +9,4 @@ $R=(+,\cdot)$ je okruh, pokud:
 2. $(M, \cdot)$ je monoid
 3. plati levy a pravy distribucni zakon
 	- $\forall a, b, c \in M: (a \cdot (b + c) = ab + ac \wedge (b + c) \cdot a = ba + ca)$
-	
+
