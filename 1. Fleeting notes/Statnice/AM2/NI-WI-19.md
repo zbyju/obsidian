@@ -29,4 +29,18 @@ Shared workers can be accessed by multiple scripts (iframes, windows, workers)
 ## Node.js
 Javascript Runtime for the backend uses the V8 engine
 Uses event driven IO framework
-- every IO is non
+- every IO is non-blocking (async)
+One worker thread to process requests, no need to deal with concurrency problems
+open-source
+
+The event loop goes through phases:
+1. Timers
+	- Executes setTimeout and setInterval callbacks
+2. I/O callbacks
+	- executes IO callbacks except close callbacks
+3. idle/prepare
+	- used internally
+4. poll
+	- retrieve new IO events
+5. check
+	- invoke setImmediate() callb
