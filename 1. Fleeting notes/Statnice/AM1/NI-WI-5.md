@@ -80,3 +80,5 @@ Connection is maintained by the OS (not the app)
 App registers events, OS triggers events when they occur
 There might be threads if the app creates them
 ### Outbound
+App registers a callback when data is available
+Event loop
