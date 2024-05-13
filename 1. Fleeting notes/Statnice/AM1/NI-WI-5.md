@@ -66,6 +66,17 @@ MQ - queue-based communication
 PS - publish subcribe - event driven communication
 
 # I/O
-## Blocking
+## Blocking (Synchronous) IO
+### Inbound connections
 New thread for each connection
 1K connections = 1K threads = big overhead
+### Outbound connection
+Thread is blocked when connection is made
+when connection is slow, scalability is poor
+
+## Non-Blocking (Asynchronous) IO
+### Inbound
+Connection is maintained by the OS (not the app)
+App registers events, OS triggers events when they occur
+There might be threads if the app creates them
+### Outbound
