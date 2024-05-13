@@ -8,6 +8,10 @@ Tasks are ran through event loop
 Task is able to “pause” when it is waiting for a result, data and let other tasks to be run in the meanwhile
 This way it feels like concurrent execution
 
+## Synchronous
+Relies on threads to achieve concurrency, otherwise:
+each IO blocks the whole execution until data is retrieved
+
 ## Javascript Runtime
 - Stack - Function parameters, local variables
 - Heap - allocated blocks of memory
@@ -46,3 +50,5 @@ The event loop goes through phases:
 	- invoke setImmediate() callbacks
 6. close callbacks
 	- executes close callback socket.on(“close”, …)
+
+# HTTP2
