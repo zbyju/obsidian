@@ -13,5 +13,10 @@ This way it feels like concurrent execution
 - Heap - allocated blocks of memory
 - Queue (Event Loop) - list of messages to be processed
 	- Message = data + callback
+	- Messages completed one by one
+	- Each message is completed fully before other messages (if it takes a lot of time, then other things get blocked)
+
+Each runtime has its own stack, heap and queue. iframe and web workers have their own runtimes.
+Communication between runtimes can be done using postMessage, while other runtimes listen for the messages
 
  
