@@ -69,4 +69,15 @@ The event loop goes through phases:
 ## Binary Framing
 Everything is sent using binary format
 Messages are sent in frames - Headers frame (Request Line, headers), data frame (body)
-Frames are identified by the message they belong to
+Frames are identified by the message they belong to (to a stream)
+Communication is multiplexed within a single TCP connection
+#### Stream
+Bi-directional flow of bytes in connection
+May carry one or more messages
+May have priority
+#### Message
+Sequence of frames
+It’s the request or response
+#### Frame
+Smallest unit
+Each has a header to indetify its stream
