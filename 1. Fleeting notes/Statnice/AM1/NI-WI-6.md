@@ -42,7 +42,10 @@ Reverse-proxy chooses the app instance, it can do so based on load, healthchecks
 Users get cookies that they identify with for reverse-proxy to choose which server to choose for that user to persist the session.
 
 #### Session in DB
-Another approach is to store the session in
+Another approach is to store the session information in DB
+
+#### In-memory replication
+Primary server holds the data in-memory, the other is replicating it
 
 ### Healthchecking
 Send multiple requests to the service, based on the success rate either keep using the server or stop using it
@@ -55,3 +58,4 @@ Send multiple requests to the service, based on the success rate either keep usi
 - Limiting the maximum number of connections to a server
 - Slow-start - recently recovered servers will not get overwhelmed
 ## Client-side LB
+Client determines which server it is going to use
