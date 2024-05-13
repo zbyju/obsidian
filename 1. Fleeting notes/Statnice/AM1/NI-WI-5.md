@@ -64,3 +64,8 @@ Zlepsuje reliability - server nemusi byt available kdyz client posle request
 Zlepsuje performance - muze existovat vice serveru
 MQ - queue-based communication
 PS - publish subcribe - event driven communication
+
+# I/O
+## Blocking
+New thread for each connection
+1K connections = 1K threads = big overhead
