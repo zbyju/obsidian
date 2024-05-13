@@ -15,3 +15,8 @@ They help achieving better integration and inner workings of the application
 ## Security
 - Firewalls
 - Gateways
+
+# Metriky pro mereni vykonu
+
+
+# Load balancers
