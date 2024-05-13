@@ -20,5 +20,4 @@ Each runtime has its own stack, heap and queue. iframe and web workers have thei
 Communication between runtimes can be done using postMessage, while other runtimes listen for the messages
 
 ### Web workers
-+ěšč
  
