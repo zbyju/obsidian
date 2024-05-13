@@ -15,8 +15,16 @@ They help achieving better integration and inner workings of the application
 ## Security
 - Firewalls
 - Gateways
-
 # Metriky pro mereni vykonu
-
+## Response time
+- client-side metric
+## Queries/Requests per Second
+- server-side metric
+- caching may improve it
 
 # Load balancers
+Distributing load to multiple nodes
+Can try to equal the load or prefer some nodes
+Healthchecking to not send data to a dead node
+
+## DNS 
