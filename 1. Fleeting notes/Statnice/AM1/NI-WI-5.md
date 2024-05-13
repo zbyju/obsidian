@@ -18,4 +18,17 @@ Spaghetti inside the ESB
 Application integrates with another one through its database
 In the past: monolithic; two tier client/server architectures
 Today: ETL (Extract, Transform, Load)
-Problems: 
+Problems: The other application must understand the complex structures and contraints of the data
+Good for bulk data
+
+## Service-oriented
+Integration on application level
+Hide implementation details, expose interfaces
+Problems: can become hard to manage if not properly designed
+Good for real-time data
+
+SOA provides both service oriented and data oriented approaches
+
+### ESB
+Provides:
+- Message broker
