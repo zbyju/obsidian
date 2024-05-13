@@ -65,6 +65,8 @@ The event loop goes through phases:
 ## Establishing Connection
 - Client asks to use the HTTP2 protocol in the ClientHello message
 - Or client upgrades from a plaintext connection using 101 Switching protocols
-- Or client 
+- Or client has prior knowledge (eg. internal service) and starts with HTTP2 and fallsback to HTTP1.1
 ## Binary Framing
+Everything is sent using binary format
+Messages are sent in frames
 
