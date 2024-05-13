@@ -89,4 +89,6 @@ Each has a header to indetify its stream
 HTTP/1.1 used pipelining which had head of the line blocking; browser could only have 6 connections
 HTTP/2 allows for multiplexing: requests and responses can be sent in any order. The order is important within a stream which they are identified by
 Advantages:
-- interleave multiple requests and responses
+- interleave multiple requests and responses - no blocking
+- single tcp connection - multiple requests and responses can be delivered in parallel
+- 
