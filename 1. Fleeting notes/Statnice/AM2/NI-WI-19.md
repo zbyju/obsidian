@@ -75,9 +75,14 @@ Communication is multiplexed within a single TCP connection
 Bi-directional flow of bytes in connection
 May carry one or more messages
 May have priority
+- Client can change the priority (to improve performance) as number 1-256
+- Also there can be a dependency to another stream
+- The priority is calculated based on the priority of the node, divided by the overall summed priority
 #### Message
 Sequence of frames
 It’s the request or response
 #### Frame
 Smallest unit
 Each has a header to indetify its stream
+
+## Frame Control
