@@ -20,4 +20,13 @@ Each runtime has its own stack, heap and queue. iframe and web workers have thei
 Communication between runtimes can be done using postMessage, while other runtimes listen for the messages
 
 ### Web workers
- 
+Code runs in a separate thread, can do anything but not manipulate the DOM
+Can spawn new workers
+They are thread safe
+Dedicated workers can only be accessed by the script that created them
+Shared workers can be accessed by multiple scripts (iframes, windows, workers)
+
+## Node.js
+Javascript Runtime for the backend uses the V8 engine
+Uses event driven IO framework
+- every IO is non
