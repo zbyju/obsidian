@@ -56,8 +56,12 @@ The event loop goes through phases:
 ## TLS Handshake
 0. TCP 3-way handshake happens
 1. Client sends ClientHello (SSL/TLS versions, cipher suites)
-2. Server sends ServerHello ()
-3. Client Key Exchange
+2. Server sends:
+	1. ServerHello (Highest SSL/TLS version, cipher suite)
+	2. Certificate
+	3. ServerHelloDone
+3. Client validates the certificate and sends encrypted secret
+4. Server computes session key
 ## Establishing Connection
 
 
