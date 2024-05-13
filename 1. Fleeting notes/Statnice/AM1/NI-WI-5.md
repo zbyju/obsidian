@@ -32,3 +32,14 @@ SOA provides both service oriented and data oriented approaches
 ### ESB
 Provides:
 - Message broker
+- Location transparency
+- Dynamic routing
+- Mediator for data transformations
+- Session pooling
+- Message enrichment
+
+# Communication
+## Synchronous
+## Asynchronous
+Request is sent, server sends ACK
+Later Response is sent, client sends ACK
