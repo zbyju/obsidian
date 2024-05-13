@@ -27,4 +27,11 @@ Distributing load to multiple nodes
 Can try to equal the load or prefer some nodes
 Healthchecking to not send data to a dead node
 
-## DNS 
+## DNS LB
+A-record can have multiple IP addresses, round robin algorithm will then split the load
+- Very simple
+- IP addresses get cached and can take hours to redistribute the load
+- Can’t do any further optimizations based on load or health
+## Reverse-Proxy LB
+Reverse-proxy chooses the app instance, it can do so based on 
+## Client-side LB
