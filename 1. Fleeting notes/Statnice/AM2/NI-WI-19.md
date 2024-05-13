@@ -52,3 +52,5 @@ The event loop goes through phases:
 	- executes close callback socket.on(“close”, …)
 
 # HTTP2
+
+# Binary Framing
