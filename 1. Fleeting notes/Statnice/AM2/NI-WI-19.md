@@ -53,4 +53,7 @@ The event loop goes through phases:
 
 # HTTP2
 
+## Establishing Connection
+
+
 # Binary Framing
