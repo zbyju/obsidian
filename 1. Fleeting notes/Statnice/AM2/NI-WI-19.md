@@ -68,5 +68,5 @@ The event loop goes through phases:
 - Or client has prior knowledge (eg. internal service) and starts with HTTP2 and fallsback to HTTP1.1
 ## Binary Framing
 Everything is sent using binary format
-Messages are sent in frames
-
+Messages are sent in frames - Headers frame (Request Line, headers), data frame (body)
+Frames are identified by the message they belong to
