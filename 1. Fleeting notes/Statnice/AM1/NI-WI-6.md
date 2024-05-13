@@ -37,5 +37,6 @@ Reverse-proxy chooses the app instance, it can do so based on load, healthchecks
 - More comprehensive - based on current load, health
 - Problems with having the same user using the same server - for stateful operations
 
-###
+### Sticky Sessions
+Users get cookies that they identify with for reverse-proxy to choose which server to choose for that user to persist the session.
 ## Client-side LB
