@@ -53,6 +53,11 @@ The event loop goes through phases:
 
 # HTTP2
 
+## TLS Handshake
+0. TCP 3-way handshake happens
+1. Client sends ClientHello (SSL/TLS versions, cipher suites)
+2. Server sends ServerHello ()
+3. Client Key Exchange
 ## Establishing Connection
 
 
