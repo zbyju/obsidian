@@ -43,4 +43,6 @@ The event loop goes through phases:
 4. poll
 	- retrieve new IO events
 5. check
-	- invoke setImmediate() callb
+	- invoke setImmediate() callbacks
+6. close callbacks
+	- executes close callback socket.on(“close”, …)
