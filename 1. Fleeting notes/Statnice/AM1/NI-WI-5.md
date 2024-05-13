@@ -40,6 +40,20 @@ Provides:
 
 # Communication
 ## Synchronous
+Request is sent, client waits for response.
+1 socket for the whole communication
+
+$t_{req} - t_{res}$ musi byt maly - sekundy
+
+easy to implement
+simple
+only the client needs to know the location of the server
 ## Asynchronous
 Request is sent, server sends ACK
 Later Response is sent, client sends ACK
+1 socket for request, 1 socket for response
+
+$t_{req} - t_{res}$ muze byt velmi dlouhy - hodiny, dny
+
+slozitejsi, oba musi vedet kam poslat request/response
+problem s private/public sitemi
