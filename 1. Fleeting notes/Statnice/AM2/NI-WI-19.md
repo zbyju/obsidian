@@ -63,5 +63,8 @@ The event loop goes through phases:
 3. Client validates the certificate and sends encrypted secret
 4. Server computes session key
 ## Establishing Connection
-
+- Client asks to use the HTTP2 protocol in the ClientHello message
+- Or client upgrades from a plaintext connection using 101 Switching protocols
+- Or client 
 ## Binary Framing
+
