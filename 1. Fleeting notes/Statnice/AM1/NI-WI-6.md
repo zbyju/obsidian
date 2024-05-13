@@ -33,5 +33,9 @@ A-record can have multiple IP addresses, round robin algorithm will then split t
 - IP addresses get cached and can take hours to redistribute the load
 - Can’t do any further optimizations based on load or health
 ## Reverse-Proxy LB
-Reverse-proxy chooses the app instance, it can do so based on 
+Reverse-proxy chooses the app instance, it can do so based on load, healthchecks.
+- More comprehensive - based on current load, health
+- Problems with having the same user using the same server - for stateful operations
+
+###
 ## Client-side LB
