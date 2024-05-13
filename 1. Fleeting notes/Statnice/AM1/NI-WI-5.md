@@ -57,3 +57,10 @@ $t_{req} - t_{res}$ muze byt velmi dlouhy - hodiny, dny
 
 slozitejsi, oba musi vedet kam poslat request/response
 problem s private/public sitemi
+
+## Intermediary
+Component that decouples client and server
+Zlepsuje reliability - server nemusi byt available kdyz client posle request
+Zlepsuje performance - muze existovat vice serveru
+MQ - queue-based communication
+PS - publish subcribe - event driven communication
