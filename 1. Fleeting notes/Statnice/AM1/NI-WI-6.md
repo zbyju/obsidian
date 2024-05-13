@@ -37,8 +37,12 @@ Reverse-proxy chooses the app instance, it can do so based on load, healthchecks
 - More comprehensive - based on current load, health
 - Problems with having the same user using the same server - for stateful operations
 
-### Sticky Sessions
+### Session state
+#### Sticky cookie
 Users get cookies that they identify with for reverse-proxy to choose which server to choose for that user to persist the session.
+
+#### Session in DB
+Another approach is to store the session in
 
 ### Healthchecking
 Send multiple requests to the service, based on the success rate either keep using the server or stop using it
@@ -46,5 +50,8 @@ Send multiple requests to the service, based on the success rate either keep usi
 ### Strategies
 - Roundrobin: send to the first, then second, then third; then last and then first again, …
 - Choosing randomly based on weights
-- 
+- Choosing based on least connections
+- Choosing based on the lowest average response time.
+- Limiting the maximum number of connections to a server
+- Slow-start - recently recovered servers will not get overwhelmed
 ## Client-side LB
