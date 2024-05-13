@@ -64,5 +64,4 @@ The event loop goes through phases:
 4. Server computes session key
 ## Establishing Connection
 
-
-# Binary Framing
+## Binary Framing
