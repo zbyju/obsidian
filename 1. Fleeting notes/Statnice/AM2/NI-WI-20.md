@@ -10,7 +10,9 @@ Applications that combine data from multiple sources/APIs:
 - Server-side mashup - server side integration
 
 # Same Origin Policy
+Browser can make requests only on the same domain
 
+There are 2 solution for this problem.
 # CORS
 # JSONP
 # JWT
