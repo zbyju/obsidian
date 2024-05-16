@@ -14,7 +14,9 @@ Browser can make requests only on the same domain (host, port)
 
 There are 2 solution for this problem.
 
-This is to prevent attacks XSS (Cross-site scripting) attacks - injecting javascript to a website and then running a script utilizing the cookies a
+This is to prevent attacks:
+- XSS (Cross-site scripting) attacks - injecting javascript to a website and then running a script utilizing the cookies and sessions the user has stored.
+- CSRF (Cross-Site Request) attacks - 
 # CORS
 # JSONP
 # JWT
