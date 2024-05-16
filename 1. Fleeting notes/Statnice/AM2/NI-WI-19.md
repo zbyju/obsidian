@@ -95,5 +95,11 @@ Advantages:
 - improve utilization of network capacity
 
 ## Flow Control
-The client and the server can set a window size of how much data it can send at once before waiting fo
+The client and the server can set a window size of how much data it can send at once before waiting for the other to process it.
+
+Window = integer = size of the buffer
+They can set this value both for individual streams and for the connection.
+
+## Server Push
+
 
