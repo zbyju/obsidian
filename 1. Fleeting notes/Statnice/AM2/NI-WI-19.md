@@ -91,4 +91,6 @@ HTTP/2 allows for multiplexing: requests and responses can be sent in any order.
 Advantages:
 - interleave multiple requests and responses - no blocking
 - single tcp connection - multiple requests and responses can be delivered in parallel
-- 
+- lower page load times
+- improve utilization of network capacity
+
