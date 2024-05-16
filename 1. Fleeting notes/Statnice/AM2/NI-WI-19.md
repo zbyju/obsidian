@@ -109,3 +109,10 @@ This is only worth it to fill the idle time, if we are pushing too many resource
 
 BDD = $BANDWIDTH \times RTT$ = how much data can be transferred over one RTT.
 If the first file is larger than BDD then it doesnt make sense to use server push.
+
+## Header Compression
+HTTP requests and responses contain set of headers.
+HTTP/1.x sends them in plain text.
+HTTP/2 uses HPACK format:
+- header fields are incoded via a static HUffman code - reduces size
+- client and server have an indexed list of previously seen header fields in tables
