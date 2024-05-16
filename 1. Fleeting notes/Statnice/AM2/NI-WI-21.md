@@ -47,4 +47,11 @@ Takes 2 RTT (overall 3RTT with TCP handshake)
 		- SNI - ClientHello includes the hostname the client wants to communicate with
 
 # OAuth
-Users
+Mechanism for users to grant access to third party apps without exposing their credentials
+![[Pasted image 20240516183858.png]]
+
+## Terminology
+- Client - third party app accessing resources owned by resource owner
+- Resources Owner (user) - person owning data on resources server
+- Authorization and Token Endpoints - provided by authorization server through which 
+- 
