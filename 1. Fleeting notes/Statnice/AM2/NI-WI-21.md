@@ -18,4 +18,10 @@ The password can be read, operations can be repeated
 3. Client calculates the hash based on username, password and nonce and sends them in Authorization
 
 # TLS
-TLS is an upgrade over SSL.
+TLS is an upgrade over SSL. It sits on the session level (in TCP/IP)
+Peers must agree on ciphersuite and keys, which is achieved in the TLS handshake. Every message is signed using MAC
+
+## TLS Handshake
+0. First there is the classic TCP handshake (1RTT)
+1. ClientHello - TLS protocol version, list of ciphersuites, TLS options
+2. ServerHello, Chooses version, ciphersuite; sends cer
