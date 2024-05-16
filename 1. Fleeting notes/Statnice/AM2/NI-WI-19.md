@@ -94,3 +94,6 @@ Advantages:
 - lower page load times
 - improve utilization of network capacity
 
+## Flow Control
+The client and the server can set a window size of how much data it can send at once before waiting fo
+
