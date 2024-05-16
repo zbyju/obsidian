@@ -99,7 +99,9 @@ The client and the server can set a window size of how much data it can send at 
 
 Window = integer = size of the buffer
 They can set this value both for individual streams and for the connection.
+When sender sends data it reduces the space
+The receiver can send WINDOW_UPDATE frames to free up the space.
 
 ## Server Push
-
+Allows to send multiple responses to a single request - server knows what the client will need. PUSH_PROMISE frame singles to the client that the server will push resources.
 
