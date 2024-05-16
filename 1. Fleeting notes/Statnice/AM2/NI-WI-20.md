@@ -39,4 +39,13 @@ handleResponse({
 This can be a workaround the same origin policy, but we can only make GET requests.
 # JWT
 Mechanism to securely transmit information between parties as a JSON object.
-Can be verified, trusted; it is compact and self-contained.
+Can be verified, trusted; it is compact and self-contained. The structure is:
+`<header>.<payload>.<signature>`
+## Header
+Contains 2 parts: type of token and algorithm used (HMAC, SH256, RSA)
+## Payload
+Contains the claims (statements about the entity - user)
+## Signature
+Signed encoded header, encoded payload and a secret
+
+The whole JWT is then encoded using BASE64
