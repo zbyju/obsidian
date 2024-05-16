@@ -14,5 +14,5 @@ The password can be read, operations can be repeated
 - No password between client and server, hash value instead
 - No repeat operations because of using nonce value
 1. Client accesses protected endpoint
-2. Server asks for authentication using WWW-Authenticate which specifies information + nonce
+2. Server asks for authentication using WWW-Authenticate which specifies information + nonce (limited lifespan)
 3. Client calculates the hash based on username, password and nonce and sends them in Authorization
