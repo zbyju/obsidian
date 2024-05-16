@@ -22,4 +22,7 @@ This is to prevent attacks:
 There is a preflight request using OPTION method (automatically for each request by browser), this is then cached.
 If the preflight is accepted by the server according to the Access-Control-Allow-Origin, -Method, -Headers then the actual requested is made.
 # JSONP
+It’s a technique to overcome Same-Origin Policy that would normally block the request.
+
+1. We have a func
 # JWT
