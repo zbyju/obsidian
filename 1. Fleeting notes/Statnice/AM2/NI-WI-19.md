@@ -105,3 +105,4 @@ The receiver can send WINDOW_UPDATE frames to free up the space.
 ## Server Push
 Allows to send multiple responses to a single request - server knows what the client will need. PUSH_PROMISE frame singles to the client that the server will push resources.
 
+This is only worth it to fill the idle time, if we are pushing too many resources we are not achieving much of a speedup
