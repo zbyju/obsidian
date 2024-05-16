@@ -18,5 +18,6 @@ This is to prevent attacks:
 - XSS (Cross-site scripting) attacks - injecting javascript to a website and then running a script utilizing the cookies and sessions the user has stored.
 - CSRF (Cross-Site Request) attacks - injecting content to a website, when it loads it sends requests to another website to retrieve data
 # CORS
+![[Pasted image 20240516163718.png]]
 # JSONP
 # JWT
