@@ -49,3 +49,10 @@ Contains the claims (statements about the entity - user)
 Signed encoded header, encoded payload and a secret
 
 The whole JWT is then encoded using BASE64
+
+## Workflow
+1. User sends username, password login request
+2. Server verifies and sends the generated JWT
+3. Client uses the JWT in the Authorization header
+4. Server checks the validity of JWT with each request.
+
