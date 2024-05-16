@@ -116,3 +116,5 @@ HTTP/1.x sends them in plain text.
 HTTP/2 uses HPACK format:
 - header fields are incoded via a static HUffman code - reduces size
 - client and server have an indexed list of previously seen header fields in tables
+	- Static table: predefined combinations of header key + value (2 = method get, 3 = method post, …) - 61 entries
+	- Dynamic table - dynamically created between client and server
