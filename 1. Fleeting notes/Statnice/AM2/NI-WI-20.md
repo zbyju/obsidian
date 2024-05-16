@@ -24,5 +24,17 @@ If the preflight is accepted by the server according to the Access-Control-Allow
 # JSONP
 It’s a technique to overcome Same-Origin Policy that would normally block the request.
 
-1. We have a func
+1. We have a function 
+```js
+function handleResponse(data) { console.log(data); }
+```
+2. And we create a script tag and use its src attribute to access the JSONP endpoint. The src attribute is not checked with SOP.
+3. The server responds with: 
+```js
+handleResponse({
+  "name": "John Doe",
+  "age": 30
+});
+```
+This 
 # JWT
