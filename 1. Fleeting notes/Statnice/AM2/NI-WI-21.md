@@ -16,3 +16,6 @@ The password can be read, operations can be repeated
 1. Client accesses protected endpoint
 2. Server asks for authentication using WWW-Authenticate which specifies information + nonce (limited lifespan)
 3. Client calculates the hash based on username, password and nonce and sends them in Authorization
+
+# TLS
+TLS is an upgrade over SSL.
