@@ -24,4 +24,18 @@ Peers must agree on ciphersuite and keys, which is achieved in the TLS handshake
 ## TLS Handshake
 0. First there is the classic TCP handshake (1RTT)
 1. ClientHello - TLS protocol version, list of ciphersuites, TLS options
-2. ServerHello, Chooses version, ciphersuite; sends cer
+2. ServerHello, Chooses version, ciphersuite; sends certificate
+3. RSA or Diffie-Hellman key exchange
+4. Message integrity checks; sends encrypted Finished
+5. Decrypts the message and gets ready to receive data
+6. Sends data
+7. Receives data
+Takes 2 RTT (overall 3RTT with TCP handshake)
+## Proxy Servers
+- Offloading
+	- Inbound TLS, outbound normal
+	- Proxy can inspect messages
+- Bridging
+	- Inbound TLS, outbound a new TLS connection
+	- Proxy can inspect messages
+- End
