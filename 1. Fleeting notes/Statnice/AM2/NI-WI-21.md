@@ -44,3 +44,7 @@ Takes 2 RTT (overall 3RTT with TCP handshake)
 - Load Balancer
 	- Can use TLS offloading or bridging
 	- Can use TLS pass-through with the help of Server Name Indication (SNI)
+		- SNI - ClientHello includes the hostname the client wants to communicate with
+
+# OAuth
+Users
