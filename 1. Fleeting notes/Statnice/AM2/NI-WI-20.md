@@ -36,5 +36,7 @@ handleResponse({
   "age": 30
 });
 ```
-This 
+This can be a workaround the same origin policy, but we can only make GET requests.
 # JWT
+Mechanism to securely transmit information between parties as a JSON object.
+Can be verified, trusted; it is compact and self-contained.
