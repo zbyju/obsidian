@@ -19,5 +19,7 @@ This is to prevent attacks:
 - CSRF (Cross-Site Request) attacks - injecting content to a website, when it loads it sends requests to another website to retrieve data
 # CORS
 ![[Pasted image 20240516163718.png]]
+There is a preflight request using OPTION method (automatically for each request by browser), this is then cached.
+If the preflight is accepted by the server according to the Access-Control-Allow-Origin, -Method, -Headers then the actual requested is made.
 # JSONP
 # JWT
