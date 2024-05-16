@@ -38,4 +38,9 @@ Takes 2 RTT (overall 3RTT with TCP handshake)
 - Bridging
 	- Inbound TLS, outbound a new TLS connection
 	- Proxy can inspect messages
-- End
+- End-to-end TLS (pass-through)
+	- TLS connection is passed through the proxy
+	- Proxy cannot inspect messages
+- Load Balancer
+	- Can use TLS offloading or bridging
+	- Can use TLS pass-through with the help of Server Name Indication (SNI)
