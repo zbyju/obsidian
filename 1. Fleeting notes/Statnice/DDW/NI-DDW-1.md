@@ -72,3 +72,26 @@ The number of shortest paths that pass through a node divided by all shortest pa
 4. Repeat until there are no changes
 
 Similar idea to google page rank
+## Bridges
+Bridge is an edge that if removed splits the graph into 2 components
+
+Local bridge - edge of 2 nodes that have no nodes in common. A local bridge if removed causes the distance between those two nodes to increase by more than 2.
+### Neighborhood overlap
+$NO = \frac{\#Neighbours\ of \ both\ A\ and\ B}{\#Nejghbours\ of\ either\ A\ or\ B}$ 
+Local bridge => NO = 0
+### Embeddedness 
+Number of common neighbours two nodes have
+## Network level characteristics
+### Density
+ratio between number of edges and number of possible edges
+Total number of edges
+- Undirected: $n \times (n-1)/2$
+- Directed: $n \times (n - 1)$
+### Reciprocity
+Total number of reciprocated edges (edges in both directions) compared to the total number of possible edges.
+## Homophily
+Groupes share friends among each other and are not friends with other groups.
+
+We can test for this by calculating the probability of an edge having 2 nodes from different groups, if the probability is too low then there is homophily.
+## 
+
