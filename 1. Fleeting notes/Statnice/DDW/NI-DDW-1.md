@@ -42,3 +42,8 @@ Pages get updated often -> need to revisit
 - Uniform - revisit regurarly
 - Proportional - revisit pages that change more often more often
 - Hybrid - balance
+
+
+# Scrapers
+Crawlers for indexing, search engines, following links and discovering
+Scrapers for obtaining information from sources without an API; they are usually more specialised to collect specific data from predefined web space.
