@@ -47,3 +47,28 @@ Pages get updated often -> need to revisit
 # Scrapers
 Crawlers for indexing, search engines, following links and discovering
 Scrapers for obtaining information from sources without an API; they are usually more specialised to collect specific data from predefined web space.
+
+
+# Grafova reprezentace
+- Adjacency Matrix - all combinations of nodes (NxN matrix)
+- Edge-list: list of {from: node, to: node, value: X}
+	- Adjacency list: list of {from: node, edges: (Node, Value)\[\]}
+
+## Centrality 
+Trying to measure how important/popular/central a node is.
+
+### Degree centrality
+Centrality of a node = how many edges lead from + into the node.
+We can also measure the in-degree centrality and out-degree centrality (only counting in/out edges)
+### Closeness centrality
+The mean length of all shortest paths from a node to all other nodes.
+Also can be defined as inverse of farness: $C_x= \frac{1}{\sum_y d(y, x)}$ 
+### Betweenness centrality
+The number of shortest paths that pass through a node divided by all shortest paths
+### Eigenvector centrality
+1. Assign 1 to all nodes
+2. Recompute scores of each node: $v_i = \sum_{j \in N} x_{i,j} \times v_j$ where $v$ is the value and $x$ is the entry in the adjacency matrix
+3. Normalize $v$ values by dividing them by the maximum $v$
+4. Repeat until there are no changes
+
+Similar idea to google page rank
