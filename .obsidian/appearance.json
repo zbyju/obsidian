@@ -1,5 +1,8 @@
 {
   "accentColor": "",
-  "cssTheme": "AnuPpuccin",
-  "theme": "obsidian"
+  "cssTheme": "Ukiyo",
+  "theme": "obsidian",
+  "interfaceFontFamily": "RobotoMono Nerd Font",
+  "textFontFamily": "RobotoMono Nerd Font",
+  "monospaceFontFamily": "RobotoMono Nerd Font"
 }

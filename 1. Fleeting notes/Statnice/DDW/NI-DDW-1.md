@@ -93,5 +93,71 @@ Total number of reciprocated edges (edges in both directions) compared to the to
 Groupes share friends among each other and are not friends with other groups.
 
 We can test for this by calculating the probability of an edge having 2 nodes from different groups, if the probability is too low then there is homophily.
-## 
+# PageRank
+Idea: If a page is pointed towards by an important page, then that page is also important.
+## Matrix approach
+Build a hyperlink matrix that has values based on how many. Sparse matrix there are algorithms to compute fast.
+
+There are problems:
+- Rank sink (pages with no out-links can trap the rank)
+- Link farms (pages pointing to each other can farm rank)
+- Cycles (pages forming a cycle can cause oscillations)
+## Random Surfer
+Idea: have a random surfer browse the graph with an equal probability of following each link (if there is no link then teleports). The probability of the surfer being on a certain page is the rank.
+
+**Problems to fix:**
+- Convergence issues - matrix is not irreducible and not aperiodic.
+- Dangling pages - pages with no outgoing links.
+
+**Solution:** damping factor - 
+- surfer chooses one of the links with probability $d$
+- surfer jumps to a random page with probability $1-d$
+This way the matrix becomes strongly connected (=> irreducible) + aperiodic (surfer is not following a cycle)
+- Irreducible = Markov chain has a single state distribution (ensures convergence)
+- Stochastic = Ensures that the result is still stochastic
+- Aperiodicity = Ensures there are no oscillations
+## $G = d \times S + (1-d) \frac{E}{n}$
+- $G$ - Google matrix - stochastic, irreducible, aperiodic matrix, hold probabilities of moving from page i to page j with the other factors as well (teleportation).
+- $d$ - damping factor
+- $E = e \times e^T$ - n by n matrix of all 1
+- $S$ - Matrix with links ($s_{i,j}$ is the probability of following a link from page i to page j)
+- $n$ - number of pages
+
+We can then use $G$ to compute the page rank $\pi$ iteratively:
+## $\pi^{(k+1)} = \pi^{(k)} \cdot G$
+- $\pi$ is a vector of n elements holding the page rank value of all pages for the $k$ and $k+1$ iteration.
+- $G$ is the Google Matrix
+
+### Improvements
+- Instead of $E = e\times e^T$ we can use some $v^T$, a personalisation vector, making the result personalised.
+- Modification of the $S$ matrix to be more intelligent.
+
+# Community Detection
+Community is a set of nodes that have more edges between each other compared to the number of edges leading outside the set.
+
+## Clustering Coefficient
+For each node we can calculate the clustering coefficient:
+number of triads it's part of / number of neighbours
+- Triad = three nodes fully connected to each other (3 edges)
+- Globally this says how clustered the graph is
+- Locally it says how integrated the node is (how afraid it is of interacting with others)
+
+## Graph Partitioning
+
+### Min-cut
+Partition the graph into the components while minimising the weight lost by removing the edges.
+#### Kernighan-Lin
+Heuristic approach
+1. Generate a random solution by randomly splitting nodes into two equal communities
+2. Improve the solution:
+	1. For each node compute the gain of the node being swapped to the other community
+	2. Find two nodes from both communities that would be the most beneficial to be swapped
+	3. Lock them to be not considered next time
+3. Repeat 2 until there is no more improvement
+
+
+
+
+
+
 
