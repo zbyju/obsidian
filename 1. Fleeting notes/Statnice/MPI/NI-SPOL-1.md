@@ -168,4 +168,3 @@ $g^1 \ne e; g^2 \ne e; ...; g^m = e$; vidime ze g nageneruje prave m prvku.
 	- n = p
 	- rad = p-1
 	- e = 1
-

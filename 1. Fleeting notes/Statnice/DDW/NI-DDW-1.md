@@ -154,10 +154,62 @@ Heuristic approach
 	2. Find two nodes from both communities that would be the most beneficial to be swapped
 	3. Lock them to be not considered next time
 3. Repeat 2 until there is no more improvement
+#### Girvan-Newman
+1. Start with the whole graph
+2. Remove edge based on betweenness
+	- Number of shortest paths through that edge
+3. Recalculate all betweennesses
+#### Clique Percolation Method
+For overlapping communities
+Idea: Inside a cluster there is a high probability of a clique connection; outside/between clusters there is lower probability
 
+1. Find all cliques of size $k$
+2. Construct a graph of cliques (1 clique = 1 node)
+3. Connect these cliques if they share $k-1$ nodes.
+4. Community is a component of the clique graph.
+![[Pasted image 20240518152003.png]]
+The clique graph now has cliques as nodes!
 
+# Link Prediction
+Is the probability of an edge forming between nodes in the future
 
+## Supervised Learning
+Using a binary classifier
 
+## Unsupervised Learning
+We calculate a Score(x, y), higher the number = higher the probability of a link forming.
+### Graph Distance
+Idea: Individuals are linked through short chains
 
+Score(x, y) = -shortestPath(x, y)
+### Common Neighbours
+Idea: Two people have a common friend => they might get introduced to each other by that friend
 
+Score(x, y) = $|N(x) \cap N(y)|$
+Take the number of friends in common
+### Jaccard's Similarity
+Idea: Normalizes Common Neighbours approach; if someone has a lot of friends and they happen to share one with somebody it doesn't mean as much.
 
+Score(x, y) = $\frac{|N(x) \cap N(y)|}{|N(x) \cup N(y)|}$
+### Preferential Attachment
+Idea: Nodes with higher degree have a higher chance of attracting new links
+
+Score(x, y) = $|N(x)| \cdot |N(y)|$
+### Adamic/Adar
+Idea: Consider common neighbours but put more importance on neighbours that are more rare.
+
+Score(x, y) = $\sum_{z \in N(x) \cap N(y)} 1/log|N(z)|$
+
+## Path-based topological patterns
+### Katz
+Idea: The more nodes are connected through some intermediary nodes (and the shorter these paths are) the more similar the nodes are.
+
+Score(x, y) = $\sum_l^\infty \beta^l \cdot P(x, y, l)$
+- $\beta$ - (0,1) parameter
+- l - length of the path
+- P(x, y, l) - number of paths from x to y with length l
+
+# Affiliation Networks
+They are multimodal networks (nodes of different types), they connect some individuals with groups of individuals.
+
+![[Pasted image 20240518161519.png]]We can use adjacency matrices PP, PT, TT (and $PT^T$) and multiply them together to learn about the network.
