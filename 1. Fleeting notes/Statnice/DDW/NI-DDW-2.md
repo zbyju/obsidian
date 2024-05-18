@@ -1,3 +1,5 @@
+**Zpracování a získávání informace z webu: předzpracování textu, reprezentace textu pomocí vektorů a modelů, extrakce informace z textu, extrakce pojmenovaných entit, analýza sentimentu.**
+
 # Text Mining
 Extracting information from text previously unknown. There are problems:
 - High dimensionality
@@ -70,14 +72,58 @@ Have a list of positive and negative words and calculate their occurrences.
 - Sentiment words + No sentiment sentence - Which camera is good? (good = positive, but it's not)
 - Sarcasm - What a great car! It broke after 1 drive
 - No sentiment words - Car uses a lot of gas (probably bad, but not recognised)
-
 ### Supervised Sentiment Learning
 Train on annotated data: reviews on the internet is a good start. Focus on sentiment words.
-
 ### Unsupervised Sentiment Learning
 Classification based on fixed syntactic phrases (JJ NN - POS tagging to select the phrase)
 
-We then find the sentiment orientation of the phrase:
+We then find the sentiment orientation of the phrase based on some 2 reference words ("excellent", "poor"):
 ### $SO = log_2(\frac{\#(phrase\ NEAR\ excellent)\#(poor)}{\#(phrase\ NEAR\ poor)\#(excellent)})$
 - \# - number of matching documents
 - NEAR - search for documents that contain the words within 10 words of another
+### Lexicon Expansion
+Start with a lexicon and then expand it by finding similar words/synonyms/antonyms
+# Text Summarisation
+Reduce text to only include important information.
+## Baseline Single Document Summarisation
+1. Detect most important words and use top N
+2. For each sentence find clusters of important words that are close to each other
+3. Calculate score of the sentence
+4. Return top sentences
+# Vector Models
+
+## Boolean Model
+Vectors only have 0 or 1; only exact match is considered
+## Vector Space Model
+### TF-IDF
+It is a method of creating a vector representation of a document
+**TF** - term frequency
+- How many times the term appears in the document
+- $\#\ Term\ Appearences\ /\ \# Terms$ (in document)
+**IDF** - inverse document frequency
+- Measures how common a word is among all documents
+- $log(\#\ Documents /\#\ Documents\ with \ Term)$
+Celkem: $TF \times IDF$
+### Jaccard Coefficient
+Simple scoring approach:
+### $score = \frac{|docA \cap docB|}{|docA \cup docB|}$
+It doesn't consider term frequency 
+### Euclidean Based Similarity
+Calculate the classical distance between two documents.
+
+It is not a good approach as scaling matters.
+### Cosine Based Similarity
+Measures the angle between two vectors.
+Similarity is low when the angle is low.
+
+# NLP
+It's about classifying whole sentences.
+
+## Word Embeddings
+Representing a word as a vector.
+Similar words are closer in the vector space; vector operations with words.
+
+### Word2Vec
+Shallow neural network to create the embedding based on n-grams.
+
+
