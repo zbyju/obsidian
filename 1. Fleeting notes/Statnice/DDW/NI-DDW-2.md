@@ -63,4 +63,21 @@ Studying opinions, sentiment, emotions, attitudes from text. To make things easi
 - Opinion spam detection (detecting fake reviews)
 
 ### Lexicon-based
-Have a list of positive and negative words and calculate their occurrences
+Have a list of positive and negative words and calculate their occurrences.
+
+**Problems:**
+- Opposite orientation - words can have different meanings (camera sucks, vacuum cleaner sucks)
+- Sentiment words + No sentiment sentence - Which camera is good? (good = positive, but it's not)
+- Sarcasm - What a great car! It broke after 1 drive
+- No sentiment words - Car uses a lot of gas (probably bad, but not recognised)
+
+### Supervised Sentiment Learning
+Train on annotated data: reviews on the internet is a good start. Focus on sentiment words.
+
+### Unsupervised Sentiment Learning
+Classification based on fixed syntactic phrases (JJ NN - POS tagging to select the phrase)
+
+We then find the sentiment orientation of the phrase:
+### $SO = log_2(\frac{\#(phrase\ NEAR\ excellent)\#(poor)}{\#(phrase\ NEAR\ poor)\#(excellent)})$
+- \# - number of matching documents
+- NEAR - search for documents that contain the words within 10 words of another
