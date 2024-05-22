@@ -25,3 +25,15 @@ Namespaces are functions of the kernel which can separate kernel resources such 
 ### Mount
 - File systems in the global namespace are visible to all namespaces
 - File systems in other namespaces are not visible to the rest of the system
+### UTS
+Separating name of the system between real computer and containers. It changes the hostname and domain.
+### IPC
+Separating resources for interprocess communication - segments of shared memory, semaphores, queues of messages.
+### PID
+Isolation of the list of processes in containers. Parent namespace sees all processes but child namespace doesn't see parent processes. Child namespace has their own numbering of processes starting from 1 again (important for system containers).
+### Network
+Virtualizes the network queue. When namespace is created there is only loopback. Each network device exists in only 1 namespace. Each namespace has its own IP addresses, routing table, list of opened sockets, firewall, ...
+### User
+Separates the mappings of username -> UID and isolates permissions. We can have a user inside the namespace with UID 0 (root) but outside he might have normal user privileges.
+### Time
+Allows for different systems times to exist (timezones).
