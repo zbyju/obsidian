@@ -95,4 +95,22 @@ It is used where the application needs a classic filesystem (file permissions, i
 It connects on kernel level (object storage is on application layer).
 
 Usually uses NFS filesystem (Network FileSystem)
+# Central Storage
+SAN network for data storage has low latency and exports virtual disks to server based on their needs. Each server has exclusive access to its disks.
+## Converged data center
+LAN and SAN are not separated both run on the same LAN (this is more demanding).
+## Hyperconverged infrastracture
+Storage is back in the servers but in a way that it doesn't become a single point of failure.
+![[Pasted image 20240523194813.png]]
+
+## DAS (Direct Attached Storage)
+Storage is directly connected to the server; it is possible to connect it to 2 servers.
+## NAS (Network Attached Storage)
+Exports filesystem over LAN, multiple server can access it at once.
+## SAN
+Dedicated network exporting block volumes.
 ## Block Storage
+- Breaks data into fixed-sized blocks and manages each block separately. Each block has a unique identification.
+- They are implemented using SAN and DAS.
+- They are best for high-performance applications requiring low latency (databases, filesystems)
+

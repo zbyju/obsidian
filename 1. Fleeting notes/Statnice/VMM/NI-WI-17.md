@@ -1,0 +1,1 @@
+**Extrakce vlastností z multimédií pro potřeby vyhledávání – techniky pro obrázky, audio, video, geometrie. MPEG-7 deskriptory, lokální obrazové deskriptory (SIFT). Deskriptory z hlubokých konvolučních neuronových sítí.**
