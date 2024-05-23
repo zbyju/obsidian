@@ -1,7 +1,7 @@
 {
+  "accentColor": "",
   "cssTheme": "Typewriter",
-  "interfaceFontFamily": "RobotoMono Nerd Font",
-  "textFontFamily": "RobotoMono Nerd Font",
-  "monospaceFontFamily": "CommitMono Nerd Font",
-  "accentColor": "#fba7c0"
+  "interfaceFontFamily": "RobotoMono Nerd Font Mono",
+  "textFontFamily": "RobotoMono Nerd Font Mono",
+  "monospaceFontFamily": "RobotoMono Nerd Font Mono"
 }
