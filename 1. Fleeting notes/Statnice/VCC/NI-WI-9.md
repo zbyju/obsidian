@@ -68,4 +68,31 @@ DNS server can reply with multiple IP addresses:
 - => random division of labor
 
 Biggest problem is that DNS responses are cached and reacting to changes takes a while.
-### L3 
+### L3 Remotely
+We can use routing protocols to route the communication to different endpoints.
+### L3 Locally
+Use Virtual Router Redundancy Protocol - allows us to choose 1 out of many units on local network to become active.
+### L4
+Incoming traffic to address+port is transferred to one of the real servers.
+### L7
+Application layer load balancer (most commonly HTTP/HTTPS) it should be able to serve much more requests than the application server itself. It should also be able to healthcheck the servers.
+# Data Storage
+## Object Storage
+Data as objects:
+- distributed
+- scalable
+- minimal need to share state between nodes
+- only problem is eventual consistency
+	- data written cant be immediately read
+- access usually by HTTPS
+- directory structure flat to only 1 level (= bucket)
+- buckets can be public (= serving static websites)
+## File Storage
+Classic filesystem is not a cloud storage because it is hard to scale.
+
+It is used where the application needs a classic filesystem (file permissions, immediate consistency, directory structure, locks)
+
+It connects on kernel level (object storage is on application layer).
+
+Usually uses NFS filesystem (Network FileSystem)
+## Block Storage
