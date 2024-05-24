@@ -86,3 +86,63 @@ Local edge distribution in image
 2. PCA => Eigenfaces
 3. Query is then represented as a linear combination of eigenfaces
 4. Compare vectors
+## Deep Learning
+### Convolution Neural Network (CNN)
+- They are deep (many layers)
+- At first there convolutional layers that are not fully connected (important!) which improves performance by a lot; they extract global features (edges, textures, ...)
+- Then there are standard fully connected percepton layers that extract local features
+- Each layer = 1 more level of abstraction for features
+#### Back-propagation
+- Looks for minimum of the loss function in weight space using gradient descent
+- For convolution layers we need to adjust this but it still works the same
+	- Convolutions layers learn the convolution filters
+#### Types of layers
+- data layers (input in B/W or RGB)
+- vision layers
+	- convolution layers, pooling layers
+- activation layers
+	- ReLU, Sigmoid
+- common layers
+	- inner product (full connected layer)
+- loss layers (classification layers)
+	- softmax, euclidean
+### Convolution Layer
+- Each depth "layer" has one set of weights (not full connected) = filter
+	- => number of features the layer is able to recognize
+	- Depth column: ![[Pasted image 20240524220556.png]]
+	- Within the same width, height position but at different depth we have the same input but different weights
+- The input is not the whole output of the previous layer but only a window
+	- The neuron top left has window in the top left, neuron next to it has window moved one "pixel" next to it, ...
+	- Each layer has enough neurons to go through all the possible positions with the window
+	- Depth slice: ![[Pasted image 20240524220003.png]]
+- Depth => number of features
+- Width and height
+	- Stride = size of the window
+	- Stride 1 => window 1x1; 2 => window 2x2
+	- Zero padding = to be able to calculate the convolution on the borders we add zeroes around
+	- The input output layers are defined by stride and zero padding
+- Each neuron does (perceptron):
+	- $\sum_i w_i x_i + b$ and then applies some function f which either activates (gives some value) or doesn't and gives 0
+
+![[Pasted image 20240524215246.png]]
+#### Back propagation in CNN
+We do convolution with the input window and the weights = forward propagation
+Then we need inverse filters to do backpropagation
+### Pooling layer
+Downsampling
+No weights
+We define stride (how much downsampling) and we take some value (pooling):
+- max value (most often)
+- average
+### Fully connected layer
+activation computer as inner product
+all neurons from previous to all neurons in next
+### Loss layer
+Determines the penalization of predicted and true labels
+## Transfer learning
+Using already trained deep neural networks and using them for other purposes/specific domains
+
+The first layers extract global features
+The last layers extract specific features
+
+We can utilize the first layers and only train the last few layers
