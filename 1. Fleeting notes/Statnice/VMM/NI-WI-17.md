@@ -146,3 +146,115 @@ The first layers extract global features
 The last layers extract specific features
 
 We can utilize the first layers and only train the last few layers
+# Local Image Features
+They information at some position but the position is irrelevant
+
+These points can be:
+- Random sampling
+- Interest point detection
+	- trying to find points that are interesting
+- Segmentation
+	- make segments and then divide&conquer
+## Feature Clustering
+Random sample of X points (1000)
+
+This is a lot of data and not robust
+
+Similar to bag of features (but without a global vocabulary) we cluster them (k-means).
+
+### Set of representatives
+Then we get a set that holds the position of the centroid and its properties around it (color, coarseness, ...)
+
+Then use Quadratic form distance, hausdorff distance, earth mover's distance, ...
+### Bag of features
+make a big vocabulary of features (representatives)
+descriptor is the histogram of features
+
+Quadratic form, Lp distance, ...
+### Hausdorff similarity
+Counts how many features are similar enough in the two documents; then divides by the number of features.
+## Interest points
+- well defined well positioned in image
+- local information is rich (spike in brightness)
+- stable - it is going to stay even after changes in rotation, scale, ...
+### Edge/blob detection
+#### First-order derivative:
+We use some predefined kernels that approximate the first order derivative after doing convolution with the image:
+1. Edge detection using convolution:
+	- Matrix for detecting horizontal edge $G_x = K_x * A$
+	- Matrix for detecting vertical edge $G_y = K_y * A$
+	- These matrices are derivative estimations
+1. Gradient magnitude = $\sqrt{G_x^2 + G_y^2}$ (how powerful the edge is)
+2. Gradient direction = $arctan(G_y / G_x)$ (what is the average direction of the edge)
+#### Second derivative of Gaussian - DoG detector
+Gaussian kernel will blur the image
+1. Blur the image using two different gaussians
+	- Gaussian with parameter t
+	- Gaussian with parameter kt - k = blurring parameter
+2. Subtract the blurred images => we get image of edges
+## Interest point detection
+Use DoG detector + scaling
+
+1. Edge detection using gaussian blurring
+	- Blur the image with different k parameters
+	- Downscale the image and blur with the same k parameters
+	- Find differences
+
+![[Pasted image 20240525000419.png]]
+
+2. Find extremes as candidates for interest points for each row
+	- Look at all the images within on octave (row) ![[Pasted image 20240525000826.png]]
+	- if the center point is an extreme point (local minimum/maximum) compared to neighbors (in this example 26 neighbors) then it is a candidate
+3. Identify interest points
+	- If a candidate is a candidate in all octaves (rows) then it is an interest point
+## SIFT
+Use interest point and then:
+1. Remove low contract interest points
+	- They were local extreme on the small cube of neighbors but not really
+	- Remove all that are too small of extremes compared to other extremes
+2. Remove points on edges
+3. Find one main dominant orientation
+	- Look at the neighborhood
+	- Find all edges and their orientation
+	- Make a histogram of 8 bins of direction of edge
+	- Count how many edges are in what direction
+	- Choose the one with highest occurrence = dominant orientation
+4. Find the neighborhood orientations
+	- Look at the neighborhood 16x16 of the interest point
+	- Find all edges and their orientation
+	- Make them relative to the dominant orientation
+	- Make a histogram of 8 bins of direction of edge
+	- Count how many edges are in what direction within subneighborhood 4x4
+	- The orientation with the highest count = dominant orientation of the subneighberhood
+	- We have 16 subneighborhoods within the 16x16 neighborhood => we get 16x8 (8 bins) feature descriptors
+	- We scale them based on how far they are from the center
+	- They are relative to the dominant orientation
+		- => rotation invariant
+5. Result are SIFTs; each one is 128 values (4x4x8) - relative values of number of occurrences of angles
+
+- Local
+- Invariant to rotation because angles are relative to a main one
+- Invariant to scaling because we work with DoG scale detector (interest points are there for all scales)
+
+### Bag of Features
+Use them in bag of features 
+1 feature = 1 SIFT
+
+Query image then also gets sifts -> bag of features + tfidf -> sparse histogram -> querying using inverted index
+
+Because SIFTs have lost the position information we can bring it back with reranking geometric verification
+
+### Geometric Verification
+We add another information to the bag of features - some very approximate position of the SIFT (e.g. which quadrant of the image it is in)
+
+Each visual word is partitioned further by the position
+
+The position is represented by a binary number (00, 01, 10, 11)
+
+We calculate the hamming distance (XOR on binary representation); the lower the distance the better.
+## High level object detection
+Take the classic CNN and then get rid of the classification part and add another convolution layer (= detection layer) that has depth of how many different object we want to detect
+
+It gives two outputs:
+- X,Y of bounding boxes
+- Prediction of how likely it is that certain part has some kind of object
