@@ -258,3 +258,66 @@ Take the classic CNN and then get rid of the classification part and add another
 It gives two outputs:
 - X,Y of bounding boxes
 - Prediction of how likely it is that certain part has some kind of object
+# Video Retrieval
+It is a true multi-media document:
+- sequence of images
+- audio track
+- text (subtitles)
+=> multi modal queries can be used.
+
+We can use image retrieval with some sampling.
+
+## Segmentation
+We can work with video as:
+- Individual frames
+	- No analysis
+- Shot
+	- Sequence of frames in time and space
+	- Continuous no extreme changes
+	- Suitable for further analysis
+- Scene
+	- Set of semantically related shots
+	- Groups shots together as one scene
+- Entire video
+### Shot boundary
+- Cut transition
+	- Sudden change in two frames
+- Gradual transition
+	- fade
+	- dissolve
+	- different
+Detection:
+1. Take two frames and measure their similarity -> score
+	- Sum of absolute differences
+	- Histogram differences
+	- Edge change ratio
+2. Make a decision based on score
+	- Fixed threshold
+	- Adaptive threshold
+	- Machine learning
+### Keyframe
+Element for construction video descriptors
+It is some representative:
+- first frame of a shot
+- clustering based on color features
+## MPEG-7 for Video
+- GoF
+- localization subclass
+- motion subclass
+### GoF and GoP
+= Group of Frames / Group of Pictures
+
+Structure:
+- group of successive pictures within video
+- picture types:
+	- I-Frame
+		- fixed image independent of others
+	- P-Frame
+		- motion-compensated difference information from preceding I/P-frame
+		- coded from previous frames only
+	- B-Frame
+		- difference information from the preceding and following I/P-frame within GoP
+		- coded from both directions (past, future)
+- two numbers
+	- M = distance between two anchor I/P-frames
+	- N = distance between two I-frames
