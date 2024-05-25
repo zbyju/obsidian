@@ -321,3 +321,76 @@ Structure:
 - two numbers
 	- M = distance between two anchor I/P-frames
 	- N = distance between two I-frames
+### Region Locator
+Way of having information about a region within image or video.
+
+=> Spatial-temporal locator - adding time component to the object/region and how it evolves.
+### Motion descriptors
+Using compression methods for descriptors
+
+- motion activity
+	- intensity of motion
+	- based on compression vector magnitude
+- camera motion
+	- fixed, shift, rotation, zoom
+	- shift = horizontal, vertical, forward/backwards
+	- rotation = horizontal, vertical, roll
+	- zoom
+- parametric motion
+	- describe motion using affine transformations (shift, rotation, scaling (+ combinations))
+- motion trajectory
+	- keypoints in time representing the movement (x,y,z,t)
+## Video Copy Detection
+Video Copy = the same video/image + some optional transformation (blur, rotation, scale, shift, blurred background, picture in picture)
+
+We can use SIFTs.
+# Audio
+pitch - frequency
+loudness - amplitude
+quality
+
+timber (barva) - based on sinus curves combined together
+
+We use discrete fourier transformation to split the sinus curves and then use them to create a sound spectrum.
+Sound spectrum:
+- X-axis frequency
+- Y-axis amplitude of that frequency
+
+Sound G4 on a flute: ![[Pasted image 20240525205415.png]]
+We can find the timber (barva zvuku) based on amplitude of all the peaks
+G4 on a piano and flute would have the same peaks at the same frequencies but with different amplitudes
+We need at least 60ms of sound to get timber.
+## Spectogram
+X-axis = time
+Y-axis = frequency
+Color of the pixel = amplitude
+
+We can treat the audio as image using spectrogram.
+## Segmentation
+Similar to video:
+- scenes - where there is cut in the audio
+- musical instruments
+	- attack - initial run up
+	- delay - subsequent run down
+	- sustain - main component same volume
+	- release - fade
+	- Can make detecting instruments easier
+## MPEG-7 Descriptors
+Low level and high level descriptors
+
+They define frame, sampling, windows, frames, silence segment.
+
+Descriptors based on:
+- Frequency/Amplitude graph
+- Spectogram
+- How harmonic the sound is (random vs music)
+- Find dominant tone in time
+## MFCC
+1. Signal
+2. Sampling = discrete signal
+3. Windowing = frames
+4. Fourier Transform = spectrum 
+5. Mel Filter = reduced spectrum
+6. Log = log energies
+7. Discrete cosine transform = MFCC vectors (for each window)
+=> local features in time of audio
