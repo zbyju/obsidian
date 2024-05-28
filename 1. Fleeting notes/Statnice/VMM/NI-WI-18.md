@@ -97,3 +97,19 @@ Then we concat these values from different pivots to get the final value as a "b
 - If there is some 2 in the output (the point was in the ring) then we deal with it separately
 	- Partition the set of rings again and index the problematic points again
 	- Do this until there are no problematic points left or the partition is very small
+
+We can choose d - radius of region, $\rho$ - radius (half width) of the ring
+- Bigger $\rho$ -> less performance we are going to get (a lot of elements inside rings)
+- Lower $\rho$ -> efficient query only when query radius < $\rho$ so it limits queries.
+=> good for queries that have small radius
+- Finding almost duplicit elements
+## Index-free MAM
+### D-File
+original database with sequential scan + cache
+All online, nothing pre-calculated, build the cache from previous queries
+D-cache:
+- caches distances (not distances themselves) for easy calculation of lower bounds
+Similar to LAESA but instead of pivots we consider previous queries and then we use previously calculated values for faster computation
+# Approximate Similarity Search
+Exact search might be too slow, so we trade precision for performance
+- Even metric axioms don't result in quick enough indexing/search
