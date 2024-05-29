@@ -1,9 +1,51 @@
 **Metrické indexování, principy a metody. Techniky pro aproximativní vyhledávání.**
-
 # Metric Access Methods
 => faster index in databases using metric index:
 - lower-bounding using pivots
 - similarity function needs to be metric
+
+## Problems
+Calculating distances is expensive
+### Lower bounding
+general mechanism for making it more efficient
+using cheap lower bound instead of expensive distance
+
+Lower bounding can be done in metric model using pivots.
+
+Lower bound helps as it splits the space so that we can focus only certain part.
+### Pivots
+constant number of pivots based on which we index
+
+We have a query Q, pivot P and object X. The distance can be calculated as Q->P->X where Q->P can be calculated only constant number of times and P->X is stored in the database. The overall distance D <= Q->P->X.
+
+We can then rule out X, or even a cluster of Xs that are close to P or based on a partition of the space.
+#### Partitioning
+![[Pasted image 20240529000451.png]]
+- Pivots create a partition of objects that are closest to them.
+- Query is placed somewhere in the space
+- If the smallest distance from a pivot to the query region (Oi to Q) is bigger than the furthest distance from another pivot to the region (Oj to Q) then we know that no objects from Oi partition can be inside Q.
+#### Number of pivots
+They are good if they are close to data or close to query, therefore we choose pivots:
+- Based on data
+- Based on queries (e.g. previous queries)
+
+- Choose quality pivots
+- Choose quantity (statistically gonna work)
+- Choose both
+### Choosing pivots
+#### Random
+Good when we choose a lot
+#### Random groups
+Choose several groups at random and then choose the best group
+Best group = distances between them are high
+#### Incremental
+1. Choose random
+2. From a random group choose another pivot that maximizes the mean distance
+#### Sparse Spatial Selection
+Calculates optimal number of pivots
+Use incremental until the mean distance of pivots is higher than some threshold
+### Curse of Dimensionality
+In higher dimensions the objects are suddenly far away from each other. There is too much space where they can be. Low chance for clusters.
 ## Pivot tables
 Matrix method:
 - each object O maps to a vector o
@@ -113,3 +155,55 @@ Similar to LAESA but instead of pivots we consider previous queries and then we 
 # Approximate Similarity Search
 Exact search might be too slow, so we trade precision for performance
 - Even metric axioms don't result in quick enough indexing/search
+- Trade precision for faster queries
+- This is beneficial if data is hard to index
+	- = hard to cluster/group them
+- Similarity functions don't mimic human similarities
+
+Strategies:
+- guarantee of a bound
+	- every object in the result is somehow relevant
+- probabilistic
+	- every object in the result is relevant with some probability
+- no guarantees
+## Intrinsic Dimensionality
+value showing how indexable a dataset is
+$\rho(S, d) = \mu^2 / 2\sigma^2$ (S - dataset, d - distance function, mean and variance)
+
+![[Pasted image 20240528231119.png]]
+
+Low value = easy to index because distances are variable
+High value = hard to index because objects are almost equally distant (no clusters)
+
+# Techniques
+## Pivot tables
+We can use LAESA and skip refinement step.
+We need enough pivots and then it can work.
+## FastMap
+Metric space is in fact Euclidean space (of user defined dimensionality)
+
+It recreates the coordinates from pairs of pivots (each pair = pivot axis).
+0. Let's construct euclidean space of dim k 
+1. select best pivot pair
+	1. select object at random
+	2. select 2 objects that are furthest from that object
+	3. those are the pivots
+## M-tree
+Metric index which uses kNN for exact indexing.
+
+We can improve this:
+- Terminate early if the array of nearest neighbors changes only a little
+- If the distance to the kth element is low enough then terminate
+- Use PAC queries (Probably Approximately Correct)
+## Permutation Indexes
+Consider a set of k pivots and pivot table
+instead of a distance matrix we store pivots as ordered collection (closest to furthest)
+
+e.g.: 
+```
+Object o1: p1, p4, p2, p3
+Object o2: p2, p1, p4, p3 
+```
+We then use permutation distance on this space (how similar are the permutations)
+
+Distance: $D(u, q) = \sum_{1 \le i \le k} (P_u(i) - P_q(i))^2$ (P - position in the permutation of object)
