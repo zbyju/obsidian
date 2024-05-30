@@ -1,0 +1,1 @@
+**Experimentální vyhodnocení algoritmů, zejména randomizovaných.**

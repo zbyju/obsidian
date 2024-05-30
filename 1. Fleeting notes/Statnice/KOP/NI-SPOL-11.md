@@ -171,3 +171,31 @@ Karpova redukce je specialnim pripadem Turingovy redukce v polynomialnim case
 - => $NPC \subset NPH$
 ## NPI
 NPI = NP - P - NPC
+# Pseudopolynomialni problem
+Problem ktery polynomialne zavisi na velikosti instance, ale take na vstupni promenne, ktery s velikosti instance nesouvisi
+(omezeni na max vahu batohu se da zvysovat hodne)
+# Relativni chyba a kvalita
+C(S) - hodnota optimalizacniho kriteria
+APR(I) - aproximovane reseni instance I
+OPT(I) - optimalni reseni instance I
+
+## Relativni Kvalita R
+### $R \geq max_{\forall I} \{\frac{C(APR(I))}{C(OPT(I))},\frac{C(OPT(I))}{C(APR(I))}\}$
+## Relativni Chyba $\epsilon$
+### $\epsilon \geq max_{\forall I} \frac{|C(APR(I)) - C(OPT(I))}{max\{C(OPT(I)), C(APR(I))\}}$
+## Aproximativni algoritmus
+Algoritmus APR pro problem PI je R-aproximativni ($\epsilon$-aproximativni) pokud kazdou instanci vyresi v polynomialnim case s relativni kvalitou R (relativni chybou $\epsilon$)
+
+Optimalizacni problem PI je R-aproximativni pokud pro nej existuje R-aproximativni algoritmus. Cislo R nazveme aproximacnim prahem.
+
+Optimalizacni problem PI patri do tridy APX, jestli ze je R-aproximativni s konecnym R.
+### PTAS
+Algoritmus APR, ktery pro kazde $1 \gt \epsilon \gt 0$ vyresi instanci I problemu PI s relativni chybou nejvyse $\epsilon$ v polynomialnim case nazyvame polynomialni aproximacni schema problemu PI.
+
+Problem PI patri do PTAS pokud pro PI existuje polynomialni aproximacni schema.
+### FPTAS
+Polynomialni aproximacni schema APR, jehoz cas vypoctu zavisi polynomialne na $1/\epsilon$ nazyvame plne polynomialni aproximacni schema.
+
+Problem PI patri do FPTAS jestlize pro nej eixstuje FPTAS algoritmus. 
+
+![[Pasted image 20240530172856.png]]
