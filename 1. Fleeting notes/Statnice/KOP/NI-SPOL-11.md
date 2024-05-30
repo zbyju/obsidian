@@ -118,7 +118,56 @@ Efektivni reseni = v polynomialnim case, nebo s omezenou chybou
 zredukovat na reseni PI = vyresit pomoci nejakeho resice pro PI
 
 Problem PI je X-hard, jestlize se efektivni reseni vsech problemu z tridy X da zredukovat na efektivni reseni problemu PI.
-=> resic pro PI muze slouzit jako efektivni resic vsech problemu X
+=> PI je alespon tak tezky jako vsechny z X
+=> PI muze byt tezsi nez vsechny z X
 
 Problem PI je X-complete, jestlize je X-hard a zaroven patri do X.
+=> PI je alespon tak tezky jako vsechny z X
+=> PI je nanejvys tak tezky jako vsechny z X
 ## Redukce
+1. Instance problemu PI1
+2. Prevod
+3. Instance problemu PI2
+4. Algoritmus na reseni PI2
+5. Shodny vystup
+=> Mame algoritmus na PI1, ktery neni horsi nez PI2
+=> PI1 je nejvys tak tezky jako PI2
+=> PI2 je nejmene tak tezky jako PI1
+### Karpova Redukce
+Algoritmus ktery na DTS prevede instanci PI1 na instanci PI2 v polynomialnim case a vystup obou instanci je stejny.
+
+Pokud je PI1 karp-redukovatelny PI2 a naopak, pak jsou polynomialne ekvivaltentni.
+
+Karp redukce je tranzitivni
+# NP-Hard a NP-Complete
+Problem PI je NP-hard, jestlize pro vsechny problemy $\Pi' \in NP, \Pi'\ <karp>\ PI$
+= pokud jsou na nej prevoditelne vsechny problemy z NP
+
+Problem PI je NP-complete, pokud je z NP a je NP-hard
+
+![[Pasted image 20240530000450.png]]
+
+Dokazat ze nejaky problem je NPC se da tak ze nalezneme redukci nejakeho problemu z NPC (treba SAT) na nas problem v polynomialnim case.
+## Cookova veta
+SAT je NP-complete
+## NPO
+Optimalizacni problem PI je NPO, jestlize:
+- velikost vstupu lze zapsat v polynomialnim case
+- kontrola reseni patri do P
+- kontrola optimalizacniho kriteria patri do P
+## PO
+Optimalizacni problem PI je NPO, jestlize:
+- Patri do NPO
+- Existuje program pro DTS, ktery kazdou instanci vyresi v polynomialnim case.
+## Turingova Redukce
+Problem PI1 je Turing redukovatelny na PI2, jestlize existuje algoritmus pro DTS, ktery resi kazdou instanci problemu PI1 tak, ze pouziva program M2 pro problem PI2 jako podprogram (jehoz trvani povazujeme jako jeden krok).
+
+(redukce nemusi obecne nemusi probehnout v polynomialnim case)
+
+Problem PI je NP-hard, jestlize pro vsechny problemy z NP existuje turingova redukce v polynomialnim case na problem PI
+
+Karpova redukce je specialnim pripadem Turingovy redukce v polynomialnim case
+- => volani podprogramu pouze jednou, prime pouziti vysledku
+- => $NPC \subset NPH$
+## NPI
+NPI = NP - P - NPC
