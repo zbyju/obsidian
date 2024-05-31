@@ -50,6 +50,16 @@ Jednoduche lokalni heuristiky skonci v lokalnim optimu a tam skonci.
 
 Heuristiku muzeme zkouset spoustet z ruznych pocatecnich stavu, abychom ziskali lepsi reseni. Tohle je ale je spis naivni fix, ktery neni moc robustni.
 Chceme algoritmus ktery je schopen pripustit horsi stav, ale stale hleda optimum.
+## Dosazitelny na hladine E
+Stav t je dosazitelny na hladine E ze stavu s pokud existuje posloupnost sousedu takova ze optimalizacni kriterium je mensi nez E
+## Lokalni optimum
+Stav s je lokalnim optimem, pokud zadny stav t z S, ktery je lepsi nez s neni dosazitelny na hladine E(s).
+## Hloubka lokalni optima
+Stav s - hloubka lokalniho minima je:
+- nekonecno, pokud je globalnim optimem
+- nejmensi E takove ze nejaky stav t takove ze t je lepsi nez s muze byt dosazen ze stavu s na hladine E.
+
+=> Hladina na ktere muze byt dosazen dalsi nejlepsi stav
 
 Pouzivame 2 strategie: diverzifikace, intenzifikace pri vypoctu.
 ## Diverzifikace
@@ -60,3 +70,4 @@ Velka ochota udelat akci, ktera vede do horsiho stavu
 Mala ochota udelat akci, ktera vede do horsiho stavu
 
 => Konvergence k finalnimu nejlepsimu reseni
+
