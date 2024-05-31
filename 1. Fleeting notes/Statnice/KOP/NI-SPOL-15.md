@@ -1,0 +1,1 @@
+**Princip simulovaného ochlazování, význam parametrů a způsoby jejich řízení.**

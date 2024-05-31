@@ -61,3 +61,22 @@ Muzeme testovat pomoci prehazeni deklaraci mnozin = perturbace
 
 Nebo pokud chceme vic realisticke vstupy musime pouzit standardni sady - predpriveny set instanci.
 -> vysledek je pak relevantni (pouze) k te sade
+## Evaluation
+1. White box evaluation
+	- Sledujeme jak algoritmus pracuje
+	- Menime parametry
+2. Black box evaluation
+	- Delame po white box evaluation
+	- Finalni vyhodnoceni na zvolenych metrikach
+# Randomizovane algoritmy
+Zalozen na nahodne volbe
+
+Jsou jednoduche, robustni
+## Monte carlo
+Dosazeny vysledek je nahodna promenna; cas behu pevny pro danou instanci.
+
+Z herny se dostanu rano, ale nevim kolik jeste budu mit penez
+## Las Vegas
+Cas behu je nahodna promenna, vysledek je vzdy spravny
+
+Z herny se dostanu s 0 penezi, ale nevim kdy
