@@ -260,3 +260,57 @@ Paralelizujeme pro kazdy radek
 
 
 ![[Pasted image 20240602165406.png]]
+# Paralelni Razeni
+## Quicksort
+Sekvencni verze: ![[Pasted image 20240602191745.png]]
+Potrebujeme:
+- swap - prochozeni dvou cisle
+- volba pivota
+	- posledni prvek je pivot
+	- chytreji
+- partition - rozdeleni na 2 partition
+	- leva - mensi nez pivot
+	- prava - vetsi nez pivot
+
+### Vylepseni
+1. Nahrazeni posledni rekuze za iteraci
+	- Nahrazeni `if` za `while`
+2. Zavedeni prahu velikosti pole pro vytvareni OpenMP uloh
+	- Pokud je pole prilis male, pak se nevyplati 
+3. Paralelizace partition
+
+## Partition
+Lepsi verze je Hoare:
+- Mam:
+	- Pivot - posledni prvek
+	- i - prvni prvek
+	- j - posledni prvek (1 pred pivotem)
+- Chci:
+	- vlevo mit prvky mensi nez pivot
+	- vpravo mit prvky vetsi nez pivot
+- V cyklu se divam na hodnoty na indexu i a j:
+	1. Obe jsou spatne - prohodim
+	2. Vlevo je v poradku, vpravo je spatne - inkrementuju levy index
+	3. Vpravo je v poradku, vlevo je spatne - inkrementuju pravy index
+	4. Oba jsou spravne - posun obou indexu
+	-  Tohle provadim dokud se i a j nepotkaji
+		- Tento proces se jmenuje neutralizace
+		- V kazde iteraci je neutralizovan nejmene jeden prvek
+	- Nakonci prohodim pivota s prvkem na indexu j (aby byl pivot spravne)
+
+Paralelizace:
+- Mame globalni promennou i a j
+- Kazde vlakno si vezme sve vlastni i a j a inkrementuje/dekrementuje globalni hodnotu
+	- Tohle by vedlo na hodne velkou rezii
+	- -> Kazde vlakno si vezme i+k a j-k a neutralizuje tyto segmenty
+		- Kazdy segment je vzdy bud neutralizovat nebo spinavy
+		- Pokud mame neutralizujeme 2 segmenty, pak bereme nove segmenty z obou stran
+		- Pokud mame 1 spinavy, pak bereme segment jen z ciste strany a docistime druhy segment
+- Na zaver nam zustane maximalne p spinavych segmentu, ktere sekvencne vycistime
+## Merge Sort
+Sekvencni kod: ![[Pasted image 20240602200108.png]]
+
+Potrebujeme:
+- merge - vezme setridene pole a mergne je do sebe, tak aby byly setridene
+- mergesort_rec - rozdeli rekurzivne pole na poloviny a na zaver merguje pomoci merge
+- mergesort - vytvori pomocne pole a spusti rekurzi
