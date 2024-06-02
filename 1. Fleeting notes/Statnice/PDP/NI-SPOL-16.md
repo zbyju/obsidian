@@ -251,3 +251,17 @@ Definuje jak se meni paralelni cas s p pro fixni n/p
 
 Alternativne:
 Je meritko rustu n takoveho, ze pri rostoucim p zustava efektivnost stejna.
+### Isoefektivni funkce 
+Pokud zname asymptotickou slozitost sekvencniho algoritmu a paralelniho algoritmu, pak jsme schopni skalovatelnost $0 < E_0 < 1$ spocitat pomoci techto rovnic:
+- $\psi_1$ je asymptoticky minimalni funkce, ktera: $\forall n_p = \Omega(\psi_1(p)): E(n_p, p) \ge E_0$
+	- udava lower bound na velikost problemu pro dany pocet procesoru pro zachovani $E_0$
+	- Pro vsechny funkce $n_p$ ktere rostou alespon stejne rychle jako $\psi_1$ plati ze efektivnost problem s takovou velikosti pro pocet procesoru $p$ bude vetsi nez $E_0$
+- $\psi_2$ je asymptoticky maximalni funkce, ktera: $\forall p_n = O(\psi_2(n)): E(n, p_n) \ge E_0$
+	- udava upper bound na pocet procesoru pro danou velikost problemu pro zachovani $E_0$
+	- 
+- Kde:
+	- $n_p$ - velikost problemu jako funkce poctu CPU
+	- $p_n$ - pocet procesoru jako funkce velikosti problemu
+	- $E_0$ - konstanta reprezentujici efektivnost
+
+Tyto funkce urcuji skalovatelnost z obou stran

@@ -1,4 +1,5 @@
 {
   "vimMode": true,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "promptDelete": false
 }
