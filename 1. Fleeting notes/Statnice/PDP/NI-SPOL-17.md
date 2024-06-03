@@ -314,3 +314,28 @@ Potrebujeme:
 - merge - vezme setridene pole a mergne je do sebe, tak aby byly setridene
 - mergesort_rec - rozdeli rekurzivne pole na poloviny a na zaver merguje pomoci merge
 - mergesort - vytvori pomocne pole a spusti rekurzi
+### Paralelizace
+1. Nahrazeni posledniho tasku za to ze to sam vykonam
+2. Zavedeni prahu pro paralelizaci
+	- Pomuze velmi, protoze jinak musime vytvaret task nez nemame jen 1 prvek a pak mergujeme nahoru
+3. Paralelni merge
+	- Klasicky merge vypada ze se neda paralelizovat
+### 2 cestny merge
+1. Chceme rozdelit 2 pole na p segmentu (najit p-1 bodu) tak aby dohromady meli vsechny segmenty stejny pocet prvku
+2. Kazde vlakno hleda svuj bod kde zacit; vysledky agreguji do spolecneho pole na pozici sveho indexu
+3. Mame pomyslny binarni retezec, ktery v kazdem radku udava 0 pokud je hodnota v radku vetsi, 1 pokud je hodnota v radku mensi
+4. Hledame prusecik i-te vedlejsi diagonaly s bodem kde se 0 meni na 1 v danem radku.
+	- Tohle jsme schopni udelat v log n binarnim pulenim
+
+Priklad pro pole C a D, oba s 8 prvky:![[Pasted image 20240602220329.png]]
+
+### p-cestny merge
+1. p vlake rozdeli pole A na p casti
+2. kazde setridi svoji cast sekvencne
+	- Potrebujeme mergnout p setridenych poli
+3. Najdeme p-1 oddelovacu v kazdem podpoli.
+	- tak aby soucet delek segmentu v kazdem podpoli byl uniformni
+4. Vlakno mergne prvky svych segmentu
+5. Vlakno vi sve poradi takze vi kam polozky zapsat
+
+Priklad s p=3:![[Pasted image 20240602221253.png]]
