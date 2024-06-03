@@ -85,6 +85,8 @@ Spodni mez prumeru N-uzlove **ridke** site je $\Omega(log N)$.
 # Ortogonalni topologie
 Zmena v jedne dimenzi neovlivni druhou dimenzi
 
+Kartezsky soucin jednoduchych grafu
+
 Reprezentanti:
 - Binarni hyperkrychle (hypercubes)
 - Mrizky (meshes)
@@ -104,6 +106,7 @@ dist = hammingova vzdalenost
 je hierarchicky rekurzivni
 je vyvazeny bipartitni
 je uzlove symetricka
+neni ridka (je husta)
 
 Plati ze Qn = Qm x Qm; pokud n = m \* m
 Napr Q6 = Q3 x Q3
@@ -157,3 +160,121 @@ trosku se pokazila rekurzivni hierarchie
 - toroid neobsahuje jako podgraf n rozmerne toroidy, ale mene rozmerne toroidy
 
 jedna z nejuspesnejsich topologii pro komerni pocitace
+# Ridke hyperkubicke site
+Vychazeji z hyperkrychle, ale pridaji neco navic, aby to bylo ridke
+
+Vezmou hyperkrychli a nahrazuji jeden node za n nodu v kruznici
+## Zabaleny motylek
+Mame vrcholy v dvou "dimenzich" i a x
+Hrana je mezi vrcholy:
+- mezi vrcholy v stejne dimenzi i o modulo jedna rozdilne (kruznice)
+- mezi vrcholy v dimenzi x tak, ze:
+	- negujeme bit na pozici i pro dimenzi x
+	- pricteme module 1 k i
+	- to nam da dve hrany z jednoho nodu a dalsi dve hrany prijdou z jineho nodu (hrany jsou ale oboustranne) = 4 hrany
+
+Pocet vrcholu = $n \cdot 2^n$
+Pocet hran = $n \cdot 2^{n+1}$
+diam = n + n/2
+deg = 4
+bisekcni sirka = 2^n
+neni hierarchicky rekurzivni
+vyvazeny bipartitni graf prave tehdy kdyz n je sude
+hamiltonovsky graf
+uzlove symetricky
+
+prumer je logaritmus poctu uzlu
+=> optimalni ridka topologie
+
+2D mrizka ma taky deg = 4, ale diam je odmocnina
+
+![[Pasted image 20240603172215.png]]
+## Obycejny motylek
+Vezmeme zabaleneho motylka a kruznici v jednom miste prestrihneme
+
+tradujeme hiearchickou rekurzivnost za symetrii
+
+Pocet vrcholu = $(n+1) \cdot 2^n$
+Pocet hran = $n \cdot 2^{n+1}$
+diam = 2n
+deg = 2 nebo 4
+bisekcni sirka = 2^n
+je hierarchicky rekurzivni (obsahuje 2 instance sebe same o 1 dimenzi mensi)
+neni uzlove symetricka
+
+oproti klasicke hyperkrychli muzeme pouzivat z uzlu jen 1 dimenze (nemuzeme negovat jakykoliv bit)
+
+## Normalni hyperkubicke algoritmy
+V kazdem paralelnim kroku algoritmu jsou pouzity pouze hrany jedne dimenze
+V po sobe jdoucich krocich jsou pouzivany po sobe jdouci dimenze
+# Vnoreni
+Paralelni algoritmus = mnozina procesu posilajicich si zpravy
+
+Zname:
+- velikost a strukturu grafu procesu
+- pocitac s distribuovanou pameti a znamou topologii
+
+Jak mapovat procesy na pocitac aby vypocet byl co nejefektivnejsi? (napr. casto komunikujici procesy u sebe)
+
+Vnoreni G -> H
+(zdrojovy graf G=(V(G), E(G)); hostitelska sit H=(V(H), E(H)) )
+= dvojice zobrazeni ($\varphi, \xi$):
+- $\varphi: V(G) \rightarrow V(H)$
+- $\xi: E(G) \rightarrow P(H)$
+(P(H) - mnozina vsech cest site H)
+
+## Meritka
+Maximalni zatizeni = max procesu na jednom procesoru
+
+Expanze vnoreni = kolik procesoru na dany pocet procesu mame (#V(H)/#V(G))
+
+Maximalni dilatace zdrojovych hran v hostitelske siti = 
+max delka cesty na kterou se namapovala hrana
+
+Maximalni zahlceni hostitelske hrany = 
+max pocet hran namapovanych na hranu v hostitelskem
+
+## Definice
+Grafy G a H jsou kvaziizometricke, pokud existuji zanoreni v obou smerech s konstantnimi hodnotami meritek kvality (neroste s dimenzi topologie)
+
+H similuju se zpomalenim h, jestlize kazdy jeden krok vypoctu na G muze byt simulovan v O(h) krocich na H.
+
+G a H jsou vypocetne ekvivalentni, pokud G dokaze simulovat H s konstatnim zpomalenim a naopak.
+
+Kvaziizometricke grafy => vypocetne ekvivalentni (ne naopak)
+
+Jestlize |V(G)| = |V(H)| a load = 1, pak dilatace >= diam(H) / diam(G)
+
+N-uzlova kruznice C muze byt vnorena do jakekoliv N-uzlove site G s load=1, dil <= 3 a ecng = 2
+
+## Vnorovani Grafu
+### Mrizka do toroidu 
+Mrizka a toroid jsou kvaziizometricke
+### Hyperkrychle do mrizky/toroidu
+Uvazujme Hyperkrychly $Q_{2k}$
+Uvazujme mrizku s rozmery $M(2^k, 2^k)$
+
+Dolni mez na dilataci vnoreni Q2k -> M(2^k, 2^k) s load = 1 je $\frac{2^k-1}{k}$
+
+Mapujeme pomoci:
+- Svobodovo mapovani - lexikograficky
+	- Prvnich k bitu = k bitu radku
+	- Druhych k bitu = k bitu radku
+- Karnaughovo mapovani - grayova indexace
+- Mortonova krivka
+### Mortonova krivka
+x a y souradnici vyrobime stridanim sudych a lichych bitu
+### Motylci
+Obycejny motylek a zabaleny motylek jsou kvaziizometricke
+## MPI
+MPI muzeme pouzit pro popis grafu algoritmu pro planovac, aby mohl delat lepsi rozhodnuti.
+
+Muzeme rict 3 typy topologii:
+- Kartezska `MPI_Cart_Create`
+	- vytvori bud 1D mrizku nebo 1D toroid
+- Graf `MPI_Graph_Create`
+	- vytvori topologii grafu
+	- popsany poctem uzlu, jejich stupni a linearizovanym seznamem sousedu
+- Distribuovany graf `MPI_Dist_Graph_Create`
+	- urci pouze svoje sousedy (vystupni hrany) a to predava MPI funkcim
+	- kazdy soused za sebe oznami jak vypada jeho sousedstvi
