@@ -113,6 +113,7 @@ Kazda funkce vraci jeste navratovou hodnotu = chybovy kod nebo `MPI_SUCCESS`
 ### Kolektivni operace
 = jeden -> mnoho
 - Vysilani jeden vsem - broadcast (`MPI_Bcast)`)
+	- V hyperkrychli poslu sousedovi a ten posila do vyssi dimenze nez odkud to prislo, rekurzivne to vytvori strom
 - Vysilani skupine - multicast (`MPI_BCast`)
 - Rozesilani jeden vsem - scatter (`MPI_Scatter`)
 - Sbirani ode vsech - gather (`MPI_Gather`)
