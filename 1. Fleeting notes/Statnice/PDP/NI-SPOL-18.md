@@ -117,3 +117,101 @@ Kazda funkce vraci jeste navratovou hodnotu = chybovy kod nebo `MPI_SUCCESS`
 - Vysilani skupine - multicast (`MPI_BCast`)
 - Rozesilani jeden vsem - scatter (`MPI_Scatter`)
 - Sbirani ode vsech - gather (`MPI_Gather`)
+
+# Nasobeni Hustych Matic vektorem
+## Mapovani prouzkove
+![[Pasted image 20240603231630.png]]
+
+Rozdelim matici mezi procesy bud:
+- blokove (p pruhu)
+- cyklicky (po radcich)
+- kombinace (k-radku cyklicky)
+
+Procesy tvori 1D mrizku M(p)
+(i v pripade sloupcove orientace)
+
+### Radkove
+1. Procesy si vymeni sve casti vektoru, tak aby mely cely vektor (all-to-all broadcast)
+2. Pronasobi svou cast matice s vektorem
+3. Kazdy proces ma nyni cast vysledku
+	- Pokud potrebujeme tak musim rozeslat zase vsem ostatnim
+### Sloupcove
+Stejne jako u radkoveho ale po sloupcich
+
+1. Procesy uz maji svou cast vektoru kterou potrebuji
+2. Spocitaji cast
+3. Pak museji udelat p redukci operace + (all-to-all redukce)
+
+Ve vysledku stejne rychle jako radkove
+
+## Mapovani Sachovnice
+![[Pasted image 20240603232142.png]]
+
+Znovu muzeme:
+- blokove
+- cyklicky (po bunkach)
+- kombinovane (po segmentech)
+
+Procesy tvori virtualni 2D mrizku M(sqrt(p), sqrt(p))
+# Nasobeni hustych matic
+2 huste matice
+
+Matice jsou namapovane sachovnicove = kazdy proces ma submatici z A a z B a chci aby nakonci mel tu stejnou submatici C
+## Naivne
+1. Matice A se musi radkove rozeslat
+2. Matice B se musi sloupcove rozeslat
+3. Roznasobim klasicky
+Aritmeticky neni redundance
+Pametove neefektivni, potrebujeme vice pameti
+## Cannonuv
+P procesu, sqrt(P) kroku
+
+Nechci prekrocit pamet, takze misto toho abych vsechno nazacatku ziskal, tak ziskam cast a pak se toho budu zbavovat.
+
+Vypocet je synchronni; provedu vypocet poslu dalsimu procesu a ziskam nove data od predchoziho procesu
+
+1. Radky A zrotuju doleva o i pozic (i = index radku)
+2. Sloupce B zrotuju nahoru o i pozic (i = index sloupce)
+4. Proces Pij spocita soucin Aij \* Bij - jedna bunka matice C
+5. Radek A zrotuju doleva o 1
+6. Sloupce B zrotuju nahoru o 1
+7. Tohle opakuju dokud nemam vysledek
+
+Jsou na to optimalni 2D toroidy
+### Foxuv
+P procesu sqrt(P) kroku
+
+Delaji se posuvy
+# Paralelni Mocninna Metoda
+Algoritmus pro hledani nejvetsiho vlastniho cisla (v absolutni hodnote) matice A a vektoru v: $A\cdot v = \lambda \cdot v$
+
+1. Inicializuj pocatecni vektor x
+2. Vynasob A vektorem x cimz vznikne y
+3. Spocti normu y
+4. Nahrad vektor x normalizovanym vektorem y
+5. Vyhodnot kriterium konvergence
+6. Pokud splneno zastav, jinak znova 2.
+
+## Libovolne mapovani
+P_i potrebuje cely vektor x
+
+Kazdy proces muze vyprodukovat jakykoliv index y_i
+=> kazdy proces musi mit naalokovan prostor pro cely vektor y
+=> nakonec musime udelat redukci (Allreduce)
+=> kazdy proces zna nove y
+## Mapovani po radcich
+Predpokladame ze kazdy radek ma +- stejne nenul
+
+Vysledek nasobeni pro jeden proces je jen cast vektoru y
+=> neni potreba alokovat n prvku, staci n/p
+=> kazde proces si pak sesklada (neni potreba reduce) vysledky z ostatnich
+
+-> rychlejsi protoze neni potreba predavat cely vektor y, ale staci cast
+## Mapovani Sachovnice 
+procesy v 2D mrizce
+
+vektor umistovan na diagonalni procesy
+1. je potreba vektor rozeslat sloupcove
+2. roznasobit
+3. rozeslat vysledny vektor na diagonalu
+4. znovu
