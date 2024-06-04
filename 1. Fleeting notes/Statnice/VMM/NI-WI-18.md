@@ -153,6 +153,7 @@ D-cache:
 - caches distances (not distances themselves) for easy calculation of lower bounds
 Similar to LAESA but instead of pivots we consider previous queries and then we use previously calculated values for faster computation
 # Approximate Similarity Search
+https://www.youtube.com/watch?v=jaXrY5faZJU&list=PLVNPGcDPZ_tsuMxLBeiQlvn0z23Tv4zGM&index=16
 Exact search might be too slow, so we trade precision for performance
 - Even metric axioms don't result in quick enough indexing/search
 - Trade precision for faster queries
