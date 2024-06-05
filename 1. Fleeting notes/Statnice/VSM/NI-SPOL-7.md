@@ -132,4 +132,27 @@ Pro libovolny instantni kod nad D-arni abecedou musi delaky kodovych slov l1, l2
 ### $\sum_i D^{-l_i} \le 1$
 
 Navic ke kazde n-tici delek, ktere splni tuto nerovnost, existuje instantni kod s kodovymi slovy techto delek
+### Dolni mez delky instantniho kodu
+Stredni delka L(C) instantniho kodu C diskretni nahodne veliciny je:
+#### $L(C) \ge H_D(X)$
+
+Pokud $L(C) = H_D(X)$, pak je kodovani optimalni
+Rovnost nastava pokud $D^{-l_i}=p_i$
+### Stredni delka optimalniho kodu
+#### $H_D(X) \le L(C^*) < H_D(X)+1$
+## Huffmanovo kodovani
+1. Spojime dve nejmene pravdepodobne hodnoty do jedne a uvazujeme nove rozdeleni nahodne veliciny s o jednu mensim poctem hodnot; novy uzel ma sectene pravdepodobnosti
+2. Opakujeme dokud nezustane jedna hodnota ktere priradime prazdny retezes jako kodove slovo
+3. Zpetnym chodem zkonstruujeme kodova slova vsech puvodnich hodnot
+4. Pro hodnotu x (ktere vzniklo spojenim u a v), vytvorime kodove slovo:
+	- pokud u mene pravdepodobne nez v tak C(u) = C(x)1 a C(v) = C(x)0
+	- pokud u vice pravdepodobne nez v tak C(u) = C(x)0 a C(v) = C(x)1
+### Optimalita
+Huffmanuv kod je optimalni:
+
+C\* - Huffmanuv kod
+C' - libovolny jiny jednoznacne dekodovatelny kod
+
+L(C\*) <= L(C')
+
 
