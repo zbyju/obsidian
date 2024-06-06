@@ -78,7 +78,7 @@ plati tranzitivita prechodu
 
 pro homogenni markovsky retezec pak:
 P(n + m) = P(n) \* P(m)
-#### Homogenni markovsky retezec
+### Homogenni markovsky retezec
 Markovsky retezec je homogenni, pokud pro vsechna n z N a i, j z S plati:
 ##### $P(X_{n+1} = j| X_n = i) = P(X_i = j|X_0 = i)$
 
@@ -90,15 +90,15 @@ zaroven plati:
 
 $P^n$ budeme znacit jako $P(n)$
 $P(n)_{ij}$ budeme znacit jako $P_{ij}(n)$
-### Stochasticka matice
+#### Stochasticka matice
 Matice prechodu P je stochasticka:
 1. $P_{ij} \ge 0$ - ma nezaporne prvky
 2. $\sum_{j \in S} P_{ij} = 1$ - vsechny radky se vyscitaji na 1
 
 Soucin stochasticky matic je stochasticka matice
-#### MR - SM
+##### MR - SM
 K libovolne ctvercove stochasticke matici P existuje homogenni markovsky retezec s diskretnim casem takovy, ze P je jeho matice prechodu.
-#### Pocatecni rozdeleni
+##### Pocatecni rozdeleni
 Abychom znali homogenni markovsky retezec, tak nam staci znat matici prechodu P a pocatecni rozdeleni p(0)
 
 Pocatecni rozdeleni q je vektor ktery se vyscita na 1
@@ -116,14 +116,122 @@ Stacionarni (takove z ktereho neutecu) $\pi$:
 
 pro stacionarni rozdeleni plati ze:
 p(0) = pi => p(n) = pi \* P^n = pi \* P = \pi
+#### Trvaly/Prechodny stav
+trvaly = rekurentni
 
+Stav i z S je trvaly, pokud:
+$P(\exists n \in N: X_n = i | X_0 = i) = 1$
 
+Stav i z S je prechodny, pokud:
+$P(\exists n \in N: X_n = i | X_0 = i) < 1$
 
+Trvaly je ze pro vsechny trajektorie se do stavu i nekdy vratim
+Prechodny je ze existuji nejake trajektorie ktere se do i uz nevrati
+#### Cas prvni navstevy
+stavu i z S:
+$\tau_i := min\{n \in N | X_n = i\}$
 
+je-li mnozina prazdna pak $\tau_i = \infty$
 
+Pozor n z N ne n z N0 -> ignorujeme nulovy cas
 
+![[Pasted image 20240606153657.png]]
 
+### Klasifikace pomoci casu prvni navstevy
+#### $f_{ij}(n) = P(\tau_j = n | X_0 = i); n \ge 1; f_{ij}(0) = 0$
+= pravdepodobnost prvni navsteva j, pokud zacinam v i, nastane v case n.
 
+#### $f_{ij} = P(\tau_j < \infty | X_0 = i) = \sum_{n=1}^\infty f_{ij}(n)$
+= pravdepodobnost, ze nekdy navstivim j, pokud jsem zacinal v i
 
+=> Stavy je trvaly <=> $f_{ii} = 1$
+=> Stavy je prechodny <=> $f_{ii} < 1$
+### Stredni doba navratu
+do stavu i z S:
 
+![[Pasted image 20240606154546.png]]
+= n \* pravdepodobnost ze se tam vratim v n (n je cas navratu)
+#### Nulovy a nenulovy stav
+i z S je nenulovy, pokud stredni doba navratu je konecna (mu_i < nekonecno)
 
+i z S je nulovy, pokud neni nenulovy (mu_i = nekonecno)
+### Periodicita
+stavu i z S:
+#### $d(i) = gcd\{n\in N | P_{ii} > 0\}$
+nejvetsi spolecny delitel casu, kdy se retezec vrati do stavu i
+
+stav je periodicky pokud d(i) > 1
+stav je aperiodicky pokud d(i) = 1
+
+=> pro libovolny aperiodicky stav i z S plati:
+$lim_{n \rightarrow \infty} P_{ii}(n) = 1/\mu_i$
+
+=> pro libovolny stav j z S pak:
+$lim_{n \rightarrow \infty} P_{ji}(n) = f_{ji}/\mu_i$
+### Klasifikace pomoci matice P
+![[Pasted image 20240606161244.png]]
+
+### Dosazitelnost
+![[Pasted image 20240606161359.png]]
+
+Je to relace ekvivalence; lze rozdelit stavy na tridy ekvivalence
+
+Pokud jsou 2 stavy ve stejne tride => jsou oba stejneho typu
+### Uzavrene stavy
+Mnozina stavu C (podmnozina S) je uzavrena, pokud:
+#### $\forall i \in C; \forall j \not\in C: P_{ij} = 0$
+= prechod ze stavu v C do stavu mimo C ma pravdepodobnost 0
+
+Pokud ma C jen jeden stav, pak tento stav nazyvame absorpcni
+
+Preusporadejme stavy tak, aby stavy z C byly nakonci:
+![[Pasted image 20240606161947.png]]
+
+Mnozina C je nerozlozitelna (ireducibilni) pokud pro vsechna i, j z C plati i <-> j (Vsechny stavy v C jsou vzajemne dosazitelne)
+
+=> mnozinu stavu S lze vzdy jednoznacne rozlozit:
+
+#### $S = T \cup C_1 \cup C_2 \cup C_3 ...$
+kde je mnozina vsech prechodnych stavu, a C_i jsou vzajemne disjunktni nerozlozitelne uzavrene mnoziny trvalych stavu
+
+Matici P pak lze zapsat:
+![[Pasted image 20240606162351.png]]
+kde:
+T - ctvercova matice prechodu mezi stavy T
+Ci - ctvercove matice prechodu mez trvalymi stavy Ci
+Ri - matice prechodu z mnoziny prechodnych stavu do mnoziny trvalych stavu Ci
+
+#### Konecna mnozina S
+V retezci s konecnym poctem stavu S:
+1. Nemohou byt vsechny stavy prechodne
+	1. Existuji alespon jeden trvaly
+2. Neexistuji stavy trvale nulove
+
+zaroven pro kazdy stav i z S a mnozinu dosazitelnich stavu z i (=Si):
+1. pokud vsechny stavy z Si plati ze i je z nich dosazitelne, pak je i trvaly nenulovy
+2. pokud existuje nejaky stav z Si pro ktery i neni dosazitelny, pak je i prechodny
+### Stacionarita
+Pro nerozlozitelny MR:
+1. Jsou-li vsechny stavy prechodne nebo trvale nulove, stacionarni rozdeleni neexistuje
+2. Jsou-li vsechny stavy trvale nenulove, stacionarni rozdeleni existuje a je jedine
+
+=> Je-li mnozina stavu S konecna, pak stacionarni rozdeleni existuje
+
+#### Pocet stacionarnich rozdeleni
+Celkem bude existovat tolik linearne nezavislych stacionarnich rozdeleni, kolik je nenulovych mnozin C
+
+libovolna konvexni kombinace (jako linearni ale koeficienty >= 0) je zase stacionarni rozdeleni
+# Pravdepodobnost Pohlceni
+
+![[Pasted image 20240606165955.png]]
+
+Prvek Uij je pravdepodobnost, ze prvni prvek, ktery me pohlti (prvek z C) bude j, pokud zacnu v i
+
+Prvek Nik je stredni pocet pruchodu stavem k, nez budu pohlcen, pokud zacnu v i
+- Pokud je k trvaly, pak tato hodnota bude nekonecno
+
+Prvek Ni. je stredni doba do pohlceni, pokud zacnu v i
+
+N ziskam operace inverze (I - T)
+U ziskam operaci NR
+N. ziskam vyscitanim po radcich
