@@ -235,3 +235,13 @@ Prvek Ni. je stredni doba do pohlceni, pokud zacnu v i
 N ziskam operace inverze (I - T)
 U ziskam operaci NR
 N. ziskam vyscitanim po radcich
+## Limita Matice T^n
+Matice T^n konverguje k nulove matici
+- jsou to stavy prechodne, takze nich vyskocime ven
+## Limita Matice C^n
+Pokud vsechny trvale stavy aperiodicke:
+![[Pasted image 20240606181953.png]]
+![[Pasted image 20240606182006.png]]
+= Na radcich budou naskladane stacionarni rozdeleni
+## Limita Matice P^n
+![[Pasted image 20240606182302.png]]
