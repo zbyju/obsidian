@@ -70,3 +70,22 @@ celkove se mi radek vyscita na 0 => Qii = suma vsech ostatnich prvku v danem rad
 2. pravdepodobnost ze retezec skoci z i do j je rozdelen pomerne mezi vsechny mozne j
 
 -Qii = suma Qik
+#### Diskretni retezec casovany Poissonovym procesem
+![[Pasted image 20240607154022.png]]
+
+Mam poissonuv proces, kde Nt rika kolik nastalo udalosti do casu t
+Mam homogenni markovsky retezec s diskretnim casem
+Vytvorim proces podle HMR, ale casuju pomoci Poissona
+=> ziskam homogenni markovsky retezec se spojitym casem
+
+Matice skokovych intenzit retezce Xt = Y_Nt ma tvar:
+$Q = \lambda(D - I)$
+=> $D = I + \frac{1}{\lambda} Q$
+
+je potreba pohlidat aby D byla porad stochasticka
+### Stacionarni rozdeleni
+{X_t | t >= 0} markovsky retezec s pravdepodostmi prechodu P(t). Pak rozdeleni $\pi$ je stacionarni rozdeleni, pokud pro vsechna t >= 0:
+#### $\pi P(t) = \pi$
+
+Zaroven plati, ze $\pi$ je stacionarni rozdeleni pokud:
+#### $\pi Q = 0$
