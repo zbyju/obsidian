@@ -1,14 +1,23 @@
 Systémy hromadné obsluhy a jejich limitní vlastnosti. Souvislost s Markovskými řetězci se spojitým časem.
 
 # Model Hromadne Obsluhy
-- Pozadavky prichazi nahodne s intenzitou $\lambda$
+- Pozadavky prichazi nahodne s intenzitou $\lambda$ (pozadavky za jednotku)
 	- Jsou zarazovany do fronty (pokud je server busy)
-- Server vyrizuje pozadavky nahodne s intenzitou $\mu$
+	- Ai = nahodny cas i-teho zakaznika od (i-1)-teho
+		- $A_i$ ~ $F_A$
+		- $EA_i = 1/ \lambda$
+- Server vyrizuje pozadavky nahodne s intenzitou $\mu$ (pozadavky za jednotku)
+	- Sj = nahodny cas obsluhy j-teho zakaznika
+		- $S_i$ ~ $F_S$
+		- $EA_i = 1/ \mu$
+- Veliciny A1, A2, ..., S1, S2, ... jsou nezavisle
+- Server obsluhuje c nezavislych obsluznych mist
+	- Do fronty se zarazuje pozadavek, pokud je vsech c mist obsazenych
 
 - Prichody se ridi Poissonovym procesem ~ $Exp(\lambda)$
 - Vyrizeni pozadavku se ridi poissonovym procesem ~ $Exp(\mu)$
-- Veskere casy jsou nezavisle
 - Proces { X_t | t >= 0 } zaznamenava pocet pozadavku v systemu v case t
+	- = proces hromadne obsluhy
 - X_t je markovysky proces
 ## Exponencialni zavody
 Ve fronte je n-1 pozadavku (v system n pozadavku) = Xt = n
