@@ -218,7 +218,7 @@ Provadime stejnou statistiku jako pri znamych parametrech ale pro libovolne $\th
 ![[Pasted image 20240605192900.png]]
 
 ## Test nezavislosti v kontingencnich tabulkach
-Mejme nahodny vektor $X=(Y, Z)^T s diskretnim rozdelenim; velicina Y ma r hodnot, velicina Z ma c hodnot
+Mejme nahodny vektor $X=(Y, Z)^T$ s diskretnim rozdelenim; velicina Y ma r hodnot, velicina Z ma c hodnot
 
 $p_{ij} = P(Y=i, Z=j)$ - sdruzena pravdepodobnost
 $p_{i\bullet} = P(Y=i) = \sum_j p_{ij}$ - marginalni pravdepodobnost
