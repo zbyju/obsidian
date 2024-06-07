@@ -57,6 +57,8 @@ Rozdeleni doby cekani za podminky, ze zakaznik ceka:
 (W|W > 0) ~ Exp(mu - lambda)
 ### System M|M|$\infty$
 ![[Pasted image 20240607193636.png]]
+### System M|G|$\infty$
+
 ## Exponencialni zavody
 Ve fronte je n-1 pozadavku (v system n pozadavku) = Xt = n
 
@@ -75,3 +77,11 @@ Pokud vyhraje fronta pak: $X_{t+\tau}=n+1$
 $P(T < S) = \frac{\lambda}{\lambda + \mu}$
 $P(S < T) = \frac{\mu}{\lambda + \mu}$
 # Littleho veta
+Necht:
+$\{ X_t | t \ge 0\}$ je striktne (system je v stacionarnim stavu) stacionarni proces hromadne obsluhy
+$EN$ = stredni pocet zakazniku v systemu
+$ET$ = stredni doba stravena zakaznikem v systemu
+$\lambda$ = intenzita prichodu
+
+Pokud vsechny stredni hodnoty konecne:
+## $EN = \lambda \cdot ET$
