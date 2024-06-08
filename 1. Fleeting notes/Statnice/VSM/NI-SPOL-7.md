@@ -127,7 +127,7 @@ Kod je instantni pokud zadne kodove slovo neni prefixem jineho kodoveho slova
 ![[Pasted image 20240604190855.png]]
 
 ## Kraftova nerovnost
-Pro libovolny instantni kod nad D-arni abecedou musi delaky kodovych slov l1, l2, l3, ..., ln splnit nerovnost:
+Pro libovolny instantni kod nad D-arni abecedou musi delky kodovych slov l1, l2, l3, ..., ln splnit nerovnost:
 
 ### $\sum_i D^{-l_i} \le 1$
 
