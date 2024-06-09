@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Statnice/MPI/NI-SPOL-3.md",
+                "file": "1. Fleeting notes/Statnice/VMM/NI-WI-18.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "c7f1f5a4448134f3",
+            "id": "fd7652813efdfad8",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Statnice/MPI/NI-SPOL-3.md",
+                "file": "1. Fleeting notes/Statnice/VMM/NI-WI-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Statnice/MPI/NI-SPOL-3.md",
+                "file": "1. Fleeting notes/Statnice/VMM/NI-WI-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Statnice/MPI/NI-SPOL-3.md"
+                "file": "1. Fleeting notes/Statnice/VMM/NI-WI-18.md"
               }
             }
           }
@@ -158,8 +158,10 @@
   },
   "active": "743425871e198caa",
   "lastOpenFiles": [
-    "1. Fleeting notes/Statnice/MPI/NI-SPOL-4.md",
+    "1. Fleeting notes/Statnice/DDW/NI-DDW-2.md",
+    "1. Fleeting notes/Statnice/DDW/NI-DDW-1.md",
     "1. Fleeting notes/Statnice/MPI/NI-SPOL-3.md",
+    "1. Fleeting notes/Statnice/MPI/NI-SPOL-4.md",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608170618.png",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608161059.png",
     "1. Fleeting notes/Statnice/MPI/NI-SPOL-2.md",
@@ -196,8 +198,6 @@
     "1. Fleeting notes/Statnice/KOP/NI-SPOL-11.md",
     "1. Fleeting notes/Statnice/KOP/Untitled",
     "Images",
-    "1. Fleeting notes/Statnice/VCC/NI-WI-7.md",
-    "1. Fleeting notes/Statnice/VCC/NI-WI-9.md",
     "1. Fleeting notes/Statnice/VMM"
   ]
 }
