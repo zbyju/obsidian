@@ -50,13 +50,13 @@ Nahodny proces {Xn | n z N0 (prirozene s nulou)} s nejvyse pocetnou mnozinou sta
 
 ### Markovska podminka
 $\forall n \in N\ a\ \forall s, s_0, ..., s_{n-1} \in S$ plati:
-#### $P(X_n|X_{n-1}=s_{n-1}, ..., X_1=s_1, X_0=s_0) = P(X_n=s|X_{n-1} = s_{n-1})$
+#### $P(X_n=s|X_{n-1}=s_{n-1}, ..., X_1=s_1, X_0=s_0) = P(X_n=s|X_{n-1} = s_{n-1})$
 
 Pravdepodobnost zavisi jen na bezprostredni minulosti
 
 #### Alternativne:
 $\forall n, m \in N_0\ a\ \forall s, s_0, ..., s_m \in S$ plati:
-#### $P(X_{n+m}|X_{m}=s_{m}, ..., X_1=s_1, X_0=s_0) = P(X_{n+m}=s|X_{m} = s_{m})$
+#### $P(X_{n+m}=s|X_{m}=s_{m}, ..., X_1=s_1, X_0=s_0) = P(X_{n+m}=s|X_{m} = s_{m})$
 
 Nemusim se divat jen na bezprostredne predchazejici, ale i o n skoku dopredu.
 
