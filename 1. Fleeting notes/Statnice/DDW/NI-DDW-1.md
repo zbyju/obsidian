@@ -5,7 +5,6 @@ Crawlers are used to get data from the web in an automated way.
 - Batch crawler - create snapshot of some web space
 - Incremental crawler - continuously crawl web space, revisit to refresh data
 - Focused/Topical crawler - crawl specific websites, topics
-
 ## Terminology
 - Seed pages - initial pages to crawl from
 - Frontier/Queue - list of unvisited URLs
@@ -90,7 +89,7 @@ Total number of edges
 ### Reciprocity
 Total number of reciprocated edges (edges in both directions) compared to the total number of possible edges.
 ## Homophily
-Groupes share friends among each other and are not friends with other groups.
+Groups share friends among each other and are not friends with other groups.
 
 We can test for this by calculating the probability of an edge having 2 nodes from different groups, if the probability is too low then there is homophily.
 # PageRank
