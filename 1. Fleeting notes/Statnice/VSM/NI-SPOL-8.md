@@ -80,7 +80,7 @@ pro homogenni markovsky retezec pak:
 P(n + m) = P(n) \* P(m)
 ### Homogenni markovsky retezec
 Markovsky retezec je homogenni, pokud pro vsechna n z N a i, j z S plati:
-##### $P(X_{n+1} = j| X_n = i) = P(X_i = j|X_0 = i)$
+##### $P(X_{n+1} = j| X_n = i) = P(X_1 = j|X_0 = i)$
 
 Pro homogenni MR pak definujeme (jednokrokovou) matici prechodu:
 ##### $P := P(0, 1) = (P(X_1 = j| X_0 = i))_{ij\in S}$
@@ -157,7 +157,7 @@ i z S je nenulovy, pokud stredni doba navratu je konecna (mu_i < nekonecno)
 i z S je nulovy, pokud neni nenulovy (mu_i = nekonecno)
 ### Periodicita
 stavu i z S:
-#### $d(i) = gcd\{n\in N | P_{ii} > 0\}$
+#### $d(i) = gcd\{n\in N | P_{ii}(n) > 0\}$
 nejvetsi spolecny delitel casu, kdy se retezec vrati do stavu i
 
 stav je periodicky pokud d(i) > 1

@@ -13,9 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
+                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
                 "mode": "source",
                 "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "762959de63da4015",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -67,7 +79,7 @@
             }
           },
           {
-            "id": "88cd8dc966307e39",
+            "id": "f3b246778be19621",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
+                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
+                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md"
+                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md"
               }
             }
           }
@@ -159,6 +171,11 @@
   },
   "active": "743425871e198caa",
   "lastOpenFiles": [
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-8.md",
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-7.md",
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
     "1. Fleeting notes/Statnice/AM2/NI-WI-21.md",
     "1. Fleeting notes/Statnice/VMM/NI-WI-16.md",
     "1. Fleeting notes/Statnice/AM2/NI-WI-20.md",
@@ -180,11 +197,6 @@
     "2. Reference notes/SWE - Semantic Web/Microformats vs Microdata.md",
     "2. Reference notes/SWE - Semantic Web/N-Quads Format.md",
     "2. Reference notes/SWE - Semantic Web/RDFa.md",
-    "2. Reference notes/SWE - Semantic Web/RDFS Elements.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-18.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-17.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-16.md",
-    "1. Fleeting notes/Statnice/KOP/NI-SPOL-15.md",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608170618.png",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608161059.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607193636.png",
