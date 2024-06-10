@@ -25,7 +25,7 @@ Peers must agree on ciphersuite and keys, which is achieved in the TLS handshake
 0. First there is the classic TCP handshake (1RTT)
 1. ClientHello - TLS protocol version, list of ciphersuites, TLS options
 2. ServerHello, Chooses version, ciphersuite; sends certificate
-3. RSA or Diffie-Hellman key exchange
+3. RSA or Diffie-Hellman key exchanges
 4. Message integrity checks; sends encrypted Finished
 5. Decrypts the message and gets ready to receive data
 6. Sends data
@@ -83,7 +83,6 @@ First 4 steps are the same (retrieving the access token)
 7. User logs in + grants permissions
 8. The application gets the information it needs and the user is redirected back to it
 9. User can access
-
 # Server Sent Events
 Standard HTTP is used to push events. The client listens, the server sends data with type: `text/event-stream`.  The data is sent in the body of the response with each line having `data:...\n`. The last line has two newlines `\n\n`. There can also be `id:` to provide an id to the message.
 

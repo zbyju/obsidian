@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Statnice/AM1/NI-WI-4.md",
+                "file": "1. Fleeting notes/Statnice/VMM/NI-WI-16.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Statnice/AM1/NI-WI-4.md",
+                "file": "1. Fleeting notes/Statnice/VMM/NI-WI-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Statnice/AM1/NI-WI-4.md",
+                "file": "1. Fleeting notes/Statnice/VMM/NI-WI-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Statnice/AM1/NI-WI-4.md"
+                "file": "1. Fleeting notes/Statnice/VMM/NI-WI-16.md"
               }
             }
           }
@@ -159,10 +159,15 @@
   },
   "active": "743425871e198caa",
   "lastOpenFiles": [
+    "1. Fleeting notes/Statnice/AM2/NI-WI-21.md",
+    "1. Fleeting notes/Statnice/AM2/NI-WI-20.md",
+    "1. Fleeting notes/Statnice/AM2/NI-WI-19.md",
+    "1. Fleeting notes/Statnice/AM1/NI-WI-6.md",
+    "1. Fleeting notes/Statnice/AM1/NI-WI-5.md",
+    "1. Fleeting notes/Statnice/AM1/NI-WI-4.md",
     "1. Fleeting notes/Statnice/DDW/NI-DDW-3.md",
     "1. Fleeting notes/Statnice/DDW/NI-DDW-2.md",
     "1. Fleeting notes/Statnice/DDW/NI-DDW-1.md",
-    "1. Fleeting notes/Statnice/AM1/NI-WI-6.md",
     "2. Reference notes/SWE - Semantic Web/Linked Data - HTTP URIs.md",
     "2. Reference notes/SWE - Semantic Web/Linked Data.md",
     "2. Reference notes/SWE - Semantic Web/JSON-LD Format.md",
@@ -180,11 +185,6 @@
     "1. Fleeting notes/Statnice/PDP/NI-SPOL-16.md",
     "1. Fleeting notes/Statnice/KOP/NI-SPOL-15.md",
     "1. Fleeting notes/Statnice/KOP/NI-SPOL-14.md",
-    "1. Fleeting notes/Statnice/KOP/NI-SPOL-13.md",
-    "1. Fleeting notes/Statnice/KOP/NI-SPOL-12.md",
-    "1. Fleeting notes/Statnice/KOP/NI-SPOL-11.md",
-    "1. Fleeting notes/Statnice/MPI/NI-SPOL-1.md",
-    "2. Reference notes/SWE - Semantic Web/Linked Data 5 star criteria.md",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608170618.png",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608161059.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607193636.png",
