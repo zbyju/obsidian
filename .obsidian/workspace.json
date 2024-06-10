@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+                "file": "1. Fleeting notes/Statnice/MPI/NI-SPOL-1.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -66,7 +67,7 @@
             }
           },
           {
-            "id": "130002797cc952bb",
+            "id": "143c2f658e1162c6",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -79,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 381.5
   },
   "right": {
     "id": "02d4d7df7b268f89",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+                "file": "1. Fleeting notes/Statnice/MPI/NI-SPOL-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+                "file": "1. Fleeting notes/Statnice/MPI/NI-SPOL-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md"
+                "file": "1. Fleeting notes/Statnice/MPI/NI-SPOL-1.md"
               }
             }
           }
@@ -158,20 +159,34 @@
   },
   "active": "743425871e198caa",
   "lastOpenFiles": [
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-8.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
-    "1. Fleeting notes/Statnice/VMM/NI-WI-18.md",
-    "1. Fleeting notes/Statnice/DDW/NI-DDW-2.md",
-    "1. Fleeting notes/Statnice/DDW/NI-DDW-1.md",
-    "1. Fleeting notes/Statnice/MPI/NI-SPOL-3.md",
-    "1. Fleeting notes/Statnice/MPI/NI-SPOL-4.md",
+    "2. Reference notes/SWE - Semantic Web/Linked Data 5 star criteria.md",
+    "2. Reference notes/SWE - Semantic Web/Linked Data.md",
+    "2. Reference notes/SWE - Semantic Web/RDFa.md",
+    "2. Reference notes/SWE - Semantic Web/RDFXML format.md",
+    "2. Reference notes/SWE - Semantic Web/Turtle format.md",
+    "2. Reference notes/SWE - Semantic Web/Scope of Semantic Web.md",
+    "2. Reference notes/SWE - Semantic Web/_SWE Reference.md",
+    "2. Reference notes/SWE - Semantic Web/Accessing Linked Data.md",
+    "2. Reference notes/SWE - Semantic Web/RDF.md",
+    "2. Reference notes/SWE - Semantic Web/RDF Blank Node.md",
+    "2. Reference notes/SWE - Semantic Web/OWL Elements.md",
+    "2. Reference notes/SWE - Semantic Web/OWL.md",
+    "2. Reference notes/SWE - Semantic Web/RDFS Elements.md",
+    "2. Reference notes/SWE - Semantic Web/RDF Schema.md",
+    "2. Reference notes/PDB - Advanced Databases/NoSQL.md",
+    "2. Reference notes/PDB - Advanced Databases/CAP Theorem.md",
+    "2. Reference notes/PDB - Advanced Databases/BASE.md",
+    "2. Reference notes/PDB - Advanced Databases/ACID.md",
+    "2. Reference notes/PDB - Advanced Databases/Cluster table.md",
+    "2. Reference notes/PDB - Advanced Databases/Database Index.md",
+    "2. Reference notes/PDB - Advanced Databases/Data Block in Databases.md",
+    "2. Reference notes/PDB - Advanced Databases/B+ Trees in Databases.md",
+    "2. Reference notes/PDB - Advanced Databases/Heap table with index.md",
+    "2. Reference notes/PDB - Advanced Databases/Heap table.md",
+    "2. Reference notes/PDB - Advanced Databases/Access Methods in Databases.md",
+    "2. Reference notes/PDB - Advanced Databases/RDBMS Data Structures.md",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608170618.png",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608161059.png",
-    "1. Fleeting notes/Statnice/MPI/NI-SPOL-2.md",
-    "1. Fleeting notes/Statnice/MPI/NI-SPOL-1.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-7.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607193636.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607191227.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607162725.png",
@@ -180,22 +195,8 @@
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233733.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233615.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233506.png",
-    "1. Fleeting notes/Statnice/VMM/NI-WI-17.md",
-    "1. Fleeting notes/Statnice/AM1/NI-WI-4.md",
     "1. Fleeting notes/Statnice/VSM",
-    "1. Fleeting notes/Statnice/Untitled.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-18.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-19.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-20.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-16.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-17.md",
-    "1. Fleeting notes/Statnice/VMM/NI-WI-16.md",
     "1. Fleeting notes/Statnice/PDP",
-    "1. Fleeting notes/Statnice/KOP/NI-SPOL-14.md",
-    "1. Fleeting notes/Statnice/KOP/NI-SPOL-15.md",
-    "1. Fleeting notes/Statnice/KOP/NI-SPOL-13.md",
-    "1. Fleeting notes/Statnice/KOP/NI-SPOL-12.md",
-    "1. Fleeting notes/Statnice/KOP/NI-SPOL-11.md",
     "1. Fleeting notes/Statnice/KOP/Untitled",
     "Images",
     "1. Fleeting notes/Statnice/VMM"
