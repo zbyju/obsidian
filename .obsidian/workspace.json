@@ -1,32 +1,19 @@
 {
   "main": {
-    "id": "7b83019c4c4dd464",
+    "id": "8a872eed02b2e6bb",
     "type": "split",
     "children": [
       {
-        "id": "1229d9a9084fdf89",
+        "id": "f5e53ed2bbbc6964",
         "type": "tabs",
         "children": [
           {
-            "id": "743425871e198caa",
+            "id": "a1cd871c3a61d518",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "762959de63da4015",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3ff9f1ad679c3b80",
+    "id": "dd595bdfc4716b56",
     "type": "split",
     "children": [
       {
-        "id": "a8f53455ad3a3807",
+        "id": "7a9d5cbb8caf3175",
         "type": "tabs",
         "children": [
           {
-            "id": "c87b596bff0dcb01",
+            "id": "1de94bcb32c41019",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,7 +43,7 @@
             }
           },
           {
-            "id": "d0e00707585dc529",
+            "id": "c9ecf9dced40d4d0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,39 +58,37 @@
             }
           },
           {
-            "id": "0f634872d2fcddf4",
+            "id": "3fdce0ff2a2ce1f0",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
+              "type": "starred",
               "state": {}
             }
           },
           {
-            "id": "f8bf884d14cb9895",
+            "id": "ee8d3787c35ed042",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "com.maxymillion.zen",
-              "state": {},
-              "pinned": true
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 239.5
   },
   "right": {
-    "id": "02d4d7df7b268f89",
+    "id": "ba532e4d268ad11e",
     "type": "split",
     "children": [
       {
-        "id": "798848a877cd78a5",
+        "id": "708fa81c362252b3",
         "type": "tabs",
         "children": [
           {
-            "id": "704adff8bd398b57",
+            "id": "d861c3ac09d4fd73",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -120,7 +105,7 @@
             }
           },
           {
-            "id": "678514c8d74ce85e",
+            "id": "e858ac17ea74b932",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -132,7 +117,7 @@
             }
           },
           {
-            "id": "a8fcee05a1a082f1",
+            "id": "a1035ec69126477b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,7 +128,7 @@
             }
           },
           {
-            "id": "2ee58a356efa9566",
+            "id": "b42aecae49dd333f",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -151,13 +136,24 @@
                 "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md"
               }
             }
+          },
+          {
+            "id": "65ffb0c94043814c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 260.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,51 +162,59 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "743425871e198caa",
+  "active": "a1cd871c3a61d518",
   "lastOpenFiles": [
+    "2. Reference notes/SWE - Semantic Web/Web Annotations.md",
+    "2. Reference notes/SWE - Semantic Web/SPARQL Query Language.md",
+    "2. Reference notes/SWE - Semantic Web/SPARQL.md",
+    "2. Reference notes/SWE - Semantic Web/RDF Formats.md",
+    "2. Reference notes/SWE - Semantic Web/RDF.md",
+    "2. Reference notes/SWE - Semantic Web/Open World Assumption.md",
+    "2. Reference notes/SWE - Semantic Web/OWL.md",
+    "2. Reference notes/SWE - Semantic Web/Linked Data - Links to Other URIs.md",
+    "2. Reference notes/SWE - Semantic Web/Linked Data - HTTP URIs.md",
+    "2. Reference notes/SWE - Semantic Web/Linked Data.md",
+    "1. Fleeting notes/Statnice/AM2/NI-WI-19.md",
+    "obsidian",
+    "Pasted image 20240529000451.png",
+    "Pasted image 20240528234825.png",
+    "Pasted image 20240528231119.png",
+    "Pasted image 20240525233915.png",
+    "Pasted image 20240525230444.png",
+    "Pasted image 20240525225714.png",
+    "Pasted image 20240525225333.png",
+    "Pasted image 20240525225021.png",
+    "Pasted image 20240525215551.png",
+    "Pasted image 20240525205415.png",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-8.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-7.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
-    "1. Fleeting notes/Statnice/AM2/NI-WI-21.md",
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+    "1. Fleeting notes/Statnice/VMM/NI-WI-18.md",
+    "1. Fleeting notes/Statnice/VMM/NI-WI-17.md",
     "1. Fleeting notes/Statnice/VMM/NI-WI-16.md",
-    "1. Fleeting notes/Statnice/AM2/NI-WI-20.md",
-    "1. Fleeting notes/Statnice/AM2/NI-WI-19.md",
-    "1. Fleeting notes/Statnice/AM1/NI-WI-6.md",
-    "1. Fleeting notes/Statnice/AM1/NI-WI-5.md",
-    "1. Fleeting notes/Statnice/AM1/NI-WI-4.md",
-    "1. Fleeting notes/Statnice/DDW/NI-DDW-3.md",
-    "1. Fleeting notes/Statnice/DDW/NI-DDW-2.md",
-    "1. Fleeting notes/Statnice/DDW/NI-DDW-1.md",
-    "2. Reference notes/SWE - Semantic Web/Linked Data - HTTP URIs.md",
-    "2. Reference notes/SWE - Semantic Web/Linked Data.md",
-    "2. Reference notes/SWE - Semantic Web/JSON-LD Format.md",
-    "2. Reference notes/SWE - Semantic Web/ShEx.md",
-    "2. Reference notes/SWE - Semantic Web/SHACL.md",
-    "2. Reference notes/SWE - Semantic Web/SHACL vs ShEx.md",
-    "2. Reference notes/SWE - Semantic Web/Microdata.md",
-    "2. Reference notes/SWE - Semantic Web/Microformat.md",
-    "2. Reference notes/SWE - Semantic Web/Microformats vs Microdata.md",
-    "2. Reference notes/SWE - Semantic Web/N-Quads Format.md",
-    "2. Reference notes/SWE - Semantic Web/RDFa.md",
-    "1. Fleeting notes/Statnice/MPI/Pasted image 20240608170618.png",
-    "1. Fleeting notes/Statnice/MPI/Pasted image 20240608161059.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240607193636.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240607191227.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240607162725.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240607154022.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606235331.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233733.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233615.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233506.png",
-    "1. Fleeting notes/Statnice/VSM",
-    "1. Fleeting notes/Statnice/PDP",
-    "1. Fleeting notes/Statnice/KOP/Untitled",
-    "Images",
-    "1. Fleeting notes/Statnice/VMM"
+    "1. Fleeting notes/Statnice/VCC/NI-WI-9.md",
+    "1. Fleeting notes/Statnice/VCC/NI-WI-8.md",
+    "1. Fleeting notes/Statnice/VCC/NI-WI-7.md",
+    "1. Fleeting notes/Statnice/PDP/NI-SPOL-20.md",
+    "1. Fleeting notes/Statnice/PDP/NI-SPOL-19.md",
+    "1. Fleeting notes/Statnice/PDP/NI-SPOL-18.md",
+    "1. Fleeting notes/Statnice/PDP/NI-SPOL-17.md",
+    "1. Fleeting notes/Statnice/DDW/Untitled",
+    "Ink/Writing/2024.4.11 - 13.38pm.writing",
+    "Ink/Writing",
+    "Ink",
+    "1. Fleeting notes/Statnice/MPI/Untitled.canvas",
+    "1. Fleeting notes/Statnice/VMM",
+    "1. Fleeting notes/Statnice/SWE",
+    "1. Fleeting notes/Statnice/PDB",
+    "1. Fleeting notes/Statnice/VCC",
+    "1. Fleeting notes/Statnice/AM2",
+    "Untitled.canvas"
   ]
 }
