@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+                "file": "1. Fleeting notes/Git/Git.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -79,7 +79,7 @@
             }
           },
           {
-            "id": "f8bf884d14cb9895",
+            "id": "8cfce0d6dbd4b8a2",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+                "file": "1. Fleeting notes/Git/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+                "file": "1. Fleeting notes/Git/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md"
+                "file": "1. Fleeting notes/Git/Git.md"
               }
             }
           }
@@ -171,8 +171,9 @@
   },
   "active": "743425871e198caa",
   "lastOpenFiles": [
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+    "1. Fleeting notes/Git/Git.md",
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-8.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-7.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
@@ -196,7 +197,6 @@
     "2. Reference notes/SWE - Semantic Web/Microformat.md",
     "2. Reference notes/SWE - Semantic Web/Microformats vs Microdata.md",
     "2. Reference notes/SWE - Semantic Web/N-Quads Format.md",
-    "2. Reference notes/SWE - Semantic Web/RDFa.md",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608170618.png",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608161059.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607193636.png",
