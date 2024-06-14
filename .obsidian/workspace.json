@@ -21,6 +21,14 @@
             }
           },
           {
+            "id": "94cc3e76242c8462",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
             "id": "762959de63da4015",
             "type": "leaf",
             "state": {
@@ -32,7 +40,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +88,7 @@
             }
           },
           {
-            "id": "8cfce0d6dbd4b8a2",
+            "id": "da1c1cc3be6f2c0d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -108,7 +117,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Git/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +133,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Git/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +154,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. Fleeting notes/Git/Git.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -169,10 +174,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "743425871e198caa",
+  "active": "94cc3e76242c8462",
   "lastOpenFiles": [
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+    "conflict-files-obsidian-git.md",
+    "3. Complex notes/Computer Networks/TCP-IP Model.md",
+    "run-target-syntax.svg",
+    "3. Complex notes/Computer Networks",
+    "tech_debt01.png",
+    "Untitled.md",
+    "Untitled.canvas",
     "1. Fleeting notes/Git/Git.md",
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-8.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-7.md",
@@ -193,10 +205,6 @@
     "2. Reference notes/SWE - Semantic Web/ShEx.md",
     "2. Reference notes/SWE - Semantic Web/SHACL.md",
     "2. Reference notes/SWE - Semantic Web/SHACL vs ShEx.md",
-    "2. Reference notes/SWE - Semantic Web/Microdata.md",
-    "2. Reference notes/SWE - Semantic Web/Microformat.md",
-    "2. Reference notes/SWE - Semantic Web/Microformats vs Microdata.md",
-    "2. Reference notes/SWE - Semantic Web/N-Quads Format.md",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608170618.png",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608161059.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607193636.png",
@@ -205,8 +213,6 @@
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607154022.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240606235331.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233733.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233615.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233506.png",
     "1. Fleeting notes/Statnice/VSM",
     "1. Fleeting notes/Statnice/PDP",
     "1. Fleeting notes/Statnice/KOP/Untitled",
