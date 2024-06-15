@@ -11,7 +11,7 @@
             "id": "cb48638aadbb1c18",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -62,7 +62,7 @@
             }
           },
           {
-            "id": "da1c1cc3be6f2c0d",
+            "id": "8827ce55fdb215a3",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -150,6 +150,10 @@
   },
   "active": "cb48638aadbb1c18",
   "lastOpenFiles": [
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/Internet Protocol.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/Internet.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/_Computer_Networks_REF.md",
+    "1. Fleeting notes/SYP/CFG - Context free grammar.md",
     "Pasted image 20231119212950.png",
     "2. Reference notes/FIL - Philosophy/Aesthetics.md",
     "2. Reference notes/Red Book/Referential Transparency.md",
@@ -177,9 +181,6 @@
     "3. Permanent notes/Computer Science/Theoretical/Formal Languages/_Formal_Language_REF.md",
     "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/TCP-IP Model.md",
     "1. Fleeting notes/SYP/Parsing.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
-    "1. Fleeting notes/Git/Git.md",
-    "2. Reference notes/ADP - Architecture and Design Patterns/Abstract Factory Pattern.md",
     "3. Permanent notes/Computer Science/Theoretical/Formal Languages",
     "3. Permanent notes/Computer Science/Programming Languages/Go",
     "3. Permanent notes/Computer Science/Programming Languages",
@@ -196,7 +197,6 @@
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607191227.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607162725.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607154022.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606235331.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233733.png"
+    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606235331.png"
   ]
 }

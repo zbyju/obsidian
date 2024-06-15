@@ -48,6 +48,13 @@
         "a": 1,
         "rgb": 4251856
       }
+    },
+    {
+      "query": "path:\"3. Permanent notes/Computer Science/Software Engineering\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 18347
+      }
     }
   ],
   "collapse-display": true,
@@ -61,5 +68,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.29629629629629606,
-  "close": true
+  "close": false
 }
