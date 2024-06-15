@@ -4,44 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1229d9a9084fdf89",
+        "id": "474af69ef2618591",
         "type": "tabs",
         "children": [
           {
-            "id": "743425871e198caa",
+            "id": "cb48638aadbb1c18",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Fleeting notes/Git/Git.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94cc3e76242c8462",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "762959de63da4015",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,37 +148,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94cc3e76242c8462",
+  "active": "cb48638aadbb1c18",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "3. Complex notes/Computer Networks/TCP-IP Model.md",
-    "run-target-syntax.svg",
-    "3. Complex notes/Computer Networks",
-    "tech_debt01.png",
-    "Untitled.md",
-    "Untitled.canvas",
-    "1. Fleeting notes/Git/Git.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+    "Pasted image 20231119212950.png",
+    "2. Reference notes/FIL - Philosophy/Aesthetics.md",
+    "2. Reference notes/Red Book/Referential Transparency.md",
+    "3. Permanent notes/Computer Science/Machine Learning",
+    "3. Permanent notes/Computer Science/Untitled.canvas",
+    "3. Permanent notes/Computer Science/Software Engineering",
+    "3. Permanent notes/Computer Science/Theoretical",
+    "Zettelkasten/Colors.md",
+    "1. Fleeting notes/SYP/Top-down parsing.md",
+    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/LL Parser.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/HTTP3.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/HTTP2.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/HTTP1.1.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/HTTPS.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/HTTP.md",
+    "1. Fleeting notes/SYP/Attributed translations.md",
+    "3. Permanent notes/Computer Science/Formal Languages/Attributed Grammar.md",
+    "1. Fleeting notes/SYP/Extending LR parsers by computing synthesized attributes.md",
+    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/Top-Down Parsing.md",
+    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/Parsing.md",
+    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/Parser Classes.md",
+    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/LR Parsing.md",
+    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/Bottom-Up Parsing.md",
+    "1. Fleeting notes/SYP/Bottom-up parsing.md",
+    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/_Formal_Language_REF.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/TCP-IP Model.md",
+    "1. Fleeting notes/SYP/Parsing.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-8.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-7.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
-    "1. Fleeting notes/Statnice/AM2/NI-WI-21.md",
-    "1. Fleeting notes/Statnice/VMM/NI-WI-16.md",
-    "1. Fleeting notes/Statnice/AM2/NI-WI-20.md",
-    "1. Fleeting notes/Statnice/AM2/NI-WI-19.md",
-    "1. Fleeting notes/Statnice/AM1/NI-WI-6.md",
-    "1. Fleeting notes/Statnice/AM1/NI-WI-5.md",
-    "1. Fleeting notes/Statnice/AM1/NI-WI-4.md",
-    "1. Fleeting notes/Statnice/DDW/NI-DDW-3.md",
-    "1. Fleeting notes/Statnice/DDW/NI-DDW-2.md",
-    "1. Fleeting notes/Statnice/DDW/NI-DDW-1.md",
-    "2. Reference notes/SWE - Semantic Web/Linked Data - HTTP URIs.md",
-    "2. Reference notes/SWE - Semantic Web/Linked Data.md",
-    "2. Reference notes/SWE - Semantic Web/JSON-LD Format.md",
-    "2. Reference notes/SWE - Semantic Web/ShEx.md",
-    "2. Reference notes/SWE - Semantic Web/SHACL.md",
-    "2. Reference notes/SWE - Semantic Web/SHACL vs ShEx.md",
+    "1. Fleeting notes/Git/Git.md",
+    "2. Reference notes/ADP - Architecture and Design Patterns/Abstract Factory Pattern.md",
+    "3. Permanent notes/Computer Science/Theoretical/Formal Languages",
+    "3. Permanent notes/Computer Science/Programming Languages/Go",
+    "3. Permanent notes/Computer Science/Programming Languages",
+    "3. Permanent notes/Computer Science/Web Development",
+    "3. Permanent notes/Computer Science/Theoretical/Data Structures",
+    "3. Permanent notes/Computer Science",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks",
+    "run-target-syntax.svg",
+    "tech_debt01.png",
+    "Untitled.canvas",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608170618.png",
     "1. Fleeting notes/Statnice/MPI/Pasted image 20240608161059.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607193636.png",
@@ -212,11 +197,6 @@
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607162725.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240607154022.png",
     "1. Fleeting notes/Statnice/VSM/Pasted image 20240606235331.png",
-    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233733.png",
-    "1. Fleeting notes/Statnice/VSM",
-    "1. Fleeting notes/Statnice/PDP",
-    "1. Fleeting notes/Statnice/KOP/Untitled",
-    "Images",
-    "1. Fleeting notes/Statnice/VMM"
+    "1. Fleeting notes/Statnice/VSM/Pasted image 20240606233733.png"
   ]
 }

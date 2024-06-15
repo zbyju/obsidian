@@ -4,9 +4,52 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"2. Reference notes/FIL - Philosophy\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8388736
+      }
+    },
+    {
+      "query": "path:\"2. Reference notes/PDB - Advanced Databases\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 32896
+      }
+    },
+    {
+      "query": "path:\"2. Reference notes/ADP - Architecture and Design Patterns\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 18347
+      }
+    },
+    {
+      "query": "path:\"2. Reference notes/SWE - Semantic Web\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 139
+      }
+    },
+    {
+      "query": "path:\"2. Reference notes/Red Book\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4251856
+      }
+    },
+    {
+      "query": "path:\"3. Permanent notes/Computer Science/Theoretical\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4251856
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.19753086419753074,
-  "close": false
+  "scale": 0.29629629629629606,
+  "close": true
 }
