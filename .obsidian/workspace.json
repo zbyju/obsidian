@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "8827ce55fdb215a3",
+            "id": "6f87fe5aafae57fa",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 381.5,
+    "collapsed": true
   },
   "right": {
     "id": "02d4d7df7b268f89",
