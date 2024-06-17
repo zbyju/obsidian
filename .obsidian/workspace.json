@@ -11,8 +11,12 @@
             "id": "cb48638aadbb1c18",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/RTSP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -91,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/RTSP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/RTSP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/RTSP.md"
+              }
             }
           }
         ]
@@ -150,6 +158,14 @@
   },
   "active": "cb48638aadbb1c18",
   "lastOpenFiles": [
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/RCS.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/RTSP.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/AMQP.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/MQTT.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/IRC.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/Server Sent Events.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/WebSocket.md",
+    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/QUIC.md",
     "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/Internet Protocol.md",
     "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/Internet.md",
     "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/_Computer_Networks_REF.md",
@@ -173,14 +189,6 @@
     "3. Permanent notes/Computer Science/Formal Languages/Attributed Grammar.md",
     "1. Fleeting notes/SYP/Extending LR parsers by computing synthesized attributes.md",
     "3. Permanent notes/Computer Science/Theoretical/Formal Languages/Top-Down Parsing.md",
-    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/Parsing.md",
-    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/Parser Classes.md",
-    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/LR Parsing.md",
-    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/Bottom-Up Parsing.md",
-    "1. Fleeting notes/SYP/Bottom-up parsing.md",
-    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/_Formal_Language_REF.md",
-    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks/TCP-IP Model.md",
-    "1. Fleeting notes/SYP/Parsing.md",
     "3. Permanent notes/Computer Science/Theoretical/Formal Languages",
     "3. Permanent notes/Computer Science/Programming Languages/Go",
     "3. Permanent notes/Computer Science/Programming Languages",
