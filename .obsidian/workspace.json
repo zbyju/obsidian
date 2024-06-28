@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
+                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md"
+                "file": "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md"
               }
             }
           },
@@ -168,6 +168,23 @@
   },
   "active": "a1cd871c3a61d518",
   "lastOpenFiles": [
+    "1. Fleeting notes/Statnice/MPI/NI-SPOL-4.md",
+    "1. Fleeting notes/Statnice/MPI/NI-SPOL-3.md",
+    "1. Fleeting notes/Statnice/MPI/NI-SPOL-2.md",
+    "1. Fleeting notes/Statnice/MPI/NI-SPOL-1.md",
+    "1. Fleeting notes/Statnice/DDW/NI-DDW-3.md",
+    "1. Fleeting notes/Statnice/DDW/NI-DDW-2.md",
+    "1. Fleeting notes/Statnice/DDW/NI-DDW-1.md",
+    "1. Fleeting notes/Statnice/AM2/NI-WI-21.md",
+    "1. Fleeting notes/Statnice/AM2/NI-WI-20.md",
+    "1. Fleeting notes/Statnice/AM2/NI-WI-19.md",
+    "1. Fleeting notes/Statnice/AM1/NI-WI-5.md",
+    "1. Fleeting notes/Statnice/AM1/NI-WI-6.md",
+    "1. Fleeting notes/Statnice/AM1/NI-WI-4.md",
+    "1. Fleeting notes/Statnice/VMM/NI-WI-18.md",
+    "1. Fleeting notes/Statnice/VMM/NI-WI-16.md",
+    "1. Fleeting notes/Statnice/VMM/NI-WI-17.md",
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
     "2. Reference notes/SWE - Semantic Web/Web Annotations.md",
     "2. Reference notes/SWE - Semantic Web/SPARQL Query Language.md",
     "2. Reference notes/SWE - Semantic Web/SPARQL.md",
@@ -177,8 +194,6 @@
     "2. Reference notes/SWE - Semantic Web/OWL.md",
     "2. Reference notes/SWE - Semantic Web/Linked Data - Links to Other URIs.md",
     "2. Reference notes/SWE - Semantic Web/Linked Data - HTTP URIs.md",
-    "2. Reference notes/SWE - Semantic Web/Linked Data.md",
-    "1. Fleeting notes/Statnice/AM2/NI-WI-19.md",
     "obsidian",
     "Pasted image 20240529000451.png",
     "Pasted image 20240528234825.png",
@@ -190,21 +205,6 @@
     "Pasted image 20240525225021.png",
     "Pasted image 20240525215551.png",
     "Pasted image 20240525205415.png",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-9.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-8.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-7.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-10.md",
-    "1. Fleeting notes/Statnice/VMM/NI-WI-18.md",
-    "1. Fleeting notes/Statnice/VMM/NI-WI-17.md",
-    "1. Fleeting notes/Statnice/VMM/NI-WI-16.md",
-    "1. Fleeting notes/Statnice/VCC/NI-WI-9.md",
-    "1. Fleeting notes/Statnice/VCC/NI-WI-8.md",
-    "1. Fleeting notes/Statnice/VCC/NI-WI-7.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-20.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-19.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-18.md",
-    "1. Fleeting notes/Statnice/PDP/NI-SPOL-17.md",
     "1. Fleeting notes/Statnice/DDW/Untitled",
     "Ink/Writing/2024.4.11 - 13.38pm.writing",
     "Ink/Writing",
