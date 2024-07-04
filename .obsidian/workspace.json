@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/HackerNews/Understanding react compiler.md",
+                "file": "1. Fleeting notes/React.dev/Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "5b6ca9dc92997bf9",
+            "id": "e1b5fcd2c53f2261",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/HackerNews/Understanding react compiler.md",
+                "file": "1. Fleeting notes/React.dev/Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/HackerNews/Understanding react compiler.md",
+                "file": "1. Fleeting notes/React.dev/Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/HackerNews/Understanding react compiler.md"
+                "file": "1. Fleeting notes/React.dev/Basics.md"
               }
             }
           },
@@ -177,8 +177,11 @@
   },
   "active": "a1cd871c3a61d518",
   "lastOpenFiles": [
-    "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
+    "2. Reference notes/SWE - Semantic Web/Advanced SHACL.md",
+    "1. Fleeting notes/React.dev/Basics.md",
     "1. Fleeting notes/HackerNews/Understanding react compiler.md",
+    "1. Fleeting notes/React.dev",
+    "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
     "1. Fleeting notes/HackerNews",
     "4. Complex notes/Databases/What statistics does SQL database use.md",
     "4. Complex notes/Databases/What are Access Paths.md",
@@ -204,8 +207,6 @@
     "4. Complex notes/Databases/B-tree index vs bitmap index.md",
     "4. Complex notes/Databases",
     "4. Complex notes",
-    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/_Formal_Language_REF.md",
-    "3. Permanent notes/Computer Science/Theoretical/Formal Languages/Top-Down Parsing.md",
     "3. Permanent notes/Computer Science/Theoretical/Formal Languages",
     "3. Permanent notes/Computer Science/Software Engineering/Computer Networks",
     "3. Permanent notes/Computer Science/Theoretical",
@@ -213,7 +214,6 @@
     "3. Permanent notes/Computer Science",
     "3. Permanent notes",
     "Untitled.canvas",
-    "3. Complex notes/Databases",
     "Pasted image 20240529000451.png",
     "Pasted image 20240528234825.png",
     "Pasted image 20240528231119.png",
