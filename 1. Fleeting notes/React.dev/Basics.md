@@ -124,4 +124,44 @@ return (
 
 If we want to return nothing then we return `null`.
 
+### Rendering lists
+1. Define a list as an array
+2. Map the array into a JSX
+```jsx
+const jsx = list.map(item => (<li>{item}</li>))
+```
+3. Output the result:
+```jsx
+return (
+	<ul>{jsx}</ul>
+)
+```
+4. Define the key of the item
+#### Filter lists
+We can additionally filter lists using `filter` method.
+#### Key
+It tells react which component corresponds to each item in the array. When the array is modified react can then track which items are where in the DOM.
 
+Rules:
+- They must be unique among siblings
+- They must not change
+
+Where to get them:
+- ID from a database
+- Locally generated (eg. using UUID); these must be persistent over re-renders.
+### Pure functions
+- It doesn't effect anything outside its scope.
+- It gives the same output for the same inputs.
+
+We should strive for having our components pure - they should take props and based on them produce the same JSX each time without effecting other components.
+
+## Render Tree
+The application and its components are represented as a tree with a single root. There is a root component which renders other components which form a tree.
+
+A render tree represents a single render pass; due to data changing and conditional rendering, the render tree might change over time.
+
+They are important for performance optimizations. Top-level components are closer to the root and cause re-rendering in child components, which cause performance issues. Leaf components are near the bottom and are often re-rendered due to their parents being re-rendered.
+### Dependency trees
+They represent the relations between modules (imports). They allow build tools to bundle only necessary parts of the code and for debugging.
+
+They are often similar to render trees.
