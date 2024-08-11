@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Thinking in Bets.md",
+                "file": "1. Fleeting notes/Let'sog/Let's Go.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "29519fe4440db628",
+            "id": "13dcd0a145dc6d8d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Thinking in Bets.md",
+                "file": "1. Fleeting notes/Let'sog/Let's Go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Thinking in Bets.md",
+                "file": "1. Fleeting notes/Let'sog/Let's Go.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Thinking in Bets.md"
+                "file": "1. Fleeting notes/Let'sog/Let's Go.md"
               }
             }
           },
@@ -176,16 +176,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a1cd871c3a61d518",
+  "active": "1de94bcb32c41019",
   "lastOpenFiles": [
+    "1. Fleeting notes/Prazdniny/RabbitMQ",
+    "1. Fleeting notes/Prazdniny/Kafka",
+    "1. Fleeting notes/Prazdniny/Git",
+    "1. Fleeting notes/Prazdniny/Testing",
+    "1. Fleeting notes/Prazdniny/Node.js",
+    "1. Fleeting notes/Prazdniny/Compression",
+    "1. Fleeting notes/Prazdniny/Internet Protocols",
+    "1. Fleeting notes/Prazdniny/Next.js",
+    "1. Fleeting notes/Prazdniny/TypeScript",
+    "1. Fleeting notes/Prazdniny/Untitled.md",
+    "1. Fleeting notes/Let'sog/Let's Go.md",
+    "1. Fleeting notes/Prazdniny/JavaScript",
+    "1. Fleeting notes/Prazdniny/React",
+    "1. Fleeting notes/HackerNews/Understanding react compiler.md",
+    "1. Fleeting notes/TUM_ENT/Lecture 2.md",
+    "1. Fleeting notes/Thinking in Bets.md",
     "1. Fleeting notes/TimescaleDB.md",
-    "1. Fleeting notes/React.dev/Basics.md",
+    "1. Fleeting notes/React/Basics.md",
     "1. Fleeting notes/To mention in thesis.md",
     "2. Reference notes/SWE - Semantic Web/Advanced SHACL.md",
-    "1. Fleeting notes/HackerNews/Understanding react compiler.md",
-    "1. Fleeting notes/React.dev",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
-    "1. Fleeting notes/HackerNews",
     "4. Complex notes/Databases/What statistics does SQL database use.md",
     "4. Complex notes/Databases/What are Access Paths.md",
     "4. Complex notes/Databases/What is the strategy for creating an execution plan.md",
@@ -201,19 +214,6 @@
     "4. Complex notes/Databases/Language XQuery.md",
     "4. Complex notes/Databases/Language MongoDB.md",
     "4. Complex notes/Databases/Heap table vs index-organized table vs cluster.md",
-    "4. Complex notes/Databases/Language Cypher.md",
-    "4. Complex notes/Databases/How does processing a query look like.md",
-    "4. Complex notes/Databases/EvitaDB.md",
-    "4. Complex notes/Databases/Database models.md",
-    "4. Complex notes/Databases/Cost-based optimization.md",
-    "4. Complex notes/Databases",
-    "4. Complex notes",
-    "3. Permanent notes/Computer Science/Theoretical/Formal Languages",
-    "3. Permanent notes/Computer Science/Software Engineering/Computer Networks",
-    "3. Permanent notes/Computer Science/Theoretical",
-    "3. Permanent notes/Computer Science/Software Engineering",
-    "3. Permanent notes/Computer Science",
-    "3. Permanent notes",
     "Untitled.canvas",
     "Pasted image 20240529000451.png",
     "Pasted image 20240528234825.png",
