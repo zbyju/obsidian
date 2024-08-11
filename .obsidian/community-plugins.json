@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "zen"
+  "zen",
+  "obsidian-excalidraw-plugin",
+  "ink",
+  "slash-commander"
 ]

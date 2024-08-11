@@ -1,8 +1,8 @@
 {
   "accentColor": "",
-  "cssTheme": "Sanctum",
-  "interfaceFontFamily": "RobotoMono Nerd Font Mono",
-  "textFontFamily": "RobotoMono Nerd Font Mono",
-  "monospaceFontFamily": "RobotoMono Nerd Font Mono",
+  "cssTheme": "Blue Topaz",
+  "interfaceFontFamily": "DejaVuSansM Nerd Font Mono,NotoMono Nerd Font,RobotoMono Nerd Font Mono",
+  "textFontFamily": "DejaVuSansM Nerd Font Mono,Cascadia Mono,RobotoMono Nerd Font Mono",
+  "monospaceFontFamily": "RobotoMono Nerd Font Mono,DejaVuSansM Nerd Font Mono",
   "baseFontSizeAction": false
 }
