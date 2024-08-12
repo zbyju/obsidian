@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Let'sog/Let's Go.md",
+                "file": "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "13dcd0a145dc6d8d",
+            "id": "6a22389d4f722ca1",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Let'sog/Let's Go.md",
+                "file": "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Let'sog/Let's Go.md",
+                "file": "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Let'sog/Let's Go.md"
+                "file": "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md"
               }
             }
           },
@@ -176,8 +176,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1de94bcb32c41019",
+  "active": "a1cd871c3a61d518",
   "lastOpenFiles": [
+    "RegulationsEffect/Barcelona Rent/Pasted image 20240812104248.png",
+    "RegulationsEffect/Barcelona Rent/Pasted image 20240812104215.png",
+    "RegulationsEffect/Barcelona Rent/Pasted image 20240812104155.png",
+    "RegulationsEffect/Barcelona Rent/Pasted image 20240812104139.png",
+    "RegulationsEffect/Barcelona Rent/Pasted image 20240812104135.png",
+    "RegulationsEffect/Barcelona Rent/Pasted image 20240812104055.png",
+    "1. Fleeting notes/Let'sog/Let's Go.md",
+    "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
+    "RegulationsEffect/Barcelona Rent",
+    "RegulationsEffect",
     "1. Fleeting notes/Prazdniny/RabbitMQ",
     "1. Fleeting notes/Prazdniny/Kafka",
     "1. Fleeting notes/Prazdniny/Git",
@@ -186,11 +196,7 @@
     "1. Fleeting notes/Prazdniny/Compression",
     "1. Fleeting notes/Prazdniny/Internet Protocols",
     "1. Fleeting notes/Prazdniny/Next.js",
-    "1. Fleeting notes/Prazdniny/TypeScript",
     "1. Fleeting notes/Prazdniny/Untitled.md",
-    "1. Fleeting notes/Let'sog/Let's Go.md",
-    "1. Fleeting notes/Prazdniny/JavaScript",
-    "1. Fleeting notes/Prazdniny/React",
     "1. Fleeting notes/HackerNews/Understanding react compiler.md",
     "1. Fleeting notes/TUM_ENT/Lecture 2.md",
     "1. Fleeting notes/Thinking in Bets.md",
@@ -213,18 +219,12 @@
     "4. Complex notes/Databases/Methods of evaluating JOIN.md",
     "4. Complex notes/Databases/Language XQuery.md",
     "4. Complex notes/Databases/Language MongoDB.md",
-    "4. Complex notes/Databases/Heap table vs index-organized table vs cluster.md",
     "Untitled.canvas",
     "Pasted image 20240529000451.png",
     "Pasted image 20240528234825.png",
     "Pasted image 20240528231119.png",
     "Pasted image 20240525233915.png",
     "Pasted image 20240525230444.png",
-    "Pasted image 20240525225714.png",
-    "Pasted image 20240525225333.png",
-    "Pasted image 20240525225021.png",
-    "Pasted image 20240525215551.png",
-    "Pasted image 20240525205415.png",
     "1. Fleeting notes/Statnice/MPI/Untitled.canvas"
   ]
 }
