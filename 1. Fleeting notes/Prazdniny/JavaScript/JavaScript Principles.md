@@ -32,3 +32,12 @@ When defining functions we want to make them as general as possible to make them
 	- values
 	- functions
 		- = higher order function
+
+In javascript functions are first class citizens/objects - they are treated as any other type of value
+
+Higher order function = takes in a function (or returns a function)
+Callback function = the function that is passed as an argument to a function (to a higher order function)
+
+Arrow function = shorthand for saving a function to a variable
+
+Closure
