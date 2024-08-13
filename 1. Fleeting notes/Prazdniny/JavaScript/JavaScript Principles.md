@@ -1,0 +1,34 @@
+Thread of execution = exectutes code line by line
+Saves data (variables) to memory
+- identifier (name of the variable)
+- value
+	- primitive value
+	- for a function it means storing the body of the function
+	- if i wanna store function call then we
+		- first store it as uninitialized
+		- then compute the function and store the value
+- more information
+	- const/let
+
+Execution context = it is created to run a code of a function:
+- thread of execution
+- memory
+There is a "global" execution context and then with each function call there is a new "local" execution context created.
+
+Functions take in values - the identifier is called parameter, the value of the parameter is called argument.
+
+
+There is always just one thread of execution "active" => we can't do more than 1 thing at a time
+
+
+Call stack = keeps track of what function is currently running
+Each function call adds a new entry to the call stack
+Each return from a function pops the latest entry from the call stack
+The topmost entry in the call stack is the function that is currently executing
+The bottommost entry is the "global"/"main" function
+
+When defining functions we want to make them as general as possible to make them reusable.
+- Pass data through arguments to the function
+	- values
+	- functions
+		- = higher order function

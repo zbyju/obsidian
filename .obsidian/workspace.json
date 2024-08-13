@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "6a22389d4f722ca1",
+            "id": "5beee496fb90af04",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md"
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md"
               }
             }
           },
@@ -178,6 +178,8 @@
   },
   "active": "a1cd871c3a61d518",
   "lastOpenFiles": [
+    "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
+    "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md",
     "RegulationsEffect/Barcelona Rent/Pasted image 20240812104248.png",
     "RegulationsEffect/Barcelona Rent/Pasted image 20240812104215.png",
     "RegulationsEffect/Barcelona Rent/Pasted image 20240812104155.png",
@@ -185,7 +187,6 @@
     "RegulationsEffect/Barcelona Rent/Pasted image 20240812104135.png",
     "RegulationsEffect/Barcelona Rent/Pasted image 20240812104055.png",
     "1. Fleeting notes/Let'sog/Let's Go.md",
-    "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
     "RegulationsEffect/Barcelona Rent",
     "RegulationsEffect",
     "1. Fleeting notes/Prazdniny/RabbitMQ",
@@ -224,7 +225,6 @@
     "Pasted image 20240528234825.png",
     "Pasted image 20240528231119.png",
     "Pasted image 20240525233915.png",
-    "Pasted image 20240525230444.png",
     "1. Fleeting notes/Statnice/MPI/Untitled.canvas"
   ]
 }
