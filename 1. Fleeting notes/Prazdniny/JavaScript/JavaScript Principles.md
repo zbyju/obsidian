@@ -41,3 +41,24 @@ Callback function = the function that is passed as an argument to a function (to
 Arrow function = shorthand for saving a function to a variable
 
 Closure
+
+With each function definition we get a new execution context with its own variable environment (V.E.).
+
+When defining a new function it has access to all the variables within its scope
+- Since javascript is a statically scoped (lexically scoped) language
+	- = scope is determined by where the function was declared
+	- dynamically scoped would mean the scope of the function would be determined by where the function is called
+- When we store this function somewhere it needs to bring this data as well so that it can interact with the variables when it is called (even after the original execution context is deleted)
+
+![[Pasted image 20240813234736.png]] 
+
+This can be great for:
+- Singleton/once
+	- Run function only once
+	- Run function once and then on next runs do something else
+- Memoization
+	- Remember value of a call, next time only return memoized value
+- Module pattern
+	- instead of polluting global namespace we can have modules with data for the lifespan of our app
+- async javascript
+	- when we eventually comeback it returns running
