@@ -65,3 +65,50 @@ This can be great for:
 	- when we eventually comeback it returns running
 
 # Async
+Code in javascript is executed line by line (with jumps to functions).
+
+Code that would take too long waiting for external resources (File I/O, network requests) can block the main thread
+- = we would just be waiting for that request to finish and then continue = no execution is done
+
+Therefore we have async operations
+
+These functions usually take parameters needed for their execution + callback. This callback is a function that is executed when the function finishes.
+
+The callback is called when:
+1. Async function is done (request is done, IO is done, timer is done)
+2. And there is nothing on the call stack (no function is being run).
+
+Therefore the callback can be called pretty late if there is some heavy computation being done
+
+```js
+console.log(1)
+
+function asyncFun() { setTimeout(() => console.log("async"), 0)}
+
+function heavyComputeFun() { /* Do some heavy computation (without IO) for 1s */ }
+
+asyncFun()
+
+heavyComputeFun()
+
+console.log(2)
+console.log(3)
+console.log(4)
+
+// 1
+// ... heavyCompute is executing for 1s ...
+// 2
+// 3
+// 4
+// async
+```
+Because the main thread has still stuff to do, it never executes the asyncFun callback in the setTimeout; it does that as the last thing when everything else finishes.
+
+This is called the event loop.
+
+# Promises
+Promise is an object in javascript that is used for async functions. It is an object that can be used to interact with future values.
+
+It offers the method `then` that takes a callback that is executed when the promise is resolved (successfully).
+
+It also offers `catch` method that takes a callback that is called when the promise is rejected (failure).
