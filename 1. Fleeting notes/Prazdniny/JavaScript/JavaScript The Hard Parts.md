@@ -1,3 +1,4 @@
+# Javascript Principles
 Thread of execution = exectutes code line by line
 Saves data (variables) to memory
 - identifier (name of the variable)
@@ -40,7 +41,7 @@ Callback function = the function that is passed as an argument to a function (to
 
 Arrow function = shorthand for saving a function to a variable
 
-Closure
+# Closure
 
 With each function definition we get a new execution context with its own variable environment (V.E.).
 
@@ -62,3 +63,5 @@ This can be great for:
 	- instead of polluting global namespace we can have modules with data for the lifespan of our app
 - async javascript
 	- when we eventually comeback it returns running
+
+# Async

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "17bc69ea6b3f34d9",
+            "id": "42da91456ae5255d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md"
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md"
               }
             }
           },
@@ -178,9 +178,10 @@
   },
   "active": "a1cd871c3a61d518",
   "lastOpenFiles": [
+    "1. Fleeting notes/Prazdniny/Python",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240813234736.png",
     "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
-    "1. Fleeting notes/Prazdniny/JavaScript/JavaScript Principles.md",
+    "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
     "RegulationsEffect/Barcelona Rent/Pasted image 20240812104248.png",
     "RegulationsEffect/Barcelona Rent/Pasted image 20240812104215.png",
     "RegulationsEffect/Barcelona Rent/Pasted image 20240812104155.png",
@@ -224,7 +225,6 @@
     "Pasted image 20240529000451.png",
     "Pasted image 20240528234825.png",
     "Pasted image 20240528231119.png",
-    "Pasted image 20240525233915.png",
     "1. Fleeting notes/Statnice/MPI/Untitled.canvas"
   ]
 }
