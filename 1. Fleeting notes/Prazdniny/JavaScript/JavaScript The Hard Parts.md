@@ -50,6 +50,9 @@ When defining a new function it has access to all the variables within its scope
 	- = scope is determined by where the function was declared
 	- dynamically scoped would mean the scope of the function would be determined by where the function is called
 - When we store this function somewhere it needs to bring this data as well so that it can interact with the variables when it is called (even after the original execution context is deleted)
+	- It brings its own backpack that stores all the needed variables (references to them) for its execution
+	- This backpack is called the closure
+	- It is stored in the `[[scope]]` property
 
 ![[Pasted image 20240813234736.png]] 
 
@@ -57,12 +60,35 @@ This can be great for:
 - Singleton/once
 	- Run function only once
 	- Run function once and then on next runs do something else
+- Iterator
+	- Get a data structure and return a function that will give us the next value each time.
+	- Remember where we are inside the iteration.
+- Generators
 - Memoization
 	- Remember value of a call, next time only return memoized value
 - Module pattern
 	- instead of polluting global namespace we can have modules with data for the lifespan of our app
 - async javascript
 	- when we eventually comeback it returns running
+### Generators
+
+They are special functions that let us "pause" execution of a function and remember where we left off. They need to be denoted as `function*`
+
+![[Pasted image 20240815003038.png]]
+The first call `createFlow()` returns an object `{ next: fn }`
+This object is then used to call `next`
+`yield` keyword immediately returns the value
+next time we get to pass the 2 where the yield left off (newNum is initialized to 2)
+
+This is done using a similar concept to closures. Javascript uses the `[[generatorLocation]]` which stores the line number where we left off.
+
+These functions are also special because their execution context is not deleted; they continue where they left off with the data they had.
+
+#### Async generator
+![[Pasted image 20240815004226.png]]
+This is basically how `await` works. The yield returns a promise object. We add a callback to the promise object. When the promise resolves the callback is called and the functio `doWhenDataReceived` passes the data back to the function and the function continues in executing.
+
+When using the `await` keyword javascript automizes this process for us.
 
 # Async
 Code in javascript is executed line by line (with jumps to functions).
@@ -214,3 +240,111 @@ To improve DRY we can create a factory function. This function takes parameters 
 Instead of each object having to implement all its functions we can create an object that the other objects use as their prototype. If the requested functionality (say .decrement()) is not found in the object, javascript will look through the prototype chain to find if the functionality exists.
 
 The link is created using `Object.create(object)`
+
+The prototype object is stored in a property called `__proto__` which contains the reference to the prototype object. Each object has a `__proto__` property (Object.prototype is a parent of everything)
+
+### this
+On each method of an object there is an implicit variable already predefined called `this` which is a reference to the object that the method was invoked on.
+
+#### Problems
+```js
+const obj = {
+	increment: function {
+		function add1() { this.score++ }
+		add1()
+	}
+}
+```
+
+Even tho javascript should look in the execution context of:
+1. add1
+2. increment
+3. global
+and find `this` defined in the increment function pointing to `obj` it doesnt do that.
+
+A new function declaration overrides `this` and sets it to the global `this` which is `undefined`.
+##### Solutions
+1. this = that
+```js
+const obj = {
+	increment: function {
+		const that = this
+		function add1() { that.score++ }
+		add1()
+	}
+}
+```
+2. .call(thisArg)
+```js
+const obj = {
+	increment: function {
+		function add1() { this.score++ }
+		add1.call(this)
+	}
+}
+```
+3. Arrow function
+Arrow functions scope `this` lexically and therefore it fixes this issue.
+```js
+const obj = {
+	increment: function {
+		const add1 = () => { this.score++ }
+		add1()
+	}
+}
+```
+### Object.prototype
+`Object.prototype` is an object that is a parent of all objects and it contains some useful properties other objects can utilize. Its value of `__proto__` is `null`.
+- hasOwnProperty 
+### new
+Instead of using a factory function we can use the keyword new which does:
+1. Creates the object
+2. Returns the object
+3. Creates the prototype link to an object
+
+
+Functions are also objects
+![[Pasted image 20240814234059.png]]Each function has a `prototype` property that is initialized to an empty object.
+We can use this property to put our prototype object there (or define properties on this object).
+When we then call the function with the `new` keyword it puts this object inside the `prototype` property on the function inside the prototype chain on the newly created object.
+
+```js
+// Comments = old way of doing it without `new` keyword
+function userCreator(name, score) {
+	// const newUser = Object.create(userFunctionStore)
+	/* newUser.score */ this.name = name
+	/* newUser.name  */ this.score = score
+	// return newUser
+}
+
+/*
+function userFunctionStore = {
+	increment: function() {this.score++}
+}
+*/
+userCreator.prototype.increment = function() {this.score++}
+
+// const user1 = userCreator("Eva", 9)
+const user1 = new userCreator("Eva", 9)
+```
+
+the `new` keyword enhances our function by:
+1. Creating an empty object and assigning it to `this`
+2. Assigning the `__proto__` property on this to the `property` on the function
+3. Executes the function (usually the function assigns properties on `this`)
+4. returns `this
+
+
+There is a problem that when we see this function it is not clear right off that we need to use the `new` keyword when calling it. Solutions:
+1. Capitalize the name
+	- Use `UserCreator` instead
+	- Not enforced but a good habit
+2. Use `class` keyword instead
+	- Just syntactic sugar for all of this
+
+### Class
+They combine the property and method declarations to a single place. 
+
+![[Pasted image 20240815000209.png]]
+
+There is a special `constructor` method that we can use to initialize our data.
