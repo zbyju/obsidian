@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "42da91456ae5255d",
+            "id": "20a592376106f26b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md"
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md"
               }
             }
           },
@@ -178,6 +178,8 @@
   },
   "active": "a1cd871c3a61d518",
   "lastOpenFiles": [
+    "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
+    "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815004226.png",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815003038.png",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815000209.png",
@@ -187,11 +189,9 @@
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240814215833.png",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240814215852.png",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240813234736.png",
-    "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
     "1. Fleeting notes/Prazdniny/Python",
     "RegulationsEffect/Barcelona Rent/12-08-2024 Airbnb banned.md",
     "RegulationsEffect/Barcelona Rent/Pasted image 20240812104248.png",
-    "RegulationsEffect/Barcelona Rent/Pasted image 20240812104215.png",
     "1. Fleeting notes/Let'sog/Let's Go.md",
     "RegulationsEffect/Barcelona Rent",
     "RegulationsEffect",
