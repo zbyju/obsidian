@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
+                "file": "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "26766d89910be3d7",
+            "id": "ff5ef966cfbccb42",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
+                "file": "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
+                "file": "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md"
+                "file": "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md"
               }
             }
           },
@@ -178,8 +178,10 @@
   },
   "active": "a1cd871c3a61d518",
   "lastOpenFiles": [
-    "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
     "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
+    "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
+    "1. Fleeting notes/Prazdniny/Databases",
+    "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
     "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
     "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815004226.png",
@@ -203,7 +205,6 @@
     "1. Fleeting notes/Prazdniny/Testing",
     "1. Fleeting notes/Prazdniny/Node.js",
     "1. Fleeting notes/Prazdniny/Compression",
-    "1. Fleeting notes/Prazdniny/Internet Protocols",
     "1. Fleeting notes/Prazdniny/Untitled.md",
     "1. Fleeting notes/HackerNews/Understanding react compiler.md",
     "1. Fleeting notes/TUM_ENT/Lecture 2.md",
@@ -223,7 +224,6 @@
     "4. Complex notes/Databases/Process of optimizing Database server performance.md",
     "4. Complex notes/Databases/Object Relational Databases.md",
     "4. Complex notes/Databases/OLTP vs OLAP.md",
-    "4. Complex notes/Databases/Micro vs Complex Benchmarks.md",
     "Untitled.canvas",
     "1. Fleeting notes/Statnice/MPI/Untitled.canvas"
   ]
