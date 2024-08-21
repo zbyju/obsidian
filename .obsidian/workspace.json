@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
+                "file": "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "20a592376106f26b",
+            "id": "26766d89910be3d7",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
+                "file": "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
+                "file": "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md"
+                "file": "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md"
               }
             }
           },
@@ -178,8 +178,10 @@
   },
   "active": "a1cd871c3a61d518",
   "lastOpenFiles": [
-    "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
+    "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+    "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
     "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
+    "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815004226.png",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815003038.png",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815000209.png",
@@ -222,8 +224,6 @@
     "4. Complex notes/Databases/Object Relational Databases.md",
     "4. Complex notes/Databases/OLTP vs OLAP.md",
     "4. Complex notes/Databases/Micro vs Complex Benchmarks.md",
-    "4. Complex notes/Databases/Methods of evaluating JOIN.md",
-    "4. Complex notes/Databases/Language XQuery.md",
     "Untitled.canvas",
     "1. Fleeting notes/Statnice/MPI/Untitled.canvas"
   ]
