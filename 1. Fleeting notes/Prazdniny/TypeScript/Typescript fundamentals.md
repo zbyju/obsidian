@@ -84,3 +84,67 @@ Again we think about types as sets => we can do set operations. Combine types us
 Usually we as a user use the union type more. Typescript on the other hand needs to be more careful and uses intersection more - when returning from a function a union type, typescript allows us to only access the properties that are on the intersect of the types.
 
 We can narrow these types down using type guards. These are just conditional checks that narrow down the type.
+
+### Narrowing a type
+When we use a union type we might need to check what the actual type of the variable is at runtime. We can use type guards.
+
+#### Type guards
+1. Using instanceof to check the class of the variable
+```ts
+if(var instanceof Error) {
+	return "Err"
+} else {
+	return "Ok"
+}
+```
+2. Discriminated union
+```ts
+const [type, value] = someFun() // type is "error" | "success", then value either contains error or the value depending on the type
+
+if(type === "error") {
+	return "Err"
+} else {
+	return value // We know that value can't be an error
+}
+```
+This can be only used when the discriminator uniquely identifies the type of the value.
+
+## Defining types
+We can either use type alias, which can be used to give a name to any type; or an interface that defined an object.
+
+
+### Type alias
+```ts
+type Amount = {
+	value: number;
+	currency: string;
+} | Error
+
+function fun(): Amount // <- we can use the name of the type instead of using the type itself.
+```
+
+### Interface
+Interfaces describe properties of an object. We can't use union or intersection, but we can work in a more OOP style (using extends from other interfaces). 
+
+```ts
+interface Amount2 {
+	value: number | null; // This is Ok
+	currency: string;
+
+	toString(): string;
+} // Can't do a union here.
+```
+
+#### Extends and implements
+When inheriting from the same 'type' of a thing (class from class, interface from interface) we use `extends`. When we inherit from an interface we use `implements`.
+
+Interfaces are open, type aliases are not:
+Interfaces can be redaclared to change what they describe, type aliases cannot.
+
+
+## Recursive types
+```ts
+type NestedNumbers = number | NestedNumbers[]
+
+const val: NestedNumbers = [3, 4, [1, 2, [5], 6], 7]; 
+```

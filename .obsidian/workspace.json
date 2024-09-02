@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f5e53ed2bbbc6964",
+        "id": "1fdb12b2c029cea6",
         "type": "tabs",
         "children": [
           {
-            "id": "a1cd871c3a61d518",
+            "id": "a2772a628df7a2f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
+                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "ff5ef966cfbccb42",
+            "id": "11f18e467a61e75d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
+                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
+                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md"
+                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md"
               }
             }
           },
@@ -176,12 +176,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a1cd871c3a61d518",
+  "active": "a2772a628df7a2f5",
   "lastOpenFiles": [
-    "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
-    "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
-    "1. Fleeting notes/Prazdniny/Databases",
     "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+    "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
+    "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
+    "1. Fleeting notes/Prazdniny/Databases",
     "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
     "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815004226.png",
