@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "11f18e467a61e75d",
+            "id": "7954d948f6d19f5a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ba532e4d268ad11e",
@@ -163,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {

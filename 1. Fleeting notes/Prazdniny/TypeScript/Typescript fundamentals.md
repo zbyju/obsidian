@@ -135,12 +135,60 @@ interface Amount2 {
 } // Can't do a union here.
 ```
 
-#### Extends and implements
-When inheriting from the same 'type' of a thing (class from class, interface from interface) we use `extends`. When we inherit from an interface we use `implements`.
-
 Interfaces are open, type aliases are not:
 Interfaces can be redaclared to change what they describe, type aliases cannot.
 
+This means that if we have 2 interfaces that are "overriding" each other they are actually gonna be treated as one interface that is extended by all the interfaces.
+```ts
+interface Test {
+	field: string;	
+}
+
+interface Test {
+	year: number;
+}
+
+let obj: Test // { field: string, year: number }
+```
+#### Data type registry
+This can be great for creating an extensible data type registry.
+
+We can use the `declare module` directive that essentially injects the types specified within that block into another file to extend it.
+```ts
+// ------ My central library that doesn't know how it's gonna be used
+export interface DataTypeRegistry {
+	// Empty on purpose
+}
+
+export function fetchRecord(arg: keyof DataTypeRegistry) {
+	// Implementation
+}
+
+// ----- Other code somewhere else in the codebase that extends my code
+export class Book {
+	// Implementation
+}
+declare module "/path/to/my/library/registry" {
+	export interface DataTypeRegistry {
+		book: Book
+	}
+}
+
+// ----- Another code somewhere else in the codebase that extends my code
+export class Magazine {
+	// Implementation
+}
+declare module "/path/to/my/library/registry" {
+	export interface DataTypeRegistry {
+		magazine: Magazine
+	}
+}
+
+// Now DataTypeRegistry is = { book: Book, magazine: Magazine }
+```
+
+#### Extends and implements
+When inheriting from the same 'type' of a thing (class from class, interface from interface) we use `extends`. When we inherit from an interface we use `implements`.
 
 ## Recursive types
 ```ts
@@ -148,3 +196,129 @@ type NestedNumbers = number | NestedNumbers[]
 
 const val: NestedNumbers = [3, 4, [1, 2, [5], 6], 7]; 
 ```
+
+## Type query
+They are used for extracting type from an existing variable
+
+### keyof
+It allows extracting type from an object by making a union type of all the keys the object has
+
+```ts
+const obj = {
+	1: "hi",
+	"field": 123
+}
+type keys = keyof obj // 1 | "field"
+```
+
+### typeof
+It allows us to get a type from a variable.
+
+```ts
+const x = someFun()
+
+type typeOfXIs = typeof x // Will have the actual type that someFun returns.
+```
+
+This keyword can be used within a condition too, but then it can't be used to identify an object as it returns `"object"` for all objects. It can only be used to differentiate between primitive values.
+
+```ts
+const obj = { field: 123 }
+if(typeof obj === "string") return "It's a string"
+if(typeof obj === "object") return "It's a object" // Can only be used to differentiate primitive types
+```
+
+### Combining keyof and typeof
+When we want to get the type representing the possible keys in an object from a value (if we wanted to get it from a type we could use `keyof` directly), we can combine keyof and typeof.
+
+First get the type using `typeof` and then we can use `keyof` because we are already working with a type.
+
+```ts
+const obj = {
+	name: "hi",
+	year: 1234
+}
+type IWant = "name" | "year"
+type Solution = keyof typeof obj
+```
+### Indexed Access types
+We can get the type of a field of an object.
+
+```ts
+interface Obj {
+	field: number;
+	year: number;
+	color: string
+	fieldObj: {
+		name: string;
+		fieldNested: {
+			x: number
+		}
+	}
+}
+type fieldObj = Obj["fieldObj"] // { name: string, fieldNested: { x: number }}
+type fieldNested = Obj["fieldObj"]["fieldNested"] //  { x: number }
+
+type fieldUnion = Obj["year" | "color"] //  number | string
+```
+#### Union type through index
+We can also use union within the index access to get the union of the individual fields.
+
+## Callables
+They are types that hold a type of a function.
+
+```ts
+type Adder = (x: number, y: number) => number
+
+// Or even with interface
+interface Adder2 {
+	(x: number, y: number): number
+}
+```
+
+### void
+`void` is a type that we can use to say that we don't care about the value that a function returns.
+
+A function that returns nothing actually returns `undefined` but typescript treats this scenario as the function returning `void`.
+
+`void` and `undefined` are not the same though, `void` says that the value the function returns doesn't matter as it will not be used, `undefined` says that it actually expects `undefined` to be returned from the function (by either returning `undefined` or not returning anything).
+
+```ts
+function fun1(cb: () => undefined) {
+	// Impl
+}
+function fun2(cb: () => void) {
+	// Impl
+}
+
+fun1(() => 2) // This will give an error as typescript is expecting undefined but gets a number
+fun1(() => 3) // This will be okay because typescript doesn't care what the return value of the callback is
+```
+
+### Constructables
+Constructables are for defining types that are able to be called with the `new` keyword.
+
+```ts
+interface MyClass {
+	new(value: number): Date
+}
+```
+
+### Function overloading
+If a function has multiple parameter types that it accepts but they depend on each other then we can define multiple function heads to tell typescript what combinations are allowed.
+
+```ts
+function fun(type: "string", value: string): string 
+function fun(type: "number", value: number): number
+// Function either gets type = "string" and then all the rest of the values are also string, or type = "number" and then all the values are numbers
+function fun(type: "string" | "number", value: string | number): string | number {
+	// Implementation
+}
+```
+
+The actual function still needs to be typed. Typescript only checks that the heads match what the main function sets as the types, but not the other way around. If we want to kinda infer types from the heads to the main function then we can type everything as `any`.
+
+### this
+If we want to type the `this` to have a correct type we can add it as parameter to our function; the function will still have the same amount of parameters, but it's a place where we can tell typescript what the type should be.
+
+The parameter actually has to be called `this` otherwise it will be treated as a normal parameter.
