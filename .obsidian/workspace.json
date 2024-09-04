@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+                "file": "1. Fleeting notes/Prazdniny/Security/XSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "7954d948f6d19f5a",
+            "id": "10c0345250052f2f",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ba532e4d268ad11e",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+                "file": "1. Fleeting notes/Prazdniny/Security/XSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+                "file": "1. Fleeting notes/Prazdniny/Security/XSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md"
+                "file": "1. Fleeting notes/Prazdniny/Security/XSS.md"
               }
             }
           },
@@ -181,6 +180,8 @@
   "active": "a2772a628df7a2f5",
   "lastOpenFiles": [
     "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+    "1. Fleeting notes/Prazdniny/Security/XSS.md",
+    "1. Fleeting notes/Prazdniny/Security",
     "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
     "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
     "1. Fleeting notes/Prazdniny/Databases",
@@ -206,7 +207,6 @@
     "1. Fleeting notes/Prazdniny/Git",
     "1. Fleeting notes/Prazdniny/Testing",
     "1. Fleeting notes/Prazdniny/Node.js",
-    "1. Fleeting notes/Prazdniny/Compression",
     "1. Fleeting notes/Prazdniny/Untitled.md",
     "1. Fleeting notes/HackerNews/Understanding react compiler.md",
     "1. Fleeting notes/TUM_ENT/Lecture 2.md",
@@ -225,7 +225,6 @@
     "4. Complex notes/Databases/SQL Sorting operation.md",
     "4. Complex notes/Databases/Process of optimizing Database server performance.md",
     "4. Complex notes/Databases/Object Relational Databases.md",
-    "4. Complex notes/Databases/OLTP vs OLAP.md",
     "Untitled.canvas",
     "1. Fleeting notes/Statnice/MPI/Untitled.canvas"
   ]
