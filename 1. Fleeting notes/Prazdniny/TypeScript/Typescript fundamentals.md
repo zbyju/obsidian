@@ -322,3 +322,146 @@ The actual function still needs to be typed. Typescript only checks that the hea
 If we want to type the `this` to have a correct type we can add it as parameter to our function; the function will still have the same amount of parameters, but it's a place where we can tell typescript what the type should be.
 
 The parameter actually has to be called `this` otherwise it will be treated as a normal parameter.
+
+## Classes
+The classical class definition is a bit verbose, because we need to define the class fields and their types and then use them in the constructor.
+
+```ts
+class Car {
+	model: string;
+	year: number;
+	
+	static staticField: number = 100
+	static staticMethod(param: number): string { 
+		// Impl
+	}
+
+	static {
+		// This is a static block that's ran when the Car (static part of the class) is being recognized and processed
+
+		fetchData().then(() => { this.staticField = data})
+	}
+
+	constructor(model: string, year: number) {
+		this.model = model
+		this.year = year
+	}
+	someMethod(param: string): number {
+		// Impl
+	}
+}
+```
+
+### Static
+There are three types of things that can be static inside a class:
+- field - a static field
+- method - static method available on the class
+- block - a static block is executed when the class is being processed = before any instances are created; it sets up the class to be ready for use.
+
+### Access modifiers
+We can use:
+- private - only this class can see it
+- protected - only this class and classes that inherit from it can see it
+- public - anybody can see it
+These can be used with `static` as well.
+
+There is another way of making a field private and that is to use `#` before the name of the variable. This is the old way of doing it, but is more powerful than the typescript way of doing it. When using # we should drop the private keyword.
+
+#### Checking equality
+If we want to check if an object is of type of some class and we are checking from within that class, then we can use a private field for this check. The fact that we can access the private field tells typescript that that object must be of the type of our class (because otherwise we wouldn't be able to access it, as private fields can only be accessed from that exact class).
+
+```ts
+class Car {
+	equals(other: object) {
+		if(#privateField in other) {
+			// Then we know that other is of type Car
+		}
+	}
+}
+```
+
+We can also alter how we access a field using:
+- get - a method that has a `get` keyword makes the method look like a read-only field
+- readonly - a field can only be read, noone can reassign it. But they can still mutate it (e.g. push to an array)
+
+### Shorter constructor
+To make life easier, instead of defining all the fields and then assigning their value in the constructor we can use the word public in the constructor. Typescript will automatically create the field and assign the value passed as an argument to the constructor.
+
+```ts
+class Car {
+	// Before 
+	model: string;
+	year: number;
+	constructor(model: string, year: number) {
+		this.model = model
+		this.year = year
+	}
+
+	// After
+	constructor(public model: string, public year: number) {}
+}
+```
+
+### Inheritance
+We can use the `extends` keyword to inherit from a class.
+
+If we want to redefine method in a child class, then we can `override`. This will check that the method actually exists on the parent class. This is optional, the method gets overridden even without the keyword, but it's safer to use it.
+
+# Type guards
+We can define our own type guards by making a function that returns a `boolean` but we annotate the return type as `param is Type`.
+
+```ts
+function isCar(obj: any): obj is Car {
+	return (
+		obj &&
+		typeof obj === "object" &&
+		// ...
+	)
+}
+```
+### asserts
+We can add the `asserts` keyword to instead assert that the value is of that type. This will effectively either throw some error, or continue with a known type.
+
+```ts
+function assertsCar(obj: any): asserts obj is Car {
+	if !(
+		obj &&
+		typeof obj === "object" &&
+		// ...
+	) {
+		throw new Error("Value is not a Car")
+	}
+}
+
+assertsCar(car) // Either throws here
+car // or we know it's a car
+```
+
+### Class type guard
+We can use the private 'hack' to check if an object is of a class type through a static method.
+
+### Switch type guards
+We can use switch with true and check the instance of the object in each case.
+```ts
+switch(true) {
+	case obj instanceof Car:
+		// ...
+	case obj instanceof Bird:
+		// ...
+}
+```
+# Generics
+They let us parameterize things and create a more abstract type.\
+
+It works by defining a new placeholder type that is just a placeholder for a type within a function or a class.
+
+We could use `any` but then we would lose the type information.
+
+It is only useful when the generic type shows up multiple times in the function definition; it is only useful for describing relationships between the parameters.
+
+
+```ts
+function makeTuple<T, U>(arg: T, arg2: U): [T, U] {
+	return [arg, arg2]
+}
+```
