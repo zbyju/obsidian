@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+                "file": "1. Fleeting notes/Prazdniny/TypeScript/Intermediate TypeScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "10c0345250052f2f",
+            "id": "45b4832193ce3324",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+                "file": "1. Fleeting notes/Prazdniny/TypeScript/Intermediate TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+                "file": "1. Fleeting notes/Prazdniny/TypeScript/Intermediate TypeScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md"
+                "file": "1. Fleeting notes/Prazdniny/TypeScript/Intermediate TypeScript.md"
               }
             }
           },
@@ -179,8 +179,9 @@
   },
   "active": "a2772a628df7a2f5",
   "lastOpenFiles": [
-    "1. Fleeting notes/Prazdniny/Security/XSS.md",
     "1. Fleeting notes/Prazdniny/TypeScript/Typescript fundamentals.md",
+    "1. Fleeting notes/Prazdniny/TypeScript/Intermediate TypeScript.md",
+    "1. Fleeting notes/Prazdniny/Security/XSS.md",
     "1. Fleeting notes/Prazdniny/Security",
     "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
     "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
@@ -224,7 +225,6 @@
     "4. Complex notes/Databases/Schema-free vs Schema-aware.md",
     "4. Complex notes/Databases/SQL Sorting operation.md",
     "4. Complex notes/Databases/Process of optimizing Database server performance.md",
-    "4. Complex notes/Databases/Object Relational Databases.md",
     "Untitled.canvas",
     "1. Fleeting notes/Statnice/MPI/Untitled.canvas"
   ]
