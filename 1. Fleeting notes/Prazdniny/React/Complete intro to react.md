@@ -8,3 +8,6 @@ We can create elements using `React.createElement(name, attibutes, inner)` It ta
 	2. Another element (using React.createElement again to add another element inside)
 	3. A function that returns an element
 		1. This is called a component
+The last 2 arguments are optional
+
+We can instead use JSX which is a nicer syntax that on uses createElement automatically for us.
