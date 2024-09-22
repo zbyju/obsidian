@@ -15,3 +15,4 @@ We can create elements using `React.createElement(name, attibutes, inner)` It ta
 The last 2 arguments are optional
 
 We can instead use JSX which is a nicer syntax that on uses createElement automatically for us.
+
