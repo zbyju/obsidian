@@ -16,3 +16,9 @@ The last 2 arguments are optional
 
 We can instead use JSX which is a nicer syntax that on uses createElement automatically for us.
 
+## Hooks
+We want components to render fast because they typically rerender often. We want to keep them pure and not changing anything external.
+
+We can use hooks to make sure we are adhering to these principles.
+
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inteview/_General.md",
+                "file": "1. Fleeting notes/Prazdniny/React/Complete intro to react.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "e547f0a5d5eb57fd",
+            "id": "d9dd1825adea41ae",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteview/_General.md",
+                "file": "1. Fleeting notes/Prazdniny/React/Complete intro to react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteview/_General.md",
+                "file": "1. Fleeting notes/Prazdniny/React/Complete intro to react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inteview/_General.md"
+                "file": "1. Fleeting notes/Prazdniny/React/Complete intro to react.md"
               }
             }
           },
@@ -177,8 +177,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a2772a628df7a2f5",
+  "active": "1de94bcb32c41019",
   "lastOpenFiles": [
+    "1. Fleeting notes/React/Basics.md",
     "Inteview/_General.md",
     "Inteview/Autosense.md",
     "1. Fleeting notes/Prazdniny/React/Complete intro to react.md",
@@ -217,7 +218,6 @@
     "1. Fleeting notes/TUM_ENT/Lecture 2.md",
     "1. Fleeting notes/Thinking in Bets.md",
     "1. Fleeting notes/TimescaleDB.md",
-    "1. Fleeting notes/React/Basics.md",
     "1. Fleeting notes/To mention in thesis.md",
     "2. Reference notes/SWE - Semantic Web/Advanced SHACL.md",
     "1. Fleeting notes/Statnice/VSM/NI-SPOL-6.md",
