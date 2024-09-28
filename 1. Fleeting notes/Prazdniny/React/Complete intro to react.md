@@ -21,4 +21,6 @@ We want components to render fast because they typically rerender often. We want
 
 We can use hooks to make sure we are adhering to these principles.
 
+### Use state
+
 
