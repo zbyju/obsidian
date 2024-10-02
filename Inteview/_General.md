@@ -4,6 +4,12 @@ STAR:
 - Action
 - Result
 
+
+Biggest weaknesses:
+- Perfectionist
+- Hard to say no
+- Introvert
+
 3 situations:
 
 ---
@@ -35,19 +41,3 @@ I like that the more casual setting without the slow corporate decision making.
 I really like the tech stack that matches my passions and I think I would be a great fit.
 
 My dad has a company with many trucks and so I can somewhat relate to how useful applications for managing and optimizing fleets can be.
-
-
-
-Dear Céline,
-
-Thank you for considering my application. Here are my answers:
-
-1. Hash map stores values based on a key. The index of a key is calculated using a hash function. The main advantage is that it can do lookups, inserts and deletes usually in O(1) time complexity, which is the main advantage over regular arrays, or self-balancing binary trees.
-2. I just recently finished reading "Architecture Patterns with Python", which discusses many approaches of architecture design starting from domain modeling, domain driven design, test driven development, Event-driven architecture and more. Although the book uses Python it explains everything in a general manner applicable to any codebase. This book made me think differently about approaching bigger projects and designing a good solution.
-3. My strong suite is definitely in the JavaScript/TypeScript ecosystem ranging from the frontend where I have the most experience with technologies like React, Next.js (with a combination with other tools such as Tailwind, Shadcn, npm/yarn/pnpm) or even Vue.js, Svelte, Astro; and also on the backend with Node.js, but also have experience with Java/Scala, Go, Python and more; I would love to learn Kotlin and Rust in the future. I like coming up with creative but simple solutions and enjoy problem solving. My main weakness is my confidence and sometimes trying too hard to make everything perfect which I'm trying to work on.
-4. Yes, I am aware
-5. Yes, I would be happy to relocate to Basel. I'm currently based in Czechia, I'm an EU citizen.
-6. I would expect salary in the range of 65000-80000 depending on the full compensation package.
-7. I can start as soon as possible depending on the relocation.
-
-I would also like to ask about the fourth step of the hiring process, would it be possible for it to take place online, or is it mandatory for me to come on-site?

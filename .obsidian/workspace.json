@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/React/Complete intro to react.md",
+                "file": "Inteview/_General.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "027cc0464bea0dee",
+            "id": "e02270d5a0b9921b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/React/Complete intro to react.md",
+                "file": "Inteview/_General.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/React/Complete intro to react.md",
+                "file": "Inteview/_General.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Fleeting notes/Prazdniny/React/Complete intro to react.md"
+                "file": "Inteview/_General.md"
               }
             }
           },
@@ -177,12 +177,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1de94bcb32c41019",
+  "active": "a2772a628df7a2f5",
   "lastOpenFiles": [
-    "1. Fleeting notes/React/Basics.md",
-    "Inteview/_General.md",
     "Inteview/Autosense.md",
     "1. Fleeting notes/Prazdniny/React/Complete intro to react.md",
+    "1. Fleeting notes/React/Basics.md",
+    "Inteview/_General.md",
     "Inteview",
     "1. Fleeting notes/Prazdniny/Architecture/Architecture Patterns with Python.md",
     "1. Fleeting notes/Prazdniny/TypeScript/Intermediate TypeScript.md",
