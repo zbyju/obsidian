@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inteview/_General.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
             }
           },
           {
-            "id": "e02270d5a0b9921b",
+            "id": "f38701f5c6ccbc5a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inteview/_General.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inteview/_General.md",
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inteview/_General.md"
+                "file": "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md"
               }
             }
           },
@@ -179,10 +179,11 @@
   },
   "active": "a2772a628df7a2f5",
   "lastOpenFiles": [
+    "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
+    "Inteview/_General.md",
     "Inteview/Autosense.md",
     "1. Fleeting notes/Prazdniny/React/Complete intro to react.md",
     "1. Fleeting notes/React/Basics.md",
-    "Inteview/_General.md",
     "Inteview",
     "1. Fleeting notes/Prazdniny/Architecture/Architecture Patterns with Python.md",
     "1. Fleeting notes/Prazdniny/TypeScript/Intermediate TypeScript.md",
@@ -193,7 +194,6 @@
     "1. Fleeting notes/Prazdniny/Databases/Complete Intro to Databases.md",
     "1. Fleeting notes/Prazdniny/Python/Python fundamentals.md",
     "1. Fleeting notes/Prazdniny/Databases",
-    "1. Fleeting notes/Prazdniny/JavaScript/Getting Started with Javascript.md",
     "1. Fleeting notes/Prazdniny/JavaScript/JavaScript The Hard Parts.md",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815004226.png",
     "1. Fleeting notes/Prazdniny/JavaScript/Pasted image 20240815003038.png",
